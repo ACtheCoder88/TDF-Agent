@@ -27,6 +27,16 @@
   main{max-width:1080px;margin:0 auto;padding:18px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 16px}
   .profile-pic{width:100%;margin-top:12px;border-radius:8px;border:1px solid var(--line);display:block}
+  .keyriders{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
+  .keyrider{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--line);
+    border-radius:8px;background:#fafbfc}
+  .keyrider.clickable{cursor:pointer}
+  .keyrider.clickable:hover{background:#fff8e0;border-color:var(--jaune)}
+  .kr-odds{font-weight:800;font-size:15px;color:var(--navy);min-width:44px;text-align:center;
+    background:#fff;border:1px solid var(--line);border-radius:6px;padding:3px 4px}
+  .kr-name{flex:1;font-weight:600;font-size:13px;line-height:1.25}
+  .kr-name .tag{font-weight:400}
+  .kr-move{font-size:11px;font-weight:700}
   .card h2{font-size:15px;margin:0 0 10px;color:var(--navy)}
   .card h3{font-size:13px;margin:14px 0 6px;color:var(--navy2);text-transform:uppercase;letter-spacing:.03em}
   .row{display:flex;flex-wrap:wrap;gap:14px}
@@ -159,12 +169,14 @@ function Header({onRefresh}){
   </header>`;
 }
 
-function Stage({onGoTo}){
+function Stage({onGoTo, onPick}){
   const picks = D.picks;
   const st = (D.stages||[]).find(s => picks && s.stage_num===picks.stage_num)
              || (D.stages||[]).find(s => s.stage_num===(D.meta||{}).next_stage);
   if(!st) return html`<div class="empty">No stage data.</div>`;
   const br = (D.base_rates||[]).find(b=>b.archetype===st.archetype);
+  const riderById = id => (D.riders||[]).find(r=>r.rider_id===id);
+  const keyRiders = D.key_riders||[];
   const pickCard = (p,cls)=>html`<div class=${"pick "+(cls||'')}>
       <strong>${nameOnly(p.rider)}</strong> — ${p.market||'stage_winner'} @ <strong>${p.tab_odds}</strong>
       · our ${fmtPct(p.est_prob)} vs TAB ${fmtPct(p.devigged_p)} · EV ${p.ev!=null?(p.ev>0?'+':'')+p.ev:'—'} · <strong>${p.units}u</strong>
@@ -181,6 +193,18 @@ function Stage({onGoTo}){
         <strong>${Math.round(br.break_rate*100)}% from a breakaway</strong>.
         Recent: ${(br.top_winners||[]).map(w=>w.rider_name+' ('+w.wins+')').join(', ')}</div>`:null}
     </div>
+    ${keyRiders.length?html`<div class="card">
+      <h2>Key riders for this stage <span class="tag" style=${{fontWeight:600}}>TAB stage-winner odds</span></h2>
+      <div class="keyriders">
+        ${keyRiders.map(k=>{const r=riderById(k.rider_id);
+          return html`<div class=${"keyrider"+(r?' clickable':'')} onClick=${()=>r&&onPick&&onPick(r)}>
+            <div class="kr-odds">${k.odds}</div>
+            <div class="kr-name">${k.name}${r&&r.profile?html`<div class="tag">${r.profile.style}</div>`:''}</div>
+            ${k.move?html`<div class=${"kr-move "+(k.move>0?'moveneg':'movepos')}>${k.move>0?'▲':'▼'} ${Math.abs(k.move)}</div>`:''}
+          </div>`;})}
+      </div>
+      <div class="tag" style=${{marginTop:'8px'}}>Tap a rider for their form, results & history.</div>
+    </div>`:null}
     ${picks?html`<div class="card">
       <h2>Our read & picks</h2>
       ${picks.overnight_recap?html`<h3>Overnight</h3><div>${picks.overnight_recap}</div>`:null}
@@ -490,7 +514,7 @@ function App(){
     if(tab==='experts') return html`<${ExpertViews}/>`;
     if(tab==='ledger') return html`<${Ledger}/>`;
     if(tab==='news') return html`<${News}/>`;
-    return html`<${Stage} onGoTo=${setTab}/>`;
+    return html`<${Stage} onGoTo=${setTab} onPick=${setRider}/>`;
   };
   return html`<div>
     <${Header} onRefresh=${swap}/>
