@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-05T18:41:32.308541+00:00",
+    "generated_at": "2026-07-05T18:49:10.504962+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
@@ -23027,7 +23027,7 @@
   ],
   "ledger": {
     "summary": {
-      "picks": 2,
+      "picks": 1,
       "pnl": 0,
       "wins": 0,
       "settled": 0
@@ -23041,17 +23041,6 @@
         "est_prob": 0.08,
         "ev": 0.36,
         "units": 0.5,
-        "outcome": "pending",
-        "pnl_units": null
-      },
-      {
-        "stage_num": null,
-        "rider_name": "Mads Pedersen",
-        "pick_type": "outright:points",
-        "tab_odds": 5.0,
-        "est_prob": 0.21,
-        "ev": 0.05,
-        "units": 1.0,
         "outcome": "pending",
         "pnl_units": null
       }
@@ -23271,26 +23260,15 @@
     }
   ],
   "picks": {
-    "stage_num": 2,
-    "overnight_recap": "Stage 1's 19.6 km team time trial around Barcelona: Visma-Lease a Bike upset the favourites, Vingegaard taking the first yellow jersey by ~7s. Ganna's Ineos were 2nd (Vingegaard +8s in GC), Poga\u010dar's UAE 3rd (+12s), then Trek (+15s) and Evenepoel's Red Bull (+18s). Punctures cost Skjelmose and Vauquelin. Small margins \u2014 no GC damage done, and it sets Poga\u010dar loose to chase without the yellow-jersey burden.",
-    "stage_description": "Tarragona to Barcelona, 168.5 km finishing on the Montju\u00efc circuit \u2014 a puncheur's stage (ProfileScore 137, 2,049 m) decided on short, steep ramps rather than a bunch gallop. With GC teams fresh and keen to control on day two, we make the break unlikely to survive (~20%, below the ~40% historical rate for this archetype). Our probability board favours the explosive punchers: Poga\u010dar ~40% (peerless on this finish), Van der Poel ~13% (won a near-identical stage 2 in 2025), then Evenepoel ~8%, del Toro ~6%, Vingegaard ~5%, Pidcock ~4%, Van Gils/Gr\u00e9goire ~3%. Pure sprinters (Philipsen, Merlier) are out \u2014 the climb is too hard.",
-    "verdict": "bets",
+    "stage_num": 3,
+    "overnight_recap": "Stage 2's Montju\u00efc puncheur finish produced the first shock of the race: Isaac del Toro (UAE) beat Poga\u010dar in the reduced group sprint, with Evenepoel 3rd and Vingegaard 4th, all on Poga\u010dar's own wheel \u2014 del Toro takes yellow and the white jersey outright, with Poga\u010dar 2nd at +6s. It's the first time in four Tours Poga\u010dar has lost a stage he was favourite for on a finish like this, and it opens a genuine, if early, UAE team-order question: does Poga\u010dar ride for himself from here, or does del Toro get a run at leading his own team?",
+    "stage_description": "Granollers to Les Angles, 195.9 km, ~3,900 m climbing \u2014 the Tour's first proper mountain test, and its first summit finish (archetype mtf, ProfileScore 185). The route rolls through the Pyrenean foothills before the Col du Calvaire (1,836 m, the day's high point, cresting 23.6 km from the line), then a long descent into a genuinely steep uphill finish at the Les Angles ski station \u2014 the final 1.7 km ramping to 6.5%. Historically, 'mtf' stages in the last four Tours have gone to a breakaway ~40% of the time; when they haven't, Poga\u010dar has personally won 8 of the other 12 (plus Vingegaard 3, and a handful of GC-adjacent or opportunist wins \u2014 Arensman, Poels, Paret-Peintre, Pidcock, Kwiatkowski, Woods). One flag: cyclingstage.com notes a possible route change is being discussed due to wildfire risk in the area \u2014 not yet confirmed as of tonight.",
+    "verdict": "no_bet",
     "top_picks": [],
     "place_picks": [],
-    "longshots": [
-      {
-        "rider": "Remco Evenepoel",
-        "market": "stage_winner",
-        "tab_odds": 17.0,
-        "est_prob": 0.08,
-        "devigged_p": 0.042,
-        "ev": 0.36,
-        "units": 0.5,
-        "reason": "The one clean edge on the board, and it held up on the evening re-check (odds unmoved at 17.0, market overround actually tightened 1.458\u21921.405 \u2014 a touch more trust, not less). World champion and an elite puncheur; Montju\u00efc's short steep ramps are exactly his kind of finish. We make him ~8% to win; TAB's 17.0 implies just 4.2% (de-vigged), a ~1.9x edge \u2014 clear of our longshot bar. Small stake (0.5u): we take the standout price only, not the cluster of near-fair 17\u201326 shots (del Toro, Vingegaard, Pidcock)."
-      }
-    ],
-    "expert_agreement_note": "Agreement note: re-scraped all sources this evening \u2014 still no firm stage-2-specific winner tip from THEMOVE or Lanterne Rouge (their latest uploads remain the general Tour preview and the Stage 1 TTT recap; no new stage-2 preview has dropped as of tonight), so today's pick stays model-led. Where the experts do weigh in, it's cautionary on the outsiders \u2014 Lanterne Rouge reads del Toro as Poga\u010dar's lieutenant, not a stage threat \u2014 consistent with us leaving that price and taking Evenepoel instead.",
-    "no_bet_reason": "No win bet. Poga\u010dar at 1.67 is too short \u2014 our ~40% is below the ~53% you'd need to clear the value bar at that price \u2014 and Van der Poel at 5.5 is roughly fair to our ~13%. The value sits further down the board (see Longshots).\n\n**On Julian Alaphilippe (asked about tonight):** no bet. He's priced 101.0 (0.7% de-vigged) \u2014 and even that looks generous. His 2026 PCS season ranking has collapsed to 575th (57 points), down from 52nd last year and a peak of 3rd-4th in 2018-19; his only notable 2026 result is a 5th at a minor 1.1-category race (GP Gippingen). He's also riding for Tudor, a Pro Continental team with none of the lead-out firepower a puncheur needs to be delivered to the front of a chaotic Montju\u00efc finale. None of tonight's re-scraped expert previews mention him either. Elite puncheur pedigree on paper, but there's no evidence of current form or team support to back it \u2014 pass."
+    "longshots": [],
+    "expert_agreement_note": "No expert has weighed in on Stage 3 specifically, or even reacted to Stage 2's del Toro upset yet \u2014 THEMOVE and Lanterne Rouge's latest uploads are still the pre-Tour preview and the Stage 1 TTT recap respectively (checked again tonight, nothing new posted). Tonight's read is model-led with zero expert corroboration either way \u2014 treat it accordingly.",
+    "no_bet_reason": "Close, but nothing clears the bar tonight. Poga\u010dar (2.5, 27.6% de-vigged) is the obvious anchor \u2014 he's personally won 8 of the last 20 'mtf'-archetype stages in the last four Tours, an extraordinary base rate on exactly this terrain \u2014 but this market's overround (1.450) is sitting right at our max-trust ceiling, and our own honest probability estimate (~35-38%) only just brushes the 1.30x edge threshold rather than clearing it with room to spare. We're also not willing to treat Tuesday's puncheur loss as proof he's off \u2014 that was a reduced-group finish, not a real climbing test \u2014 but it does mean there's now a live, unresolved question of whether UAE rides for Poga\u010dar or for their new race leader del Toro, and we won't guess team orders. Checked the obvious alternatives for a longshot instead: Van der Poel (12.0) isn't proven at this altitude/gradient combination; Vacek (13.0) and Gr\u00e9goire (17.0) have no data-backed edge we can point to; Ben Healy (21.0) is the kind of rider who could animate a 40%-survival breakaway, but his actual 2026 season form is quiet (PCS rank 262 with 158 points, down hard from rank 22 last year) \u2014 not enough to back him on hope alone. Del Toro (19.0) is in the form of his life but genuinely too uncertain to price given the team-order question above. Nothing here is fabricated conviction \u2014 it's a night to watch, not bet."
   },
   "experts": [
     {
@@ -23471,55 +23449,47 @@
     }
   ],
   "outrights": {
-    "generated_at": "2026-07-05",
-    "stages_raced": 1,
-    "headline": "One genuine value across the five outright markets: Mads Pedersen for green. The favourites in GC, mountains and youth are efficiently priced (or too short), so we pass on them.",
+    "generated_at": "2026-07-06",
+    "stages_raced": 2,
+    "headline": "No outright bets tonight. We had value on Mads Pedersen for green last night at 5.0 \u2014 TAB shortened him to 4.25 overnight and that edge is now gone in real terms (see Points below). GC, mountains, youth and teams remain efficiently priced or too short, most of them tighter than yesterday after Isaac del Toro's Stage 2 upset.",
     "markets": [
       {
         "key": "points",
         "name": "Points classification",
         "jersey": "green",
-        "verdict": "bet",
-        "pick": {
-          "rider": "Mads Pedersen",
-          "odds": 5.0,
-          "est_prob": 0.21,
-          "devigged_p": 0.13,
-          "ev": 0.05,
-          "units": 1.0,
-          "reason": "The green jersey rewards the rider who is there every day \u2014 winning reduced/hilly sprints, hoovering intermediate points, and surviving the mountains \u2014 not just the fastest man. That is Pedersen's exact profile (ex-world champ, big engine, wins from breaks and reduced groups, targets this jersey). TAB prices him third, behind two pure sprinters: Philipsen (2.25) is the deserved favourite but short, and Merlier (3.75) is a stage-win sprinter who may not even contest green and risks the mountain time-cut. We make Pedersen ~21% vs TAB's de-vigged 13% \u2014 a real edge on the classification-specific skillset."
-        },
-        "summary": "Pedersen at 5.0 is our one genuine outright value \u2014 the classic green-jersey all-rounder underrated behind two pure sprinters. Philipsen is the rightful favourite but too short; Merlier looks over-bet for a rider who targets stages, not the jersey.",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "Pulling last night's Pedersen pick. Our probability estimate hasn't changed (~21%) but TAB shortened him from 5.0 to 4.25 overnight \u2014 at this market's overround (~1.50), the de-vig-ratio bar (1.30x) no longer guarantees a genuinely profitable price: 21% vs 4.25 works out to slightly negative expected value on the actual number offered (0.21 x 4.25 - 1 = -0.11), even though it still nominally clears the ratio threshold. When the ratio test and the real-price math disagree, the real price wins \u2014 no bet. Two non-sprint stages so far haven't told us anything new about the green race itself (no bunch sprint yet); this is purely a price move, not a form or model change. Worth re-checking once he shortens or lengthens again, or once a real sprint stage happens.",
         "top_odds": [
           {
             "rider": "Jasper Philipsen",
-            "odds": 2.25,
-            "devig": 0.3
+            "odds": 2.5,
+            "devig": 0.267
           },
           {
             "rider": "Tim Merlier",
-            "odds": 3.75,
-            "devig": 0.18
+            "odds": 3.5,
+            "devig": 0.191
           },
           {
             "rider": "Mads Pedersen",
-            "odds": 5.0,
-            "devig": 0.13
+            "odds": 4.25,
+            "devig": 0.157
           },
           {
             "rider": "Biniam Girmay",
-            "odds": 6.0,
-            "devig": 0.11
+            "odds": 4.25,
+            "devig": 0.157
           },
           {
             "rider": "Olav Kooij",
-            "odds": 8.0,
-            "devig": 0.08
+            "odds": 13.0,
+            "devig": 0.051
           },
           {
             "rider": "Tadej Pogacar",
             "odds": 13.0,
-            "devig": 0.05
+            "devig": 0.051
           }
         ]
       },
@@ -23529,37 +23499,37 @@
         "jersey": "yellow",
         "verdict": "no_bet",
         "pick": null,
-        "summary": "Poga\u010dar is the class of the race, but at 1.28 the price implies ~78% \u2014 more than his true chance (~60%), so backing him is negative EV over three weeks of crash/illness variance. Vingegaard (3.7) is fairly priced as the one genuine rival. The young guns \u2014 Seixas, del Toro, Evenepoel \u2014 are overpriced on upside: a 19-year-old winning the Tour outright is a story, not a bet. No value.",
+        "summary": "Poga\u010dar's price barely moved despite losing Stage 2 to del Toro (1.28 -> 1.22) \u2014 the market still reads this as a minor blip in a 3-week race, and we agree: our estimate (~55-60%) sits close to the 55% de-vigged price now, so there's no longer even the faint gap we noted on day one. Vingegaard (4.4) is fairly priced as the genuine rival. Del Toro (17.0) is a fascinating story after 2 stages but far too speculative to price a 3-week GC outcome on. No value.",
         "top_odds": [
           {
             "rider": "Tadej Pogacar",
-            "odds": 1.28,
-            "devig": 0.52
+            "odds": 1.22,
+            "devig": 0.552
           },
           {
             "rider": "Jonas Vingegaard",
-            "odds": 3.7,
-            "devig": 0.18
+            "odds": 4.4,
+            "devig": 0.153
           },
           {
             "rider": "Paul Seixas",
-            "odds": 14.0,
-            "devig": 0.05
+            "odds": 16.0,
+            "devig": 0.042
+          },
+          {
+            "rider": "Isaac del Toro",
+            "odds": 17.0,
+            "devig": 0.04
           },
           {
             "rider": "Remco Evenepoel",
             "odds": 19.0,
-            "devig": 0.04
-          },
-          {
-            "rider": "Isaac del Toro",
-            "odds": 23.0,
-            "devig": 0.03
+            "devig": 0.035
           },
           {
             "rider": "Florian Lipowitz",
-            "odds": 23.0,
-            "devig": 0.03
+            "odds": 29.0,
+            "devig": 0.023
           }
         ]
       },
@@ -23569,32 +23539,32 @@
         "jersey": "polka-dot",
         "verdict": "no_bet",
         "pick": null,
-        "summary": "Efficiently priced. Poga\u010dar (2.35) is favourite because a dominant GC winner naturally tops the summit finishes \u2014 but he doesn't always target it, so the price is short if UAE lets a breakaway rider hunt the points. The sharpest non-favourite angle is Carapaz (4.75): he won this exact jersey in 2024 by getting EF into the mountain breaks, and that tactic is built for it \u2014 but at 4.75 he's priced about right, not a value. No confident bet; if you want KOM action, Carapaz is the play, not the favourite.",
+        "summary": "Barely changed from yesterday. Poga\u010dar (2.25) remains favourite for the same reason as always \u2014 a dominant GC rider tends to collect summit points as a byproduct \u2014 but the price is efficient. Carapaz actually drifted slightly (4.75 -> 5.0); still fairly priced, not a value move. No confident bet; Carapaz remains the more interesting non-favourite angle if you want KOM exposure, but we're not calling it a bet at this price.",
         "top_odds": [
           {
             "rider": "Tadej Pogacar",
-            "odds": 2.35,
-            "devig": 0.28
+            "odds": 2.25,
+            "devig": 0.296
           },
           {
             "rider": "Lenny Martinez",
-            "odds": 4.0,
-            "devig": 0.17
+            "odds": 4.5,
+            "devig": 0.148
           },
           {
             "rider": "Richard Carapaz",
-            "odds": 4.75,
-            "devig": 0.14
+            "odds": 5.0,
+            "devig": 0.133
           },
           {
             "rider": "Jonas Vingegaard",
             "odds": 10.0,
-            "devig": 0.07
+            "devig": 0.067
           },
           {
             "rider": "Valentin Paret-Peintre",
             "odds": 17.0,
-            "devig": 0.04
+            "devig": 0.039
           }
         ]
       },
@@ -23604,32 +23574,32 @@
         "jersey": "white",
         "verdict": "no_bet",
         "pick": null,
-        "summary": "The tightest market on the board (overround 1.26) \u2014 TAB is sharp here and there's little edge to mine. It's a genuine three-way between Seixas (2.25), del Toro (2.5) and Ayuso (4.5). We slightly prefer del Toro to the hyped 19-year-old Seixas \u2014 as Poga\u010dar's mountain lieutenant, del Toro paces at the front and stays high on GC almost by default, which is how you win white \u2014 but at 2.5 the edge is too thin to back. Pass.",
+        "summary": "Del Toro backed up our read from yesterday \u2014 he now genuinely leads both GC and the white jersey after winning Stage 2 \u2014 but the market caught up with him: Seixas 2.25 -> 2.0 and del Toro 2.5 -> 2.25, both shorter, so there's no edge left to mine even though we called the right rider. Ayuso (5.0) is further back and unconvincing. Efficiently priced two-way race now; no bet.",
         "top_odds": [
           {
             "rider": "Paul Seixas",
-            "odds": 2.25,
-            "devig": 0.35
+            "odds": 2.0,
+            "devig": 0.385
           },
           {
             "rider": "Isaac del Toro",
-            "odds": 2.5,
-            "devig": 0.32
+            "odds": 2.25,
+            "devig": 0.342
           },
           {
             "rider": "Juan Ayuso",
-            "odds": 4.5,
-            "devig": 0.18
+            "odds": 5.0,
+            "devig": 0.154
+          },
+          {
+            "rider": "Cian Uijtdebroeks",
+            "odds": 34.0,
+            "devig": 0.023
           },
           {
             "rider": "Matthew Riccitello",
-            "odds": 21.0,
-            "devig": 0.04
-          },
-          {
-            "rider": "Antonio Tiberi",
-            "odds": 34.0,
-            "devig": 0.02
+            "odds": 51.0,
+            "devig": 0.015
           }
         ]
       },
@@ -23639,32 +23609,32 @@
         "jersey": "",
         "verdict": "no_bet",
         "pick": null,
-        "summary": "UAE (1.85) are the deserved and dominant favourite \u2014 no team comes close to their depth of GC-level climbers, which is exactly what wins the teams' classification in the mountains. There's a faint value argument (we'd make them ~58-60% vs a 54% raw-implied price), but the edge is too thin and the price too short to call a bet. If you want one 'safe' outright to follow, this is the soundest \u2014 but we're not formally recommending it.",
+        "summary": "Any residual value here is gone. UAE tightened sharply overnight (1.85 -> 1.44, 55% de-vigged) after taking 1st and 2nd on GC through Stage 2 \u2014 the market has fully priced in exactly the depth advantage we flagged yesterday as a 'faint, too-thin' case. No bet, and no longer even a marginal one.",
         "top_odds": [
           {
             "rider": "UAE Team Emirates - XRG",
-            "odds": 1.85,
-            "devig": 0.41
+            "odds": 1.44,
+            "devig": 0.552
           },
           {
             "rider": "Red Bull-Bora-Hansgrohe",
-            "odds": 4.5,
-            "devig": 0.17
+            "odds": 7.0,
+            "devig": 0.113
           },
           {
             "rider": "Team Visma - Lease a Bike",
-            "odds": 5.0,
-            "devig": 0.15
+            "odds": 9.0,
+            "devig": 0.088
           },
           {
             "rider": "Lidl-Trek",
-            "odds": 8.0,
-            "devig": 0.1
+            "odds": 11.0,
+            "devig": 0.072
           },
           {
             "rider": "Netcompany Ineos",
-            "odds": 13.0,
-            "devig": 0.06
+            "odds": 15.0,
+            "devig": 0.053
           }
         ]
       }
