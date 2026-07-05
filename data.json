@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-05T08:40:59.216086+00:00",
+    "generated_at": "2026-07-05T09:14:52.890190+00:00",
     "stages_raced": 1,
     "next_stage": 2,
     "total_stages": 21,
     "news_updated_at": "2026-07-05T08:40:58.965548+00:00",
     "picks_updated_at": "2026-07-05T01:59:56.705598+00:00",
-    "experts_checked_at": "2026-07-05T07:59:31.388564+00:00"
+    "experts_checked_at": "2026-07-05T09:14:52.744646+00:00"
   },
   "stages": [
     {
@@ -20931,935 +20931,935 @@
   ],
   "odds": {
     "gc": {
-      "ts": "2026-07-04T12:33:01.260023+00:00",
-      "prev_ts": null,
-      "overround": 1.50056347842684,
+      "ts": "2026-07-05T08:47:56.917916+00:00",
+      "prev_ts": "2026-07-04T12:33:01.260023+00:00",
+      "overround": 1.496955985617294,
       "runners": [
         {
           "rider_name": "Tadej Pogacar (Slovenia)",
-          "odds_decimal": 1.22,
-          "implied_p": 0.819672131147541,
-          "devigged_p": 0.546242890042125,
-          "overround": 1.50056347842684,
-          "move": null
+          "odds_decimal": 1.28,
+          "implied_p": 0.78125,
+          "devigged_p": 0.5218924320462495,
+          "overround": 1.496955985617294,
+          "move": 0.06
         },
         {
           "rider_name": "Jonas Vingegaard (Denmark)",
-          "odds_decimal": 4.4,
-          "implied_p": 0.22727272727272727,
-          "devigged_p": 0.15145825587531647,
-          "overround": 1.50056347842684,
-          "move": null
+          "odds_decimal": 3.7,
+          "implied_p": 0.27027027027027023,
+          "devigged_p": 0.18054657108627006,
+          "overround": 1.496955985617294,
+          "move": -0.7
         },
         {
           "rider_name": "Paul Seixas (France)",
-          "odds_decimal": 12.5,
-          "implied_p": 0.08,
-          "devigged_p": 0.0533133060681114,
-          "overround": 1.50056347842684,
-          "move": null
+          "odds_decimal": 14.0,
+          "implied_p": 0.07142857142857142,
+          "devigged_p": 0.04771587950137138,
+          "overround": 1.496955985617294,
+          "move": 1.5
+        },
+        {
+          "rider_name": "Remco Evenepoel (Belgium)",
+          "odds_decimal": 19.0,
+          "implied_p": 0.05263157894736842,
+          "devigged_p": 0.035159069106273644,
+          "overround": 1.496955985617294,
+          "move": -4.0
         },
         {
           "rider_name": "Isaac del Toro (Mexico)",
-          "odds_decimal": 19.0,
-          "implied_p": 0.05263157894736842,
-          "devigged_p": 0.035074543465862765,
-          "overround": 1.50056347842684,
-          "move": null
+          "odds_decimal": 23.0,
+          "implied_p": 0.043478260869565216,
+          "devigged_p": 0.0290444483921391,
+          "overround": 1.496955985617294,
+          "move": 4.0
         },
         {
           "rider_name": "Florian Lipowitz (Germany)",
           "odds_decimal": 23.0,
           "implied_p": 0.043478260869565216,
-          "devigged_p": 0.02897462286310402,
-          "overround": 1.50056347842684,
-          "move": null
-        },
-        {
-          "rider_name": "Remco Evenepoel (Belgium)",
-          "odds_decimal": 23.0,
-          "implied_p": 0.043478260869565216,
-          "devigged_p": 0.02897462286310402,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.0290444483921391,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Juan Ayuso (Spain)",
-          "odds_decimal": 34.0,
-          "implied_p": 0.029411764705882353,
-          "devigged_p": 0.01960048017209978,
-          "overround": 1.50056347842684,
-          "move": null
+          "odds_decimal": 29.0,
+          "implied_p": 0.034482758620689655,
+          "devigged_p": 0.023035252173075838,
+          "overround": 1.496955985617294,
+          "move": -5.0
         },
         {
           "rider_name": "Tobias Halland Johannessen (Norway)",
-          "odds_decimal": 51.0,
-          "implied_p": 0.0196078431372549,
-          "devigged_p": 0.013066986781399852,
-          "overround": 1.50056347842684,
-          "move": null
+          "odds_decimal": 67.0,
+          "implied_p": 0.014925373134328358,
+          "devigged_p": 0.009970482283868647,
+          "overround": 1.496955985617294,
+          "move": 16.0
         },
         {
           "rider_name": "Tom Pidcock (Great Britain)",
           "odds_decimal": 81.0,
           "implied_p": 0.012345679012345678,
-          "devigged_p": 0.008227362047548056,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.008247189049619744,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Richard Carapaz (Ecuador)",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006598181444073193,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.006614082307120785,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Mattias Skjelmose (Denmark)",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006598181444073193,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.006614082307120785,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Cian Uijtdebroeks (Belgium)",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006598181444073193,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.006614082307120785,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Ben O'Connor (Australia)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Lenny Martinez (France)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Jai Hindley (Australia)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Adam Yates (Great Britain)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Thymen Arensman (Netherlands)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Matteo Jorgenson (USA)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Derek Gee (Canada)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Antonio Tiberi (Italy)",
           "odds_decimal": 126.0,
           "implied_p": 0.007936507936507936,
-          "devigged_p": 0.005289018459138035,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.005301764389041264,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Ilan Van Wilder (Belgium)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Matthew Riccitello (USA)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Michael Storer (Australia)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "David Gaudu (France)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Sepp Kuss (USA)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Brandon McNulty (USA)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Egan Bernal (Colombia)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Lennert Van Eetvelt (Belgium)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Lucas Plapp (Australia)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Ben Healy (Ireland)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Carlos Rodriguez (Spain)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         },
         {
           "rider_name": "Kevin Vauquelin (France)",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004413353151333725,
-          "overround": 1.50056347842684,
-          "move": null
+          "devigged_p": 0.004423988827941717,
+          "overround": 1.496955985617294,
+          "move": 0.0
         }
       ]
     },
     "kom": {
-      "ts": "2026-07-04T12:33:02.644960+00:00",
-      "prev_ts": null,
-      "overround": 1.4882547727350177,
+      "ts": "2026-07-05T08:48:00.920452+00:00",
+      "prev_ts": "2026-07-04T12:33:02.644960+00:00",
+      "overround": 1.5050814728441222,
       "runners": [
         {
           "rider_name": "Tadej Pogacar",
-          "odds_decimal": 2.2,
-          "implied_p": 0.45454545454545453,
-          "devigged_p": 0.3054218020145304,
-          "overround": 1.4882547727350177,
-          "move": null
+          "odds_decimal": 2.35,
+          "implied_p": 0.425531914893617,
+          "devigged_p": 0.2827301528664079,
+          "overround": 1.5050814728441222,
+          "move": 0.15
         },
         {
           "rider_name": "Lenny Martinez",
-          "odds_decimal": 4.5,
-          "implied_p": 0.2222222222222222,
-          "devigged_p": 0.14931732542932596,
-          "overround": 1.4882547727350177,
-          "move": null
+          "odds_decimal": 4.0,
+          "implied_p": 0.25,
+          "devigged_p": 0.16610396480901465,
+          "overround": 1.5050814728441222,
+          "move": -0.5
         },
         {
           "rider_name": "Richard Carapaz",
-          "odds_decimal": 5.0,
-          "implied_p": 0.2,
-          "devigged_p": 0.1343855928863934,
-          "overround": 1.4882547727350177,
-          "move": null
+          "odds_decimal": 4.75,
+          "implied_p": 0.21052631578947367,
+          "devigged_p": 0.13987702299706495,
+          "overround": 1.5050814728441222,
+          "move": -0.25
         },
         {
           "rider_name": "Jonas Vingegaard",
           "odds_decimal": 10.0,
           "implied_p": 0.1,
-          "devigged_p": 0.0671927964431967,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.06644158592360586,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Valentin Paret-Peintre",
           "odds_decimal": 17.0,
           "implied_p": 0.058823529411764705,
-          "devigged_p": 0.03952517437835099,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.03908328583741521,
+          "overround": 1.5050814728441222,
+          "move": 0.0
+        },
+        {
+          "rider_name": "Michael Storer",
+          "odds_decimal": 26.0,
+          "implied_p": 0.038461538461538464,
+          "devigged_p": 0.025554456124463793,
+          "overround": 1.5050814728441222,
+          "move": -15.0
         },
         {
           "rider_name": "Mattias Skjelmose",
-          "odds_decimal": 26.0,
-          "implied_p": 0.038461538461538464,
-          "devigged_p": 0.025843383247383344,
-          "overround": 1.4882547727350177,
-          "move": null
+          "odds_decimal": 34.0,
+          "implied_p": 0.029411764705882353,
+          "devigged_p": 0.019541642918707604,
+          "overround": 1.5050814728441222,
+          "move": 8.0
         },
         {
           "rider_name": "Paul Seixas",
           "odds_decimal": 34.0,
           "implied_p": 0.029411764705882353,
-          "devigged_p": 0.019762587189175496,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.019541642918707604,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Tom Pidcock",
           "odds_decimal": 41.0,
           "implied_p": 0.024390243902439025,
-          "devigged_p": 0.016388486937365047,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.016205264859416063,
+          "overround": 1.5050814728441222,
+          "move": 0.0
+        },
+        {
+          "rider_name": "Juan Ayuso",
+          "odds_decimal": 41.0,
+          "implied_p": 0.024390243902439025,
+          "devigged_p": 0.016205264859416063,
+          "overround": 1.5050814728441222,
+          "move": -10.0
         },
         {
           "rider_name": "Ben Healy",
           "odds_decimal": 41.0,
           "implied_p": 0.024390243902439025,
-          "devigged_p": 0.016388486937365047,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.016205264859416063,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Thymen Arensman",
           "odds_decimal": 41.0,
           "implied_p": 0.024390243902439025,
-          "devigged_p": 0.016388486937365047,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.016205264859416063,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Remco Evenepoel",
           "odds_decimal": 41.0,
           "implied_p": 0.024390243902439025,
-          "devigged_p": 0.016388486937365047,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.016205264859416063,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
-          "rider_name": "Michael Storer",
+          "rider_name": "Jordan Jegat",
           "odds_decimal": 41.0,
           "implied_p": 0.024390243902439025,
-          "devigged_p": 0.016388486937365047,
-          "overround": 1.4882547727350177,
-          "move": null
-        },
-        {
-          "rider_name": "Juan Ayuso",
-          "odds_decimal": 51.0,
-          "implied_p": 0.0196078431372549,
-          "devigged_p": 0.013175058126116999,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.016205264859416063,
+          "overround": 1.5050814728441222,
+          "move": -26.0
         },
         {
           "rider_name": "Einer Rubio",
           "odds_decimal": 51.0,
           "implied_p": 0.0196078431372549,
-          "devigged_p": 0.013175058126116999,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.01302776194580507,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Ben O'Connor",
           "odds_decimal": 67.0,
           "implied_p": 0.014925373134328358,
-          "devigged_p": 0.01002877558853682,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.00991665461546356,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Florian Lipowitz",
           "odds_decimal": 67.0,
           "implied_p": 0.014925373134328358,
-          "devigged_p": 0.01002877558853682,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.00991665461546356,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Isaac del Toro",
-          "odds_decimal": 67.0,
-          "implied_p": 0.014925373134328358,
-          "devigged_p": 0.01002877558853682,
-          "overround": 1.4882547727350177,
-          "move": null
+          "odds_decimal": 81.0,
+          "implied_p": 0.012345679012345678,
+          "devigged_p": 0.008202664928840229,
+          "overround": 1.5050814728441222,
+          "move": 14.0
         },
         {
           "rider_name": "Derek Gee",
-          "odds_decimal": 67.0,
-          "implied_p": 0.014925373134328358,
-          "devigged_p": 0.01002877558853682,
-          "overround": 1.4882547727350177,
-          "move": null
-        },
-        {
-          "rider_name": "Jordan Jegat",
-          "odds_decimal": 67.0,
-          "implied_p": 0.014925373134328358,
-          "devigged_p": 0.01002877558853682,
-          "overround": 1.4882547727350177,
-          "move": null
+          "odds_decimal": 81.0,
+          "implied_p": 0.012345679012345678,
+          "devigged_p": 0.008202664928840229,
+          "overround": 1.5050814728441222,
+          "move": 14.0
         },
         {
           "rider_name": "Tobias Halland Johannessen",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006652752123088782,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.006578374843921372,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Jefferson Alveiro Cepeda",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006652752123088782,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.006578374843921372,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Lennert Van Eetvelt",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006652752123088782,
-          "overround": 1.4882547727350177,
-          "move": null
-        },
-        {
-          "rider_name": "Damiano Caruso",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006652752123088782,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.006578374843921372,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Georg Steinhauser",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006652752123088782,
-          "overround": 1.4882547727350177,
-          "move": null
-        },
-        {
-          "rider_name": "Harold Tejada",
-          "odds_decimal": 151.0,
-          "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004449854069085874,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.006578374843921372,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Egan Bernal",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004449854069085874,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.004400105028053368,
+          "overround": 1.5050814728441222,
+          "move": 0.0
+        },
+        {
+          "rider_name": "Damiano Caruso",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 100.0
+        },
+        {
+          "rider_name": "Harold Tejada",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 50.0
         },
         {
           "rider_name": "Marco Frigo",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Matthew Riccitello",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Clement Braz Afonso",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Cian Uijtdebroeks",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Pablo Castrillo",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Guillaume Martin",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Raul Garcia Pierna",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Romain Gregoire",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Julian Alaphilippe",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Carlos Verona",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Sepp Kuss",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Antonio Tiberi",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Lucas Plapp",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Adam Yates",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Davide Piganzoli",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Matteo Jorgenson",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.00334292519617894,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.0033055515384878536,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Quinn Simmons",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022323188187108535,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.002207361658591557,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         },
         {
           "rider_name": "Simone Velasco",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022323188187108535,
-          "overround": 1.4882547727350177,
-          "move": null
+          "devigged_p": 0.002207361658591557,
+          "overround": 1.5050814728441222,
+          "move": 0.0
         }
       ]
     },
     "points": {
-      "ts": "2026-07-04T12:33:01.955677+00:00",
-      "prev_ts": null,
-      "overround": 1.4786825492539941,
+      "ts": "2026-07-05T08:47:58.892636+00:00",
+      "prev_ts": "2026-07-04T12:33:01.955677+00:00",
+      "overround": 1.4918744715181738,
       "runners": [
         {
           "rider_name": "Jasper Philipsen",
           "odds_decimal": 2.25,
           "implied_p": 0.4444444444444444,
-          "devigged_p": 0.3005678566157894,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.29791008086100246,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Tim Merlier",
-          "odds_decimal": 3.5,
-          "implied_p": 0.2857142857142857,
-          "devigged_p": 0.19322219353872175,
-          "overround": 1.4786825492539941,
-          "move": null
+          "odds_decimal": 3.75,
+          "implied_p": 0.26666666666666666,
+          "devigged_p": 0.17874604851660147,
+          "overround": 1.4918744715181738,
+          "move": 0.25
         },
         {
           "rider_name": "Mads Pedersen",
-          "odds_decimal": 5.5,
-          "implied_p": 0.18181818181818182,
-          "devigged_p": 0.12295957770645931,
-          "overround": 1.4786825492539941,
-          "move": null
+          "odds_decimal": 5.0,
+          "implied_p": 0.2,
+          "devigged_p": 0.1340595363874511,
+          "overround": 1.4918744715181738,
+          "move": -0.5
         },
         {
           "rider_name": "Biniam Girmay",
-          "odds_decimal": 7.0,
-          "implied_p": 0.14285714285714285,
-          "devigged_p": 0.09661109676936087,
-          "overround": 1.4786825492539941,
-          "move": null
+          "odds_decimal": 6.0,
+          "implied_p": 0.16666666666666666,
+          "devigged_p": 0.11171628032287591,
+          "overround": 1.4918744715181738,
+          "move": -1.0
         },
         {
           "rider_name": "Olav Kooij",
           "odds_decimal": 8.0,
           "implied_p": 0.125,
-          "devigged_p": 0.08453470967319077,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.08378721024215693,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Tadej Pogacar",
           "odds_decimal": 13.0,
           "implied_p": 0.07692307692307693,
-          "devigged_p": 0.05202135979888663,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.05156136014901966,
+          "overround": 1.4918744715181738,
+          "move": 0.0
+        },
+        {
+          "rider_name": "Mathieu Van Der Poel",
+          "odds_decimal": 41.0,
+          "implied_p": 0.024390243902439025,
+          "devigged_p": 0.01634872394968916,
+          "overround": 1.4918744715181738,
+          "move": -10.0
         },
         {
           "rider_name": "Dorian Godon",
           "odds_decimal": 51.0,
           "implied_p": 0.0196078431372549,
-          "devigged_p": 0.013260346615402473,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.013143091802691284,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Anthony Turgis",
-          "odds_decimal": 51.0,
-          "implied_p": 0.0196078431372549,
-          "devigged_p": 0.013260346615402473,
-          "overround": 1.4786825492539941,
-          "move": null
-        },
-        {
-          "rider_name": "Mathieu Van Der Poel",
-          "odds_decimal": 51.0,
-          "implied_p": 0.0196078431372549,
-          "devigged_p": 0.013260346615402473,
-          "overround": 1.4786825492539941,
-          "move": null
+          "odds_decimal": 67.0,
+          "implied_p": 0.014925373134328358,
+          "devigged_p": 0.010004443013988888,
+          "overround": 1.4918744715181738,
+          "move": 16.0
         },
         {
           "rider_name": "Max Kanter",
           "odds_decimal": 67.0,
           "implied_p": 0.014925373134328358,
-          "devigged_p": 0.010093696677395913,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.010004443013988888,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Milan Fretin",
           "odds_decimal": 67.0,
           "implied_p": 0.014925373134328358,
-          "devigged_p": 0.010093696677395913,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.010004443013988888,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Arnaud De Lie",
           "odds_decimal": 81.0,
           "implied_p": 0.012345679012345678,
-          "devigged_p": 0.008349107128216371,
-          "overround": 1.4786825492539941,
-          "move": null
-        },
-        {
-          "rider_name": "Isaac del Toro",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006695818587975506,
-          "overround": 1.4786825492539941,
-          "move": null
-        },
-        {
-          "rider_name": "Paul Seixas",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006695818587975506,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.008275280023916734,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Jonas Vingegaard",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006695818587975506,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.006636610712250054,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Pavel Bittner",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006695818587975506,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.006636610712250054,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Soren W\u00e6renskjold",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006695818587975506,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.006636610712250054,
+          "overround": 1.4918744715181738,
+          "move": 0.0
+        },
+        {
+          "rider_name": "Isaac del Toro",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.003334814337996296,
+          "overround": 1.4918744715181738,
+          "move": 100.0
+        },
+        {
+          "rider_name": "Paul Seixas",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.003334814337996296,
+          "overround": 1.4918744715181738,
+          "move": 100.0
         },
         {
           "rider_name": "Arvid de Kleijn",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0033645655591319707,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.003334814337996296,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Remco Evenepoel",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0033645655591319707,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.003334814337996296,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Tom Pidcock",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0033645655591319707,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.003334814337996296,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Michael Matthews",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0033645655591319707,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.003334814337996296,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Phil Bauhaus",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0033645655591319707,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.003334814337996296,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Matteo Trentin",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Pascal Ackermann",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Fernando Gaviria",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Jonas Abrahamsen",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Maxim Van Gils",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Magnus Cort Nielsen",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Juan Ayuso",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Stefano Oldani",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Ben Healy",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Quinn Simmons",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Filippo Ganna",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022467696923107183,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.002226902597798191,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Richard Carapaz",
           "odds_decimal": 501.0,
           "implied_p": 0.001996007984031936,
-          "devigged_p": 0.001349855643484084,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.0013379195248248612,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Romain Gregoire",
           "odds_decimal": 501.0,
           "implied_p": 0.001996007984031936,
-          "devigged_p": 0.001349855643484084,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.0013379195248248612,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Alex Aranburu",
           "odds_decimal": 501.0,
           "implied_p": 0.001996007984031936,
-          "devigged_p": 0.001349855643484084,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.0013379195248248612,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Jake Stewart",
           "odds_decimal": 501.0,
           "implied_p": 0.001996007984031936,
-          "devigged_p": 0.001349855643484084,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.0013379195248248612,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         },
         {
           "rider_name": "Lennert Van Eetvelt",
           "odds_decimal": 501.0,
           "implied_p": 0.001996007984031936,
-          "devigged_p": 0.001349855643484084,
-          "overround": 1.4786825492539941,
-          "move": null
+          "devigged_p": 0.0013379195248248612,
+          "overround": 1.4918744715181738,
+          "move": 0.0
         }
       ]
     },
@@ -22230,146 +22230,289 @@
         }
       ]
     },
-    "youth": {
-      "ts": "2026-07-04T12:33:03.329670+00:00",
+    "teams": {
+      "ts": "2026-07-05T08:46:34.087629+00:00",
       "prev_ts": null,
-      "overround": 1.3722943335600655,
+      "overround": 1.308592182858029,
+      "runners": [
+        {
+          "rider_name": "UAE Team Emirates - XRG",
+          "odds_decimal": 1.85,
+          "implied_p": 0.5405405405405405,
+          "devigged_p": 0.4130702808876434,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Red Bull-Bora-Hansgrohe",
+          "odds_decimal": 4.5,
+          "implied_p": 0.2222222222222222,
+          "devigged_p": 0.16981778214269788,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Team Visma - Lease a Bike",
+          "odds_decimal": 5.0,
+          "implied_p": 0.2,
+          "devigged_p": 0.1528360039284281,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Lidl-Trek",
+          "odds_decimal": 8.0,
+          "implied_p": 0.125,
+          "devigged_p": 0.09552250245526756,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Netcompany Ineos",
+          "odds_decimal": 13.0,
+          "implied_p": 0.07692307692307693,
+          "devigged_p": 0.05878307843401081,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Movistar Team",
+          "odds_decimal": 19.0,
+          "implied_p": 0.05263157894736842,
+          "devigged_p": 0.040220001033796866,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Decathlon CMA CGM Team",
+          "odds_decimal": 41.0,
+          "implied_p": 0.024390243902439025,
+          "devigged_p": 0.01863853706444245,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "EF Education - EasyPost",
+          "odds_decimal": 67.0,
+          "implied_p": 0.014925373134328358,
+          "devigged_p": 0.01140567193495732,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Bahrain Victorious",
+          "odds_decimal": 101.0,
+          "implied_p": 0.009900990099009901,
+          "devigged_p": 0.007566138808338024,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Caja Rural-Seguros RGA",
+          "odds_decimal": 101.0,
+          "implied_p": 0.009900990099009901,
+          "devigged_p": 0.007566138808338024,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Groupama FDJ United",
+          "odds_decimal": 101.0,
+          "implied_p": 0.009900990099009901,
+          "devigged_p": 0.007566138808338024,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "XDS Astana Team",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.003801890644985773,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Soudal - Quick Step",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0025388040519672443,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "TotalEnergies",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0025388040519672443,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Uno-X Mobility",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0025388040519672443,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Pinarello Q36.5 Pro Cycling Team",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0025388040519672443,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Team Jayco AlUla",
+          "odds_decimal": 501.0,
+          "implied_p": 0.001996007984031936,
+          "devigged_p": 0.001525309420443394,
+          "overround": 1.308592182858029,
+          "move": null
+        },
+        {
+          "rider_name": "Tudor Pro Cycling Team",
+          "odds_decimal": 501.0,
+          "implied_p": 0.001996007984031936,
+          "devigged_p": 0.001525309420443394,
+          "overround": 1.308592182858029,
+          "move": null
+        }
+      ]
+    },
+    "youth": {
+      "ts": "2026-07-05T08:48:02.928841+00:00",
+      "prev_ts": "2026-07-04T12:33:03.329670+00:00",
+      "overround": 1.2606339742243704,
       "runners": [
         {
           "rider_name": "Paul Seixas",
           "odds_decimal": 2.25,
           "implied_p": 0.4444444444444444,
-          "devigged_p": 0.3238696200773834,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.3525562959049216,
+          "overround": 1.2606339742243704,
+          "move": 0.0
         },
         {
           "rider_name": "Isaac del Toro",
-          "odds_decimal": 2.35,
-          "implied_p": 0.425531914893617,
-          "devigged_p": 0.3100879341166437,
-          "overround": 1.3722943335600655,
-          "move": null
+          "odds_decimal": 2.5,
+          "implied_p": 0.4,
+          "devigged_p": 0.31730066631442944,
+          "overround": 1.2606339742243704,
+          "move": 0.15
         },
         {
           "rider_name": "Juan Ayuso",
-          "odds_decimal": 5.0,
-          "implied_p": 0.2,
-          "devigged_p": 0.14574132903482254,
-          "overround": 1.3722943335600655,
-          "move": null
+          "odds_decimal": 4.5,
+          "implied_p": 0.2222222222222222,
+          "devigged_p": 0.1762781479524608,
+          "overround": 1.2606339742243704,
+          "move": -0.5
         },
         {
           "rider_name": "Matthew Riccitello",
-          "odds_decimal": 19.0,
-          "implied_p": 0.05263157894736842,
-          "devigged_p": 0.038352981324953295,
-          "overround": 1.3722943335600655,
-          "move": null
+          "odds_decimal": 21.0,
+          "implied_p": 0.047619047619047616,
+          "devigged_p": 0.037773888846955886,
+          "overround": 1.2606339742243704,
+          "move": 2.0
         },
         {
           "rider_name": "Antonio Tiberi",
-          "odds_decimal": 21.0,
-          "implied_p": 0.047619047619047616,
-          "devigged_p": 0.034700316436862506,
-          "overround": 1.3722943335600655,
-          "move": null
+          "odds_decimal": 34.0,
+          "implied_p": 0.029411764705882353,
+          "devigged_p": 0.023330931346649222,
+          "overround": 1.2606339742243704,
+          "move": 13.0
         },
         {
           "rider_name": "Cian Uijtdebroeks",
-          "odds_decimal": 21.0,
-          "implied_p": 0.047619047619047616,
-          "devigged_p": 0.034700316436862506,
-          "overround": 1.3722943335600655,
-          "move": null
-        },
-        {
-          "rider_name": "Lenny Martinez",
-          "odds_decimal": 26.0,
-          "implied_p": 0.038461538461538464,
-          "devigged_p": 0.028027178660542794,
-          "overround": 1.3722943335600655,
-          "move": null
-        },
-        {
-          "rider_name": "Carlos Rodriguez",
-          "odds_decimal": 26.0,
-          "implied_p": 0.038461538461538464,
-          "devigged_p": 0.028027178660542794,
-          "overround": 1.3722943335600655,
-          "move": null
-        },
-        {
-          "rider_name": "Kevin Vauquelin",
-          "odds_decimal": 51.0,
-          "implied_p": 0.0196078431372549,
-          "devigged_p": 0.014288365591649267,
-          "overround": 1.3722943335600655,
-          "move": null
+          "odds_decimal": 34.0,
+          "implied_p": 0.029411764705882353,
+          "devigged_p": 0.023330931346649222,
+          "overround": 1.2606339742243704,
+          "move": 13.0
         },
         {
           "rider_name": "Davide Piganzoli",
+          "odds_decimal": 51.0,
+          "implied_p": 0.0196078431372549,
+          "devigged_p": 0.015553954231099482,
+          "overround": 1.2606339742243704,
+          "move": -16.0
+        },
+        {
+          "rider_name": "Lenny Martinez",
           "odds_decimal": 67.0,
           "implied_p": 0.014925373134328358,
-          "devigged_p": 0.010876218584688247,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.01183957710128468,
+          "overround": 1.2606339742243704,
+          "move": 41.0
+        },
+        {
+          "rider_name": "Kevin Vauquelin",
+          "odds_decimal": 67.0,
+          "implied_p": 0.014925373134328358,
+          "devigged_p": 0.01183957710128468,
+          "overround": 1.2606339742243704,
+          "move": 16.0
         },
         {
           "rider_name": "Lennert Van Eetvelt",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.0072149172789516105,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.007853976888971026,
+          "overround": 1.2606339742243704,
+          "move": 0.0
         },
         {
           "rider_name": "Valentin Paret-Peintre",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.0072149172789516105,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.007853976888971026,
+          "overround": 1.2606339742243704,
+          "move": 0.0
         },
         {
           "rider_name": "Alex Baudin",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.0072149172789516105,
-          "overround": 1.3722943335600655,
-          "move": null
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.003946525700428227,
+          "overround": 1.2606339742243704,
+          "move": 100.0
         },
         {
           "rider_name": "Mathias Vacek",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002420952309548547,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.0026353875939736666,
+          "overround": 1.2606339742243704,
+          "move": 0.0
         },
         {
           "rider_name": "Pablo Castrillo",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002420952309548547,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.0026353875939736666,
+          "overround": 1.2606339742243704,
+          "move": 0.0
         },
         {
           "rider_name": "Emiel Verstrynge",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002420952309548547,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.0026353875939736666,
+          "overround": 1.2606339742243704,
+          "move": 0.0
         },
         {
           "rider_name": "Ewen Costiou",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002420952309548547,
-          "overround": 1.3722943335600655,
-          "move": null
+          "devigged_p": 0.0026353875939736666,
+          "overround": 1.2606339742243704,
+          "move": 0.0
         }
       ]
     }
@@ -22540,7 +22683,7 @@
   ],
   "ledger": {
     "summary": {
-      "picks": 1,
+      "picks": 2,
       "pnl": 0,
       "wins": 0,
       "settled": 0
@@ -22554,6 +22697,17 @@
         "est_prob": 0.08,
         "ev": 0.36,
         "units": 0.5,
+        "outcome": "pending",
+        "pnl_units": null
+      },
+      {
+        "stage_num": null,
+        "rider_name": "Mads Pedersen",
+        "pick_type": "outright:points",
+        "tab_odds": 5.0,
+        "est_prob": 0.21,
+        "ev": 0.05,
+        "units": 1.0,
         "outcome": "pending",
         "pnl_units": null
       }
@@ -22869,5 +23023,263 @@
       ]
     }
   ],
-  "expert_scores_all": []
+  "expert_scores_all": [],
+  "key_riders": [
+    {
+      "name": "Tadej Pogacar",
+      "odds": 1.67,
+      "devig": 0.4105865975841625,
+      "move": null,
+      "rider_id": 1
+    },
+    {
+      "name": "Mathieu Van Der Poel",
+      "odds": 5.5,
+      "devig": 0.12466902144828206,
+      "move": null,
+      "rider_id": 81
+    },
+    {
+      "name": "Mathias Vacek",
+      "odds": 15.0,
+      "devig": 0.04571197453103675,
+      "move": null,
+      "rider_id": 31
+    },
+    {
+      "name": "Remco Evenepoel",
+      "odds": 17.0,
+      "devig": 0.040334095174444196,
+      "move": null,
+      "rider_id": 17
+    },
+    {
+      "name": "Isaac del Toro",
+      "odds": 17.0,
+      "devig": 0.040334095174444196,
+      "move": null,
+      "rider_id": 2
+    },
+    {
+      "name": "Maxim Van Gils",
+      "odds": 21.0,
+      "devig": 0.03265141037931196,
+      "move": null,
+      "rider_id": 24
+    },
+    {
+      "name": "Romain Gregoire",
+      "odds": 21.0,
+      "devig": 0.03265141037931196,
+      "move": null,
+      "rider_id": 145
+    },
+    {
+      "name": "Jonas Vingegaard",
+      "odds": 21.0,
+      "devig": 0.03265141037931196,
+      "move": null,
+      "rider_id": 9
+    }
+  ],
+  "outrights": {
+    "generated_at": "2026-07-05",
+    "stages_raced": 1,
+    "headline": "One genuine value across the five outright markets: Mads Pedersen for green. The favourites in GC, mountains and youth are efficiently priced (or too short), so we pass on them.",
+    "markets": [
+      {
+        "key": "points",
+        "name": "Points classification",
+        "jersey": "green",
+        "verdict": "bet",
+        "pick": {
+          "rider": "Mads Pedersen",
+          "odds": 5.0,
+          "est_prob": 0.21,
+          "devigged_p": 0.13,
+          "ev": 0.05,
+          "units": 1.0,
+          "reason": "The green jersey rewards the rider who is there every day \u2014 winning reduced/hilly sprints, hoovering intermediate points, and surviving the mountains \u2014 not just the fastest man. That is Pedersen's exact profile (ex-world champ, big engine, wins from breaks and reduced groups, targets this jersey). TAB prices him third, behind two pure sprinters: Philipsen (2.25) is the deserved favourite but short, and Merlier (3.75) is a stage-win sprinter who may not even contest green and risks the mountain time-cut. We make Pedersen ~21% vs TAB's de-vigged 13% \u2014 a real edge on the classification-specific skillset."
+        },
+        "summary": "Pedersen at 5.0 is our one genuine outright value \u2014 the classic green-jersey all-rounder underrated behind two pure sprinters. Philipsen is the rightful favourite but too short; Merlier looks over-bet for a rider who targets stages, not the jersey.",
+        "top_odds": [
+          {
+            "rider": "Jasper Philipsen",
+            "odds": 2.25,
+            "devig": 0.3
+          },
+          {
+            "rider": "Tim Merlier",
+            "odds": 3.75,
+            "devig": 0.18
+          },
+          {
+            "rider": "Mads Pedersen",
+            "odds": 5.0,
+            "devig": 0.13
+          },
+          {
+            "rider": "Biniam Girmay",
+            "odds": 6.0,
+            "devig": 0.11
+          },
+          {
+            "rider": "Olav Kooij",
+            "odds": 8.0,
+            "devig": 0.08
+          },
+          {
+            "rider": "Tadej Pogacar",
+            "odds": 13.0,
+            "devig": 0.05
+          }
+        ]
+      },
+      {
+        "key": "gc",
+        "name": "General Classification",
+        "jersey": "yellow",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "Poga\u010dar is the class of the race, but at 1.28 the price implies ~78% \u2014 more than his true chance (~60%), so backing him is negative EV over three weeks of crash/illness variance. Vingegaard (3.7) is fairly priced as the one genuine rival. The young guns \u2014 Seixas, del Toro, Evenepoel \u2014 are overpriced on upside: a 19-year-old winning the Tour outright is a story, not a bet. No value.",
+        "top_odds": [
+          {
+            "rider": "Tadej Pogacar",
+            "odds": 1.28,
+            "devig": 0.52
+          },
+          {
+            "rider": "Jonas Vingegaard",
+            "odds": 3.7,
+            "devig": 0.18
+          },
+          {
+            "rider": "Paul Seixas",
+            "odds": 14.0,
+            "devig": 0.05
+          },
+          {
+            "rider": "Remco Evenepoel",
+            "odds": 19.0,
+            "devig": 0.04
+          },
+          {
+            "rider": "Isaac del Toro",
+            "odds": 23.0,
+            "devig": 0.03
+          },
+          {
+            "rider": "Florian Lipowitz",
+            "odds": 23.0,
+            "devig": 0.03
+          }
+        ]
+      },
+      {
+        "key": "kom",
+        "name": "Mountains classification",
+        "jersey": "polka-dot",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "Efficiently priced. Poga\u010dar (2.35) is favourite because a dominant GC winner naturally tops the summit finishes \u2014 but he doesn't always target it, so the price is short if UAE lets a breakaway rider hunt the points. The sharpest non-favourite angle is Carapaz (4.75): he won this exact jersey in 2024 by getting EF into the mountain breaks, and that tactic is built for it \u2014 but at 4.75 he's priced about right, not a value. No confident bet; if you want KOM action, Carapaz is the play, not the favourite.",
+        "top_odds": [
+          {
+            "rider": "Tadej Pogacar",
+            "odds": 2.35,
+            "devig": 0.28
+          },
+          {
+            "rider": "Lenny Martinez",
+            "odds": 4.0,
+            "devig": 0.17
+          },
+          {
+            "rider": "Richard Carapaz",
+            "odds": 4.75,
+            "devig": 0.14
+          },
+          {
+            "rider": "Jonas Vingegaard",
+            "odds": 10.0,
+            "devig": 0.07
+          },
+          {
+            "rider": "Valentin Paret-Peintre",
+            "odds": 17.0,
+            "devig": 0.04
+          }
+        ]
+      },
+      {
+        "key": "youth",
+        "name": "Young rider classification",
+        "jersey": "white",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "The tightest market on the board (overround 1.26) \u2014 TAB is sharp here and there's little edge to mine. It's a genuine three-way between Seixas (2.25), del Toro (2.5) and Ayuso (4.5). We slightly prefer del Toro to the hyped 19-year-old Seixas \u2014 as Poga\u010dar's mountain lieutenant, del Toro paces at the front and stays high on GC almost by default, which is how you win white \u2014 but at 2.5 the edge is too thin to back. Pass.",
+        "top_odds": [
+          {
+            "rider": "Paul Seixas",
+            "odds": 2.25,
+            "devig": 0.35
+          },
+          {
+            "rider": "Isaac del Toro",
+            "odds": 2.5,
+            "devig": 0.32
+          },
+          {
+            "rider": "Juan Ayuso",
+            "odds": 4.5,
+            "devig": 0.18
+          },
+          {
+            "rider": "Matthew Riccitello",
+            "odds": 21.0,
+            "devig": 0.04
+          },
+          {
+            "rider": "Antonio Tiberi",
+            "odds": 34.0,
+            "devig": 0.02
+          }
+        ]
+      },
+      {
+        "key": "teams",
+        "name": "Teams classification",
+        "jersey": "",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "UAE (1.85) are the deserved and dominant favourite \u2014 no team comes close to their depth of GC-level climbers, which is exactly what wins the teams' classification in the mountains. There's a faint value argument (we'd make them ~58-60% vs a 54% raw-implied price), but the edge is too thin and the price too short to call a bet. If you want one 'safe' outright to follow, this is the soundest \u2014 but we're not formally recommending it.",
+        "top_odds": [
+          {
+            "rider": "UAE Team Emirates - XRG",
+            "odds": 1.85,
+            "devig": 0.41
+          },
+          {
+            "rider": "Red Bull-Bora-Hansgrohe",
+            "odds": 4.5,
+            "devig": 0.17
+          },
+          {
+            "rider": "Team Visma - Lease a Bike",
+            "odds": 5.0,
+            "devig": 0.15
+          },
+          {
+            "rider": "Lidl-Trek",
+            "odds": 8.0,
+            "devig": 0.1
+          },
+          {
+            "rider": "Netcompany Ineos",
+            "odds": 13.0,
+            "devig": 0.06
+          }
+        ]
+      }
+    ]
+  }
 }
