@@ -26,6 +26,7 @@
   nav button:hover{color:#fff}
   main{max-width:1080px;margin:0 auto;padding:18px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 16px}
+  .profile-pic{width:100%;margin-top:12px;border-radius:8px;border:1px solid var(--line);display:block}
   .card h2{font-size:15px;margin:0 0 10px;color:var(--navy)}
   .card h3{font-size:13px;margin:14px 0 6px;color:var(--navy2);text-transform:uppercase;letter-spacing:.03em}
   .row{display:flex;flex-wrap:wrap;gap:14px}
@@ -96,6 +97,31 @@
   .news-card h4{font-size:15px;margin:0 0 6px;color:var(--navy);line-height:1.35}
   .news-card h4 a{color:inherit} .news-card h4 a:hover{color:var(--accent)}
   .news-card p{font-size:12.5px;color:#5a6673;margin:0;line-height:1.5}
+
+  /* ---- Mobile (iPhone-width) layout ---- */
+  @media (max-width: 640px) {
+    header{padding:10px 12px;flex-wrap:wrap;gap:10px}
+    header h1{font-size:15px}
+    header .meta{margin-left:0;text-align:left;width:100%;font-size:11px;line-height:1.5}
+    nav{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+      scrollbar-width:none;padding:0 8px}
+    nav::-webkit-scrollbar{display:none}
+    nav button{flex-shrink:0;white-space:nowrap;padding:10px 13px;font-size:12.5px}
+    main{padding:10px}
+    .card{padding:12px 14px;margin-bottom:12px}
+    .card h2{font-size:14px}
+    table{font-size:12px}
+    th,td{padding:5px 7px}
+    /* pill BUTTONS (Form/Standings filters) need a real tap target; static span
+       badges (archetype tags in tables/titles) are untouched by this selector */
+    button.pill{padding:8px 14px;min-height:38px;font-size:12.5px}
+    .refresh-btn{padding:5px 10px;font-size:15px}
+    .modal-backdrop{padding:0}
+    .modal{max-width:100%;width:100%;min-height:100%;border-radius:0;padding:18px 16px}
+    .modal-close{top:12px;right:12px;font-size:28px;padding:6px;line-height:1}
+    .news-lead h3{font-size:16px}
+    .news-grid{grid-template-columns:1fr}
+  }
 </style>
 </head>
 <body>
@@ -129,7 +155,7 @@ function Header({onRefresh}){
     <h1>TDF Syndicate Agent</h1>
     <div class="meta">Stage ${m.stages_raced||0} / ${m.total_stages||21} raced · next: Stage ${m.next_stage||'—'}
       <button class="refresh-btn" onClick=${onRefresh} title="Refresh now">↻</button><br/>
-      news ${ago(m.news_updated_at)} · experts checked ${ago(m.experts_checked_at)} · views ${ago(m.picks_updated_at)}</div>
+      news ${ago(m.news_updated_at)} · experts ${ago(m.experts_checked_at)} · views ${ago(m.picks_updated_at)}</div>
   </header>`;
 }
 
@@ -148,6 +174,8 @@ function Stage({onGoTo}){
       <h2>Stage ${st.stage_num} — ${st.start_town} → ${st.finish_town}
         <span class=${"pill "+st.archetype}>${st.archetype}</span></h2>
       <div class="tag">${st.date} · ${st.distance_km} km · ${st.vertical_m} m climbing · ProfileScore ${st.profile_score}</div>
+      ${st.profile_img?html`<img src=${st.profile_img} alt="Stage ${st.stage_num} profile" class="profile-pic"
+        onError=${e=>{e.target.style.display='none';}}/>`:null}
       ${st.key_climbs&&st.key_climbs.length?html`<div style=${{marginTop:'6px'}}>Key climbs: ${st.key_climbs.join(', ')}</div>`:null}
       ${br?html`<div class="tag" style=${{marginTop:'8px'}}>Base rate — '${st.archetype}': ${br.winners} winners 2022–25,
         <strong>${Math.round(br.break_rate*100)}% from a breakaway</strong>.
@@ -303,9 +331,10 @@ function Stages(){
         <span class=${"pill "+st.archetype}>${st.archetype}</span></h2>
       <div class="tag">${st.date} · ${st.distance_km} km · ${st.vertical_m} m climbing · ProfileScore ${st.profile_score}</div>
       ${st.key_climbs&&st.key_climbs.length?html`<div class="tag" style=${{marginTop:'4px'}}>Key climbs: ${st.key_climbs.join(', ')}</div>`:''}
-      <img src=${st.profile_img} alt="Stage ${st.stage_num} profile"
-        style=${{width:'100%',marginTop:'12px',borderRadius:'8px',border:'1px solid var(--line)'}}
-        onError=${e=>{e.target.style.display='none';}}/>
+      ${st.profile_img?html`<img src=${st.profile_img} alt="Stage ${st.stage_num} profile" class="profile-pic"
+        onError=${e=>{e.target.style.display='none';}}/>`:null}
+      ${st.description?html`<h3>About this stage</h3><p style=${{fontSize:'13.5px',lineHeight:'1.6',color:'#333'}}>${st.description}</p>`
+        :html`<p class="tag" style=${{marginTop:'10px'}}>No write-up yet — run pcs_descriptions.py.</p>`}
     </div>`:null}
   </div>`;
 }
