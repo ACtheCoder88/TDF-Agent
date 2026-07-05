@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TDF Syndicate Agent — Dashboard</title>
+<style>
+  :root{
+    --jaune:#f5d117; --navy:#0d1b2a; --navy2:#1b2a3d; --ink:#12202f; --muted:#6b7a8d;
+    --line:#e3e8ee; --bg:#f4f6f9; --card:#ffffff; --green:#159a4b; --polka:#d1345b;
+    --white-j:#8a94a3; --pos:#159a4b; --neg:#d1345b; --accent:#1b6cff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);font-size:14px;line-height:1.5}
+  a{color:var(--accent);text-decoration:none}
+  header{background:var(--navy);color:#fff;padding:14px 20px;display:flex;align-items:center;gap:14px}
+  header .logo{width:34px;height:34px;border-radius:7px;background:var(--jaune);color:var(--navy);
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px}
+  header h1{font-size:17px;margin:0;font-weight:700}
+  header .meta{margin-left:auto;font-size:12px;color:#a9b6c6;text-align:right}
+  nav{display:flex;gap:2px;background:var(--navy2);padding:0 12px;flex-wrap:wrap}
+  nav button{background:none;border:none;color:#b8c4d4;padding:11px 15px;font-size:13px;
+    font-weight:600;cursor:pointer;border-bottom:3px solid transparent}
+  nav button.active{color:#fff;border-bottom-color:var(--jaune)}
+  nav button:hover{color:#fff}
+  main{max-width:1080px;margin:0 auto;padding:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:0 0 16px}
+  .card h2{font-size:15px;margin:0 0 10px;color:var(--navy)}
+  .card h3{font-size:13px;margin:14px 0 6px;color:var(--navy2);text-transform:uppercase;letter-spacing:.03em}
+  .row{display:flex;flex-wrap:wrap;gap:14px}
+  .row>.card{flex:1;min-width:280px}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  th,td{text-align:left;padding:6px 9px;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{color:var(--navy2);font-weight:700;cursor:pointer;user-select:none;position:sticky;top:0;background:#fff}
+  tbody tr:hover{background:#f7fafc}
+  .num{text-align:right;font-variant-numeric:tabular-nums}
+  .pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:700}
+  .pill.puncheur{background:#fde7ec;color:var(--polka)} .pill.mtf,.pill.mountain{background:#eafaf0;color:var(--green)}
+  .pill.bunch_sprint,.pill.reduced_sprint{background:#fff6da;color:#9a7b00}
+  .pill.itt,.pill.ttt{background:#e9f0ff;color:var(--accent)}
+  .tag{font-size:11px;color:var(--muted)}
+  .big{font-size:22px;font-weight:800}
+  .pos{color:var(--pos)} .neg{color:var(--neg)} .muted{color:var(--muted)}
+  .pick{border-left:4px solid var(--jaune);background:#fffdf3;border-radius:6px;padding:10px 12px;margin:8px 0}
+  .pick.place{border-left-color:var(--green);background:#f4fbf6}
+  .pick.longshot{border-left-color:var(--polka);background:#fdf4f6}
+  .nobet{border-left:4px solid var(--white-j);background:#f6f8fa;border-radius:6px;padding:12px 14px}
+  .bar{height:8px;border-radius:5px;background:#eef1f5;overflow:hidden;min-width:60px}
+  .bar>span{display:block;height:100%;background:var(--jaune)}
+  input.search{padding:7px 10px;border:1px solid var(--line);border-radius:7px;font-size:13px;width:220px}
+  .scroll{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+  .empty{color:var(--muted);padding:18px;text-align:center}
+  .movepos{color:var(--pos)} .moveneg{color:var(--neg)}
+  .cat{font-size:10px;font-weight:700;text-transform:uppercase;padding:1px 6px;border-radius:4px;background:#eef1f5;color:var(--muted)}
+  .cat.injury{background:#fdeaea;color:#c0392b}
+  .expert{border-left:4px solid var(--navy2);background:#f6f9fc;border-radius:6px;padding:9px 12px;margin:7px 0}
+  .clickable{color:var(--accent);cursor:pointer;font-weight:600}
+  .clickable:hover{text-decoration:underline}
+  .modal-backdrop{position:fixed;inset:0;background:rgba(13,27,42,.55);display:flex;
+    align-items:flex-start;justify-content:center;z-index:50;padding:28px 14px;overflow:auto}
+  .modal{background:#fff;border-radius:12px;max-width:660px;width:100%;padding:20px 24px;
+    position:relative;box-shadow:0 24px 70px rgba(0,0,0,.35)}
+  .modal-close{position:absolute;top:10px;right:14px;border:none;background:none;
+    font-size:26px;line-height:1;cursor:pointer;color:var(--muted)}
+  .specbar{display:flex;align-items:center;gap:8px;margin:3px 0;font-size:12px}
+  .specbar .lbl{width:70px;color:var(--muted)}
+  .specbar .track{flex:1;height:9px;border-radius:5px;background:#eef1f5;overflow:hidden}
+  .specbar .track>span{display:block;height:100%;background:var(--navy2)}
+  .specbar .v{width:52px;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+  .chip{display:inline-block;background:#eef1f5;border-radius:20px;padding:2px 9px;margin:2px 4px 2px 0;font-size:12px}
+  .refresh-btn{background:rgba(255,255,255,.16);border:none;color:#fff;border-radius:6px;
+    cursor:pointer;font-size:13px;padding:1px 8px;margin-left:7px;line-height:1.5}
+  .refresh-btn:hover{background:rgba(255,255,255,.32)}
+  /* News page */
+  .news-lead{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--polka);
+    border-radius:10px;padding:16px 20px;margin-bottom:16px}
+  .news-lead .k{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--polka)}
+  .news-lead h3{font-size:19px;margin:6px 0;color:var(--navy);line-height:1.3}
+  .news-lead p{font-size:14px;color:#556;margin:6px 0 0;max-width:80ch}
+  .news-sechead{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;
+    color:var(--navy2);margin:18px 0 10px;border-bottom:2px solid var(--line);padding-bottom:6px}
+  .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+  .news-card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+    display:flex;flex-direction:column;transition:box-shadow .15s,transform .15s}
+  .news-card:hover{box-shadow:0 8px 22px rgba(13,27,42,.12);transform:translateY(-2px)}
+  .news-top{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+  .news-badge{font-size:11px;font-weight:800;padding:2px 8px;border-radius:5px;background:#eef1f5;color:var(--navy2);white-space:nowrap}
+  .news-badge.inrng{background:#e9f0ff;color:#1b6cff}
+  .news-badge.cyclingnews{background:#fff4e6;color:#e8760f}
+  .news-badge.escapecollective{background:#eafaf0;color:#159a4b}
+  .news-badge.rpeloton{background:#f3e9ff;color:#7b3fe4}
+  .news-cat{font-size:10px;font-weight:800;text-transform:uppercase;padding:1px 6px;border-radius:4px;margin-left:auto}
+  .news-cat.injury{background:#fdeaea;color:#c0392b} .news-cat.tactics{background:#fff4e6;color:#e8760f}
+  .news-cat.other{background:#eef1f5;color:#8896a6}
+  .news-card h4{font-size:15px;margin:0 0 6px;color:var(--navy);line-height:1.35}
+  .news-card h4 a{color:inherit} .news-card h4 a:hover{color:var(--accent)}
+  .news-card p{font-size:12.5px;color:#5a6673;margin:0;line-height:1.5}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/htm@3/dist/htm.umd.js" crossorigin></script>
+<script src="data.js"></script>
+<script>
+const { useState, useMemo, useEffect } = React;
+const html = htm.bind(React.createElement);
+let D = window.DASHBOARD_DATA || {};   // mutable: swapped on auto-refresh
+const fmtPct = p => (p==null?'—':(p*100).toFixed(0)+'%');
+const fmtU = u => (u==null?'—':(u>=0?'+':'')+(+u).toFixed(1)+'u');
+const nameOnly = n => (n||'').split(' (')[0];
+const splitNews = s => { const i=(s||'').indexOf(' — ');
+  return i>0 ? {title:s.slice(0,i), snippet:s.slice(i+3)} : {title:s||'', snippet:''}; };
+const srcBadge = s => 'news-badge '+(s||'').toLowerCase().replace(/[^a-z]/g,'');
+
+function ago(iso){
+  if(!iso) return '';
+  const s=(Date.now()-new Date(iso).getTime())/1000;
+  if(s<90) return 'just now';
+  if(s<3600) return Math.round(s/60)+'m ago';
+  return Math.round(s/3600)+'h ago';
+}
+function Header({onRefresh}){
+  const m = D.meta||{};
+  return html`<header>
+    <div class="logo">TDF</div>
+    <h1>TDF Syndicate Agent</h1>
+    <div class="meta">Stage ${m.stages_raced||0} / ${m.total_stages||21} raced · next: Stage ${m.next_stage||'—'}
+      <button class="refresh-btn" onClick=${onRefresh} title="Refresh now">↻</button><br/>
+      news ${ago(m.news_updated_at)} · experts checked ${ago(m.experts_checked_at)} · views ${ago(m.picks_updated_at)}</div>
+  </header>`;
+}
+
+function Stage({onGoTo}){
+  const picks = D.picks;
+  const st = (D.stages||[]).find(s => picks && s.stage_num===picks.stage_num)
+             || (D.stages||[]).find(s => s.stage_num===(D.meta||{}).next_stage);
+  if(!st) return html`<div class="empty">No stage data.</div>`;
+  const br = (D.base_rates||[]).find(b=>b.archetype===st.archetype);
+  const pickCard = (p,cls)=>html`<div class=${"pick "+(cls||'')}>
+      <strong>${nameOnly(p.rider)}</strong> — ${p.market||'stage_winner'} @ <strong>${p.tab_odds}</strong>
+      · our ${fmtPct(p.est_prob)} vs TAB ${fmtPct(p.devigged_p)} · EV ${p.ev!=null?(p.ev>0?'+':'')+p.ev:'—'} · <strong>${p.units}u</strong>
+      <div class="tag">${p.reason||''}</div></div>`;
+  return html`<div>
+    <div class="card">
+      <h2>Stage ${st.stage_num} — ${st.start_town} → ${st.finish_town}
+        <span class=${"pill "+st.archetype}>${st.archetype}</span></h2>
+      <div class="tag">${st.date} · ${st.distance_km} km · ${st.vertical_m} m climbing · ProfileScore ${st.profile_score}</div>
+      ${st.key_climbs&&st.key_climbs.length?html`<div style=${{marginTop:'6px'}}>Key climbs: ${st.key_climbs.join(', ')}</div>`:null}
+      ${br?html`<div class="tag" style=${{marginTop:'8px'}}>Base rate — '${st.archetype}': ${br.winners} winners 2022–25,
+        <strong>${Math.round(br.break_rate*100)}% from a breakaway</strong>.
+        Recent: ${(br.top_winners||[]).map(w=>w.rider_name+' ('+w.wins+')').join(', ')}</div>`:null}
+    </div>
+    ${picks?html`<div class="card">
+      <h2>Our read & picks</h2>
+      ${picks.overnight_recap?html`<h3>Overnight</h3><div>${picks.overnight_recap}</div>`:null}
+      ${picks.stage_description?html`<h3>How it plays out</h3><div>${picks.stage_description}</div>`:null}
+      <h3>Picks</h3>
+      ${(picks.verdict==='no_bet'||!(picks.top_picks||[]).length)
+        ? html`<div class="nobet"><strong>No bet.</strong> ${picks.no_bet_reason||''}</div>`
+        : (picks.top_picks||[]).map(p=>pickCard(p,''))}
+      ${(picks.place_picks||[]).map(p=>pickCard(p,'place'))}
+      ${(picks.longshots||[]).map(p=>pickCard(p,'longshot'))}
+      ${picks.expert_agreement_note?html`<div class="tag" style=${{marginTop:'8px'}}>${picks.expert_agreement_note}</div>`:null}
+    </div>`:html`<div class="card empty">No analysis exported for this stage yet.</div>`}
+    ${(D.experts&&D.experts.length)?html`<div class="card">
+      <h2 style=${{display:'flex',justifyContent:'space-between',alignItems:'baseline'}}>Expert corner
+        <span class="clickable" style=${{fontSize:'12px',fontWeight:600}}
+        onClick=${()=>onGoTo&&onGoTo('experts')}>Full write-ups →</span></h2>
+      ${D.experts.map(e=>html`<div class="expert">
+        <strong>${e.source}</strong>${e.picks?html` <span class="tag">hit ${e.hits}/${e.picks}</span>`:''}
+        ${e.rider_name?html` — <strong>Pick: ${e.rider_name}</strong>`:''}
+        <div class="tag" style=${{marginTop:'3px'}}>${(e.quote||'').length>150?e.quote.slice(0,150)+'…':e.quote}</div>
+      </div>`)}
+    </div>`:null}
+  </div>`;
+}
+
+function OddsTable({mk,data}){
+  return html`<div class="card">
+    <h2>${mk.toUpperCase()} <span class="tag">overround ${data.overround?data.overround.toFixed(3):'—'}
+      · ${data.runners.length} runners</span></h2>
+    <div class="scroll"><table><thead><tr>
+      <th>Rider</th><th class="num">Odds</th><th class="num">Move</th>
+      <th class="num">Implied</th><th class="num">De-vig</th><th>Market</th></tr></thead>
+    <tbody>${data.runners.map(r=>html`<tr>
+      <td>${nameOnly(r.rider_name)}</td>
+      <td class="num">${r.odds_decimal}</td>
+      <td class=${"num "+(r.move>0?'moveneg':r.move<0?'movepos':'')}>${r.move==null?'—':(r.move>0?'▲':'▼')+' '+Math.abs(r.move)}</td>
+      <td class="num muted">${fmtPct(r.implied_p)}</td>
+      <td class="num">${fmtPct(r.devigged_p)}</td>
+      <td><div class="bar"><span style=${{width:(r.devigged_p*100)+'%'}}></span></div></td>
+    </tr>`)}</tbody></table></div>
+  </div>`;
+}
+function Odds(){
+  const mk = D.odds||{};
+  const keys = Object.keys(mk);
+  if(!keys.length) return html`<div class="empty">No odds snapshot yet.</div>`;
+  return html`<div>${keys.map(k=>html`<${OddsTable} mk=${k} data=${mk[k]}/>`)}</div>`;
+}
+
+function SortTable({rows,cols,initial}){
+  const [sort,setSort]=useState({key:initial,dir:-1});
+  const sorted=useMemo(()=>[...rows].sort((a,b)=>{
+    const va=a[sort.key],vb=b[sort.key];
+    if(typeof va==='number'&&typeof vb==='number') return (va-vb)*sort.dir;
+    return String(va||'').localeCompare(String(vb||''))*sort.dir;
+  }),[rows,sort]);
+  const click=k=>setSort(s=>({key:k,dir:s.key===k?-s.dir:-1}));
+  return html`<div class="scroll"><table><thead><tr>
+    ${cols.map(c=>html`<th class=${c.num?'num':''} onClick=${()=>click(c.key)}>
+      ${c.label}${sort.key===c.key?(sort.dir<0?' ▼':' ▲'):''}</th>`)}
+  </tr></thead><tbody>
+    ${sorted.map(r=>html`<tr>${cols.map(c=>html`<td class=${c.num?'num':''}>${c.render?c.render(r):r[c.key]}</td>`)}</tr>`)}
+  </tbody></table></div>`;
+}
+
+function Form({onPick}){
+  const [arch,setArch]=useState('puncheur');
+  const archs=['bunch_sprint','reduced_sprint','puncheur','mtf','mountain','itt'];
+  const rows=(D.riders||[]).map(r=>({...r,fitv:(r.fit||{})[arch]||0}));
+  const cols=[
+    {key:'name',label:'Rider',render:r=>html`<span class="clickable" onClick=${()=>onPick&&onPick(r)}>${r.name}</span>`},
+    {key:'team',label:'Team'},
+    {key:'age',label:'Age',num:true},
+    {key:'fitv',label:arch+' fit',num:true,render:r=>html`<strong>${r.fitv}</strong>`},
+    {key:'pts_sprint',label:'Sprint',num:true},
+    {key:'pts_hills',label:'Hills',num:true},
+    {key:'pts_climber',label:'Climb',num:true},
+    {key:'pts_oneday',label:'1-day',num:true},
+    {key:'pts_tt',label:'TT',num:true},
+    {key:'pts_gc',label:'GC',num:true},
+  ];
+  return html`<div class="card">
+    <h2>Rider form & stage fit</h2>
+    <div style=${{marginBottom:'10px'}}>Rank by fit for:
+      ${archs.map(a=>html`<button class=${"pill "+a} style=${{marginRight:'5px',border:arch===a?'2px solid #333':'none',cursor:'pointer'}} onClick=${()=>setArch(a)}>${a}</button>`)}
+    </div>
+    <${SortTable} rows=${rows} cols=${cols} initial="fitv"/>
+  </div>`;
+}
+
+function Riders({onPick}){
+  const [q,setQ]=useState('');
+  const rows=(D.riders||[]).filter(r=>!q||r.name.toLowerCase().includes(q.toLowerCase())
+    ||(r.team||'').toLowerCase().includes(q.toLowerCase()));
+  const cols=[
+    {key:'name',label:'Rider',render:r=>html`<span class="clickable" onClick=${()=>onPick&&onPick(r)}>${r.name}</span>`},
+    {key:'team',label:'Team'},{key:'nationality',label:'Nat'},
+    {key:'age',label:'Age',num:true},{key:'pts_sprint',label:'Sprint',num:true},
+    {key:'pts_climber',label:'Climb',num:true},{key:'pts_gc',label:'GC',num:true},
+    {key:'pts_tt',label:'TT',num:true},{key:'pts_oneday',label:'1-day',num:true},
+    {key:'pts_hills',label:'Hills',num:true}];
+  return html`<div class="card">
+    <h2>Riders <span class="tag">${rows.length} of ${(D.riders||[]).length}</span></h2>
+    <input class="search" placeholder="Search rider or team…" value=${q} onInput=${e=>setQ(e.target.value)} />
+    <div style=${{height:'10px'}}></div>
+    <${SortTable} rows=${rows} cols=${cols} initial="pts_gc"/>
+  </div>`;
+}
+
+function Standings(){
+  const s=D.standings||{};
+  const [c,setC]=useState('gc');
+  const tabs=[['gc','General (Yellow)','itt'],['points','Points (Green)','bunch_sprint'],
+    ['kom','Mountains (Polka)','puncheur'],['youth','Youth (White)','reduced_sprint']];
+  const rows=s[c]||[];
+  return html`<div class="card">
+    <h2>Standings</h2>
+    <div style=${{marginBottom:'12px'}}>
+      ${tabs.map(([k,l,pill])=>html`<button class=${"pill "+pill}
+        style=${{marginRight:'6px',border:c===k?'2px solid #333':'none',cursor:'pointer'}}
+        onClick=${()=>setC(k)}>${l}</button>`)}
+    </div>
+    ${rows.length?html`<div class="scroll"><table><thead><tr><th>#</th><th>Rider</th><th>Team</th>
+        <th class="num">${(c==='gc'||c==='youth')?'Time':'Pts'}</th></tr></thead>
+      <tbody>${rows.map(r=>html`<tr><td>${r.rank}</td>
+        <td>${r.name}</td><td class="tag">${r.team||''}</td><td class="num">${r.value}</td></tr>`)}</tbody></table></div>`
+      :html`<div class="empty">No ${c.toUpperCase()} classification yet — populates after the next road stage.</div>`}
+  </div>`;
+}
+
+function Stages(){
+  const stages=D.stages||[];
+  const [sel,setSel]=useState((D.meta||{}).next_stage||1);
+  const st=stages.find(s=>s.stage_num===sel)||stages[0];
+  return html`<div class="row">
+    <div class="card" style=${{maxWidth:'250px',minWidth:'210px'}}>
+      <h3>All stages</h3>
+      <div class="scroll" style=${{maxHeight:'560px'}}>
+        ${stages.map(s=>html`<div onClick=${()=>setSel(s.stage_num)}
+          style=${{padding:'7px 8px',cursor:'pointer',borderBottom:'1px solid var(--line)',
+                   background:s.stage_num===sel?'#fff8e0':'transparent'}}>
+          <strong>S${s.stage_num}</strong> <span class=${"pill "+s.archetype} style=${{fontSize:'10px'}}>${s.archetype}</span>
+          <div class="tag">${s.start_town} → ${s.finish_town}</div></div>`)}
+      </div>
+    </div>
+    ${st?html`<div class="card" style=${{flex:'2',minWidth:'320px'}}>
+      <h2>Stage ${st.stage_num} — ${st.start_town} → ${st.finish_town}
+        <span class=${"pill "+st.archetype}>${st.archetype}</span></h2>
+      <div class="tag">${st.date} · ${st.distance_km} km · ${st.vertical_m} m climbing · ProfileScore ${st.profile_score}</div>
+      ${st.key_climbs&&st.key_climbs.length?html`<div class="tag" style=${{marginTop:'4px'}}>Key climbs: ${st.key_climbs.join(', ')}</div>`:''}
+      <img src=${st.profile_img} alt="Stage ${st.stage_num} profile"
+        style=${{width:'100%',marginTop:'12px',borderRadius:'8px',border:'1px solid var(--line)'}}
+        onError=${e=>{e.target.style.display='none';}}/>
+    </div>`:null}
+  </div>`;
+}
+
+function Ledger(){
+  const L=D.ledger||{}; const sum=L.summary||{};
+  const hit=sum.settled?`${sum.wins}/${sum.settled}`:'0/0';
+  return html`<div>
+    <div class="row">
+      <div class="card"><h3>P&L</h3><div class=${"big "+((sum.pnl||0)>=0?'pos':'neg')}>${fmtU(sum.pnl||0)}</div></div>
+      <div class="card"><h3>Picks made</h3><div class="big">${sum.picks||0}</div></div>
+      <div class="card"><h3>Hit rate</h3><div class="big">${hit}</div></div>
+    </div>
+    <div class="card"><h2>Pick history</h2>
+      ${(L.picks||[]).length? html`<table><thead><tr><th>Stage</th><th>Rider</th><th>Type</th>
+        <th class="num">Odds</th><th class="num">Units</th><th>Outcome</th><th class="num">P&L</th></tr></thead>
+        <tbody>${L.picks.map(p=>html`<tr><td>${p.stage_num}</td><td>${nameOnly(p.rider_name)}</td>
+          <td>${p.pick_type}</td><td class="num">${p.tab_odds||'—'}</td><td class="num">${p.units||'—'}</td>
+          <td>${p.outcome}</td><td class=${"num "+((p.pnl_units||0)>=0?'pos':'neg')}>${p.pnl_units!=null?fmtU(p.pnl_units):'—'}</td></tr>`)}</tbody></table>`
+        : html`<div class="empty">No picks recorded yet — the ledger starts once we back something.</div>`}
+    </div>
+    <div class="card"><h2>Expert scoreboard</h2>
+      ${(L.expert_scores||[]).length? html`<table><thead><tr><th>Source</th><th class="num">Picks</th><th class="num">Hits</th><th class="num">ROI @ TAB</th></tr></thead>
+        <tbody>${L.expert_scores.map(e=>html`<tr><td>${e.source}</td><td class="num">${e.picks}</td><td class="num">${e.hits}</td><td class="num">${e.roi_at_tab||'—'}</td></tr>`)}</tbody></table>`
+        : html`<div class="empty">Scores build as the Tour progresses and experts' picks resolve.</div>`}
+    </div>
+  </div>`;
+}
+
+const PICK_LABEL={win:'Win pick',place:'Place pick',longshot:'Longshot',avoid:'Avoid',view:'View (no firm pick)'};
+function ExpertViews(){
+  const views=D.expert_views||[];
+  const scores=D.expert_scores_all||[];
+  const [open,setOpen]=useState(views.length?views[0].stage_num:null);
+  return html`<div>
+    ${scores.length?html`<div class="card">
+      <h2>Source scoreboard</h2>
+      <div class="scroll"><table><thead><tr><th>Source</th><th class="num">Picks</th>
+        <th class="num">Hits</th><th class="num">Hit rate</th><th class="num">ROI @ TAB</th></tr></thead>
+      <tbody>${scores.map(s=>html`<tr><td>${s.source}</td><td class="num">${s.picks}</td>
+        <td class="num">${s.hits}</td><td class="num">${s.picks?Math.round(100*s.hits/s.picks)+'%':'—'}</td>
+        <td class=${"num "+((s.roi_at_tab||0)>=0?'pos':'neg')}>${s.roi_at_tab!=null?s.roi_at_tab:'—'}</td></tr>`)}</tbody>
+      </table></div>
+      <div class="tag" style=${{marginTop:'8px'}}>Builds up as picks resolve against results — too early in the Tour for these to mean much yet.</div>
+    </div>`:null}
+    ${!views.length?html`<div class="card empty">No expert write-ups yet — run scrape_experts.py / refresh_experts.py.</div>`:null}
+    ${views.map(v=>{
+      const st=(D.stages||[]).find(s=>s.stage_num===v.stage_num);
+      const isOpen=open===v.stage_num;
+      return html`<div class="card">
+        <h2 style=${{cursor:'pointer',display:'flex',justifyContent:'space-between',alignItems:'baseline'}}
+          onClick=${()=>setOpen(isOpen?null:v.stage_num)}>
+          Stage ${v.stage_num} ${st?html`<span class=${"pill "+st.archetype}>${st.archetype}</span>`:''}
+          <span class="tag">${v.sources.length} source${v.sources.length===1?'':'s'} ${isOpen?'▲':'▼'}</span>
+        </h2>
+        ${isOpen?v.sources.map(e=>html`<div class="expert">
+          <div style=${{display:'flex',justifyContent:'space-between',alignItems:'baseline',flexWrap:'wrap',gap:'6px'}}>
+            <strong>${e.source}</strong>
+            <span>
+              ${e.rider_name?html`<span class="chip"><strong>${PICK_LABEL[e.pick_type]||e.pick_type}: ${e.rider_name}</strong></span>`
+                :html`<span class="tag">${PICK_LABEL[e.pick_type]||e.pick_type}</span>`}
+              ${e.picks?html`<span class="tag">hit ${e.hits}/${e.picks}</span>`:''}
+            </span>
+          </div>
+          <p style=${{fontSize:'13.5px',lineHeight:'1.55',margin:'6px 0 4px',color:'#333'}}>${e.quote||''}</p>
+          <div class="tag">${e.confidence?e.confidence+' confidence · ':''}${e.url?html`<a href=${e.url} target="_blank">source ↗</a>`:''}</div>
+        </div>`):null}
+      </div>`;
+    })}
+  </div>`;
+}
+
+function News(){
+  const raw=D.news||[];
+  if(!raw.length) return html`<div class="empty">No news yet — the refresher pulls the latest each cycle.</div>`;
+  const rank=c=>c==='injury'?0:c==='tactics'?1:2;
+  const items=raw.map(it=>({...it, ...splitNews(it.summary)}))
+    .sort((a,b)=> rank(a.category)-rank(b.category) || (b.ts||'').localeCompare(a.ts||''));
+  const lead=items[0], feat=items.slice(1,3), rest=items.slice(3,27);
+  const card=it=>html`<div class="news-card">
+    <div class="news-top"><span class=${srcBadge(it.source)}>${it.source}</span>
+      <span class=${"news-cat "+(it.category||'other')}>${it.category}</span></div>
+    <h4>${it.url?html`<a href=${it.url} target="_blank">${it.title}</a>`:it.title}</h4>
+    ${it.snippet?html`<p>${it.snippet.slice(0,180)}</p>`:''}</div>`;
+  return html`<div>
+    ${lead?html`<div class="news-lead">
+      <div class="k">${lead.category==='injury'?'⚠ News that matters':'Top story'} · ${lead.source}</div>
+      <h3>${lead.url?html`<a href=${lead.url} target="_blank" style=${{color:'inherit'}}>${lead.title}</a>`:lead.title}</h3>
+      ${lead.snippet?html`<p>${lead.snippet.slice(0,320)}</p>`:''}
+    </div>`:''}
+    ${feat.length?html`<div class="news-grid" style=${{marginBottom:'16px'}}>${feat.map(card)}</div>`:''}
+    <div class="news-sechead">Latest from the peloton</div>
+    <div class="news-grid">${rest.map(card)}</div>
+  </div>`;
+}
+
+function specBar(lbl,val,max){
+  return html`<div class="specbar"><span class="lbl">${lbl}</span>
+    <span class="track"><span style=${{width:Math.min(100,((val||0)/max)*100)+'%'}}></span></span>
+    <span class="v">${val||0}</span></div>`;
+}
+function RiderModal({rider,onClose}){
+  if(!rider) return null;
+  const p=rider.profile||{};
+  const specs=[['Sprint',rider.pts_sprint],['Climber',rider.pts_climber],['Hills',rider.pts_hills],
+    ['One-day',rider.pts_oneday],['TT',rider.pts_tt],['GC',rider.pts_gc]];
+  const max=Math.max(1,...specs.map(s=>s[1]||0));
+  return html`<div class="modal-backdrop" onClick=${onClose}>
+    <div class="modal" onClick=${e=>e.stopPropagation()}>
+      <button class="modal-close" onClick=${onClose}>×</button>
+      <h2 style=${{marginRight:'26px'}}>${rider.name}</h2>
+      <div class="tag">${rider.team||'—'} · ${rider.nationality||''} · age ${rider.age||'?'}</div>
+      ${p.style?html`<div style=${{margin:'9px 0'}}><span class="chip"><strong>${p.style}</strong></span>
+        ${(p.suited||[]).map(a=>html`<span class=${"pill "+a}>${a}</span>`)}</div>`:''}
+      ${p.summary?html`<p>${p.summary}</p>`:''}
+      <h3>Specialty points</h3>
+      ${specs.map(s=>specBar(s[0],s[1],max))}
+      ${(p.season_ranks&&p.season_ranks.length)?html`<h3>PCS ranking by season</h3>
+        <div>${p.season_ranks.map(s=>html`<span class="chip">${s.year}: #${s.rank}</span>`)}</div>`:''}
+      ${(p.top_results&&p.top_results.length)?html`<h3>2026 highlights</h3>
+        <ul style=${{margin:'4px 0',paddingLeft:'18px'}}>
+          ${p.top_results.map(t=>html`<li style=${{fontSize:'13px',margin:'2px 0'}}>
+            ${t.rank===1?'🥇 ':(t.rank+'. ')}${t.race}</li>`)}</ul>`:''}
+      ${(rider.tdf_history&&rider.tdf_history.length)?html`<h3>Tour de France record (2022–25)</h3>
+        <div>${rider.tdf_history.map(h=>html`<span class="chip">${h.year} S${h.stage_num}
+          ${h.rank===1?'🥇':('#'+h.rank)} <span class="tag">${h.archetype}</span></span>`)}</div>`:''}
+      ${(!p.style&&!(rider.tdf_history||[]).length)?html`<p class="tag">No profile built yet — run pcs_profiles.py.</p>`:''}
+    </div></div>`;
+}
+
+const TABS=[['stage','Analysis'],['stages','Stages'],['standings','Standings'],['form','Form'],['odds','Odds'],['riders','Riders'],['experts','Expert Views'],['ledger','Ledger'],['news','News']];
+function App(){
+  const [tab,setTab]=useState('stage');
+  const [rider,setRider]=useState(null);
+  const [,setTick]=useState(0);
+  const swap=async()=>{
+    try{
+      const j=await fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
+      if(j&&j.meta&&j.meta.generated_at!==(D.meta||{}).generated_at){ D=j; setTick(t=>t+1); }
+    }catch(e){}
+  };
+  useEffect(()=>{
+    if(!/^https?:/.test(location.protocol)) return;  // file:// can't fetch data.json
+    const id=setInterval(swap, 5*60*1000);           // poll every 5 min for fresh data
+    return ()=>clearInterval(id);
+  },[]);
+  const render=()=>{
+    if(tab==='stages') return html`<${Stages}/>`;
+    if(tab==='standings') return html`<${Standings}/>`;
+    if(tab==='form') return html`<${Form} onPick=${setRider}/>`;
+    if(tab==='odds') return html`<${Odds}/>`;
+    if(tab==='riders') return html`<${Riders} onPick=${setRider}/>`;
+    if(tab==='experts') return html`<${ExpertViews}/>`;
+    if(tab==='ledger') return html`<${Ledger}/>`;
+    if(tab==='news') return html`<${News}/>`;
+    return html`<${Stage} onGoTo=${setTab}/>`;
+  };
+  return html`<div>
+    <${Header} onRefresh=${swap}/>
+    <nav>${TABS.map(([k,l])=>html`<button class=${tab===k?'active':''} onClick=${()=>setTab(k)}>${l}</button>`)}</nav>
+    <main>${render()}</main>
+    <${RiderModal} rider=${rider} onClose=${()=>setRider(null)}/>
+  </div>`;
+}
+ReactDOM.createRoot(document.getElementById('root')).render(html`<${App}/>`);
+</script>
+</body>
+</html>
