@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-05T09:56:24.875535+00:00",
+    "generated_at": "2026-07-05T10:09:44.562639+00:00",
     "stages_raced": 1,
     "next_stage": 2,
     "total_stages": 21,
     "news_updated_at": "2026-07-05T09:56:24.728421+00:00",
     "picks_updated_at": "2026-07-05T01:59:56.705598+00:00",
-    "experts_checked_at": "2026-07-05T09:14:52.744646+00:00"
+    "experts_checked_at": "2026-07-05T10:06:41.176246+00:00"
   },
   "stages": [
     {
@@ -22939,14 +22939,14 @@
         "market": "stage_winner",
         "tab_odds": 17.0,
         "est_prob": 0.08,
-        "devigged_p": 0.04,
+        "devigged_p": 0.042,
         "ev": 0.36,
         "units": 0.5,
-        "reason": "The one clean edge on the board. World champion and an elite puncheur; Montju\u00efc's short steep ramps are exactly his kind of finish. We make him ~8% to win; TAB's 17.0 implies just 4% (de-vigged), a 2.0x edge \u2014 well clear of our longshot bar. Small stake (0.5u): the market's overround (1.46) is at our trust ceiling, so we take the standout price only, not the cluster of near-fair 17\u201326 shots (del Toro, Vingegaard, Pidcock)."
+        "reason": "The one clean edge on the board, and it held up on the evening re-check (odds unmoved at 17.0, market overround actually tightened 1.458\u21921.405 \u2014 a touch more trust, not less). World champion and an elite puncheur; Montju\u00efc's short steep ramps are exactly his kind of finish. We make him ~8% to win; TAB's 17.0 implies just 4.2% (de-vigged), a ~1.9x edge \u2014 clear of our longshot bar. Small stake (0.5u): we take the standout price only, not the cluster of near-fair 17\u201326 shots (del Toro, Vingegaard, Pidcock)."
       }
     ],
-    "expert_agreement_note": "Agreement note: no expert has posted a firm stage-2 winner tip yet (their daily previews drop this evening), so today's pick is model-led. Where the experts do weigh in, it's cautionary on the outsiders \u2014 Lanterne Rouge reads del Toro as Poga\u010dar's lieutenant, not a stage threat \u2014 which is consistent with us leaving that price and taking Evenepoel instead.",
-    "no_bet_reason": "No win bet. Poga\u010dar at 1.67 is too short \u2014 our ~40% is below the ~53% you'd need to clear the value bar at that price \u2014 and Van der Poel at 5.5 is roughly fair to our ~13%. The value sits further down the board (see Longshots)."
+    "expert_agreement_note": "Agreement note: re-scraped all sources this evening \u2014 still no firm stage-2-specific winner tip from THEMOVE or Lanterne Rouge (their latest uploads remain the general Tour preview and the Stage 1 TTT recap; no new stage-2 preview has dropped as of tonight), so today's pick stays model-led. Where the experts do weigh in, it's cautionary on the outsiders \u2014 Lanterne Rouge reads del Toro as Poga\u010dar's lieutenant, not a stage threat \u2014 consistent with us leaving that price and taking Evenepoel instead.",
+    "no_bet_reason": "No win bet. Poga\u010dar at 1.67 is too short \u2014 our ~40% is below the ~53% you'd need to clear the value bar at that price \u2014 and Van der Poel at 5.5 is roughly fair to our ~13%. The value sits further down the board (see Longshots).\n\n**On Julian Alaphilippe (asked about tonight):** no bet. He's priced 101.0 (0.7% de-vigged) \u2014 and even that looks generous. His 2026 PCS season ranking has collapsed to 575th (57 points), down from 52nd last year and a peak of 3rd-4th in 2018-19; his only notable 2026 result is a 5th at a minor 1.1-category race (GP Gippingen). He's also riding for Tudor, a Pro Continental team with none of the lead-out firepower a puncheur needs to be delivered to the front of a chaotic Montju\u00efc finale. None of tonight's re-scraped expert previews mention him either. Elite puncheur pedigree on paper, but there's no evidence of current form or team support to back it \u2014 pass."
   },
   "experts": [
     {
