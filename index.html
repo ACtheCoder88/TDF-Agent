@@ -37,6 +37,10 @@
   .kr-name{flex:1;font-weight:600;font-size:13px;line-height:1.25}
   .kr-name .tag{font-weight:400}
   .kr-move{font-size:11px;font-weight:700}
+  .jersey-dot{width:15px;height:15px;border-radius:50%;border:1px solid rgba(0,0,0,.2);display:inline-block;flex-shrink:0}
+  .verdict{font-size:11px;font-weight:800;padding:2px 9px;border-radius:20px;letter-spacing:.03em}
+  .verdict.is-bet{background:#eafaf0;color:var(--green)}
+  .verdict.is-nobet{background:#f0f2f5;color:var(--muted)}
   .card h2{font-size:15px;margin:0 0 10px;color:var(--navy)}
   .card h3{font-size:13px;margin:14px 0 6px;color:var(--navy2);text-transform:uppercase;letter-spacing:.03em}
   .row{display:flex;flex-wrap:wrap;gap:14px}
@@ -150,6 +154,16 @@ const nameOnly = n => (n||'').split(' (')[0];
 const splitNews = s => { const i=(s||'').indexOf(' — ');
   return i>0 ? {title:s.slice(0,i), snippet:s.slice(i+3)} : {title:s||'', snippet:''}; };
 const srcBadge = s => 'news-badge '+(s||'').toLowerCase().replace(/[^a-z]/g,'');
+const stripAccents = s => (s||'').normalize('NFKD').replace(/[̀-ͯ]/g,'');
+const nameTokens = s => new Set((stripAccents(s).replace(/\(.*?\)/g,'').toLowerCase().match(/[a-z]{2,}/g))||[]);
+function matchRider(tabName){
+  const tt=nameTokens(tabName); if(!tt.size) return null;
+  let best=null,bs=0;
+  for(const r of (D.riders||[])){ let sc=0; const rt=nameTokens(r.name); tt.forEach(t=>{if(rt.has(t))sc++;});
+    if(sc>bs){bs=sc;best=r;} }
+  return bs>=2?best:null;
+}
+const JERSEY_COLOR={yellow:'#f5d117',green:'#159a4b','polka-dot':'#d1345b',white:'#c9d1da'};
 
 function ago(iso){
   if(!iso) return '';
@@ -388,6 +402,36 @@ function Ledger(){
   </div>`;
 }
 
+function OverallCategories({onPick}){
+  const o=D.outrights;
+  if(!o||!o.markets) return html`<div class="card empty">No outright analysis yet.</div>`;
+  return html`<div>
+    ${o.headline?html`<div class="card">
+      <h2>Overall categories — outright bets</h2>
+      <p style=${{fontSize:'14px'}}>${o.headline}</p>
+      <div class="tag">${o.stages_raced} stage(s) raced · analysis ${o.generated_at}</div></div>`:''}
+    ${o.markets.map(m=>html`<div class="card">
+      <h2 style=${{display:'flex',alignItems:'center',gap:'8px',flexWrap:'wrap'}}>
+        <span class="jersey-dot" style=${{background:JERSEY_COLOR[m.jersey]||'#1b2a3d'}}></span>
+        ${m.name}
+        <span class=${"verdict "+(m.verdict==='bet'?'is-bet':'is-nobet')}>${m.verdict==='bet'?'★ VALUE BET':'NO BET'}</span></h2>
+      <p style=${{fontSize:'13.5px',lineHeight:'1.55',margin:'6px 0'}}>${m.summary}</p>
+      ${m.pick?html`<div class="pick">
+        <strong>${m.pick.rider}</strong> @ <strong>${m.pick.odds}</strong> (TAB) · our ${fmtPct(m.pick.est_prob)}
+        vs TAB ${fmtPct(m.pick.devigged_p)} · <strong>${m.pick.units}u</strong>
+        <div class="tag">${m.pick.reason}</div></div>`:''}
+      <div class="scroll" style=${{maxHeight:'none',marginTop:'8px'}}>
+      <table><thead><tr><th>${m.key==='teams'?'Team':'Rider'}</th><th class="num">Odds</th><th class="num">TAB %</th></tr></thead>
+      <tbody>${m.top_odds.map(t=>{const r=m.key!=='teams'?matchRider(t.rider):null;
+        const isPick=m.pick&&m.pick.rider===t.rider;
+        return html`<tr style=${isPick?{background:'#fffdf3'}:{}}>
+          <td>${r?html`<span class="clickable" onClick=${()=>onPick(r)}>${t.rider}</span>`:t.rider}
+            ${isPick?html` <span class="chip" style=${{background:'#fff',border:'1px solid var(--jaune)'}}>our pick</span>`:''}</td>
+          <td class="num">${t.odds}</td><td class="num">${fmtPct(t.devig)}</td></tr>`;})}</tbody></table></div>
+    </div>`)}
+  </div>`;
+}
+
 const PICK_LABEL={win:'Win pick',place:'Place pick',longshot:'Longshot',avoid:'Avoid',view:'View (no firm pick)'};
 function ExpertViews(){
   const views=D.expert_views||[];
@@ -489,7 +533,7 @@ function RiderModal({rider,onClose}){
     </div></div>`;
 }
 
-const TABS=[['stage','Analysis'],['stages','Stages'],['standings','Standings'],['form','Form'],['odds','Odds'],['riders','Riders'],['experts','Expert Views'],['ledger','Ledger'],['news','News']];
+const TABS=[['stage','Analysis'],['stages','Stages'],['categories','Overall'],['standings','Standings'],['form','Form'],['odds','Odds'],['riders','Riders'],['experts','Expert Views'],['ledger','Ledger'],['news','News']];
 function App(){
   const [tab,setTab]=useState('stage');
   const [rider,setRider]=useState(null);
@@ -511,6 +555,7 @@ function App(){
     if(tab==='form') return html`<${Form} onPick=${setRider}/>`;
     if(tab==='odds') return html`<${Odds}/>`;
     if(tab==='riders') return html`<${Riders} onPick=${setRider}/>`;
+    if(tab==='categories') return html`<${OverallCategories} onPick=${setRider}/>`;
     if(tab==='experts') return html`<${ExpertViews}/>`;
     if(tab==='ledger') return html`<${Ledger}/>`;
     if(tab==='news') return html`<${News}/>`;
