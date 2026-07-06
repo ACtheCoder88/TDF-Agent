@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T10:38:02.022462+00:00",
+    "generated_at": "2026-07-06T10:59:32.104345+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
     "news_updated_at": "2026-07-06T10:38:01.810524+00:00",
     "picks_updated_at": "2026-07-06T10:10:28.728706+00:00",
     "experts_checked_at": "2026-07-06T09:59:11.802871+00:00",
-    "qa_form_endpoint": "",
+    "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_pending": 0
   },
   "stages": [
