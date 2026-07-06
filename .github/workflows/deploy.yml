@@ -1,0 +1,59 @@
+name: Deploy dashboard to Pages
+
+# Replaces the legacy "Deploy from a branch" Pages pipeline, which intermittently
+# failed with GitHub's transient "Deployment failed, try again later" error and
+# left the live site stale. This workflow:
+#   - uses a concurrency group so overlapping pushes cancel cleanly (not "fail"),
+#   - retries the deploy once on the transient error before giving up,
+#   - skips Jekyll entirely (the dashboard is a plain static SPA).
+# Requires repo Settings > Pages > Source = "GitHub Actions" (one-time toggle).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Latest push wins; an in-flight deploy is cancelled (shows as "cancelled", not
+# "failure") rather than racing — this kills the concurrency-collision failures.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      # First attempt is allowed to fail (GitHub's transient "try again later").
+      - name: Deploy to GitHub Pages (attempt 1)
+        id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Pause before retry
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 20
+
+      # Retry — only runs if the first attempt hit the transient error. If this
+      # one also fails, the job fails (and you get one email) — which by then is
+      # a real, persistent problem worth knowing about.
+      - name: Deploy to GitHub Pages (retry)
+        if: steps.deploy1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
