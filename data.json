@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T10:12:39.597120+00:00",
+    "generated_at": "2026-07-06T10:17:54.052752+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
-    "news_updated_at": "2026-07-06T09:58:34.516676+00:00",
+    "news_updated_at": "2026-07-06T10:17:53.866803+00:00",
     "picks_updated_at": "2026-07-06T10:10:28.728706+00:00",
     "experts_checked_at": "2026-07-06T09:59:11.802871+00:00"
   },
@@ -23137,214 +23137,214 @@
   },
   "news": [
     {
-      "ts": "2026-07-06T09:58:34.516676+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "'It wasn't really enjoyable to do what we did every year' \u2013 Rejuvenated by a new approach, is this the most dangerous Jonas Vingegaard yet at the Tour de France?",
-      "url": "https://www.reddit.com/r/peloton/comments/1um47rn/it_wasnt_really_enjoyable_to_do_what_we_did_every/"
-    },
-    {
-      "ts": "2026-07-06T09:58:34.516671+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "A close up of Tadej Poga\u010dar's bike",
-      "url": "https://www.reddit.com/r/peloton/comments/1umgpcc/a_close_up_of_tadej_poga\u010dars_bike/"
-    },
-    {
-      "ts": "2026-07-06T09:58:34.516666+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "Why doesn\u2019t Tadej Pogacar have more blue-chip sponsors? (Gift Article)",
-      "url": "https://www.reddit.com/r/peloton/comments/1uney3w/why_doesnt_tadej_pogacar_have_more_bluechip/"
-    },
-    {
-      "ts": "2026-07-06T09:58:34.516660+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "Wildfires and code red heat could lead to cancellation of upcoming Tour stages (Stage 3 & 4)",
-      "url": "https://www.reddit.com/r/peloton/comments/1uo2akw/wildfires_and_code_red_heat_could_lead_to/"
-    },
-    {
-      "ts": "2026-07-06T09:58:34.516650+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "Tour stage 3: it will take place, but no spectators will be authorised in France",
-      "url": "https://www.reddit.com/r/peloton/comments/1uo7be3/tour_stage_3_it_will_take_place_but_no_spectators/"
-    },
-    {
-      "ts": "2026-07-06T09:58:34.516605+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "UCI bans ice socks in skinsuits at the Tour de France",
-      "url": "https://www.reddit.com/r/peloton/comments/1uo82sg/uci_bans_ice_socks_in_skinsuits_at_the_tour_de/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.767705+00:00",
+      "ts": "2026-07-06T10:17:53.866803+00:00",
       "source": "Escape Collective",
       "category": "injury",
       "summary": "De Lie survives opening day of the Tour after abandoning pre-stage recon \u2014 Before the start of the Tour de France's opening stage TTT, there was a lot of talk about whether Belgian sprinter Arnaud De Lie would be able to start for Lotto-Intermarch\u00e9, just 48 hours after he skipped the ceremonial team presentation on Thursday evening due to",
       "url": "https://escapecollective.com/de-lie-survives-opening-day-of-the-tour-after-abandoning-pre-stage-recon/"
     },
     {
-      "ts": "2026-07-06T09:57:46.767266+00:00",
+      "ts": "2026-07-06T10:17:53.866512+00:00",
       "source": "Escape Collective",
       "category": "tactics",
       "summary": "Congrats, Tour de France, you fixed time trials \u2014 The sometimes banal purity of the race against the clock has been replaced by a tactical beast of chaos that provided can't-miss sporting action.",
       "url": "https://escapecollective.com/congrats-tour-de-france-you-fixed-time-trials/"
     },
     {
-      "ts": "2026-07-06T09:57:46.766564+00:00",
+      "ts": "2026-07-06T10:17:53.866132+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Uijtdebroeks sheds almost two minutes on Tour stage 1 after suffering cramps \u2014 Movistar was having a good day for the first half of the team time trial that opened the 2026 Tour de France, powering through the second and third timing points faster than anyone who had gone before them. However, the momentum was snuffed out in the run-up to the",
       "url": "https://escapecollective.com/uijtdebroeks-sheds-almost-two-minutes-on-tour-stage-1-after-suffering-cramps/"
     },
     {
-      "ts": "2026-07-06T09:57:46.766138+00:00",
+      "ts": "2026-07-06T10:17:53.865789+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "What a tweaked team time trial reveals about team leaders \u2014 Under old Tour de France rules, relative gaps between riders in a single team might have remained hidden, but the change has already started to mark out hierarchies within squads.",
       "url": "https://escapecollective.com/what-a-tweaked-team-time-trial-reveals-about-team-leaders/"
     },
     {
-      "ts": "2026-07-06T09:57:46.765651+00:00",
+      "ts": "2026-07-06T10:17:53.865337+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Why Ineos riders dunked their arms into ice before the Tour de France team time trial \u2014 Why warm up if cooling down is so important?",
       "url": "https://escapecollective.com/why-ineos-riders-dunked-their-arms-into-ice-before-the-tour-de-france-team-time-trial/"
     },
     {
-      "ts": "2026-07-06T09:57:46.765488+00:00",
+      "ts": "2026-07-06T10:17:53.865048+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Twelve seconds, two years in the making \u2014 Jonas Vingegaard is back in yellow with a narrow margin, and the first hint that the legs might truly be back.",
       "url": "https://escapecollective.com/twelve-seconds-two-years-in-the-making/"
     },
     {
-      "ts": "2026-07-06T09:57:46.765326+00:00",
+      "ts": "2026-07-06T10:17:53.864858+00:00",
       "source": "Escape Collective",
       "category": "injury",
       "summary": "'Better safe than sorry' \u2013 Vingegaard masked up at Tour stage 2 start \u2014 You'd be forgiven for mistaking images from the start of Sunday's stage 2 for being several years old as Jonas Vingegaard appeared in Tarragona wearing a face mask. But this was not the spectre of the Covid-19 pandemic; Vingegaard is merely taking ever last precaution",
       "url": "https://escapecollective.com/better-safe-than-sorry-vingegaard-masked-up-at-tour-stage-2-start/"
     },
     {
-      "ts": "2026-07-06T09:57:46.765132+00:00",
+      "ts": "2026-07-06T10:17:53.864508+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Tour stage 2: Del Toro and Poga\u010dar go 'with the flow' to secure team one-two in Barcelona \u2014 Vingegaard still leads the Tour de France, but his advantage over Poga\u010dar has been cut to just six seconds.",
       "url": "https://escapecollective.com/tour-stage-2-del-toro-and-pogacar-go-with-the-flow-to-secure-team-one-two-in-barcelona/"
     },
     {
-      "ts": "2026-07-06T09:57:46.764872+00:00",
+      "ts": "2026-07-06T10:17:53.864029+00:00",
       "source": "Escape Collective",
       "category": "tactics",
       "summary": "Preview: 2026 Tour de France, stage 3 \u2014 Another punchy finish awaits but will the breakaway get there first?",
       "url": "https://escapecollective.com/preview-2026-tour-de-france-stage-3/"
     },
     {
-      "ts": "2026-07-06T09:57:46.764702+00:00",
+      "ts": "2026-07-06T10:17:53.863699+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Poga\u010dar, who gives no gifts, gives a gift \u2014 The stage win for Isaac del Toro is the mechanism by which the debt Tadej Poga\u010dar owes him is acknowledged, not cancelled.",
       "url": "https://escapecollective.com/pogacar-who-gives-no-gifts-gives-a-gift/"
     },
     {
-      "ts": "2026-07-06T09:57:46.764498+00:00",
+      "ts": "2026-07-06T10:17:53.863335+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Updated: Wildfires and code red heat threaten Tour \u2013 stage 3 goes fan free for last 44 km \u2014 Stages 3 and 4 are (still) at risk of being cancelled by local authorities as wildfires flare up in southern France.",
       "url": "https://escapecollective.com/wildfires-and-code-red-heat-could-lead-to-cancellation-of-upcoming-tour-stages/"
     },
     {
-      "ts": "2026-07-06T09:57:46.220241+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'We will fight for yellow, maybe already tomorrow' \u2013 Tadej Poga\u010dar without disappointment despite defeat by Vingegaard in Tour de France opening stage \u2014 Slovenian possibly plotting an early reply on stage 2 after missing out on team time trial victory to long-term rival by 12 seconds in Barcelona",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/we-will-fight-for-yellow-maybe-already-tomorrow-tadej-pogacar-without-disappointment-despite-defeat-by-vingegaard-in-tour-de-france-opening-stage/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.220166+00:00",
-      "source": "CyclingNews",
-      "category": "injury",
-      "summary": "'Not the way we wanted to start the Tour de France' - XDS Astana suffer spectacular crash in team time trial \u2014 Video suggests a touch of wheels, perhaps caused by a drain cover on Barcelona circuit",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/not-the-way-we-wanted-to-start-the-tour-de-france-xds-astana-suffer-spectacular-crash-in-team-time-trial/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.220099+00:00",
+      "ts": "2026-07-06T10:17:53.267529+00:00",
       "source": "CyclingNews",
       "category": "injury",
       "summary": "Jonas Vingegaard closes chapter on trauma of Itzulia crash with first Tour de France maillot jaune since 2023 \u2014 'I've been at times struggling in the last few years,' says Dane after stage 1 victory",
       "url": "https://www.cyclingnews.com/pro-cycling/racing/jonas-vingegaard-closes-chapter-on-trauma-of-itzulia-crash-with-first-tour-de-france-maillot-jaune-since-2023/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219996+00:00",
+      "ts": "2026-07-06T10:17:53.267212+00:00",
       "source": "CyclingNews",
       "category": "other",
       "summary": "UCI bans ice socks in skinsuits at the Tour de France \u2014 Despite 30\u00b0C heat, riders are forced to remove ice socks at the start ramp as UCI says it 'changes the morphology' of the rider",
       "url": "https://www.cyclingnews.com/pro-cycling/rules/uci-bans-tour-de-france-riders-from-using-ice-socks-for-cooling-in-stage-1-team-time-trial/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219889+00:00",
+      "ts": "2026-07-06T10:17:53.267087+00:00",
       "source": "CyclingNews",
       "category": "tactics",
       "summary": "Cold arms, fast legs? Netcompany Ineos roll out unusual pre-cooling strategy at the Tour de France team time trial \u2014 Staff set up cold water containers behind start ramp for riders to submerge their arms in",
       "url": "https://www.cyclingnews.com/pro-cycling/cold-arms-fast-legs-netcompany-ineos-roll-out-unusual-pre-cooling-strategy-at-the-tour-de-france-team-time-trial/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219807+00:00",
+      "ts": "2026-07-06T10:17:53.267015+00:00",
       "source": "CyclingNews",
       "category": "injury",
       "summary": "'A real blow' \u2013 Groupama-FDJ United already a climber down after Tour de France team time trial crash \u2014 Cl\u00e9ment Berthet crosses stage 1 finish line after a fall but will be missing from the start of a hilly stage 2",
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/a-real-blow-groupama-fdj-united-already-a-climber-down-after-tour-de-france-team-time-trial-crash/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219740+00:00",
+      "ts": "2026-07-06T10:17:53.266955+00:00",
       "source": "CyclingNews",
       "category": "injury",
       "summary": "Tour de France abandons \u2013Cl\u00e9ment Berthet first rider to leave the race ahead of stage 2 \u2014 Tracking all the riders who have crashed out or otherwise left this year's Tour between Barcelona and Paris",
       "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-abandons-2026/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219623+00:00",
+      "ts": "2026-07-06T10:17:53.266835+00:00",
       "source": "CyclingNews",
       "category": "other",
       "summary": "Elise Chabbey confirms her 2026 season is over as she reveals the reason for her absence from racing since April \u2014 Swiss rider announces that she is pregnant and will miss the Tour de France Femmes and remainder of 2026 with her baby due in January 2027",
       "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/elise-chabbey-confirms-her-2026-season-is-over-as-she-reveals-the-reason-for-her-absence-from-racing-since-april/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219494+00:00",
+      "ts": "2026-07-06T10:17:53.266702+00:00",
       "source": "CyclingNews",
       "category": "other",
       "summary": "160mm cranks, time-trial tyres and an aero saddle - race leader Jonas Vingegaard's Tour de France race bike sweats the details \u2014 The Dane's race bike is an excellent example of his team's attention to detail",
       "url": "https://www.cyclingnews.com/bikes/pro-bikes/160mm-cranks-time-trial-tyres-and-an-aero-saddle-race-leader-jonas-vingegaards-tour-de-france-race-bike-sweats-the-details/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219389+00:00",
+      "ts": "2026-07-06T10:17:53.266606+00:00",
       "source": "CyclingNews",
       "category": "other",
       "summary": "Cooling hacks, prototype bikes and new TT groupset parts: Tour de France TTT tech gallery \u2014 The Tour's opening team time trial was packed with tech and cooling mods",
       "url": "https://www.cyclingnews.com/cycling-tech-components/cooling-hacks-prototype-bikes-and-new-tt-groupset-parts-tour-de-france-ttt-tech-gallery/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219255+00:00",
+      "ts": "2026-07-06T10:17:53.266483+00:00",
       "source": "CyclingNews",
       "category": "other",
       "summary": "The battle for the Tour de France points competition starts on unfamiliar shoulders as Egan Bernal claims the race's first green jersey \u2014 Colombian led the way as quickest to the first checkpoint in TTT, while at the other end of the standings, Picnic-PostNL can look back on a day to forget",
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/the-battle-for-the-tour-de-france-points-competition-starts-on-unfamiliar-shoulders-as-egan-bernal-claims-the-races-first-green-jersey/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219134+00:00",
+      "ts": "2026-07-06T10:17:53.266372+00:00",
       "source": "CyclingNews",
       "category": "other",
       "summary": "As it happened: UAE Team Emirates-XRG show their muscle on Montju\u00efc circuit on Tour de France stage 2 \u2014 The peloton will race across 168.5 kilometres from Tarragona to Barcelona, culminating atop C\u00f4te de Monjuic, the traditional finale of the Volta a Catalunya",
       "url": "https://www.cyclingnews.com/pro-cycling/live/tour-de-france-stage-2-live-montjuic-triple-header-set-to-shape-the-gc-even-further/"
     },
     {
-      "ts": "2026-07-06T09:57:46.219045+00:00",
+      "ts": "2026-07-06T10:17:53.266299+00:00",
       "source": "CyclingNews",
       "category": "injury",
       "summary": "'Better safe than sorry' \u2013 Jonas Vingegaard masks up at Tour de France in bid to avoid a repeat of Vuelta and Giro illnesses \u2014 Visma-Lease a Bike opt for safety-first option for yellow jersey ahead of stage 2 start in Tarragona",
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/better-safe-than-sorry-jonas-vingegaard-masks-up-at-tour-de-france-in-bid-to-avoid-a-repeat-of-vuelta-and-giro-illnesses/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.266214+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "Bjarne Riis labels Picnic-PostNL's Tour de France TTT effort 'embarrassing' \u2014 Dutch outfit tried to go for the green jersey but imploded",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/bjarne-riis-labels-picnic-postnls-tour-de-france-ttt-effort-embarrassing/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.266126+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "Tour de France stages 3 and 4 at risk of cancellation due to wildfires, heat \u2014 'We will make a decision by the end of the day' says regional governor",
+      "url": "https://www.cyclingnews.com/pro-cycling/safety/tour-de-france-stages-3-and-4-at-risk-of-cancellation-due-to-wildfires-heat/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.266030+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "Tour de France: Isaac del Toro, Tadej Poga\u010dar power to UAE Team Emirates 1-2 on stage 2 \u2014 Jonas Vingegaard misses out on time bonuses as Evenepoel sneaks in for third on C\u00f4te de Montju\u00efc",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-isaac-del-toro-tadej-pogacar-power-to-uae-team-emirates-1-2-on-stage-2/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.265927+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "Tour de France stage 3 to go ahead but spectators asked not to attend finish due to forest fires in 'exceptional decision' \u2014 Publicity caravan won't complete the final 40km of the 196-kilometre route to Les Angles",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-stage-3-to-go-ahead-but-spectators-not-to-attend-finish-due-to-forest-fires/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.265814+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "Tour de France penalties, fines and yellow cards \u2013 UAE Team Emirates XRG earn first yellow card of 2026 race \u2014 Tracking the rule infringements and penalties accrued on the road from Barcelona to Paris",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-penalties-2026/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.265700+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "'Less explosive' Jonas Vingegaard unable to match Poga\u010dar's punch as he narrowly defends Tour de France yellow jersey \u2014 Dane finishes fourth on unfavoured territory in Barcelona sprint as reigning champion gifts stage to teammate Isaac del Toro",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/less-explosive-jonas-vingegaard-unable-to-match-pogacars-punch-as-he-narrowly-defends-tour-de-france-yellow-jersey/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.265590+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "'It's a Tadej Poga\u010dar masterpiece' - Defending Tour de France champion gives a gift of a lifetime to teammate Isaac del Toro \u2014 Mexican's stage victory in Barcelona shows brotherly bond between established superstar and his prot\u00e9g\u00e9",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/its-a-tadej-pogacar-masterpiece-defending-tour-de-france-champion-gives-a-gift-of-a-lifetime-to-teammate-isaac-del-toro/"
+    },
+    {
+      "ts": "2026-07-06T10:17:53.265482+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "\u00a1Viva M\u00e9xico! - Isaac del Toro hopes to buoy Mexico in World Cup knockout match with Tour de France stage victory \u2014 'I will remember this for the rest of my life' - Del Toro thanks Tadej Poga\u010dar for letting him win on Montju\u00efc",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/viva-mexico-isaac-del-toro-hopes-to-buoy-mexico-in-world-cup-knockout-match-with-tour-de-france-stage-victory/"
     }
   ],
   "picks": {
