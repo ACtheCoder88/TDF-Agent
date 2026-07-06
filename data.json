@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T11:02:43.178448+00:00",
+    "generated_at": "2026-07-06T11:04:04.014136+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
-    "news_updated_at": "2026-07-06T11:02:42.836027+00:00",
+    "news_updated_at": "2026-07-06T11:03:56.986140+00:00",
     "picks_updated_at": "2026-07-06T10:10:28.728706+00:00",
-    "experts_checked_at": "2026-07-06T09:59:11.802871+00:00",
+    "experts_checked_at": "2026-07-06T11:04:03.764989+00:00",
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_pending": 0
   },
@@ -23139,6 +23139,48 @@
   },
   "news": [
     {
+      "ts": "2026-07-06T11:03:56.986140+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "'It wasn't really enjoyable to do what we did every year' \u2013 Rejuvenated by a new approach, is this the most dangerous Jonas Vingegaard yet at the Tour de France?",
+      "url": "https://www.reddit.com/r/peloton/comments/1um47rn/it_wasnt_really_enjoyable_to_do_what_we_did_every/"
+    },
+    {
+      "ts": "2026-07-06T11:03:56.986133+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "A close up of Tadej Poga\u010dar's bike",
+      "url": "https://www.reddit.com/r/peloton/comments/1umgpcc/a_close_up_of_tadej_poga\u010dars_bike/"
+    },
+    {
+      "ts": "2026-07-06T11:03:56.986126+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Why doesn\u2019t Tadej Pogacar have more blue-chip sponsors? (Gift Article)",
+      "url": "https://www.reddit.com/r/peloton/comments/1uney3w/why_doesnt_tadej_pogacar_have_more_bluechip/"
+    },
+    {
+      "ts": "2026-07-06T11:03:56.986118+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Wildfires and code red heat could lead to cancellation of upcoming Tour stages (Stage 3 & 4)",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo2akw/wildfires_and_code_red_heat_could_lead_to/"
+    },
+    {
+      "ts": "2026-07-06T11:03:56.986105+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Tour stage 3: it will take place, but no spectators will be authorised in France",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo7be3/tour_stage_3_it_will_take_place_but_no_spectators/"
+    },
+    {
+      "ts": "2026-07-06T11:03:56.986041+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "UCI bans ice socks in skinsuits at the Tour de France",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo82sg/uci_bans_ice_socks_in_skinsuits_at_the_tour_de/"
+    },
+    {
       "ts": "2026-07-06T11:02:42.836027+00:00",
       "source": "Escape Collective",
       "category": "tactics",
@@ -23305,48 +23347,6 @@
       "category": "other",
       "summary": "Tour de France stage 3 to go ahead but spectators asked not to attend finish due to forest fires in 'exceptional decision' \u2014 Publicity caravan won't complete the final 40km of the 196-kilometre route to Les Angles",
       "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-stage-3-to-go-ahead-but-spectators-not-to-attend-finish-due-to-forest-fires/"
-    },
-    {
-      "ts": "2026-07-06T11:02:42.148922+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "Tour de France penalties, fines and yellow cards \u2013 UAE Team Emirates XRG earn first yellow card of 2026 race \u2014 Tracking the rule infringements and penalties accrued on the road from Barcelona to Paris",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-penalties-2026/"
-    },
-    {
-      "ts": "2026-07-06T11:02:42.148584+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'Less explosive' Jonas Vingegaard unable to match Poga\u010dar's punch as he narrowly defends Tour de France yellow jersey \u2014 Dane finishes fourth on unfavoured territory in Barcelona sprint as reigning champion gifts stage to teammate Isaac del Toro",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/less-explosive-jonas-vingegaard-unable-to-match-pogacars-punch-as-he-narrowly-defends-tour-de-france-yellow-jersey/"
-    },
-    {
-      "ts": "2026-07-06T11:02:42.148220+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'It's a Tadej Poga\u010dar masterpiece' - Defending Tour de France champion gives a gift of a lifetime to teammate Isaac del Toro \u2014 Mexican's stage victory in Barcelona shows brotherly bond between established superstar and his prot\u00e9g\u00e9",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/its-a-tadej-pogacar-masterpiece-defending-tour-de-france-champion-gives-a-gift-of-a-lifetime-to-teammate-isaac-del-toro/"
-    },
-    {
-      "ts": "2026-07-06T11:02:42.147588+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "\u00a1Viva M\u00e9xico! - Isaac del Toro hopes to buoy Mexico in World Cup knockout match with Tour de France stage victory \u2014 'I will remember this for the rest of my life' - Del Toro thanks Tadej Poga\u010dar for letting him win on Montju\u00efc",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/viva-mexico-isaac-del-toro-hopes-to-buoy-mexico-in-world-cup-knockout-match-with-tour-de-france-stage-victory/"
-    },
-    {
-      "ts": "2026-07-06T11:02:42.146840+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "The importance of a Tadej Poga\u010dar gift in the race against Vingegaard for Tour de France supremacy \u2013 Barcelona Grand D\u00e9part GC analysis \u2014 How the picture in the race for the yellow jersey looks after two sweltering days of racing",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/the-importance-of-a-tadej-pogacar-gift-in-the-race-against-vingegaard-for-tour-de-france-supremacy-barcelona-grand-depart-gc-analysis/"
-    },
-    {
-      "ts": "2026-07-06T11:02:42.146007+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "Tour de France stage 3 LIVE \u2013 Racing has begun on a hot day in the Pyrenees, but will it be a stage for the breakaway or more GC action? \u2014 This 195.9km route with 3,950 metres of elevation gain could deliver a GC battle, but also provides a great springboard for an opportunist looking to grab the yellow jersey",
-      "url": "https://www.cyclingnews.com/pro-cycling/live/tour-de-france-2026-stage-3-live/"
     }
   ],
   "picks": {
