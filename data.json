@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T09:57:46.934759+00:00",
+    "generated_at": "2026-07-06T09:59:11.963277+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
-    "news_updated_at": "2026-07-06T09:57:46.767705+00:00",
+    "news_updated_at": "2026-07-06T09:58:34.516676+00:00",
     "picks_updated_at": "2026-07-05T18:37:14.560572+00:00",
-    "experts_checked_at": "2026-07-06T09:39:19.024920+00:00"
+    "experts_checked_at": "2026-07-06T09:59:11.802871+00:00"
   },
   "stages": [
     {
@@ -23049,6 +23049,48 @@
   },
   "news": [
     {
+      "ts": "2026-07-06T09:58:34.516676+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "'It wasn't really enjoyable to do what we did every year' \u2013 Rejuvenated by a new approach, is this the most dangerous Jonas Vingegaard yet at the Tour de France?",
+      "url": "https://www.reddit.com/r/peloton/comments/1um47rn/it_wasnt_really_enjoyable_to_do_what_we_did_every/"
+    },
+    {
+      "ts": "2026-07-06T09:58:34.516671+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "A close up of Tadej Poga\u010dar's bike",
+      "url": "https://www.reddit.com/r/peloton/comments/1umgpcc/a_close_up_of_tadej_poga\u010dars_bike/"
+    },
+    {
+      "ts": "2026-07-06T09:58:34.516666+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Why doesn\u2019t Tadej Pogacar have more blue-chip sponsors? (Gift Article)",
+      "url": "https://www.reddit.com/r/peloton/comments/1uney3w/why_doesnt_tadej_pogacar_have_more_bluechip/"
+    },
+    {
+      "ts": "2026-07-06T09:58:34.516660+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Wildfires and code red heat could lead to cancellation of upcoming Tour stages (Stage 3 & 4)",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo2akw/wildfires_and_code_red_heat_could_lead_to/"
+    },
+    {
+      "ts": "2026-07-06T09:58:34.516650+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Tour stage 3: it will take place, but no spectators will be authorised in France",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo7be3/tour_stage_3_it_will_take_place_but_no_spectators/"
+    },
+    {
+      "ts": "2026-07-06T09:58:34.516605+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "UCI bans ice socks in skinsuits at the Tour de France",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo82sg/uci_bans_ice_socks_in_skinsuits_at_the_tour_de/"
+    },
+    {
       "ts": "2026-07-06T09:57:46.767705+00:00",
       "source": "Escape Collective",
       "category": "injury",
@@ -23215,48 +23257,6 @@
       "category": "injury",
       "summary": "'Better safe than sorry' \u2013 Jonas Vingegaard masks up at Tour de France in bid to avoid a repeat of Vuelta and Giro illnesses \u2014 Visma-Lease a Bike opt for safety-first option for yellow jersey ahead of stage 2 start in Tarragona",
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/better-safe-than-sorry-jonas-vingegaard-masks-up-at-tour-de-france-in-bid-to-avoid-a-repeat-of-vuelta-and-giro-illnesses/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.218935+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "Bjarne Riis labels Picnic-PostNL's Tour de France TTT effort 'embarrassing' \u2014 Dutch outfit tried to go for the green jersey but imploded",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/bjarne-riis-labels-picnic-postnls-tour-de-france-ttt-effort-embarrassing/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.218837+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "Tour de France stages 3 and 4 at risk of cancellation due to wildfires, heat \u2014 'We will make a decision by the end of the day' says regional governor",
-      "url": "https://www.cyclingnews.com/pro-cycling/safety/tour-de-france-stages-3-and-4-at-risk-of-cancellation-due-to-wildfires-heat/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.218734+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "Tour de France: Isaac del Toro, Tadej Poga\u010dar power to UAE Team Emirates 1-2 on stage 2 \u2014 Jonas Vingegaard misses out on time bonuses as Evenepoel sneaks in for third on C\u00f4te de Montju\u00efc",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-isaac-del-toro-tadej-pogacar-power-to-uae-team-emirates-1-2-on-stage-2/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.218625+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "Tour de France stage 3 to go ahead but spectators asked not to attend finish due to forest fires in 'exceptional decision' \u2014 Publicity caravan won't complete the final 40km of the 196-kilometre route to Les Angles",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-stage-3-to-go-ahead-but-spectators-not-to-attend-finish-due-to-forest-fires/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.218515+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "Tour de France penalties, fines and yellow cards \u2013 UAE Team Emirates XRG earn first yellow card of 2026 race \u2014 Tracking the rule infringements and penalties accrued on the road from Barcelona to Paris",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-penalties-2026/"
-    },
-    {
-      "ts": "2026-07-06T09:57:46.218394+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'Less explosive' Jonas Vingegaard unable to match Poga\u010dar's punch as he narrowly defends Tour de France yellow jersey \u2014 Dane finishes fourth on unfavoured territory in Barcelona sprint as reigning champion gifts stage to teammate Isaac del Toro",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/less-explosive-jonas-vingegaard-unable-to-match-pogacars-punch-as-he-narrowly-defends-tour-de-france-yellow-jersey/"
     }
   ],
   "picks": {
