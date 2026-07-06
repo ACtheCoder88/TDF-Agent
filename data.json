@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T10:17:54.052752+00:00",
+    "generated_at": "2026-07-06T10:26:03.729451+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
@@ -23113,7 +23113,7 @@
       {
         "stage_num": 3,
         "rider_name": "Ben Healy",
-        "pick_type": "longshot",
+        "pick_type": "win",
         "tab_odds": 21.0,
         "est_prob": 0.06,
         "ev": 0.26,
@@ -23352,9 +23352,7 @@
     "overnight_recap": "Stage 2's Montju\u00efc puncheur went to Isaac del Toro (UAE), who out-kicked Poga\u010dar in the reduced group with Evenepoel 3rd and Vingegaard 4th \u2014 del Toro takes yellow and white, Poga\u010dar 2nd at +6s. Read it straight: del Toro won with Poga\u010dar, not instead of him. The Stage 1 TTT showed del Toro pacing and slingshotting Pog, and on Montju\u00efc UAE controlled and Pog chose not to attack the last climb \u2014 this is a team riding for its GC leader that's happy to bank a stage and the jersey through a lieutenant. No GC time gaps opened; the top four are within 6s.",
     "stage_description": "Granollers to Les Angles, 195.9 km, ~3,900 m climbing \u2014 the Tour's first mountain day (archetype mtf, ProfileScore 185), but a deceptive one. The hard climbing is front- and mid-stage: the Cat-3 Sant Feliu de Codines early, the Cat-1 Col de Toses (9.3 km at 6.5%) at km 128, then the day's roof, the Cat-3 Col du Calvaire (11.4 km at 4.1%, summit 1,836 m) cresting 23.6 km from the line. Crucially the summit finish is soft \u2014 a ~4.7 km drag averaging 4.6%, only the last 1.8 km at 6.5% \u2014 not steep enough to force the GC teams to detonate the race. Base rate for this archetype is ~40% breakaway; here we go higher.",
     "verdict": "bets",
-    "top_picks": [],
-    "place_picks": [],
-    "longshots": [
+    "top_picks": [
       {
         "rider": "Ben Healy",
         "market": "stage_winner",
@@ -23363,9 +23361,12 @@
         "devigged_p": 0.033,
         "ev": 0.26,
         "units": 0.5,
-        "reason": "The expert-backed play on a breakaway day. Our read and the panel's converge: with a soft summit finish and the GC content to wait for stage 6, the break should go and stay (we make it ~60% survival, above the ~40% archetype base rate). Healy is the archetype breakaway hunter \u2014 a proven Grand Tour break-stage winner, on an EF team with no GC leader to protect, so they ride the front all day \u2014 and the long tempo climbs into a draggy finish suit a rouleur-climber who can time-trial the group to the line. He was named repeatedly in the r/peloton break shortlist. We make him ~6% vs TAB's 3.3% (de-vigged) \u2014 a ~1.8x edge, clear of our longshot bar. Kept to 0.5u: his 2026 results are quiet (PCS rank 262) and any single name in a wide-open break is a long shot by nature."
+        "conviction": "low",
+        "reason": "Pick of the day, low conviction \u2014 a breakaway lottery, so keep it small. The expert-backed play on a breakaway day. Our read and the panel's converge: with a soft summit finish and the GC content to wait for stage 6, the break should go and stay (we make it ~60% survival, above the ~40% archetype base rate). Healy is the archetype breakaway hunter \u2014 a proven Grand Tour break-stage winner, on an EF team with no GC leader to protect, so they ride the front all day \u2014 and the long tempo climbs into a draggy finish suit a rouleur-climber who can time-trial the group to the line. He was named repeatedly in the r/peloton break shortlist. We make him ~6% vs TAB's 3.3% (de-vigged) \u2014 a ~1.8x edge, clear of our longshot bar. Kept to 0.5u: his 2026 results are quiet (PCS rank 262) and any single name in a wide-open break is a long shot by nature."
       }
     ],
+    "place_picks": [],
+    "longshots": [],
     "expert_agreement_note": "Strong agreement this is a breakaway day, which is what our pick rests on. THEMOVE (Armstrong/Bruyneel) call it a break day with 'no GC action' until stage 6 and tip Van der Poel from the move; the r/peloton crowd lean the same way, naming Plapp, Healy, Vauquelin, O'Connor and Gr\u00e9goire. The one dissenting note is Lanterne Rouge's Patrick Broe, who thinks the break is 'easily controllable for UAE' if they want it \u2014 a real risk we're respecting by staking small. Van der Poel (12.0) is THEMOVE's pick but too short for us given he's the least proven pure climber of the break names over the Toses/Calvaire; Plapp (26.0) and Gr\u00e9goire (17.0) are the sensible alternatives to Healy if you want another dart.",
     "no_bet_reason": "No win bet at the front of the market. Poga\u010dar at 2.5 (28% de-vigged) is short for a day his own team is likely to let slip up the road \u2014 if the break survives ~60% of the time, his true chance is well under the implied 28%, so there's no value backing him and obviously no laying at one book. Van der Poel (12.0) and del Toro (19.0) are fair-to-short. The value is a small stake on the break (see Longshots), not the favourites. Heads-up: hot conditions and wildfire risk near the route prompted an official no-spectators ruling for the French section, with a small chance of a late route change \u2014 monitor before staking."
   },

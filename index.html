@@ -39,6 +39,10 @@
   .kr-name .tag{font-weight:400}
   .kr-move{font-size:11px;font-weight:700}
   .jersey-dot{width:15px;height:15px;border-radius:50%;border:1px solid rgba(0,0,0,.2);display:inline-block;flex-shrink:0}
+  .conv{font-size:10px;font-weight:800;padding:1px 7px;border-radius:20px;letter-spacing:.04em;
+    margin-left:8px;vertical-align:middle;white-space:nowrap}
+  .conv-high{background:#eafaf0;color:var(--green)} .conv-moderate{background:#e9f0ff;color:var(--accent)}
+  .conv-low{background:#fff6da;color:#9a7b00} .conv-speculative{background:#fdeaea;color:var(--polka)}
   .verdict{font-size:11px;font-weight:800;padding:2px 9px;border-radius:20px;letter-spacing:.03em}
   .verdict.is-bet{background:#eafaf0;color:var(--green)}
   .verdict.is-nobet{background:#f0f2f5;color:var(--muted)}
@@ -233,8 +237,11 @@ function Stage({onGoTo, onPick}){
   const br = (D.base_rates||[]).find(b=>b.archetype===st.archetype);
   const riderById = id => (D.riders||[]).find(r=>r.rider_id===id);
   const keyRiders = D.key_riders||[];
+  const convBadge = c=>{const k=(c||'').toLowerCase();
+    const L={high:'HIGH',moderate:'MOD',low:'LOW',speculative:'SPEC'}[k];
+    return L?html`<span class=${"conv conv-"+k}>${L}</span>`:'';};
   const pickCard = (p,cls)=>html`<div class=${"pick "+(cls||'')}>
-      <strong>${nameOnly(p.rider)}</strong> — ${p.market||'stage_winner'} @ <strong>${p.tab_odds}</strong>
+      <strong>${nameOnly(p.rider)}</strong>${convBadge(p.conviction)} — ${p.market||'stage_winner'} @ <strong>${p.tab_odds}</strong>
       · our ${fmtPct(p.est_prob)} vs TAB ${fmtPct(p.devigged_p)} · EV ${p.ev!=null?(p.ev>0?'+':'')+p.ev:'—'} · <strong>${p.units}u</strong>
       <div class="tag">${p.reason||''}</div></div>`;
   return html`<div>
