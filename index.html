@@ -196,6 +196,35 @@ function Header({onRefresh}){
   </header>`;
 }
 
+function FeaturesTable({features}){
+  const feats=features||[];
+  if(!feats.length) return null;
+  const icon={climb:'▲',finish:'⛰',sprint:'▮'};
+  const catClass=c=>c==='sprint'?'itt':(c==='1'||c==='HC')?'mtf':(c==='2')?'puncheur':'bunch_sprint';
+  const fmt=(v,suf)=>v==null?'—':v+suf;
+  return html`<div style=${{marginTop:'12px'}}>
+    <h3>Route — climbs & sprints</h3>
+    <div class="scroll" style=${{maxHeight:'none'}}>
+    <table><thead><tr>
+      <th class="num">At km</th><th class="num">To go</th><th>Point</th>
+      <th>Cat</th><th class="num">Length</th><th class="num">Avg grad</th><th class="num">Summit</th>
+    </tr></thead><tbody>
+    ${feats.map(f=>html`<tr>
+      <td class="num">${f.km==null?'—':f.km.toFixed(1)}</td>
+      <td class="num">${f.km_to_go==null?'—':f.km_to_go.toFixed(1)}</td>
+      <td>${icon[f.type]||''} ${f.name}</td>
+      <td>${f.type==='sprint'?html`<span class="pill itt">sprint</span>`
+            :html`<span class=${"pill "+catClass(f.category)}>Cat ${f.category||'?'}</span>`}</td>
+      <td class="num">${fmt(f.length_km,' km')}</td>
+      <td class="num">${fmt(f.gradient_pct,'%')}</td>
+      <td class="num">${f.altitude_m==null?'—':f.altitude_m.toLocaleString()+' m'}</td>
+    </tr>`)}
+    </tbody></table></div>
+    ${feats.filter(f=>f.note).map(f=>html`<div class="tag" style=${{marginTop:'4px'}}>
+      <strong>${f.name}:</strong> ${f.note}</div>`)}
+  </div>`;
+}
+
 function Stage({onGoTo, onPick}){
   const picks = D.picks;
   const st = (D.stages||[]).find(s => picks && s.stage_num===picks.stage_num)
@@ -215,7 +244,8 @@ function Stage({onGoTo, onPick}){
       <div class="tag">${st.date} · ${st.distance_km} km · ${st.vertical_m} m climbing · ProfileScore ${st.profile_score}</div>
       ${st.profile_img?html`<img src=${st.profile_img} alt="Stage ${st.stage_num} profile" class="profile-pic"
         onError=${e=>{e.target.style.display='none';}}/>`:null}
-      ${st.key_climbs&&st.key_climbs.length?html`<div style=${{marginTop:'6px'}}>Key climbs: ${st.key_climbs.join(', ')}</div>`:null}
+      ${st.features&&st.features.length?html`<${FeaturesTable} features=${st.features}/>`
+        :(st.key_climbs&&st.key_climbs.length?html`<div style=${{marginTop:'6px'}}>Key climbs: ${st.key_climbs.join(', ')}</div>`:null)}
       ${br?html`<div class="tag" style=${{marginTop:'8px'}}>Base rate — '${st.archetype}': ${br.winners} winners 2022–25,
         <strong>${Math.round(br.break_rate*100)}% from a breakaway</strong>.
         Recent: ${(br.top_winners||[]).map(w=>w.rider_name+' ('+w.wins+')').join(', ')}</div>`:null}
@@ -415,6 +445,7 @@ function Stages(){
         onError=${e=>{e.target.style.display='none';}}/>`:null}
       ${st.description?html`<h3>About this stage</h3><p style=${{fontSize:'13.5px',lineHeight:'1.6',color:'#333'}}>${st.description}</p>`
         :html`<p class="tag" style=${{marginTop:'10px'}}>No write-up yet — run pcs_descriptions.py.</p>`}
+      ${st.features&&st.features.length?html`<${FeaturesTable} features=${st.features}/>`:null}
     </div>`:null}
   </div>`;
 }
