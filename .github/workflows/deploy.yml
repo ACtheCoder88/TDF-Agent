@@ -4,7 +4,10 @@ name: Deploy dashboard to Pages
 # failed with GitHub's transient "Deployment failed, try again later" error and
 # left the live site stale. This workflow:
 #   - uses a concurrency group so overlapping pushes cancel cleanly (not "fail"),
-#   - retries the deploy once on the transient error before giving up,
+#   - retries the deploy up to 3x with escalating backoff (0/30s/60s) so a short
+#     Pages-API outage (~90s) is ridden out silently instead of emailing a failure
+#     ("try again later" is an early reject with no deployment created, so re-calling
+#     deploy-pages is safe — no double-deploy),
 #   - skips Jekyll entirely (the dashboard is a plain static SPA).
 # Requires repo Settings > Pages > Source = "GitHub Actions" (one-time toggle).
 
@@ -41,19 +44,29 @@ jobs:
         with:
           path: .
 
-      # First attempt is allowed to fail (GitHub's transient "try again later").
+      # Attempts 1 and 2 may fail (GitHub's transient "try again later"); each later
+      # step runs only if all prior attempts failed. The FINAL attempt is not
+      # continue-on-error, so if even it fails the job fails and you get one email —
+      # by then it's a genuinely persistent problem worth knowing about.
       - name: Deploy to GitHub Pages (attempt 1)
         id: deploy1
         continue-on-error: true
         uses: actions/deploy-pages@v4
 
-      - name: Pause before retry
+      - name: Pause before attempt 2
         if: steps.deploy1.outcome == 'failure'
-        run: sleep 20
+        run: sleep 30
 
-      # Retry — only runs if the first attempt hit the transient error. If this
-      # one also fails, the job fails (and you get one email) — which by then is
-      # a real, persistent problem worth knowing about.
-      - name: Deploy to GitHub Pages (retry)
+      - name: Deploy to GitHub Pages (attempt 2)
+        id: deploy2
         if: steps.deploy1.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Pause before attempt 3
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages (attempt 3, final)
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
         uses: actions/deploy-pages@v4
