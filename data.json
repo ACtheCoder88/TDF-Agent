@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T11:04:04.014136+00:00",
+    "generated_at": "2026-07-06T11:07:03.331339+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
@@ -23764,5 +23764,12 @@
       }
     ]
   },
-  "qa": []
+  "qa": [
+    {
+      "asked_by": "Andrew",
+      "question": "Is the young French sensation Paul worth a bet today?",
+      "answer": "Not for today's stage. Paul Seixas (19) is a GC/climbing prospect, not a breakaway stage-hunter \u2014 and Stage 3 shapes as a breakaway day (the summit finish is soft, and the GC teams are expected to sit up and save it for the real mountains around Stage 6). His team will keep him tucked in the bunch to protect his energy and his white-jersey/GC position, so he's unlikely to be in the winning move. TAB prices him 34.0 for the stage, which reflects exactly that \u2014 no value.\n\nIf you mean the white jersey (young-rider classification) rather than the stage: he's the 2.0 favourite and genuinely the real deal, but the market has fully priced him, and Isaac del Toro actually leads white now (2.25) after winning Stage 2 \u2014 so there's no edge to back either of them. Short version: absolutely a rider to follow for the future and the white jersey, but not a bet today.",
+      "answered_at": "2026-07-06T11:07:02.839729+00:00"
+    }
+  ]
 }
