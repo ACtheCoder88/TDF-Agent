@@ -1,12 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T10:26:03.729451+00:00",
+    "generated_at": "2026-07-06T10:34:34.870496+00:00",
     "stages_raced": 2,
     "next_stage": 3,
     "total_stages": 21,
     "news_updated_at": "2026-07-06T10:17:53.866803+00:00",
     "picks_updated_at": "2026-07-06T10:10:28.728706+00:00",
-    "experts_checked_at": "2026-07-06T09:59:11.802871+00:00"
+    "experts_checked_at": "2026-07-06T09:59:11.802871+00:00",
+    "qa_form_endpoint": "",
+    "qa_pending": 0
   },
   "stages": [
     {
@@ -23761,5 +23763,6 @@
         ]
       }
     ]
-  }
+  },
+  "qa": []
 }

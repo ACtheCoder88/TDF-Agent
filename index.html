@@ -613,7 +613,44 @@ function RiderModal({rider,onClose}){
     </div></div>`;
 }
 
-const TABS=[['stage','Stage Analysis'],['categories','Overall Analysis'],['news','News'],['experts','Expert Corner'],['stages','Stages'],['standings','Standings'],['form','Form'],['odds','Odds'],['riders','Riders'],['ledger','Ledger']];
+function QA(){
+  const qa=D.qa||[]; const meta=D.meta||{};
+  const endpoint=meta.qa_form_endpoint||'';
+  const [status,setStatus]=useState('idle');
+  const submit=async(e)=>{
+    e.preventDefault(); const form=e.target; setStatus('sending');
+    try{
+      const r=await fetch(endpoint,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
+      if(r.ok){setStatus('ok');form.reset();}else{setStatus('err');}
+    }catch(_){setStatus('err');}
+  };
+  const inp={padding:'8px 10px',border:'1px solid var(--line)',borderRadius:'7px',fontSize:'14px',width:'100%',fontFamily:'inherit'};
+  return html`<div>
+    <div class="card">
+      <h2>Ask the desk</h2>
+      <div class="tag" style=${{marginBottom:'12px'}}>Ask about a rider, a market, or a specific bet — the desk researches it and posts the answer below, usually within a day.${meta.qa_pending?html` <strong>${meta.qa_pending} in the queue.</strong>`:''}</div>
+      ${endpoint?html`<form onSubmit=${submit}>
+        <div style=${{marginBottom:'8px'}}><input name="name" placeholder="Your name (optional)" style=${inp}/></div>
+        <div style=${{marginBottom:'8px'}}><textarea name="question" required rows="3" placeholder="e.g. Is Ben Healy worth a small bet on a hilly breakaway stage?" style=${{...inp,resize:'vertical'}}></textarea></div>
+        <input type="hidden" name="_subject" value="TDF dashboard question"/>
+        <button type="submit" class="pill mtf" style=${{border:'none',cursor:'pointer',padding:'9px 18px',fontSize:'13px'}}
+          disabled=${status==='sending'}>${status==='sending'?'Sending…':'Ask the desk'}</button>
+        ${status==='ok'?html`<span class="tag" style=${{marginLeft:'10px',color:'var(--green)',fontWeight:700}}>Thanks — your question is in the queue.</span>`:''}
+        ${status==='err'?html`<span class="tag" style=${{marginLeft:'10px',color:'var(--polka)',fontWeight:700}}>Couldn't send — please try again.</span>`:''}
+      </form>`:html`<div class="nobet">The question form isn't wired up yet — the syndicate owner needs to add a Formspree endpoint in preferences.md.</div>`}
+    </div>
+    <div class="card">
+      <h2>Answered questions <span class="tag">${qa.length}</span></h2>
+      ${qa.length?qa.map(x=>html`<div class="expert" style=${{marginBottom:'10px'}}>
+        <div><strong>Q:</strong> ${x.question}</div>
+        <div style=${{marginTop:'6px',whiteSpace:'pre-wrap'}}><strong>A:</strong> ${x.answer}</div>
+        <div class="tag" style=${{marginTop:'6px'}}>${x.asked_by?('— '+x.asked_by+' · '):''}answered ${ago(x.answered_at)}</div>
+      </div>`):html`<div class="empty">No answered questions yet — be the first to ask.</div>`}
+    </div>
+  </div>`;
+}
+
+const TABS=[['stage','Stage Analysis'],['categories','Overall Analysis'],['news','News'],['experts','Expert Corner'],['qa','Ask'],['stages','Stages'],['standings','Standings'],['form','Form'],['odds','Odds'],['riders','Riders'],['ledger','Ledger']];
 function App(){
   const [tab,setTab]=useState('stage');
   const [rider,setRider]=useState(null);
@@ -637,6 +674,7 @@ function App(){
     if(tab==='riders') return html`<${Riders} onPick=${setRider}/>`;
     if(tab==='categories') return html`<${OverallCategories} onPick=${setRider}/>`;
     if(tab==='experts') return html`<${ExpertViews}/>`;
+    if(tab==='qa') return html`<${QA}/>`;
     if(tab==='ledger') return html`<${Ledger}/>`;
     if(tab==='news') return html`<${News}/>`;
     return html`<${Stage} onGoTo=${setTab} onPick=${setRider}/>`;
