@@ -625,28 +625,35 @@ function RiderModal({rider,onClose}){
 function QA(){
   const qa=D.qa||[]; const meta=D.meta||{};
   const endpoint=meta.qa_form_endpoint||'';
+  const responseNote=meta.qa_response_note||'Answers are usually sent within ~30 minutes.';
   const [status,setStatus]=useState('idle');
+  const [wantEmail,setWantEmail]=useState(false);
   const submit=async(e)=>{
     e.preventDefault(); const form=e.target; setStatus('sending');
     try{
       const r=await fetch(endpoint,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-      if(r.ok){setStatus('ok');form.reset();}else{setStatus('err');}
+      if(r.ok){setStatus('ok');form.reset();setWantEmail(false);}else{setStatus('err');}
     }catch(_){setStatus('err');}
   };
   const inp={padding:'8px 10px',border:'1px solid var(--line)',borderRadius:'7px',fontSize:'14px',width:'100%',fontFamily:'inherit'};
   return html`<div>
     <div class="card">
       <h2>Ask the desk</h2>
-      <div class="tag" style=${{marginBottom:'12px'}}>Ask about a rider, a market, or a specific bet — the desk researches it and posts the answer below, usually within a day.${meta.qa_pending?html` <strong>${meta.qa_pending} in the queue.</strong>`:''}</div>
+      <div class="tag" style=${{marginBottom:'12px'}}>Ask about a rider, a market, or a specific bet — the desk researches it and posts the answer below.${meta.qa_pending?html` <strong>${meta.qa_pending} in the queue.</strong>`:''}</div>
       ${endpoint?html`<form onSubmit=${submit}>
         <div style=${{marginBottom:'8px'}}><input name="name" placeholder="Your name (optional)" style=${inp}/></div>
         <div style=${{marginBottom:'8px'}}><textarea name="question" required rows="3" placeholder="e.g. Is Ben Healy worth a small bet on a hilly breakaway stage?" style=${{...inp,resize:'vertical'}}></textarea></div>
+        <label style=${{display:'flex',alignItems:'center',gap:'8px',fontSize:'13px',color:'var(--muted)',marginBottom:'8px',cursor:'pointer'}}>
+          <input type="checkbox" checked=${wantEmail} onChange=${e=>setWantEmail(e.target.checked)}/>
+          Email me the answer too</label>
+        ${wantEmail?html`<div style=${{marginBottom:'8px'}}><input name="email" type="email" required=${wantEmail} placeholder="your@email.com" style=${inp}/></div>`:''}
         <input type="hidden" name="_subject" value="TDF dashboard question"/>
         <button type="submit" class="pill mtf" style=${{border:'none',cursor:'pointer',padding:'9px 18px',fontSize:'13px'}}
           disabled=${status==='sending'}>${status==='sending'?'Sending…':'Ask the desk'}</button>
-        ${status==='ok'?html`<span class="tag" style=${{marginLeft:'10px',color:'var(--green)',fontWeight:700}}>Thanks — your question is in the queue.</span>`:''}
+        ${status==='ok'?html`<span class="tag" style=${{marginLeft:'10px',color:'var(--green)',fontWeight:700}}>Thanks — your question is in. ${responseNote}</span>`:''}
         ${status==='err'?html`<span class="tag" style=${{marginLeft:'10px',color:'var(--polka)',fontWeight:700}}>Couldn't send — please try again.</span>`:''}
-      </form>`:html`<div class="nobet">The question form isn't wired up yet — the syndicate owner needs to add a Formspree endpoint in preferences.md.</div>`}
+      </form>
+      <div class="tag" style=${{marginTop:'10px'}}>⏱ ${responseNote}</div>`:html`<div class="nobet">The question form isn't wired up yet — the syndicate owner needs to add a Formspree endpoint in preferences.md.</div>`}
     </div>
     <div class="card">
       <h2>Answered questions <span class="tag">${qa.length}</span></h2>
