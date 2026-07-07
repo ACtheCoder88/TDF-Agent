@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T08:29:11.400670+00:00",
+    "generated_at": "2026-07-07T08:45:29.946496+00:00",
     "stages_raced": 3,
     "next_stage": 4,
     "total_stages": 21,
@@ -23948,6 +23948,12 @@
     ]
   },
   "qa": [
+    {
+      "asked_by": null,
+      "question": "What is the most likely stage Aaron Gate could take top honours on?",
+      "answer": "Good Kiwi-interest question. Aaron Gate (35, XDS Astana) is genuinely an all-rounder, not a pure climber \u2014 his PCS specialty points are led by GC/stage-racing and hills, with his weakest category being pure climbing. That profile, combined with riding for a small team with no GC leader to protect, points squarely at one thing: he's a breakaway-hunter on medium-mountain/hilly days, not a summit-finish threat.\n\nLooking at what's left on the route, his best fits by terrain are the days tagged \"puncheur\" or \"reduced_sprint\" rather than the big mountain (mtf) summit finishes, which suit pure climbers far more than him:\n\n- Stage 10, Aurillac \u2192 Le Lioran (14 July) \u2014 this is literally his best-fit terrain type (puncheur), and it's still relatively early/fresh in the race.\n- Stage 9, Malemort \u2192 Ussel (12 July) and Stage 13, Dole \u2192 Belfort (17 July) \u2014 both hilly reduced-sprint days, the kind of terrain where a strong break with no GC implications tends to survive.\n- Stage 17, Chamb\u00e9ry \u2192 Voiron (22 July) \u2014 similar profile, late in the race when GC teams are tired and more willing to let a break go.\n\nHonest caveats: his 2026 season form is quiet so far (well down on his 2025 numbers), and TAB hasn't posted markets that far out yet, so I can't give you odds or a formal edge \u2014 this is profile-and-terrain reasoning, not a priced bet. Watch Stage 10 in particular; if his TAB stage price looks generous when the market opens, that's the one I'd flag back to you.\n",
+      "answered_at": "2026-07-07T08:45:29.774750+00:00"
+    },
     {
       "asked_by": "Bill the Creep",
       "question": "Who are the longshots who could win? The young guns or the older warhorses? Those who can climb well and may be able to escape on one of the climbs but have the endurance and time trial ability to stay away for a solo victory?",
