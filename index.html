@@ -92,6 +92,12 @@
   .refresh-btn{background:rgba(255,255,255,.16);border:none;color:#fff;border-radius:6px;
     cursor:pointer;font-size:13px;padding:1px 8px;margin-left:7px;line-height:1.5}
   .refresh-btn:hover{background:rgba(255,255,255,.32)}
+  .refresh-btn:disabled{cursor:default;opacity:.7}
+  .refresh-btn .spin{display:inline-block;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .refresh-status{margin-left:7px;font-size:11px;font-weight:700}
+  .refresh-status.loading{color:#a9b6c6} .refresh-status.updated{color:#4ee08a}
+  .refresh-status.same{color:#a9b6c6} .refresh-status.error{color:#ff8a8a}
   /* News page */
   .news-lead{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--polka);
     border-radius:10px;padding:16px 20px;margin-bottom:16px}
@@ -181,8 +187,9 @@ function ago(iso){
   if(s<3600) return Math.round(s/60)+'m ago';
   return Math.round(s/3600)+'h ago';
 }
-function Header({onRefresh}){
+function Header({onRefresh, refreshState}){
   const m = D.meta||{};
+  const label={loading:'Checking…',updated:'✓ Updated',same:'Already up to date',error:'Refresh failed'}[refreshState]||'';
   return html`<header>
     <svg class="logo" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
       <circle cx="24" cy="24" r="22" fill="var(--jaune)"/>
@@ -195,7 +202,9 @@ function Header({onRefresh}){
     </svg>
     <div class="wordmark"><span class="t1">TDF</span><span class="t2">Syndicate Agent</span></div>
     <div class="meta">Stage ${m.stages_raced||0} / ${m.total_stages||21} raced · next: Stage ${m.next_stage||'—'}
-      <button class="refresh-btn" onClick=${onRefresh} title="Refresh now">↻</button><br/>
+      <button class="refresh-btn" onClick=${onRefresh} disabled=${refreshState==='loading'} title="Refresh now">
+        ${refreshState==='loading'?html`<span class="spin">↻</span>`:'↻'}</button>
+      ${label?html`<span class=${"refresh-status "+refreshState}>${label}</span>`:''}<br/>
       news ${ago(m.news_updated_at)} · experts ${ago(m.experts_checked_at)} · views ${ago(m.picks_updated_at)}</div>
   </header>`;
 }
@@ -655,15 +664,24 @@ function App(){
   const [tab,setTab]=useState('stage');
   const [rider,setRider]=useState(null);
   const [,setTick]=useState(0);
-  const swap=async()=>{
+  const [refreshState,setRefreshState]=useState('idle');
+  const swap=async(manual)=>{
+    if(manual) setRefreshState('loading');
     try{
       const j=await fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json());
-      if(j&&j.meta&&j.meta.generated_at!==(D.meta||{}).generated_at){ D=j; setTick(t=>t+1); }
-    }catch(e){}
+      const changed = j&&j.meta&&j.meta.generated_at!==(D.meta||{}).generated_at;
+      if(changed){ D=j; setTick(t=>t+1); }
+      if(manual){
+        setRefreshState(changed?'updated':'same');
+        setTimeout(()=>setRefreshState('idle'), 3000);
+      }
+    }catch(e){
+      if(manual){ setRefreshState('error'); setTimeout(()=>setRefreshState('idle'), 4000); }
+    }
   };
   useEffect(()=>{
     if(!/^https?:/.test(location.protocol)) return;  // file:// can't fetch data.json
-    const id=setInterval(swap, 5*60*1000);           // poll every 5 min for fresh data
+    const id=setInterval(()=>swap(false), 5*60*1000);   // poll every 5 min for fresh data
     return ()=>clearInterval(id);
   },[]);
   const render=()=>{
@@ -680,7 +698,7 @@ function App(){
     return html`<${Stage} onGoTo=${setTab} onPick=${setRider}/>`;
   };
   return html`<div>
-    <${Header} onRefresh=${swap}/>
+    <${Header} onRefresh=${()=>swap(true)} refreshState=${refreshState}/>
     <nav>${TABS.map(([k,l])=>html`<button class=${tab===k?'active':''} onClick=${()=>setTab(k)}>${l}</button>`)}</nav>
     <main>${render()}</main>
     <${RiderModal} rider=${rider} onClose=${()=>setRider(null)}/>
