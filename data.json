@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T10:33:23.722513+00:00",
+    "generated_at": "2026-07-07T11:35:10.083652+00:00",
     "stages_raced": 3,
     "next_stage": 4,
     "total_stages": 21,
@@ -8,7 +8,7 @@
     "picks_updated_at": "2026-07-07T08:43:52.045650+00:00",
     "experts_checked_at": "2026-07-07T08:29:11.259600+00:00",
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
-    "qa_response_note": "Answers are usually sent within ~30 minutes.",
+    "qa_response_note": "Answers are usually posted within an hour.",
     "qa_pending": 0
   },
   "stages": [
