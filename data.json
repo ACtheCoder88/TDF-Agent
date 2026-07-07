@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T08:27:42.471123+00:00",
+    "generated_at": "2026-07-07T08:29:11.400670+00:00",
     "stages_raced": 3,
     "next_stage": 4,
     "total_stages": 21,
-    "news_updated_at": "2026-07-07T08:27:42.334175+00:00",
+    "news_updated_at": "2026-07-07T08:28:54.303251+00:00",
     "picks_updated_at": "2026-07-07T07:53:47.293412+00:00",
-    "experts_checked_at": "2026-07-07T07:49:05.641387+00:00",
+    "experts_checked_at": "2026-07-07T08:29:11.259600+00:00",
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_pending": 0
   },
@@ -23278,6 +23278,48 @@
   },
   "news": [
     {
+      "ts": "2026-07-07T08:28:54.303251+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "A close up of Tadej Poga\u010dar's bike",
+      "url": "https://www.reddit.com/r/peloton/comments/1umgpcc/a_close_up_of_tadej_poga\u010dars_bike/"
+    },
+    {
+      "ts": "2026-07-07T08:28:54.303246+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Why doesn\u2019t Tadej Pogacar have more blue-chip sponsors? (Gift Article)",
+      "url": "https://www.reddit.com/r/peloton/comments/1uney3w/why_doesnt_tadej_pogacar_have_more_bluechip/"
+    },
+    {
+      "ts": "2026-07-07T08:28:54.303240+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Wildfires and code red heat could lead to cancellation of upcoming Tour stages (Stage 3 & 4)",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo2akw/wildfires_and_code_red_heat_could_lead_to/"
+    },
+    {
+      "ts": "2026-07-07T08:28:54.303231+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Tour stage 3: it will take place, but no spectators will be authorised in France",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo7be3/tour_stage_3_it_will_take_place_but_no_spectators/"
+    },
+    {
+      "ts": "2026-07-07T08:28:54.303221+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "UCI bans ice socks in skinsuits at the Tour de France",
+      "url": "https://www.reddit.com/r/peloton/comments/1uo82sg/uci_bans_ice_socks_in_skinsuits_at_the_tour_de/"
+    },
+    {
+      "ts": "2026-07-07T08:28:54.303177+00:00",
+      "source": "r/peloton",
+      "category": "other",
+      "summary": "Visma | Lease a Bike helps Del Toro with mechanical issues: \"Hope to return the favor\" [cyclingflash] (Article contains stage 2 spoilers)",
+      "url": "https://www.reddit.com/r/peloton/comments/1uovbdw/visma_lease_a_bike_helps_del_toro_with_mechanical/"
+    },
+    {
       "ts": "2026-07-07T08:27:42.334175+00:00",
       "source": "Escape Collective",
       "category": "tactics",
@@ -23444,48 +23486,6 @@
       "category": "other",
       "summary": "'It was super important to be up there for him' - Isaac del Toro pays back Tadej Poga\u010dar with huge effort to set up Tour de France stage victory in Les Angles \u2014 Mexican happy to play a support role as UAE dominate again",
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/it-was-super-important-to-be-up-there-for-him-isaac-del-toro-pays-back-tadej-pogacar-with-huge-effort-to-set-up-tour-de-france-stage-victory-in-les-angles/"
-    },
-    {
-      "ts": "2026-07-07T08:27:41.791046+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'I don't think I've done such a hard race in such heat before' \u2013 Tom Pidcock unable to challenge in punchy Tour de France finale after being 'cooked' by searing temperatures \u2014 'I think we went through about 10,000 bidons today as a peloton' says British rider after brutal day near Spain-France border",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/i-dont-think-ive-done-such-a-hard-race-in-such-heat-before-tom-pidcock-unable-to-challenge-in-punchy-tour-de-france-finale-after-being-cooked-by-searing-temperatures/"
-    },
-    {
-      "ts": "2026-07-07T08:27:41.790922+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'We are one of the best sponsorship opportunities in sports' - Visma-Lease a Bike hopes Tour de France TTT success can boost search for superteam sponsorship \u2014 'We've had really good talks with many different people' team manager Richard Plugge tells Cyclingnews",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/we-are-one-of-the-best-sponsorship-opportunities-in-sports-visma-lease-a-bike-hopes-tour-de-france-ttt-success-can-boost-search-for-superteam-sponsorship/"
-    },
-    {
-      "ts": "2026-07-07T08:27:41.790783+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'Eat food like a robot and just go with the flow' \u2013 Tadej Poga\u010dar says Tour de France frontrunners should already be firing on all cylinders as he scorches into yellow \u2014 World Champion takes control with stunning sprint in Les Angles, moves equal with Darrigade to fifth all-time on Tour stage wins leaderboard",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/eat-food-like-a-robot-and-just-go-with-the-flow-tadej-pogacar-says-tour-de-france-frontrunners-should-already-be-firing-on-all-cylinders-as-he-scorches-into-yellow/"
-    },
-    {
-      "ts": "2026-07-07T08:27:41.790657+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'It's always been hot at the Tour de France but it's never this hot' - Riders set to face temperatures of 37\u00b0C at stage 4 finish in Foix \u2014 'It's a real logistical nightmare when it's hot' says race leader Tadej Poga\u010dar",
-      "url": "https://www.cyclingnews.com/pro-cycling/its-always-been-hot-at-the-tour-de-france-but-its-never-this-hot-riders-set-to-face-temperatures-of-37-c-at-stage-4-finish-in-foix/"
-    },
-    {
-      "ts": "2026-07-07T08:27:40.510230+00:00",
-      "source": "INRNG",
-      "category": "other",
-      "summary": "Tour de France Mountains Competition \u2014 You know it\u2019s July when you see the polka dot jersey. He\u2019s a look at the riders who might be sporting it soon. The maths Points are awarded as follows: hors cat\u00e9gorie (6 in total): 20-15-12-10-8-6-4-2 points Category 1 climbs (13): 10-8-6-4-2-1 points Category 2 (11) 5-3-2-1 points Category 3 (21):",
-      "url": "https://inrng.com/2026/07/tour-de-france-2026-polka-dot-contenders/?utm_source=rss&utm_medium=rss&utm_campaign=tour-de-france-2026-polka-dot-contenders"
-    },
-    {
-      "ts": "2026-07-07T08:27:40.509879+00:00",
-      "source": "INRNG",
-      "category": "tactics",
-      "summary": "Tour de France Points Competition \u2014 After previewing the mountains competition, time to look at the points competition and the green jersey contenders. The points scale Points are awarded at the finish line and at one intermediate point in the stage. Flat stages (Stages 5,7,8,11,12) 70-50-40-35-30-26-24-22- 20-18-16-14-12-10-8-6-4-2 p",
-      "url": "https://inrng.com/2026/07/tour-de-france-2026-green-jersey-contenders/?utm_source=rss&utm_medium=rss&utm_campaign=tour-de-france-2026-green-jersey-contenders"
     }
   ],
   "picks": {
