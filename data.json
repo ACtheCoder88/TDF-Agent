@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-08T09:32:15.656180+00:00",
+    "generated_at": "2026-07-08T10:25:16.403694+00:00",
     "stages_raced": 4,
     "next_stage": 5,
     "total_stages": 21,
-    "news_updated_at": "2026-07-08T06:54:19.917834+00:00",
-    "picks_updated_at": "2026-07-08T07:00:09.092614+00:00",
-    "experts_checked_at": "2026-07-08T08:44:04.297565+00:00",
+    "news_updated_at": "2026-07-08T10:12:25.783821+00:00",
+    "picks_updated_at": "2026-07-08T10:17:33.305013+00:00",
+    "experts_checked_at": "2026-07-08T10:13:03.228205+00:00",
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_response_note": "Answers are usually posted within an hour.",
     "qa_pending": 0
@@ -301,7 +301,19 @@
           "note": null
         }
       ],
-      "weather": null,
+      "weather": {
+        "stage_num": 5,
+        "finish": "Pau",
+        "date": "2026-07-08",
+        "temp_max": 33.5,
+        "precip_mm": 0,
+        "wind_kmh": 5.7,
+        "gust_kmh": 14.0,
+        "wind_dir_deg": 325,
+        "route_bearing_deg": 289.3,
+        "crosswind_risk": "low",
+        "summary": "33.5\u00b0C max, 0 mm rain; finale wind 5.7 km/h (gusts 14.0) from the NW, route heading 289.3\u00b0 \u2014 crosswind risk low"
+      },
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-5-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-5-route.jpg"
     },
@@ -23237,361 +23249,369 @@
       ]
     },
     "stage_winner": {
-      "ts": "2026-07-08T06:52:37.120071+00:00",
-      "prev_ts": "2026-07-07T08:41:53.630022+00:00",
-      "overround": 1.3841819764495393,
+      "ts": "2026-07-08T10:11:01.229718+00:00",
+      "prev_ts": "2026-07-08T06:52:37.120071+00:00",
+      "overround": 1.3509974820604727,
       "runners": [
         {
           "rider_name": "Tim Merlier",
-          "odds_decimal": 2.75,
-          "implied_p": 0.36363636363636365,
-          "devigged_p": 0.2627084948534728,
-          "overround": 1.3841819764495393,
-          "move": null
+          "odds_decimal": 2.85,
+          "implied_p": 0.3508771929824561,
+          "devigged_p": 0.25971713318615225,
+          "overround": 1.3509974820604727,
+          "move": 0.1
         },
         {
           "rider_name": "Jasper Philipsen",
           "odds_decimal": 3.25,
           "implied_p": 0.3076923076923077,
-          "devigged_p": 0.22229180333755394,
-          "overround": 1.3841819764495393,
-          "move": -15.75
+          "devigged_p": 0.22775194756324124,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Biniam Girmay",
-          "odds_decimal": 5.0,
-          "implied_p": 0.2,
-          "devigged_p": 0.14448967216941005,
-          "overround": 1.3841819764495393,
-          "move": -29.0
+          "odds_decimal": 5.5,
+          "implied_p": 0.18181818181818182,
+          "devigged_p": 0.13458069628736982,
+          "overround": 1.3509974820604727,
+          "move": 0.5
         },
         {
           "rider_name": "Olav Kooij",
           "odds_decimal": 5.5,
           "implied_p": 0.18181818181818182,
-          "devigged_p": 0.1313542474267364,
-          "overround": 1.3841819764495393,
-          "move": -75.5
+          "devigged_p": 0.13458069628736982,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Mads Pedersen",
           "odds_decimal": 17.0,
           "implied_p": 0.058823529411764705,
-          "devigged_p": 0.04249696240276766,
-          "overround": 1.3841819764495393,
-          "move": 12.75
+          "devigged_p": 0.04354081350473729,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Mathieu Van Der Poel",
           "odds_decimal": 34.0,
           "implied_p": 0.029411764705882353,
-          "devigged_p": 0.02124848120138383,
-          "overround": 1.3841819764495393,
-          "move": 26.0
+          "devigged_p": 0.021770406752368646,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Milan Fretin",
-          "odds_decimal": 41.0,
-          "implied_p": 0.024390243902439025,
-          "devigged_p": 0.017620691727976836,
-          "overround": 1.3841819764495393,
+          "odds_decimal": 51.0,
+          "implied_p": 0.0196078431372549,
+          "devigged_p": 0.014513604501579097,
+          "overround": 1.3509974820604727,
+          "move": 10.0
+        },
+        {
+          "rider_name": "Max Kanter",
+          "odds_decimal": 51.0,
+          "implied_p": 0.0196078431372549,
+          "devigged_p": 0.014513604501579097,
+          "overround": 1.3509974820604727,
           "move": null
         },
         {
           "rider_name": "Dorian Godon",
-          "odds_decimal": 41.0,
-          "implied_p": 0.024390243902439025,
-          "devigged_p": 0.017620691727976836,
-          "overround": 1.3841819764495393,
-          "move": 20.0
-        },
-        {
-          "rider_name": "Mathias Vacek",
           "odds_decimal": 67.0,
           "implied_p": 0.014925373134328358,
-          "devigged_p": 0.010782811355926123,
-          "overround": 1.3841819764495393,
-          "move": 52.0
-        },
-        {
-          "rider_name": "Soren W\u00e6renskjold",
-          "odds_decimal": 67.0,
-          "implied_p": 0.014925373134328358,
-          "devigged_p": 0.010782811355926123,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.011047669098216925,
+          "overround": 1.3509974820604727,
+          "move": 26.0
         },
         {
           "rider_name": "Arvid de Kleijn",
           "odds_decimal": 67.0,
           "implied_p": 0.014925373134328358,
-          "devigged_p": 0.010782811355926123,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.011047669098216925,
+          "overround": 1.3509974820604727,
+          "move": 0.0
+        },
+        {
+          "rider_name": "Soren W\u00e6renskjold",
+          "odds_decimal": 81.0,
+          "implied_p": 0.012345679012345678,
+          "devigged_p": 0.009138195426920173,
+          "overround": 1.3509974820604727,
+          "move": 14.0
+        },
+        {
+          "rider_name": "Mathias Vacek",
+          "odds_decimal": 101.0,
+          "implied_p": 0.009900990099009901,
+          "devigged_p": 0.007328651778025089,
+          "overround": 1.3509974820604727,
+          "move": 34.0
         },
         {
           "rider_name": "Fernando Gaviria",
           "odds_decimal": 101.0,
           "implied_p": 0.009900990099009901,
-          "devigged_p": 0.007152954067792577,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.007328651778025089,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Tadej Pogacar",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004784426230775167,
-          "overround": 1.3841819764495393,
-          "move": 110.0
+          "devigged_p": 0.004901945891261815,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Jonas Abrahamsen",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004784426230775167,
-          "overround": 1.3841819764495393,
-          "move": 110.0
+          "devigged_p": 0.004901945891261815,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Pavel Bittner",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004784426230775167,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.004901945891261815,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Filippo Ganna",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004784426230775167,
-          "overround": 1.3841819764495393,
-          "move": 117.0
+          "devigged_p": 0.004901945891261815,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Quinn Simmons",
           "odds_decimal": 151.0,
           "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004784426230775167,
-          "overround": 1.3841819764495393,
-          "move": 130.0
+          "devigged_p": 0.004901945891261815,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Remco Evenepoel",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 100.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Isaac del Toro",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 100.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Tom Pidcock",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 134.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Phil Bauhaus",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Magnus Cort Nielsen",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 180.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Jasper Stuyven",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 100.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Pascal Ackermann",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Michael Matthews",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 175.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Maxim Van Gils",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 184.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Jenno Berckmoes",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.0035942704519753743,
-          "overround": 1.3841819764495393,
-          "move": 100.0
+          "devigged_p": 0.0036825563660723083,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Kasper Asgreen",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Daan Hoole",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Anthony Turgis",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Matteo Trentin",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 150.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Fred Wright",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 200.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Rick Pluimers",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 150.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Davide Ballerini",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 100.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Jake Stewart",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Mike Teunissen",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Matej Mohoric",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 100.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Joshua Tarling",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Richard Carapaz",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": null
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Ben Healy",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 260.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Julian Alaphilippe",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 200.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Mauro Schmid",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 250.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Alex Aranburu",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 260.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         },
         {
           "rider_name": "Stefano Oldani",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.002400160667265948,
-          "overround": 1.3841819764495393,
-          "move": 150.0
+          "devigged_p": 0.0024591157128921394,
+          "overround": 1.3509974820604727,
+          "move": 0.0
         }
       ]
     },
@@ -24048,7 +24068,7 @@
   ],
   "ledger": {
     "summary": {
-      "picks": 8,
+      "picks": 9,
       "pnl": -3.25,
       "wins": 0,
       "settled": 6
@@ -24058,10 +24078,21 @@
         "stage_num": 5,
         "rider_name": "Tim Merlier",
         "pick_type": "win",
-        "tab_odds": 2.75,
-        "est_prob": 0.32,
-        "ev": -0.12,
-        "units": 0.5,
+        "tab_odds": 2.85,
+        "est_prob": 0.24,
+        "ev": -0.32,
+        "units": 0.0,
+        "outcome": "pending",
+        "pnl_units": null
+      },
+      {
+        "stage_num": 5,
+        "rider_name": "Mads Pedersen",
+        "pick_type": "win",
+        "tab_odds": 17.0,
+        "est_prob": 0.07,
+        "ev": 0.19,
+        "units": 0.25,
         "outcome": "pending",
         "pnl_units": null
       },
@@ -24160,35 +24191,35 @@
   },
   "news": [
     {
-      "ts": "2026-07-08T06:54:19.917834+00:00",
+      "ts": "2026-07-08T10:12:25.783821+00:00",
       "source": "r/peloton",
       "category": "other",
       "summary": "Why doesn\u2019t Tadej Pogacar have more blue-chip sponsors? (Gift Article)",
       "url": "https://www.reddit.com/r/peloton/comments/1uney3w/why_doesnt_tadej_pogacar_have_more_bluechip/"
     },
     {
-      "ts": "2026-07-08T06:54:19.917811+00:00",
+      "ts": "2026-07-08T10:12:25.783791+00:00",
       "source": "r/peloton",
       "category": "other",
       "summary": "Wildfires and code red heat could lead to cancellation of upcoming Tour stages (Stage 3 & 4)",
       "url": "https://www.reddit.com/r/peloton/comments/1uo2akw/wildfires_and_code_red_heat_could_lead_to/"
     },
     {
-      "ts": "2026-07-08T06:54:19.917783+00:00",
+      "ts": "2026-07-08T10:12:25.783761+00:00",
       "source": "r/peloton",
       "category": "other",
       "summary": "Tour stage 3: it will take place, but no spectators will be authorised in France",
       "url": "https://www.reddit.com/r/peloton/comments/1uo7be3/tour_stage_3_it_will_take_place_but_no_spectators/"
     },
     {
-      "ts": "2026-07-08T06:54:19.917733+00:00",
+      "ts": "2026-07-08T10:12:25.783707+00:00",
       "source": "r/peloton",
       "category": "other",
       "summary": "UCI bans ice socks in skinsuits at the Tour de France",
       "url": "https://www.reddit.com/r/peloton/comments/1uo82sg/uci_bans_ice_socks_in_skinsuits_at_the_tour_de/"
     },
     {
-      "ts": "2026-07-08T06:54:19.917507+00:00",
+      "ts": "2026-07-08T10:12:25.783463+00:00",
       "source": "r/peloton",
       "category": "other",
       "summary": "Visma | Lease a Bike helps Del Toro with mechanical issues: \"Hope to return the favor\" [cyclingflash] (Article contains stage 2 spoilers)",
@@ -24372,43 +24403,126 @@
   ],
   "picks": {
     "stage_num": 5,
-    "overnight_recap": "Stage 4 went exactly as we read it \u2014 a breakaway day \u2014 but not our riders. Mads Pedersen won from the front group, and a big break gained enough that Torstein Traeen (Bahrain) has taken the yellow jersey off Poga\u010dar for now (a temporary, breakaway-driven lead the mountains will erase). Our night was a wipeout: Van der Poel never featured, Quinn Simmons was our Pick of the day and finished a frustrating 2nd, Vacek 10th \u2014 all four picks lost, \u22122.25u. Honest ledger after four stages: 0 wins from 6 stage picks, running P&L roughly \u22123.25u. The breakaway thesis keeps being right while our rider selection inside it keeps missing \u2014 worth being humble about how hard picking one name out of a 15-rider break really is.",
-    "stage_description": "Lannemezan to Pau, 158.3 km \u2014 the sprinters' first proper chance. Flat-to-rolling out of the Pyrenean foothills through the Gers valley, with the only lumps a trio of short, sharp c\u00f4tes (Casteide-Doat, Flancart, then C\u00f4te de Baleix at 1.3 km @ 7%) packed into 12 km but all cresting ~26 km from the line \u2014 speed bumps, not sprinter-shedders. Then it's flat into Pau, the Tour's 64th finish here, where Philipsen won two editions ago. Expect the fast men's teams to control and a bunch gallop.",
     "verdict": "bets",
+    "overnight_recap": "Take a bow, Lidl-Trek. Stage 4 was a team pursuit wearing a road race number: 61 kph off the gun until the elastic didn't just stretch, it snapped clean \u2014 Vacek towing the break like a man paid by the kilometre, Quinn Simmons riding shotgun, and Mads Pedersen sitting in the armchair before smoking the survivors in the final 200 metres. The bunch rolled in twelve minutes and fifty-nine seconds later, presumably enjoying the scenery. Torstein Tr\u00e6en inherits yellow \u2014 a first ever for Uno-X, and Norway will dine out on it for a decade (the mountains will take it back, but nobody can take the photo) \u2014 while Pedersen pulls on green with 103 points and a smirk. And our card? We called the break day dead right and still donated 2.25 units, because we backed the right train and the wrong carriages: Simmons second, our two 151-to-1 'value' tickets nowhere, which is where 151-to-1 tickets live. Season ledger: 0 from 6, minus 3.25 units. Yes, we're roasting ourselves before you can. The engine got rebuilt overnight \u2014 the 151-to-1 confetti era is officially over.",
+    "stage_description": "158 kilometres from Lannemezan to Pau, ridden inside a pizza oven \u2014 33.5\u00b0C and barely a breath of wind (we ran the crosswind maths so you don't have to: risk nil, no echelons, no excuses). The road rolls through the foothills before the day's only categorised obstacle, the C\u00f4te de Baleix \u2014 one kilometre at a spiteful 8.8%, cresting 26 km from the line \u2014 then it's wide boulevards into Pau, the Tour's 64th visit and the same finish Jasper Philipsen owned in 2024. This is the fast men's first payday in five days and every leadout squad knows it; we give a breakaway a 6% chance, and that's us being romantic. The only live tactical question: does somebody \u2014 Lidl-Trek for green, Alpecin to cook Merlier \u2014 race the Baleix full-gas in the furnace and turn a drag race into a crime scene? At 26 km out it's a speed bump on paper; in this heat, on legs still ringing from the Pyrenees opener, it's a loaded gun on the mantelpiece.",
     "top_picks": [
+      {
+        "rider": "Mads Pedersen",
+        "market": "stage_winner",
+        "tab_odds": 17.0,
+        "est_prob": 0.07,
+        "devigged_p": 0.044,
+        "ev": 0.19,
+        "units": 0.25,
+        "conviction": "low",
+        "reason": "The one number TAB got wrong. Nobody tips Pedersen to WIN this \u2014 yet two panels independently sketch the exact scenario where he does: the c\u00f4tes get raced full-gas in the heat, the pure sprinters crack, and the fastest man left standing is wearing green with a team that just proved it can detonate a race on command. We rate that scenario 7% against the market's 4.4% \u2014 a 19% edge. Strict quarter-Kelly says 0.06u; we take the minimum 0.25u ticket and call it what it is: a live scenario at a wrong price, not a prophecy."
+      },
       {
         "rider": "Tim Merlier",
         "market": "stage_winner",
-        "tab_odds": 2.75,
-        "est_prob": 0.32,
-        "devigged_p": 0.263,
-        "ev": -0.12,
-        "units": 0.5,
-        "conviction": "low",
-        "reason": "Pick of the day, low conviction \u2014 and I'll be straight: this is NOT a value bet, it's the best play if you're having a punt on the sprint. Merlier is the fastest pure sprinter in the race and this clean, flat run-in into Pau is exactly his kind of finish. But at 2.75 the price already reflects that \u2014 we make him ~32% to win, and you'd need ~37%+ just to break even at 2.75, so the expected value is slightly negative. The market is efficient here; there's no edge to exploit. If you're backing the sprint anyway, Merlier's the soundest single name, with Philipsen (3.25, won in Pau before, Van der Poel to lead him out) the equally-defensible alternative. Kept to 0.5u precisely because it's a no-edge favourite, not a value play."
+        "tab_odds": 2.85,
+        "est_prob": 0.24,
+        "devigged_p": 0.26,
+        "ev": -0.32,
+        "units": 0.0,
+        "conviction": "speculative",
+        "reason": "The likeliest winner of the bike race and a donation at the price \u2014 TAB rates him 26% after the vig comes out, we say 24%. Negative EV means ZERO units under the new house rules, no exceptions \u2014 and the fact that this exact bet went on the slip at half a unit this morning under the old regime is precisely why the new rules exist. If you simply must have a sprinter on your ticket, he's the fastest man in the race. Just know you're paying rack rate for the privilege."
       }
     ],
     "place_picks": [],
     "longshots": [],
-    "expert_agreement_note": "Thin expert input this stage: the YouTube panel (THEMOVE, Lanterne Rouge) feeds 404'd on a transient hiccup, and the r/peloton predictions thread rate-limited before I could pull the crowd picks. cyclingstage frames it plainly as a sprinters' day ('first test for the fast men'). For a bunch sprint that's fine \u2014 the read is driven by the odds board and sprinter form, not tactical nuance, and the market is doing the work.",
-    "no_bet_reason": "This is an efficiently-priced bunch sprint with no genuine stage value \u2014 the top four (Merlier 2.75, Philipsen 3.25, Girmay 5.0, Kooij 5.5) are all fairly-to-fully priced. The real value tonight is NOT on the stage \u2014 it's the UAE teams-classification bet in the Overall categories below. Take the stage pick only as a small punt, if at all."
+    "expert_agreement_note": "The panel is split straight down the middle and it's a genuinely great argument. Team Merlier: Johan Bruyneel ('everybody is for Merlier \u2014 he's my favourite to win the stage'), CyclingUpToDate, WielerFlits, and the r/peloton crowd ('Let's not overthink this. Tim Merlier.'). Team Philipsen: the Racing Post's Jack Ogalbe \u2014 his best bet, 1pt at 4-1, on the man who won the last Pau finish \u2014 plus IDL Pro Cycling and Spencer Martin ('his lead-out man is Mathieu van der Poel \u2014 that's partly why he wins so many Tour stages'). When the sharpest camps in cycling can't split the top two, the bookmaker doesn't have to either \u2014 which is exactly why there's no value up there. Meanwhile not one source tips Pedersen to win, but CyclingUpToDate and the sharper Reddit comments both described the c\u00f4tes-in-the-furnace scenario that makes 17.0 the only interesting number on the board. That's not consensus. That's better than consensus.",
+    "no_bet_reason": "On the big two, TAB and our model are staring at each other, nodding: Merlier 24% ours vs 26% theirs, Philipsen 22% vs 23%. No edge, no bet, no apology \u2014 an efficient market isn't a personal insult, it just feels like one. Overround 1.35, inside tolerance. The stake lives where the market stopped looking."
   },
   "experts": [
     {
-      "source": "THEMOVE",
+      "source": "CyclingUpToDate",
+      "rider_name": "Tim Merlier",
+      "pick_type": "win",
+      "quote": "R\u00faben Silva: 'a true sprint stage... a bunch sprint seems inevitable' \u2014 breakaway unlikely in the heat. Two big favourites: Philipsen and Merlier ('the stage 1 man', usually dominant on the first sprint opportunity), Kooij next ('already beat Philipsen and Merlier at the Baloise Belgium Tour'). Watch Lidl-Trek pushing the late 1km climb to drop pure sprinters for Pedersen's green defence.",
+      "url": "https://cyclinguptodate.com/cycling",
+      "hits": null,
+      "picks": null
+    },
+    {
+      "source": "Dicodusport",
       "rider_name": null,
       "pick_type": "view",
-      "quote": "No view captured this run \u2014 the YouTube channel feed returned a 404 (a transient YouTube/IP issue), so no transcript was ingested. Not a betting signal either way.",
-      "url": "",
+      "quote": "[French] Route piece: 'a real opportunity for the fast men' \u2014 Pau hosts a finish for the 64th time; Philipsen won the last one (2024). Final kms present 'no major difficulty', though the three late c\u00f4tes could shed the least comfortable sprinters.",
+      "url": "https://dicodusport.fr/blog/",
+      "hits": null,
+      "picks": null
+    },
+    {
+      "source": "IDL Pro Cycling",
+      "rider_name": "Jasper Philipsen",
+      "pick_type": "win",
+      "quote": "Top favorite Philipsen (most recent winner in Pau, full lead-out with MVdP) alongside Merlier ('might be just a bit faster', six 2026 wins). Dark horses: Kooij, Girmay, Pedersen, Kanter. Long shots: W\u00e6renskjold, Fretin, Bauhaus, Bittner, Ackermann, Turgis, Godon, Ganna.",
+      "url": "https://idlprocycling.com",
+      "hits": null,
+      "picks": null
+    },
+    {
+      "source": "Lanterne Rouge",
+      "rider_name": null,
+      "pick_type": "view",
+      "quote": "Latest video is a stage 4 reaction (Simmons/Pedersen breakdown) \u2014 no firm stage 5 tip in it. No stage-5 preview video at scrape time.",
+      "url": "https://youtu.be/bMALRrJThPc",
+      "hits": 0,
+      "picks": 1
+    },
+    {
+      "source": "Racing Post",
+      "rider_name": "Jasper Philipsen",
+      "pick_type": "win",
+      "quote": "Jack Ogalbe's best bet: 'Jasper Philipsen to win stage five, 1pt 4-1 (bet365)' \u2014 won the last TdF finish in Pau (2024); GC teams expected to sit up with the Tourmalet looming.",
+      "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/",
+      "hits": null,
+      "picks": null
+    },
+    {
+      "source": "THEMOVE",
+      "rider_name": "Tim Merlier",
+      "pick_type": "win",
+      "quote": "Bruyneel: 'I'm going to pick Merlier... he has a complete team around him \u2014 everybody is for Merlier. He's my favorite to win the stage.' Spencer counters with Philipsen ('his lead-out man is Mathieu van der Poel'). Both agree it's between those two, with a nod to Girmay. Also flagged Del Toro white-jersey value again.",
+      "url": "https://youtu.be/4V83oc1O65s",
       "hits": 0,
       "picks": 3
+    },
+    {
+      "source": "THEMOVE",
+      "rider_name": "Jasper Philipsen",
+      "pick_type": "longshot",
+      "quote": "Spencer's pick: 'I'm going with Philipsen to win. It does help that his lead-out man is Mathieu van der Poel \u2014 that's partly why he wins so many Tour stages.'",
+      "url": "https://youtu.be/4V83oc1O65s",
+      "hits": 0,
+      "picks": 3
+    },
+    {
+      "source": "WielerFlits",
+      "rider_name": "Tim Merlier",
+      "pick_type": "win",
+      "quote": "[Dutch] Favourites list ordered: Merlier, Philipsen, Kooij, Girmay, Pedersen, then Kanter/De Kleijn/Fretin/Bittner/Bauhaus. Weather note: up to 38\u00b0C in Pau, easterly at 3 Bft \u2014 'the chance of echelons looks nil'.",
+      "url": "https://www.wielerflits.nl/",
+      "hits": null,
+      "picks": null
     },
     {
       "source": "cyclingstage.com",
       "rider_name": null,
       "pick_type": "view",
-      "quote": "Stage-5 preview: 158.3km Lannemezan-Pau, 'suited to sprinters \u2014 first test for the fast men.' Flat/rolling through the Gers valley, then three short late c\u00f4tes (Casteide-Doat 1.5km@5.1%, Flancart 1km@6.4%, Baleix 1.3km@7%) inside 12km, all cresting ~26km out before a flat run into Pau. Pau's 64th Tour finish; Philipsen won here two editions ago.",
+      "quote": "Structured preview fetched; favourites block is image-based (known limitation) \u2014 profile confirms a sprint finish in Pau after three cat-4 c\u00f4tes in the final 45km.",
       "url": "https://www.cyclingstage.com/tour-de-france-2026/stage-5-tdf-2026/",
+      "hits": null,
+      "picks": null
+    },
+    {
+      "source": "r/peloton predictions",
+      "rider_name": "Tim Merlier",
+      "pick_type": "win",
+      "quote": "Crowd consensus: 'Let's not overthink this. Tim Merlier.' Top starred comment: \u2605\u2605\u2605 Merlier, Girmay \u2605\u2605 Philipsen, Kooij ('Merlier is easily the fastest guy in the peloton; Girmay looks sharpest from the intermediates'). Dissent worth hearing: Philipsen 'a bit overrated \u2014 hasn't been that impressive this season in bunch sprints', and the late 1km @ 8.8% c\u00f4te 'is likely to sap Merlier's legs' with Alpecin expected to push it.",
+      "url": "https://www.reddit.com/r/peloton/",
       "hits": null,
       "picks": null
     }
@@ -24419,16 +24533,107 @@
       "sources": [
         {
           "stage_num": 5,
-          "source": "THEMOVE",
+          "source": "CyclingUpToDate",
+          "rider_name": "Tim Merlier",
+          "pick_type": "win",
+          "confidence": "0.55",
+          "quote": "R\u00faben Silva: 'a true sprint stage... a bunch sprint seems inevitable' \u2014 breakaway unlikely in the heat. Two big favourites: Philipsen and Merlier ('the stage 1 man', usually dominant on the first sprint opportunity), Kooij next ('already beat Philipsen and Merlier at the Baloise Belgium Tour'). Watch Lidl-Trek pushing the late 1km climb to drop pure sprinters for Pedersen's green defence.",
+          "url": "https://cyclinguptodate.com/cycling",
+          "ts": "2026-07-08T10:17:08.088701+00:00",
+          "hits": null,
+          "picks": null,
+          "roi_at_tab": null
+        },
+        {
+          "stage_num": 5,
+          "source": "Dicodusport",
           "rider_name": null,
           "pick_type": "view",
           "confidence": "",
-          "quote": "No view captured this run \u2014 the YouTube channel feed returned a 404 (a transient YouTube/IP issue), so no transcript was ingested. Not a betting signal either way.",
-          "url": "",
-          "ts": "2026-07-08T07:00:09.092614+00:00",
+          "quote": "[French] Route piece: 'a real opportunity for the fast men' \u2014 Pau hosts a finish for the 64th time; Philipsen won the last one (2024). Final kms present 'no major difficulty', though the three late c\u00f4tes could shed the least comfortable sprinters.",
+          "url": "https://dicodusport.fr/blog/",
+          "ts": "2026-07-08T10:17:32.829207+00:00",
+          "hits": null,
+          "picks": null,
+          "roi_at_tab": null
+        },
+        {
+          "stage_num": 5,
+          "source": "IDL Pro Cycling",
+          "rider_name": "Jasper Philipsen",
+          "pick_type": "win",
+          "confidence": "0.55",
+          "quote": "Top favorite Philipsen (most recent winner in Pau, full lead-out with MVdP) alongside Merlier ('might be just a bit faster', six 2026 wins). Dark horses: Kooij, Girmay, Pedersen, Kanter. Long shots: W\u00e6renskjold, Fretin, Bauhaus, Bittner, Ackermann, Turgis, Godon, Ganna.",
+          "url": "https://idlprocycling.com",
+          "ts": "2026-07-08T10:17:08.646978+00:00",
+          "hits": null,
+          "picks": null,
+          "roi_at_tab": null
+        },
+        {
+          "stage_num": 5,
+          "source": "Lanterne Rouge",
+          "rider_name": null,
+          "pick_type": "view",
+          "confidence": "",
+          "quote": "Latest video is a stage 4 reaction (Simmons/Pedersen breakdown) \u2014 no firm stage 5 tip in it. No stage-5 preview video at scrape time.",
+          "url": "https://youtu.be/bMALRrJThPc",
+          "ts": "2026-07-08T10:17:32.157448+00:00",
+          "hits": 0,
+          "picks": 1,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 5,
+          "source": "Racing Post",
+          "rider_name": "Jasper Philipsen",
+          "pick_type": "win",
+          "confidence": "0.6",
+          "quote": "Jack Ogalbe's best bet: 'Jasper Philipsen to win stage five, 1pt 4-1 (bet365)' \u2014 won the last TdF finish in Pau (2024); GC teams expected to sit up with the Tourmalet looming.",
+          "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/",
+          "ts": "2026-07-08T10:17:07.113172+00:00",
+          "hits": null,
+          "picks": null,
+          "roi_at_tab": null
+        },
+        {
+          "stage_num": 5,
+          "source": "THEMOVE",
+          "rider_name": "Tim Merlier",
+          "pick_type": "win",
+          "confidence": "0.6",
+          "quote": "Bruyneel: 'I'm going to pick Merlier... he has a complete team around him \u2014 everybody is for Merlier. He's my favorite to win the stage.' Spencer counters with Philipsen ('his lead-out man is Mathieu van der Poel'). Both agree it's between those two, with a nod to Girmay. Also flagged Del Toro white-jersey value again.",
+          "url": "https://youtu.be/4V83oc1O65s",
+          "ts": "2026-07-08T10:17:05.878365+00:00",
           "hits": 0,
           "picks": 3,
           "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 5,
+          "source": "THEMOVE",
+          "rider_name": "Jasper Philipsen",
+          "pick_type": "longshot",
+          "confidence": "0.4",
+          "quote": "Spencer's pick: 'I'm going with Philipsen to win. It does help that his lead-out man is Mathieu van der Poel \u2014 that's partly why he wins so many Tour stages.'",
+          "url": "https://youtu.be/4V83oc1O65s",
+          "ts": "2026-07-08T10:17:06.462142+00:00",
+          "hits": 0,
+          "picks": 3,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 5,
+          "source": "WielerFlits",
+          "rider_name": "Tim Merlier",
+          "pick_type": "win",
+          "confidence": "0.5",
+          "quote": "[Dutch] Favourites list ordered: Merlier, Philipsen, Kooij, Girmay, Pedersen, then Kanter/De Kleijn/Fretin/Bittner/Bauhaus. Weather note: up to 38\u00b0C in Pau, easterly at 3 Bft \u2014 'the chance of echelons looks nil'.",
+          "url": "https://www.wielerflits.nl/",
+          "ts": "2026-07-08T10:17:31.098112+00:00",
+          "hits": null,
+          "picks": null,
+          "roi_at_tab": null
         },
         {
           "stage_num": 5,
@@ -24436,9 +24641,22 @@
           "rider_name": null,
           "pick_type": "view",
           "confidence": "",
-          "quote": "Stage-5 preview: 158.3km Lannemezan-Pau, 'suited to sprinters \u2014 first test for the fast men.' Flat/rolling through the Gers valley, then three short late c\u00f4tes (Casteide-Doat 1.5km@5.1%, Flancart 1km@6.4%, Baleix 1.3km@7%) inside 12km, all cresting ~26km out before a flat run into Pau. Pau's 64th Tour finish; Philipsen won here two editions ago.",
+          "quote": "Structured preview fetched; favourites block is image-based (known limitation) \u2014 profile confirms a sprint finish in Pau after three cat-4 c\u00f4tes in the final 45km.",
           "url": "https://www.cyclingstage.com/tour-de-france-2026/stage-5-tdf-2026/",
-          "ts": "2026-07-08T07:00:08.581420+00:00",
+          "ts": "2026-07-08T10:17:33.305013+00:00",
+          "hits": null,
+          "picks": null,
+          "roi_at_tab": null
+        },
+        {
+          "stage_num": 5,
+          "source": "r/peloton predictions",
+          "rider_name": "Tim Merlier",
+          "pick_type": "win",
+          "confidence": "0.5",
+          "quote": "Crowd consensus: 'Let's not overthink this. Tim Merlier.' Top starred comment: \u2605\u2605\u2605 Merlier, Girmay \u2605\u2605 Philipsen, Kooij ('Merlier is easily the fastest guy in the peloton; Girmay looks sharpest from the intermediates'). Dissent worth hearing: Philipsen 'a bit overrated \u2014 hasn't been that impressive this season in bunch sprints', and the late 1km @ 8.8% c\u00f4te 'is likely to sap Merlier's legs' with Alpecin expected to push it.",
+          "url": "https://www.reddit.com/r/peloton/",
+          "ts": "2026-07-08T10:17:31.653119+00:00",
           "hits": null,
           "picks": null,
           "roi_at_tab": null
@@ -24647,251 +24865,61 @@
   "key_riders": [
     {
       "name": "Tim Merlier",
-      "odds": 2.75,
-      "devig": 0.2627084948534728,
-      "move": null,
+      "odds": 2.85,
+      "devig": 0.25971713318615225,
+      "move": 0.1,
       "rider_id": 73
     },
     {
       "name": "Jasper Philipsen",
       "odds": 3.25,
-      "devig": 0.22229180333755394,
-      "move": -15.75,
+      "devig": 0.22775194756324124,
+      "move": 0.0,
       "rider_id": 85
     },
     {
       "name": "Biniam Girmay",
-      "odds": 5.0,
-      "devig": 0.14448967216941005,
-      "move": -29.0,
+      "odds": 5.5,
+      "devig": 0.13458069628736982,
+      "move": 0.5,
       "rider_id": 105
     },
     {
       "name": "Olav Kooij",
       "odds": 5.5,
-      "devig": 0.1313542474267364,
-      "move": -75.5,
+      "devig": 0.13458069628736982,
+      "move": 0.0,
       "rider_id": 45
     },
     {
       "name": "Mads Pedersen",
       "odds": 17.0,
-      "devig": 0.04249696240276766,
-      "move": 12.75,
+      "devig": 0.04354081350473729,
+      "move": 0.0,
       "rider_id": 27
     },
     {
       "name": "Mathieu Van Der Poel",
       "odds": 34.0,
-      "devig": 0.02124848120138383,
-      "move": 26.0,
+      "devig": 0.021770406752368646,
+      "move": 0.0,
       "rider_id": 81
     },
     {
       "name": "Milan Fretin",
-      "odds": 41.0,
-      "devig": 0.017620691727976836,
-      "move": null,
+      "odds": 51.0,
+      "devig": 0.014513604501579097,
+      "move": 10.0,
       "rider_id": 133
     },
     {
-      "name": "Dorian Godon",
-      "odds": 41.0,
-      "devig": 0.017620691727976836,
-      "move": 20.0,
-      "rider_id": 69
+      "name": "Max Kanter",
+      "odds": 51.0,
+      "devig": 0.014513604501579097,
+      "move": null,
+      "rider_id": 52
     }
   ],
-  "outrights": {
-    "generated_at": "2026-07-08",
-    "stages_raced": 4,
-    "headline": "One genuine value tonight, and it's a market overreaction: UAE for the teams classification at 2.5. Lidl-Trek jumped to teams favourite (1.9) off Pedersen's Stage 4 win and Vacek/Simmons riding the break \u2014 but that lead is breakaway-driven and temporary, and UAE's mountain depth reclaims this jersey once the real climbing starts. GC/KOM/youth/points are all efficiently priced or too short.",
-    "markets": [
-      {
-        "key": "teams",
-        "name": "Teams classification",
-        "jersey": "",
-        "verdict": "bet",
-        "pick": {
-          "rider": "UAE Team Emirates - XRG",
-          "odds": 2.5,
-          "est_prob": 0.5,
-          "devigged_p": 0.305,
-          "ev": 0.25,
-          "units": 1.0,
-          "reason": "The value of the night. Teams classification is decided by each squad's best-three cumulative time, so it's won in the mountains by whoever has the deepest GC-level climbing \u2014 and no team comes close to UAE's depth (Poga\u010dar, del Toro, Adam Yates, plus more). They were a 1.4 shot four days ago; they've now drifted to 2.5 purely because Lidl-Trek grabbed a temporary lead off a breakaway stage (Vacek and Simmons up the road on Stage 4). That lead evaporates the moment the big mountains arrive. We make UAE ~50% to win teams vs the market's de-vigged 30.5% \u2014 a genuine ~1.6x edge created by a short-term overreaction. 1.0u at moderate conviction (three-week outrights always carry crash/illness variance)."
-        },
-        "summary": "UAE at 2.5 is a real value bet \u2014 the market has over-shortened Lidl-Trek off a temporary, breakaway-driven teams lead; UAE's mountain depth reclaims it.",
-        "top_odds": [
-          {
-            "rider": "Lidl-Trek",
-            "odds": 1.9,
-            "devig": 0.401
-          },
-          {
-            "rider": "UAE Team Emirates - XRG",
-            "odds": 2.5,
-            "devig": 0.305
-          },
-          {
-            "rider": "Red Bull-Bora-Hansgrohe",
-            "odds": 7.5,
-            "devig": 0.102
-          },
-          {
-            "rider": "EF Education - EasyPost",
-            "odds": 15.0,
-            "devig": 0.051
-          },
-          {
-            "rider": "Movistar Team",
-            "odds": 21.0,
-            "devig": 0.036
-          }
-        ]
-      },
-      {
-        "key": "points",
-        "name": "Points classification",
-        "jersey": "green",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "We flagged Pedersen for green from day one at 5.0 \u2014 and he's since won Stage 4, taken the outright lead, and been hammered into 1.72 (38.5% de-vigged). The thesis was right; the price is now gone. At 1.72 you need him ~58%+ to profit, and with Philipsen (3.5) racking up pure-sprint points that's too short. Right rider, no value left. Nice to have called it early even if we couldn't get the ticket on at the time.",
-        "top_odds": [
-          {
-            "rider": "Mads Pedersen",
-            "odds": 1.72,
-            "devig": 0.385
-          },
-          {
-            "rider": "Jasper Philipsen",
-            "odds": 3.5,
-            "devig": 0.189
-          },
-          {
-            "rider": "Biniam Girmay",
-            "odds": 4.5,
-            "devig": 0.147
-          },
-          {
-            "rider": "Tim Merlier",
-            "odds": 6.5,
-            "devig": 0.102
-          },
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 10.0,
-            "devig": 0.066
-          }
-        ]
-      },
-      {
-        "key": "gc",
-        "name": "General Classification",
-        "jersey": "yellow",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "Traeen is in yellow tonight, but only because a Stage 4 break gained big time \u2014 he's not a GC contender and the mountains will restore order. Poga\u010dar (1.15, 58%) remains the class of the race and the rightful favourite, but there's no value backing an odds-on GC pick over three weeks of variance. Vingegaard (5.2) is the fairly-priced sole rival. No bet.",
-        "top_odds": [
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 1.15,
-            "devig": 0.581
-          },
-          {
-            "rider": "Jonas Vingegaard",
-            "odds": 5.2,
-            "devig": 0.129
-          },
-          {
-            "rider": "Isaac del Toro",
-            "odds": 19.0,
-            "devig": 0.035
-          },
-          {
-            "rider": "Paul Seixas",
-            "odds": 19.0,
-            "devig": 0.035
-          },
-          {
-            "rider": "Remco Evenepoel",
-            "odds": 23.0,
-            "devig": 0.029
-          }
-        ]
-      },
-      {
-        "key": "kom",
-        "name": "Mountains classification",
-        "jersey": "polka-dot",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "Efficient. Poga\u010dar (1.95) naturally tops it; Carapaz (5.0) is the sharp break-the-jersey-from-the-move angle but priced about right, not a value. No confident bet.",
-        "top_odds": [
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 1.95,
-            "devig": 0.364
-          },
-          {
-            "rider": "Richard Carapaz",
-            "odds": 5.0,
-            "devig": 0.142
-          },
-          {
-            "rider": "Lenny Martinez",
-            "odds": 6.0,
-            "devig": 0.118
-          },
-          {
-            "rider": "Jonas Vingegaard",
-            "odds": 11.0,
-            "devig": 0.064
-          },
-          {
-            "rider": "Valentin Paret-Peintre",
-            "odds": 17.0,
-            "devig": 0.042
-          }
-        ]
-      },
-      {
-        "key": "youth",
-        "name": "Young rider classification",
-        "jersey": "white",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "Tight, efficiently-priced two-way between Seixas (2.0) and del Toro (2.5), with Ayuso (5.0) back. No edge at these prices. Pass.",
-        "top_odds": [
-          {
-            "rider": "Paul Seixas",
-            "odds": 2.0,
-            "devig": 0.396
-          },
-          {
-            "rider": "Isaac del Toro",
-            "odds": 2.5,
-            "devig": 0.317
-          },
-          {
-            "rider": "Juan Ayuso",
-            "odds": 5.0,
-            "devig": 0.158
-          },
-          {
-            "rider": "Lenny Martinez",
-            "odds": 34.0,
-            "devig": 0.023
-          },
-          {
-            "rider": "Cian Uijtdebroeks",
-            "odds": 41.0,
-            "devig": 0.019
-          }
-        ]
-      }
-    ]
-  },
   "qa": [
     {
       "asked_by": null,
