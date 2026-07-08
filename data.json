@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-08T07:02:44.667737+00:00",
+    "generated_at": "2026-07-08T07:35:53.881869+00:00",
     "stages_raced": 4,
     "next_stage": 5,
     "total_stages": 21,
     "news_updated_at": "2026-07-08T06:54:19.917834+00:00",
     "picks_updated_at": "2026-07-08T07:00:09.092614+00:00",
-    "experts_checked_at": "2026-07-08T06:54:56.932857+00:00",
+    "experts_checked_at": null,
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_response_note": "Answers are usually posted within an hour.",
     "qa_pending": 0
@@ -23454,29 +23454,7 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/why-going-in-the-breakaway-is-actually-a-crafty-way-to-beat-the-heat-at-the-tour-de-france/"
     }
   ],
-  "picks": {
-    "stage_num": 5,
-    "overnight_recap": "Stage 4 went exactly as we read it \u2014 a breakaway day \u2014 but not our riders. Mads Pedersen won from the front group, and a big break gained enough that Torstein Traeen (Bahrain) has taken the yellow jersey off Poga\u010dar for now (a temporary, breakaway-driven lead the mountains will erase). Our night was a wipeout: Van der Poel never featured, Quinn Simmons was our Pick of the day and finished a frustrating 2nd, Vacek 10th \u2014 all four picks lost, \u22122.25u. Honest ledger after four stages: 0 wins from 6 stage picks, running P&L roughly \u22123.25u. The breakaway thesis keeps being right while our rider selection inside it keeps missing \u2014 worth being humble about how hard picking one name out of a 15-rider break really is.",
-    "stage_description": "Lannemezan to Pau, 158.3 km \u2014 the sprinters' first proper chance. Flat-to-rolling out of the Pyrenean foothills through the Gers valley, with the only lumps a trio of short, sharp c\u00f4tes (Casteide-Doat, Flancart, then C\u00f4te de Baleix at 1.3 km @ 7%) packed into 12 km but all cresting ~26 km from the line \u2014 speed bumps, not sprinter-shedders. Then it's flat into Pau, the Tour's 64th finish here, where Philipsen won two editions ago. Expect the fast men's teams to control and a bunch gallop.",
-    "verdict": "bets",
-    "top_picks": [
-      {
-        "rider": "Tim Merlier",
-        "market": "stage_winner",
-        "tab_odds": 2.75,
-        "est_prob": 0.32,
-        "devigged_p": 0.263,
-        "ev": -0.12,
-        "units": 0.5,
-        "conviction": "low",
-        "reason": "Pick of the day, low conviction \u2014 and I'll be straight: this is NOT a value bet, it's the best play if you're having a punt on the sprint. Merlier is the fastest pure sprinter in the race and this clean, flat run-in into Pau is exactly his kind of finish. But at 2.75 the price already reflects that \u2014 we make him ~32% to win, and you'd need ~37%+ just to break even at 2.75, so the expected value is slightly negative. The market is efficient here; there's no edge to exploit. If you're backing the sprint anyway, Merlier's the soundest single name, with Philipsen (3.25, won in Pau before, Van der Poel to lead him out) the equally-defensible alternative. Kept to 0.5u precisely because it's a no-edge favourite, not a value play."
-      }
-    ],
-    "place_picks": [],
-    "longshots": [],
-    "expert_agreement_note": "Thin expert input this stage: the YouTube panel (THEMOVE, Lanterne Rouge) feeds 404'd on a transient hiccup, and the r/peloton predictions thread rate-limited before I could pull the crowd picks. cyclingstage frames it plainly as a sprinters' day ('first test for the fast men'). For a bunch sprint that's fine \u2014 the read is driven by the odds board and sprinter form, not tactical nuance, and the market is doing the work.",
-    "no_bet_reason": "This is an efficiently-priced bunch sprint with no genuine stage value \u2014 the top four (Merlier 2.75, Philipsen 3.25, Girmay 5.0, Kooij 5.5) are all fairly-to-fully priced. The real value tonight is NOT on the stage \u2014 it's the UAE teams-classification bet in the Overall categories below. Take the stage pick only as a small punt, if at all."
-  },
+  "picks": null,
   "experts": [
     {
       "source": "THEMOVE",
@@ -23780,196 +23758,6 @@
       "rider_id": 69
     }
   ],
-  "outrights": {
-    "generated_at": "2026-07-08",
-    "stages_raced": 4,
-    "headline": "One genuine value tonight, and it's a market overreaction: UAE for the teams classification at 2.5. Lidl-Trek jumped to teams favourite (1.9) off Pedersen's Stage 4 win and Vacek/Simmons riding the break \u2014 but that lead is breakaway-driven and temporary, and UAE's mountain depth reclaims this jersey once the real climbing starts. GC/KOM/youth/points are all efficiently priced or too short.",
-    "markets": [
-      {
-        "key": "teams",
-        "name": "Teams classification",
-        "jersey": "",
-        "verdict": "bet",
-        "pick": {
-          "rider": "UAE Team Emirates - XRG",
-          "odds": 2.5,
-          "est_prob": 0.5,
-          "devigged_p": 0.305,
-          "ev": 0.25,
-          "units": 1.0,
-          "reason": "The value of the night. Teams classification is decided by each squad's best-three cumulative time, so it's won in the mountains by whoever has the deepest GC-level climbing \u2014 and no team comes close to UAE's depth (Poga\u010dar, del Toro, Adam Yates, plus more). They were a 1.4 shot four days ago; they've now drifted to 2.5 purely because Lidl-Trek grabbed a temporary lead off a breakaway stage (Vacek and Simmons up the road on Stage 4). That lead evaporates the moment the big mountains arrive. We make UAE ~50% to win teams vs the market's de-vigged 30.5% \u2014 a genuine ~1.6x edge created by a short-term overreaction. 1.0u at moderate conviction (three-week outrights always carry crash/illness variance)."
-        },
-        "summary": "UAE at 2.5 is a real value bet \u2014 the market has over-shortened Lidl-Trek off a temporary, breakaway-driven teams lead; UAE's mountain depth reclaims it.",
-        "top_odds": [
-          {
-            "rider": "Lidl-Trek",
-            "odds": 1.9,
-            "devig": 0.401
-          },
-          {
-            "rider": "UAE Team Emirates - XRG",
-            "odds": 2.5,
-            "devig": 0.305
-          },
-          {
-            "rider": "Red Bull-Bora-Hansgrohe",
-            "odds": 7.5,
-            "devig": 0.102
-          },
-          {
-            "rider": "EF Education - EasyPost",
-            "odds": 15.0,
-            "devig": 0.051
-          },
-          {
-            "rider": "Movistar Team",
-            "odds": 21.0,
-            "devig": 0.036
-          }
-        ]
-      },
-      {
-        "key": "points",
-        "name": "Points classification",
-        "jersey": "green",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "We flagged Pedersen for green from day one at 5.0 \u2014 and he's since won Stage 4, taken the outright lead, and been hammered into 1.72 (38.5% de-vigged). The thesis was right; the price is now gone. At 1.72 you need him ~58%+ to profit, and with Philipsen (3.5) racking up pure-sprint points that's too short. Right rider, no value left. Nice to have called it early even if we couldn't get the ticket on at the time.",
-        "top_odds": [
-          {
-            "rider": "Mads Pedersen",
-            "odds": 1.72,
-            "devig": 0.385
-          },
-          {
-            "rider": "Jasper Philipsen",
-            "odds": 3.5,
-            "devig": 0.189
-          },
-          {
-            "rider": "Biniam Girmay",
-            "odds": 4.5,
-            "devig": 0.147
-          },
-          {
-            "rider": "Tim Merlier",
-            "odds": 6.5,
-            "devig": 0.102
-          },
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 10.0,
-            "devig": 0.066
-          }
-        ]
-      },
-      {
-        "key": "gc",
-        "name": "General Classification",
-        "jersey": "yellow",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "Traeen is in yellow tonight, but only because a Stage 4 break gained big time \u2014 he's not a GC contender and the mountains will restore order. Poga\u010dar (1.15, 58%) remains the class of the race and the rightful favourite, but there's no value backing an odds-on GC pick over three weeks of variance. Vingegaard (5.2) is the fairly-priced sole rival. No bet.",
-        "top_odds": [
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 1.15,
-            "devig": 0.581
-          },
-          {
-            "rider": "Jonas Vingegaard",
-            "odds": 5.2,
-            "devig": 0.129
-          },
-          {
-            "rider": "Isaac del Toro",
-            "odds": 19.0,
-            "devig": 0.035
-          },
-          {
-            "rider": "Paul Seixas",
-            "odds": 19.0,
-            "devig": 0.035
-          },
-          {
-            "rider": "Remco Evenepoel",
-            "odds": 23.0,
-            "devig": 0.029
-          }
-        ]
-      },
-      {
-        "key": "kom",
-        "name": "Mountains classification",
-        "jersey": "polka-dot",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "Efficient. Poga\u010dar (1.95) naturally tops it; Carapaz (5.0) is the sharp break-the-jersey-from-the-move angle but priced about right, not a value. No confident bet.",
-        "top_odds": [
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 1.95,
-            "devig": 0.364
-          },
-          {
-            "rider": "Richard Carapaz",
-            "odds": 5.0,
-            "devig": 0.142
-          },
-          {
-            "rider": "Lenny Martinez",
-            "odds": 6.0,
-            "devig": 0.118
-          },
-          {
-            "rider": "Jonas Vingegaard",
-            "odds": 11.0,
-            "devig": 0.064
-          },
-          {
-            "rider": "Valentin Paret-Peintre",
-            "odds": 17.0,
-            "devig": 0.042
-          }
-        ]
-      },
-      {
-        "key": "youth",
-        "name": "Young rider classification",
-        "jersey": "white",
-        "verdict": "no_bet",
-        "pick": null,
-        "summary": "Tight, efficiently-priced two-way between Seixas (2.0) and del Toro (2.5), with Ayuso (5.0) back. No edge at these prices. Pass.",
-        "top_odds": [
-          {
-            "rider": "Paul Seixas",
-            "odds": 2.0,
-            "devig": 0.396
-          },
-          {
-            "rider": "Isaac del Toro",
-            "odds": 2.5,
-            "devig": 0.317
-          },
-          {
-            "rider": "Juan Ayuso",
-            "odds": 5.0,
-            "devig": 0.158
-          },
-          {
-            "rider": "Lenny Martinez",
-            "odds": 34.0,
-            "devig": 0.023
-          },
-          {
-            "rider": "Cian Uijtdebroeks",
-            "odds": 41.0,
-            "devig": 0.019
-          }
-        ]
-      }
-    ]
-  },
   "qa": [
     {
       "asked_by": null,
