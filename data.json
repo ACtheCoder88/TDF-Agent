@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-08T07:35:53.881869+00:00",
+    "generated_at": "2026-07-08T09:32:15.656180+00:00",
     "stages_raced": 4,
     "next_stage": 5,
     "total_stages": 21,
     "news_updated_at": "2026-07-08T06:54:19.917834+00:00",
     "picks_updated_at": "2026-07-08T07:00:09.092614+00:00",
-    "experts_checked_at": null,
+    "experts_checked_at": "2026-07-08T08:44:04.297565+00:00",
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_response_note": "Answers are usually posted within an hour.",
     "qa_pending": 0
@@ -25,7 +25,20 @@
       "archetype": "ttt",
       "key_climbs": [],
       "description": "Stage 1 runs 20 km from Barcelona to Barcelona, climbing 220 m along the way (ProfileScore 23) \u2014 a team time trial, decided by collective pacing and team strength rather than one rider.",
-      "features": [],
+      "features": [
+        {
+          "type": "finish",
+          "name": "C\u00f4te du Stade Olympique de Montju\u00efc",
+          "km": 19.6,
+          "km_to_go": 0.0,
+          "category": null,
+          "length_km": 8.0,
+          "gradient_pct": 7.0,
+          "altitude_m": 104,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-1-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-1-route.jpg"
     },
@@ -41,8 +54,65 @@
       "finish_type": "p3",
       "archetype": "puncheur",
       "key_climbs": [],
-      "description": "Stage 2 runs 168 km from Tarragona to Barcelona, climbing 2049 m along the way (ProfileScore 137) \u2014 a punchy, hilly finish that suits explosive one-day specialists over pure sprinters. Across the last four Tours, puncheur stages like this one were won from a breakaway 40% of the time (10 such stages). Riders who've won this type of stage before: Tadej Pogacar (2), Wout Van Aert (1), Simon Yates (1), Richard Carapaz (1).",
-      "features": [],
+      "description": "Stage 2 runs 168 km from Tarragona to Barcelona, climbing 2049 m along the way (ProfileScore 137) \u2014 a punchy, hilly finish that suits explosive one-day specialists over pure sprinters. Across the last four Tours, puncheur stages like this one were won from a breakaway 70% of the time (10 such stages). Riders who've won this type of stage before: Tadej Pogacar (2), Wout Van Aert (1), Simon Yates (1), Richard Carapaz (1).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "C-245 VILADECANS",
+          "km": 85.6,
+          "km_to_go": 82.9,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Begues",
+          "km": 94.2,
+          "km_to_go": 74.3,
+          "category": "2",
+          "length_km": 1.0,
+          "gradient_pct": 6.5,
+          "altitude_m": 399,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te du Ch\u00e2teau de Montju\u00efc",
+          "km": 141.6,
+          "km_to_go": 26.9,
+          "category": "3",
+          "length_km": 6.0,
+          "gradient_pct": 9.3,
+          "altitude_m": 163,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te du Ch\u00e2teau de Montju\u00efc",
+          "km": 153.8,
+          "km_to_go": 14.7,
+          "category": "3",
+          "length_km": 6.0,
+          "gradient_pct": 9.3,
+          "altitude_m": 163,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te du Ch\u00e2teau de Montju\u00efc",
+          "km": 166.0,
+          "km_to_go": 2.5,
+          "category": "3",
+          "length_km": 6.0,
+          "gradient_pct": 9.3,
+          "altitude_m": 163,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-2-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-2-route.jpg"
     },
@@ -58,29 +128,29 @@
       "finish_type": "p5",
       "archetype": "mtf",
       "key_climbs": [],
-      "description": "Stage 3 runs 196 km from Granollers to Les Angles, climbing 3940 m along the way (ProfileScore 185) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 40% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
+      "description": "Stage 3 runs 196 km from Granollers to Les Angles, climbing 3940 m along the way (ProfileScore 185) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 45% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
       "features": [
         {
           "type": "climb",
-          "name": "C\u00f4te de Sant Feliu de Codines",
+          "name": "C\u00f4te de Saint Feliu de Codines",
           "km": 17.2,
           "km_to_go": 178.7,
           "category": "3",
-          "length_km": 7.6,
+          "length_km": 6.0,
           "gradient_pct": 4.5,
-          "altitude_m": null,
-          "note": "only real climb in the first half"
+          "altitude_m": 622,
+          "note": null
         },
         {
           "type": "sprint",
-          "name": "Campdev\u00e0nol",
+          "name": "CAMPDEV\u00c0NOL",
           "km": 98.4,
           "km_to_go": 97.5,
           "category": "sprint",
           "length_km": null,
           "gradient_pct": null,
           "altitude_m": null,
-          "note": "intermediate sprint"
+          "note": null
         },
         {
           "type": "climb",
@@ -88,10 +158,10 @@
           "km": 127.7,
           "km_to_go": 68.2,
           "category": "1",
-          "length_km": 9.3,
+          "length_km": 3.0,
           "gradient_pct": 6.5,
-          "altitude_m": null,
-          "note": "the day's hardest categorised climb"
+          "altitude_m": 1778,
+          "note": null
         },
         {
           "type": "climb",
@@ -99,23 +169,24 @@
           "km": 172.3,
           "km_to_go": 23.6,
           "category": "3",
-          "length_km": 11.4,
+          "length_km": 4.0,
           "gradient_pct": 4.1,
           "altitude_m": 1836,
-          "note": "highest point of the day; long descent follows to the valley"
+          "note": null
         },
         {
           "type": "finish",
-          "name": "Les Angles (summit finish)",
+          "name": "LES ANGLES",
           "km": 195.9,
           "km_to_go": 0.0,
           "category": "3",
-          "length_km": 1.8,
+          "length_km": 8.0,
           "gradient_pct": 6.5,
-          "altitude_m": null,
-          "note": "final categorised ramp; the run-in climbs ~4.7 km at 4.6% with the last 1.7 km at 6.5% (PCS: 6.8% final km)"
+          "altitude_m": 1794,
+          "note": null
         }
       ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-3-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-3-route.jpg"
     },
@@ -131,7 +202,7 @@
       "finish_type": "p2",
       "archetype": "reduced_sprint",
       "key_climbs": [],
-      "description": "Stage 4 runs 182 km from Carcassonne to Foix, climbing 2784 m along the way (ProfileScore 108) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 11% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
+      "description": "Stage 4 runs 182 km from Carcassonne to Foix, climbing 2784 m along the way (ProfileScore 108) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 63% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
       "features": [
         {
           "type": "climb",
@@ -139,9 +210,9 @@
           "km": 48.2,
           "km_to_go": 133.7,
           "category": "4",
-          "length_km": 3.4,
+          "length_km": 4.0,
           "gradient_pct": 4.4,
-          "altitude_m": null,
+          "altitude_m": 485,
           "note": null
         },
         {
@@ -150,8 +221,19 @@
           "km": 64.9,
           "km_to_go": 117.0,
           "category": "3",
-          "length_km": 5.9,
+          "length_km": 9.0,
           "gradient_pct": 4.1,
+          "altitude_m": 622,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "QUILLAN",
+          "km": 93.4,
+          "km_to_go": 88.5,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
           "altitude_m": null,
           "note": null
         },
@@ -161,34 +243,24 @@
           "km": 104.9,
           "km_to_go": 77.0,
           "category": "2",
-          "length_km": 10.8,
+          "length_km": 8.0,
           "gradient_pct": 5.5,
-          "altitude_m": null,
-          "note": "long enough to shed the pure sprinters and test any team trying to control"
+          "altitude_m": 883,
+          "note": null
         },
         {
-          "type": "finish",
-          "name": "Col de Monts\u00e9gur \u2192 Foix",
+          "type": "climb",
+          "name": "Col de Monts\u00e9gur",
           "km": 146.7,
           "km_to_go": 35.2,
           "category": "2",
-          "length_km": 6.9,
+          "length_km": 9.0,
           "gradient_pct": 6.6,
-          "altitude_m": null,
-          "note": "last climb \u2014 steep, crests 35 km out, then it's downhill/undulating to Foix (not a summit finish; the winning move likely forms here)"
-        },
-        {
-          "type": "sprint",
-          "name": "Quillan",
-          "km": null,
-          "km_to_go": null,
-          "category": "sprint",
-          "length_km": null,
-          "gradient_pct": null,
-          "altitude_m": null,
-          "note": "intermediate sprint (exact km not published)"
+          "altitude_m": 1059,
+          "note": null
         }
       ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-4-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-4-route.jpg"
     },
@@ -204,31 +276,32 @@
       "finish_type": "p1",
       "archetype": "bunch_sprint",
       "key_climbs": [],
-      "description": "Stage 5 runs 158 km from Lannemezan to Pau, climbing 1395 m along the way (ProfileScore 58) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 5% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
+      "description": "Stage 5 runs 158 km from Lannemezan to Pau, climbing 1395 m along the way (ProfileScore 58) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
       "features": [
         {
           "type": "sprint",
-          "name": "Vic-en-Bigorre",
+          "name": "VIC-EN-BIGORRE",
           "km": 113.5,
           "km_to_go": 44.8,
           "category": "sprint",
           "length_km": null,
           "gradient_pct": null,
           "altitude_m": null,
-          "note": "intermediate sprint; ~45 km flat-to-rolling remain to Pau after it"
+          "note": null
         },
         {
           "type": "climb",
           "name": "C\u00f4te de Baleix",
           "km": 132.7,
           "km_to_go": 25.6,
-          "category": "4",
-          "length_km": 1.3,
-          "gradient_pct": 7.0,
-          "altitude_m": null,
-          "note": "steepest of three short late c\u00f4tes (Casteide-Doat 1.5 km @ 5.1% and Flancart 1 km @ 6.4% precede it within 12 km); all crest ~26 km out \u2014 speed bumps, not sprinter-shedders, then it's flat to the line"
+          "category": "3",
+          "length_km": 1.0,
+          "gradient_pct": 8.8,
+          "altitude_m": 348,
+          "note": null
         }
       ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-5-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-5-route.jpg"
     },
@@ -244,8 +317,88 @@
       "finish_type": "p5",
       "archetype": "mtf",
       "key_climbs": [],
-      "description": "Stage 6 runs 186 km from Pau to Gavarnie-G\u00e8dre, climbing 4149 m along the way (ProfileScore 316) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 40% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
-      "features": [],
+      "description": "Stage 6 runs 186 km from Pau to Gavarnie-G\u00e8dre, climbing 4149 m along the way (ProfileScore 316) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 45% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
+      "features": [
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Loucrup",
+          "km": 50.9,
+          "km_to_go": 135.3,
+          "category": "4",
+          "length_km": 2.0,
+          "gradient_pct": 7.1,
+          "altitude_m": 528,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "POUZAC",
+          "km": 59.1,
+          "km_to_go": 127.1,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Mauvezin",
+          "km": 77.3,
+          "km_to_go": 108.9,
+          "category": "3",
+          "length_km": 3.0,
+          "gradient_pct": 6.8,
+          "altitude_m": 518,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col d'Aspin",
+          "km": 118.1,
+          "km_to_go": 68.1,
+          "category": "1",
+          "length_km": 12.0,
+          "gradient_pct": 6.5,
+          "altitude_m": 1489,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col du Tourmalet (2 115 m) Souvenir Jacques Goddet",
+          "km": 147.8,
+          "km_to_go": 38.4,
+          "category": "HC",
+          "length_km": 1.0,
+          "gradient_pct": 7.3,
+          "altitude_m": 2115,
+          "note": null
+        },
+        {
+          "type": "finish",
+          "name": "GAVARNIE-G\u00c8DRE",
+          "km": 186.2,
+          "km_to_go": 0.0,
+          "category": "2",
+          "length_km": 7.0,
+          "gradient_pct": 3.7,
+          "altitude_m": 1380,
+          "note": null
+        }
+      ],
+      "weather": {
+        "stage_num": 6,
+        "finish": "Gavarnie",
+        "date": "2026-07-09",
+        "temp_max": 29.8,
+        "precip_mm": 0,
+        "wind_kmh": 17.3,
+        "gust_kmh": 49.7,
+        "wind_dir_deg": 113,
+        "route_bearing_deg": 156.2,
+        "crosswind_risk": "low",
+        "summary": "29.8\u00b0C max, 0 mm rain; finale wind 17.3 km/h (gusts 49.7) from the SE, route heading 156.2\u00b0 \u2014 crosswind risk low"
+      },
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-6-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-6-route.jpg"
     },
@@ -261,8 +414,44 @@
       "finish_type": "p1",
       "archetype": "bunch_sprint",
       "key_climbs": [],
-      "description": "Stage 7 runs 175 km from Hagetmau to Bordeaux, climbing 701 m along the way (ProfileScore 13) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 5% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
-      "features": [],
+      "description": "Stage 7 runs 175 km from Hagetmau to Bordeaux, climbing 701 m along the way (ProfileScore 13) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "LANDIRAS",
+          "km": 120.3,
+          "km_to_go": 54.8,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de B\u00e9guey",
+          "km": 137.3,
+          "km_to_go": 37.8,
+          "category": "4",
+          "length_km": 2.0,
+          "gradient_pct": 4.4,
+          "altitude_m": 86,
+          "note": null
+        }
+      ],
+      "weather": {
+        "stage_num": 7,
+        "finish": "Bordeaux",
+        "date": "2026-07-10",
+        "temp_max": 35.3,
+        "precip_mm": 0,
+        "wind_kmh": 8.1,
+        "gust_kmh": 19.1,
+        "wind_dir_deg": 249,
+        "route_bearing_deg": 0.4,
+        "crosswind_risk": "low",
+        "summary": "35.3\u00b0C max, 0 mm rain; finale wind 8.1 km/h (gusts 19.1) from the W, route heading 0.4\u00b0 \u2014 crosswind risk low"
+      },
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-7-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-7-route.jpg"
     },
@@ -278,8 +467,43 @@
       "finish_type": "p1",
       "archetype": "bunch_sprint",
       "key_climbs": [],
-      "description": "Stage 8 runs 180 km from P\u00e9rigueux to Bergerac, climbing 1353 m along the way (ProfileScore 30) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 5% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
-      "features": [],
+      "description": "Stage 8 runs 180 km from P\u00e9rigueux to Bergerac, climbing 1353 m along the way (ProfileScore 30) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
+      "features": [
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Domme",
+          "km": 102.6,
+          "km_to_go": 77.8,
+          "category": "4",
+          "length_km": 7.0,
+          "gradient_pct": 3.3,
+          "altitude_m": 216,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "SAINT-CYPRIEN",
+          "km": 122.8,
+          "km_to_go": 57.6,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te du Buisson-de-Cadouin",
+          "km": 140.4,
+          "km_to_go": 40.0,
+          "category": "4",
+          "length_km": 2.0,
+          "gradient_pct": 5.3,
+          "altitude_m": 191,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-8-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-8-route.jpg"
     },
@@ -295,8 +519,65 @@
       "finish_type": "p2",
       "archetype": "reduced_sprint",
       "key_climbs": [],
-      "description": "Stage 9 runs 186 km from Malemort to Ussel, climbing 3244 m along the way (ProfileScore 124) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 11% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
-      "features": [],
+      "description": "Stage 9 runs 186 km from Malemort to Ussel, climbing 3244 m along the way (ProfileScore 124) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 63% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "BEYNAT",
+          "km": 44.9,
+          "km_to_go": 140.6,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Naves",
+          "km": 77.0,
+          "km_to_go": 108.5,
+          "category": "3",
+          "length_km": 3.0,
+          "gradient_pct": 7.4,
+          "altitude_m": 410,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Suc au May",
+          "km": 105.0,
+          "km_to_go": 80.5,
+          "category": "2",
+          "length_km": 8.0,
+          "gradient_pct": 7.5,
+          "altitude_m": 903,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de la Croix du Pey",
+          "km": 129.4,
+          "km_to_go": 56.1,
+          "category": "3",
+          "length_km": 8.0,
+          "gradient_pct": 6.0,
+          "altitude_m": 825,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Mont Bessou",
+          "km": 161.0,
+          "km_to_go": 24.5,
+          "category": "4",
+          "length_km": 9.0,
+          "gradient_pct": 1.2,
+          "altitude_m": 977,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-9-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-9-route.jpg"
     },
@@ -312,8 +593,98 @@
       "finish_type": "p3",
       "archetype": "puncheur",
       "key_climbs": [],
-      "description": "Stage 10 runs 167 km from Aurillac to Le Lioran, climbing 3791 m along the way (ProfileScore 261) \u2014 a punchy, hilly finish that suits explosive one-day specialists over pure sprinters. Across the last four Tours, puncheur stages like this one were won from a breakaway 40% of the time (10 such stages). Riders who've won this type of stage before: Tadej Pogacar (2), Wout Van Aert (1), Simon Yates (1), Richard Carapaz (1).",
-      "features": [],
+      "description": "Stage 10 runs 167 km from Aurillac to Le Lioran, climbing 3791 m along the way (ProfileScore 261) \u2014 a punchy, hilly finish that suits explosive one-day specialists over pure sprinters. Across the last four Tours, puncheur stages like this one were won from a breakaway 70% of the time (10 such stages). Riders who've won this type of stage before: Tadej Pogacar (2), Wout Van Aert (1), Simon Yates (1), Richard Carapaz (1).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "LACAPELLE-DEL-FRAISSE",
+          "km": 25.5,
+          "km_to_go": 141.1,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Pailherols",
+          "km": 68.0,
+          "km_to_go": 98.6,
+          "category": "3",
+          "length_km": 3.0,
+          "gradient_pct": 7.2,
+          "altitude_m": 1043,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col de la Griffoul",
+          "km": 97.3,
+          "km_to_go": 69.3,
+          "category": "2",
+          "length_km": 9.0,
+          "gradient_pct": 6.7,
+          "altitude_m": 1336,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col de Prat de Bouc",
+          "km": 103.8,
+          "km_to_go": 62.8,
+          "category": "3",
+          "length_km": 1.0,
+          "gradient_pct": 6.5,
+          "altitude_m": 1392,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Murat",
+          "km": 118.8,
+          "km_to_go": 47.8,
+          "category": "3",
+          "length_km": 2.0,
+          "gradient_pct": 5.3,
+          "altitude_m": 1193,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Puy Mary - Pas de Peyrol",
+          "km": 135.7,
+          "km_to_go": 30.9,
+          "category": "1",
+          "length_km": 8.0,
+          "gradient_pct": 6.0,
+          "altitude_m": 1589,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col de Pertus",
+          "km": 152.1,
+          "km_to_go": 14.5,
+          "category": "1",
+          "length_km": 4.0,
+          "gradient_pct": 8.5,
+          "altitude_m": 1309,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col de Font de C\u00e8re",
+          "km": 163.9,
+          "km_to_go": 2.7,
+          "category": "3",
+          "length_km": 1.0,
+          "gradient_pct": 5.8,
+          "altitude_m": 1294,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-10-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-10-route.jpg"
     },
@@ -329,8 +700,43 @@
       "finish_type": "p1",
       "archetype": "bunch_sprint",
       "key_climbs": [],
-      "description": "Stage 11 runs 161 km from Vichy to Nevers, climbing 1107 m along the way (ProfileScore 32) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 5% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
-      "features": [],
+      "description": "Stage 11 runs 161 km from Vichy to Nevers, climbing 1107 m along the way (ProfileScore 32) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "SAINT-POUR\u00c7AIN-SUR-SIOULE",
+          "km": 27.8,
+          "km_to_go": 133.5,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Billonni\u00e8re",
+          "km": 32.9,
+          "km_to_go": 128.4,
+          "category": "4",
+          "length_km": 1.0,
+          "gradient_pct": 5.8,
+          "altitude_m": 300,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Billy-Chevannes",
+          "km": 123.4,
+          "km_to_go": 37.9,
+          "category": "4",
+          "length_km": 5.0,
+          "gradient_pct": 5.0,
+          "altitude_m": 360,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-11-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-11-route.jpg"
     },
@@ -346,8 +752,54 @@
       "finish_type": "p1",
       "archetype": "bunch_sprint",
       "key_climbs": [],
-      "description": "Stage 12 runs 179 km from Circuit Nevers Magny-Cours to Chalon-sur-Sa\u00f4ne, climbing 1412 m along the way (ProfileScore 37) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 5% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
-      "features": [],
+      "description": "Stage 12 runs 179 km from Circuit Nevers Magny-Cours to Chalon-sur-Sa\u00f4ne, climbing 1412 m along the way (ProfileScore 37) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "DECIZE",
+          "km": 45.8,
+          "km_to_go": 133.3,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Lanty",
+          "km": 76.5,
+          "km_to_go": 102.6,
+          "category": "4",
+          "length_km": 1.0,
+          "gradient_pct": 4.0,
+          "altitude_m": 308,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Cuzy",
+          "km": 97.8,
+          "km_to_go": 81.3,
+          "category": "4",
+          "length_km": 5.0,
+          "gradient_pct": 4.5,
+          "altitude_m": 398,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Montagny-l\u00e8s-Buxy",
+          "km": 159.4,
+          "km_to_go": 19.7,
+          "category": "4",
+          "length_km": 7.0,
+          "gradient_pct": 4.3,
+          "altitude_m": 391,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-12-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-12-route.jpg"
     },
@@ -363,8 +815,43 @@
       "finish_type": "p2",
       "archetype": "reduced_sprint",
       "key_climbs": [],
-      "description": "Stage 13 runs 206 km from Dole to Belfort, climbing 2309 m along the way (ProfileScore 109) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 11% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
-      "features": [],
+      "description": "Stage 13 runs 206 km from Dole to Belfort, climbing 2309 m along the way (ProfileScore 109) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 63% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "M\u00c9LISEY",
+          "km": 137.8,
+          "km_to_go": 68.0,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col des Croix",
+          "km": 157.4,
+          "km_to_go": 48.4,
+          "category": "3",
+          "length_km": 2.0,
+          "gradient_pct": 4.8,
+          "altitude_m": 678,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Ballon d'Alsace",
+          "km": 175.9,
+          "km_to_go": 29.9,
+          "category": "1",
+          "length_km": 8.0,
+          "gradient_pct": 6.9,
+          "altitude_m": 1173,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-13-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-13-route.jpg"
     },
@@ -380,8 +867,65 @@
       "finish_type": "p5",
       "archetype": "mtf",
       "key_climbs": [],
-      "description": "Stage 14 runs 155 km from Mulhouse to Le Markstein, climbing 3941 m along the way (ProfileScore 332) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 40% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
-      "features": [],
+      "description": "Stage 14 runs 155 km from Mulhouse to Le Markstein, climbing 3941 m along the way (ProfileScore 332) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 45% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "WATTWILLER",
+          "km": 12.6,
+          "km_to_go": 142.7,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Grand Ballon",
+          "km": 36.6,
+          "km_to_go": 118.7,
+          "category": "1",
+          "length_km": 6.0,
+          "gradient_pct": 4.7,
+          "altitude_m": 1336,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col du Page",
+          "km": 71.3,
+          "km_to_go": 84.0,
+          "category": "2",
+          "length_km": 8.0,
+          "gradient_pct": 4.7,
+          "altitude_m": 959,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Ballon d'Alsace",
+          "km": 94.4,
+          "km_to_go": 60.9,
+          "category": "1",
+          "length_km": 9.0,
+          "gradient_pct": 6.9,
+          "altitude_m": 1173,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col du Haag",
+          "km": 149.4,
+          "km_to_go": 5.9,
+          "category": "1",
+          "length_km": 2.0,
+          "gradient_pct": 7.3,
+          "altitude_m": 1233,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-14-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-14-route.jpg"
     },
@@ -397,8 +941,65 @@
       "finish_type": "p5",
       "archetype": "mtf",
       "key_climbs": [],
-      "description": "Stage 15 runs 184 km from Champagnole to Plateau de Solaison, climbing 4098 m along the way (ProfileScore 382) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 40% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
-      "features": [],
+      "description": "Stage 15 runs 184 km from Champagnole to Plateau de Solaison, climbing 4098 m along the way (ProfileScore 382) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 45% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
+      "features": [
+        {
+          "type": "sprint",
+          "name": "VC SAINT-LAURENT-EN-GRANDVAUX",
+          "km": 17.3,
+          "km_to_go": 166.6,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te des Rousses",
+          "km": 36.8,
+          "km_to_go": 147.1,
+          "category": "3",
+          "length_km": 6.0,
+          "gradient_pct": 5.1,
+          "altitude_m": 1097,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Le Sal\u00e8ve - Col de la Croisette",
+          "km": 136.0,
+          "km_to_go": 47.9,
+          "category": "1",
+          "length_km": 7.0,
+          "gradient_pct": 11.2,
+          "altitude_m": 1175,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te du Mont",
+          "km": 146.0,
+          "km_to_go": 37.9,
+          "category": "3",
+          "length_km": 1.0,
+          "gradient_pct": 8.3,
+          "altitude_m": 823,
+          "note": null
+        },
+        {
+          "type": "finish",
+          "name": "PLATEAU DE SOLAISON BRISON",
+          "km": 183.9,
+          "km_to_go": 0.0,
+          "category": "HC",
+          "length_km": 3.0,
+          "gradient_pct": 9.0,
+          "altitude_m": 1508,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-15-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-15-route.jpg"
     },
@@ -415,7 +1016,20 @@
       "archetype": "itt",
       "key_climbs": [],
       "description": "Stage 16 runs 26 km from \u00c9vian-les-Bains to Thonon-les-Bains, climbing 470 m along the way (ProfileScore 40) \u2014 an individual time trial \u2014 a pure test against the clock, no tactics to hide behind.",
-      "features": [],
+      "features": [
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Larringes",
+          "km": 9.7,
+          "km_to_go": 16.4,
+          "category": "2",
+          "length_km": 7.0,
+          "gradient_pct": 4.3,
+          "altitude_m": 799,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-16-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-16-route.jpg"
     },
@@ -431,8 +1045,65 @@
       "finish_type": "p2",
       "archetype": "reduced_sprint",
       "key_climbs": [],
-      "description": "Stage 17 runs 175 km from Chamb\u00e9ry to Voiron, climbing 2362 m along the way (ProfileScore 70) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 11% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
-      "features": [],
+      "description": "Stage 17 runs 175 km from Chamb\u00e9ry to Voiron, climbing 2362 m along the way (ProfileScore 70) \u2014 some terrain along the way that tends to thin the sprint field to a reduced group. Across the last four Tours, reduced sprint stages like this one were won from a breakaway 63% of the time (19 such stages). Riders who've won this type of stage before: Jasper Philipsen (3), Mads Pedersen (2), Wout Van Aert (1), Victor Lafay (1).",
+      "features": [
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Bassa",
+          "km": 19.2,
+          "km_to_go": 155.5,
+          "category": "4",
+          "length_km": 6.0,
+          "gradient_pct": 5.5,
+          "altitude_m": 481,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Rossillon",
+          "km": 35.5,
+          "km_to_go": 139.2,
+          "category": "4",
+          "length_km": 7.0,
+          "gradient_pct": 4.6,
+          "altitude_m": 686,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col des Pr\u00e8s",
+          "km": 49.6,
+          "km_to_go": 125.1,
+          "category": "3",
+          "length_km": 6.0,
+          "gradient_pct": 6.8,
+          "altitude_m": 1142,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Saint-Jean d'Arvey",
+          "km": 59.5,
+          "km_to_go": 115.2,
+          "category": "4",
+          "length_km": 2.0,
+          "gradient_pct": 5.7,
+          "altitude_m": 611,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "COLOMBE",
+          "km": 147.5,
+          "km_to_go": 27.2,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-17-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-17-route.jpg"
     },
@@ -448,8 +1119,76 @@
       "finish_type": "p5",
       "archetype": "mtf",
       "key_climbs": [],
-      "description": "Stage 18 runs 185 km from Voiron to Orci\u00e8res-Merlette, climbing 3944 m along the way (ProfileScore 233) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 40% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
-      "features": [],
+      "description": "Stage 18 runs 185 km from Voiron to Orci\u00e8res-Merlette, climbing 3944 m along the way (ProfileScore 233) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 45% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
+      "features": [
+        {
+          "type": "climb",
+          "name": "C\u00f4te d'Engins",
+          "km": 36.7,
+          "km_to_go": 148.5,
+          "category": "1",
+          "length_km": 5.0,
+          "gradient_pct": 5.4,
+          "altitude_m": 854,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Monteynard",
+          "km": 92.2,
+          "km_to_go": 93.0,
+          "category": "2",
+          "length_km": 7.0,
+          "gradient_pct": 5.0,
+          "altitude_m": 844,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te des Terrasses",
+          "km": 112.8,
+          "km_to_go": 72.4,
+          "category": "3",
+          "length_km": 4.0,
+          "gradient_pct": 6.6,
+          "altitude_m": 836,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "CORPS",
+          "km": 129.1,
+          "km_to_go": 56.1,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de Saint-L\u00e9ger-les-M\u00e9l\u00e8zes",
+          "km": 166.2,
+          "km_to_go": 19.0,
+          "category": "3",
+          "length_km": 5.0,
+          "gradient_pct": 6.9,
+          "altitude_m": 1237,
+          "note": null
+        },
+        {
+          "type": "finish",
+          "name": "ORCI\u00c8RES-MERLETTE",
+          "km": 185.2,
+          "km_to_go": 0.0,
+          "category": "1",
+          "length_km": 1.0,
+          "gradient_pct": 6.7,
+          "altitude_m": 1825,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-18-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-18-route.jpg"
     },
@@ -465,8 +1204,65 @@
       "finish_type": "p5",
       "archetype": "mtf",
       "key_climbs": [],
-      "description": "Stage 19 runs 128 km from Gap to Alpe d'Huez, climbing 3572 m along the way (ProfileScore 357) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 40% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
-      "features": [],
+      "description": "Stage 19 runs 128 km from Gap to Alpe d'Huez, climbing 3572 m along the way (ProfileScore 357) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 45% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
+      "features": [
+        {
+          "type": "climb",
+          "name": "Col Bayard",
+          "km": 4.8,
+          "km_to_go": 123.1,
+          "category": "2",
+          "length_km": 8.0,
+          "gradient_pct": 7.2,
+          "altitude_m": 1246,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col du Noyer",
+          "km": 25.2,
+          "km_to_go": 102.7,
+          "category": "1",
+          "length_km": 2.0,
+          "gradient_pct": 8.5,
+          "altitude_m": 1664,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "LE P\u00c9RIER",
+          "km": 89.4,
+          "km_to_go": 38.5,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col d'Ornon",
+          "km": 99.2,
+          "km_to_go": 28.7,
+          "category": "2",
+          "length_km": 4.0,
+          "gradient_pct": 6.4,
+          "altitude_m": 1371,
+          "note": null
+        },
+        {
+          "type": "finish",
+          "name": "ALPE D'HUEZ",
+          "km": 127.9,
+          "km_to_go": 0.0,
+          "category": "HC",
+          "length_km": 7.0,
+          "gradient_pct": 8.1,
+          "altitude_m": 1850,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-19-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-19-route.jpg"
     },
@@ -482,8 +1278,65 @@
       "finish_type": "p5",
       "archetype": "mtf",
       "key_climbs": [],
-      "description": "Stage 20 runs 171 km from Le Bourg d'Oisans to Alpe d'Huez, climbing 5624 m along the way (ProfileScore 438) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 40% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
-      "features": [],
+      "description": "Stage 20 runs 171 km from Le Bourg d'Oisans to Alpe d'Huez, climbing 5624 m along the way (ProfileScore 438) \u2014 a summit finish \u2014 the kind of stage that separates the GC contenders and pure climbers. Across the last four Tours, mtf stages like this one were won from a breakaway 45% of the time (20 such stages). Riders who've won this type of stage before: Tadej Pogacar (8), Jonas Vingegaard (3), Thymen Arensman (2), Wout Poels (1).",
+      "features": [
+        {
+          "type": "climb",
+          "name": "Col de la Croix de Fer",
+          "km": 33.7,
+          "km_to_go": 137.2,
+          "category": "HC",
+          "length_km": 24.0,
+          "gradient_pct": 5.2,
+          "altitude_m": 2067,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "SAINT-JULIEN-MONT-DENIS",
+          "km": 66.5,
+          "km_to_go": 104.4,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col du T\u00e9l\u00e9graphe",
+          "km": 87.6,
+          "km_to_go": 83.3,
+          "category": "1",
+          "length_km": 9.0,
+          "gradient_pct": 7.1,
+          "altitude_m": 1566,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col du Galibier (2 642 m) Souvenir Henri Desgrange",
+          "km": 110.5,
+          "km_to_go": 60.4,
+          "category": "HC",
+          "length_km": 7.0,
+          "gradient_pct": 6.9,
+          "altitude_m": 2642,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "Col de Sarenne",
+          "km": 156.5,
+          "km_to_go": 14.4,
+          "category": "HC",
+          "length_km": 8.0,
+          "gradient_pct": 7.3,
+          "altitude_m": 1999,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-20-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-20-route.jpg"
     },
@@ -499,8 +1352,65 @@
       "finish_type": "p1",
       "archetype": "bunch_sprint",
       "key_climbs": [],
-      "description": "Stage 21 runs 133 km from Thoiry to Paris, climbing 1295 m along the way (ProfileScore 40) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 5% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
-      "features": [],
+      "description": "Stage 21 runs 133 km from Thoiry to Paris, climbing 1295 m along the way (ProfileScore 40) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
+      "features": [
+        {
+          "type": "climb",
+          "name": "C\u00f4te du Pav\u00e9 des Gardes",
+          "km": 43.1,
+          "km_to_go": 89.9,
+          "category": "4",
+          "length_km": 7.0,
+          "gradient_pct": 9.7,
+          "altitude_m": 180,
+          "note": null
+        },
+        {
+          "type": "sprint",
+          "name": "PARIS - HAUT DES CHAMPS-ELYS\u00c9ES (3e passage)",
+          "km": 72.2,
+          "km_to_go": 60.8,
+          "category": "sprint",
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de la Butte Montmartre",
+          "km": 90.8,
+          "km_to_go": 42.2,
+          "category": "4",
+          "length_km": 1.0,
+          "gradient_pct": 6.5,
+          "altitude_m": 128,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de la Butte Montmartre",
+          "km": 106.7,
+          "km_to_go": 26.3,
+          "category": "4",
+          "length_km": 1.0,
+          "gradient_pct": 6.5,
+          "altitude_m": 128,
+          "note": null
+        },
+        {
+          "type": "climb",
+          "name": "C\u00f4te de la Butte Montmartre",
+          "km": 122.7,
+          "km_to_go": 10.3,
+          "category": "4",
+          "length_km": 1.0,
+          "gradient_pct": 6.5,
+          "altitude_m": 128,
+          "note": null
+        }
+      ],
+      "weather": null,
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-21-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-21-route.jpg"
     }
@@ -22976,7 +23886,7 @@
     {
       "archetype": "bunch_sprint",
       "winners": 21,
-      "break_rate": 0.05,
+      "break_rate": 0.1,
       "top_winners": [
         {
           "rider_name": "Jasper Philipsen",
@@ -23003,7 +23913,7 @@
     {
       "archetype": "mtf",
       "winners": 20,
-      "break_rate": 0.4,
+      "break_rate": 0.45,
       "top_winners": [
         {
           "rider_name": "Tadej Pogacar",
@@ -23030,7 +23940,7 @@
     {
       "archetype": "reduced_sprint",
       "winners": 19,
-      "break_rate": 0.11,
+      "break_rate": 0.63,
       "top_winners": [
         {
           "rider_name": "Jasper Philipsen",
@@ -23057,7 +23967,7 @@
     {
       "archetype": "puncheur",
       "winners": 10,
-      "break_rate": 0.4,
+      "break_rate": 0.7,
       "top_winners": [
         {
           "rider_name": "Tadej Pogacar",
@@ -23084,7 +23994,7 @@
     {
       "archetype": "mountain",
       "winners": 7,
-      "break_rate": 0.43,
+      "break_rate": 0.29,
       "top_winners": [
         {
           "rider_name": "Tadej Pogacar",
@@ -23236,6 +24146,12 @@
     "expert_scores": [
       {
         "source": "THEMOVE",
+        "picks": 3,
+        "hits": 0,
+        "roi_at_tab": -1.0
+      },
+      {
+        "source": "Lanterne Rouge",
         "picks": 1,
         "hits": 0,
         "roi_at_tab": -1.0
@@ -23454,7 +24370,29 @@
       "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/why-going-in-the-breakaway-is-actually-a-crafty-way-to-beat-the-heat-at-the-tour-de-france/"
     }
   ],
-  "picks": null,
+  "picks": {
+    "stage_num": 5,
+    "overnight_recap": "Stage 4 went exactly as we read it \u2014 a breakaway day \u2014 but not our riders. Mads Pedersen won from the front group, and a big break gained enough that Torstein Traeen (Bahrain) has taken the yellow jersey off Poga\u010dar for now (a temporary, breakaway-driven lead the mountains will erase). Our night was a wipeout: Van der Poel never featured, Quinn Simmons was our Pick of the day and finished a frustrating 2nd, Vacek 10th \u2014 all four picks lost, \u22122.25u. Honest ledger after four stages: 0 wins from 6 stage picks, running P&L roughly \u22123.25u. The breakaway thesis keeps being right while our rider selection inside it keeps missing \u2014 worth being humble about how hard picking one name out of a 15-rider break really is.",
+    "stage_description": "Lannemezan to Pau, 158.3 km \u2014 the sprinters' first proper chance. Flat-to-rolling out of the Pyrenean foothills through the Gers valley, with the only lumps a trio of short, sharp c\u00f4tes (Casteide-Doat, Flancart, then C\u00f4te de Baleix at 1.3 km @ 7%) packed into 12 km but all cresting ~26 km from the line \u2014 speed bumps, not sprinter-shedders. Then it's flat into Pau, the Tour's 64th finish here, where Philipsen won two editions ago. Expect the fast men's teams to control and a bunch gallop.",
+    "verdict": "bets",
+    "top_picks": [
+      {
+        "rider": "Tim Merlier",
+        "market": "stage_winner",
+        "tab_odds": 2.75,
+        "est_prob": 0.32,
+        "devigged_p": 0.263,
+        "ev": -0.12,
+        "units": 0.5,
+        "conviction": "low",
+        "reason": "Pick of the day, low conviction \u2014 and I'll be straight: this is NOT a value bet, it's the best play if you're having a punt on the sprint. Merlier is the fastest pure sprinter in the race and this clean, flat run-in into Pau is exactly his kind of finish. But at 2.75 the price already reflects that \u2014 we make him ~32% to win, and you'd need ~37%+ just to break even at 2.75, so the expected value is slightly negative. The market is efficient here; there's no edge to exploit. If you're backing the sprint anyway, Merlier's the soundest single name, with Philipsen (3.25, won in Pau before, Van der Poel to lead him out) the equally-defensible alternative. Kept to 0.5u precisely because it's a no-edge favourite, not a value play."
+      }
+    ],
+    "place_picks": [],
+    "longshots": [],
+    "expert_agreement_note": "Thin expert input this stage: the YouTube panel (THEMOVE, Lanterne Rouge) feeds 404'd on a transient hiccup, and the r/peloton predictions thread rate-limited before I could pull the crowd picks. cyclingstage frames it plainly as a sprinters' day ('first test for the fast men'). For a bunch sprint that's fine \u2014 the read is driven by the odds board and sprinter form, not tactical nuance, and the market is doing the work.",
+    "no_bet_reason": "This is an efficiently-priced bunch sprint with no genuine stage value \u2014 the top four (Merlier 2.75, Philipsen 3.25, Girmay 5.0, Kooij 5.5) are all fairly-to-fully priced. The real value tonight is NOT on the stage \u2014 it's the UAE teams-classification bet in the Overall categories below. Take the stage pick only as a small punt, if at all."
+  },
   "experts": [
     {
       "source": "THEMOVE",
@@ -23463,7 +24401,7 @@
       "quote": "No view captured this run \u2014 the YouTube channel feed returned a 404 (a transient YouTube/IP issue), so no transcript was ingested. Not a betting signal either way.",
       "url": "",
       "hits": 0,
-      "picks": 1
+      "picks": 3
     },
     {
       "source": "cyclingstage.com",
@@ -23489,7 +24427,7 @@
           "url": "",
           "ts": "2026-07-08T07:00:09.092614+00:00",
           "hits": 0,
-          "picks": 1,
+          "picks": 3,
           "roi_at_tab": -1.0
         },
         {
@@ -23519,9 +24457,9 @@
           "quote": "Brief sign-off note only (this episode recaps stage 3): 'versatile sprint stage tomorrow, maybe a strong break, Pedersen will be going for it' \u2014 i.e. Pedersen the pick IF it comes back together, with a break as the live alternative.",
           "url": "https://youtu.be/Eb2_5niWNCU",
           "ts": "2026-07-07T08:43:51.957205+00:00",
-          "hits": null,
-          "picks": null,
-          "roi_at_tab": null
+          "hits": 0,
+          "picks": 1,
+          "roi_at_tab": -1.0
         },
         {
           "stage_num": 4,
@@ -23533,7 +24471,7 @@
           "url": "https://youtu.be/ut6Cr2DgpzY",
           "ts": "2026-07-07T08:43:51.837642+00:00",
           "hits": 0,
-          "picks": 1,
+          "picks": 3,
           "roi_at_tab": -1.0
         },
         {
@@ -23546,7 +24484,7 @@
           "url": "https://youtu.be/ut6Cr2DgpzY",
           "ts": "2026-07-07T08:43:51.879617+00:00",
           "hits": 0,
-          "picks": 1,
+          "picks": 3,
           "roi_at_tab": -1.0
         },
         {
@@ -23559,7 +24497,7 @@
           "url": "https://youtu.be/ut6Cr2DgpzY",
           "ts": "2026-07-07T08:43:51.918358+00:00",
           "hits": 0,
-          "picks": 1,
+          "picks": 3,
           "roi_at_tab": -1.0
         },
         {
@@ -23602,9 +24540,9 @@
           "quote": "Patrick Broe (Stage 2 reaction) is more cautious on the break surviving: getting away on the big highway roads is hard for pure climbers, and he calls it 'a pretty easily controllable breakaway for UAE' if they want it. Leaves the door open either way \u2014 'Will it be a breakaway? We'll see' \u2014 and flags the context: hot conditions, wildfires, no crowds allowed on the road.",
           "url": "https://youtu.be/zRP_L7Yr6Co",
           "ts": "2026-07-06T10:10:28.445059+00:00",
-          "hits": null,
-          "picks": null,
-          "roi_at_tab": null
+          "hits": 0,
+          "picks": 1,
+          "roi_at_tab": -1.0
         },
         {
           "stage_num": 3,
@@ -23616,7 +24554,7 @@
           "url": "https://youtu.be/XX-ipJpCofw",
           "ts": "2026-07-06T10:10:28.202683+00:00",
           "hits": 0,
-          "picks": 1,
+          "picks": 3,
           "roi_at_tab": -1.0
         },
         {
@@ -23659,9 +24597,9 @@
           "quote": "Patrick Broe's Stage 1 TTT recap gives the key tactical detail for Stage 2: del Toro paced Poga\u010dar on both the descent and into the final climb in the TTT, taking direct orders ('I need you to pace the descent... slingshot me into that final climb') \u2014 meaning del Toro is riding this Tour as UAE's lieutenant, not chasing his own stage wins, at least early on. Broe is unsure UAE fully commits to racing for the Stage 2 win itself: 'we got a punchy stage tomorrow, will Poga\u010dar and UAE go for the win? I don't know.' Reads as tactically uncertain rather than a confident tip either way.",
           "url": "https://youtu.be/PA7oWVBjjdg",
           "ts": "2026-07-05T01:59:56.209640+00:00",
-          "hits": null,
-          "picks": null,
-          "roi_at_tab": null
+          "hits": 0,
+          "picks": 1,
+          "roi_at_tab": -1.0
         },
         {
           "stage_num": 2,
@@ -23673,7 +24611,7 @@
           "url": "https://youtu.be/T_ZTAlYVcOE",
           "ts": "2026-07-05T01:59:55.727289+00:00",
           "hits": 0,
-          "picks": 1,
+          "picks": 3,
           "roi_at_tab": -1.0
         },
         {
@@ -23695,6 +24633,12 @@
   "expert_scores_all": [
     {
       "source": "THEMOVE",
+      "picks": 3,
+      "hits": 0,
+      "roi_at_tab": -1.0
+    },
+    {
+      "source": "Lanterne Rouge",
       "picks": 1,
       "hits": 0,
       "roi_at_tab": -1.0
@@ -23758,6 +24702,196 @@
       "rider_id": 69
     }
   ],
+  "outrights": {
+    "generated_at": "2026-07-08",
+    "stages_raced": 4,
+    "headline": "One genuine value tonight, and it's a market overreaction: UAE for the teams classification at 2.5. Lidl-Trek jumped to teams favourite (1.9) off Pedersen's Stage 4 win and Vacek/Simmons riding the break \u2014 but that lead is breakaway-driven and temporary, and UAE's mountain depth reclaims this jersey once the real climbing starts. GC/KOM/youth/points are all efficiently priced or too short.",
+    "markets": [
+      {
+        "key": "teams",
+        "name": "Teams classification",
+        "jersey": "",
+        "verdict": "bet",
+        "pick": {
+          "rider": "UAE Team Emirates - XRG",
+          "odds": 2.5,
+          "est_prob": 0.5,
+          "devigged_p": 0.305,
+          "ev": 0.25,
+          "units": 1.0,
+          "reason": "The value of the night. Teams classification is decided by each squad's best-three cumulative time, so it's won in the mountains by whoever has the deepest GC-level climbing \u2014 and no team comes close to UAE's depth (Poga\u010dar, del Toro, Adam Yates, plus more). They were a 1.4 shot four days ago; they've now drifted to 2.5 purely because Lidl-Trek grabbed a temporary lead off a breakaway stage (Vacek and Simmons up the road on Stage 4). That lead evaporates the moment the big mountains arrive. We make UAE ~50% to win teams vs the market's de-vigged 30.5% \u2014 a genuine ~1.6x edge created by a short-term overreaction. 1.0u at moderate conviction (three-week outrights always carry crash/illness variance)."
+        },
+        "summary": "UAE at 2.5 is a real value bet \u2014 the market has over-shortened Lidl-Trek off a temporary, breakaway-driven teams lead; UAE's mountain depth reclaims it.",
+        "top_odds": [
+          {
+            "rider": "Lidl-Trek",
+            "odds": 1.9,
+            "devig": 0.401
+          },
+          {
+            "rider": "UAE Team Emirates - XRG",
+            "odds": 2.5,
+            "devig": 0.305
+          },
+          {
+            "rider": "Red Bull-Bora-Hansgrohe",
+            "odds": 7.5,
+            "devig": 0.102
+          },
+          {
+            "rider": "EF Education - EasyPost",
+            "odds": 15.0,
+            "devig": 0.051
+          },
+          {
+            "rider": "Movistar Team",
+            "odds": 21.0,
+            "devig": 0.036
+          }
+        ]
+      },
+      {
+        "key": "points",
+        "name": "Points classification",
+        "jersey": "green",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "We flagged Pedersen for green from day one at 5.0 \u2014 and he's since won Stage 4, taken the outright lead, and been hammered into 1.72 (38.5% de-vigged). The thesis was right; the price is now gone. At 1.72 you need him ~58%+ to profit, and with Philipsen (3.5) racking up pure-sprint points that's too short. Right rider, no value left. Nice to have called it early even if we couldn't get the ticket on at the time.",
+        "top_odds": [
+          {
+            "rider": "Mads Pedersen",
+            "odds": 1.72,
+            "devig": 0.385
+          },
+          {
+            "rider": "Jasper Philipsen",
+            "odds": 3.5,
+            "devig": 0.189
+          },
+          {
+            "rider": "Biniam Girmay",
+            "odds": 4.5,
+            "devig": 0.147
+          },
+          {
+            "rider": "Tim Merlier",
+            "odds": 6.5,
+            "devig": 0.102
+          },
+          {
+            "rider": "Tadej Pogacar",
+            "odds": 10.0,
+            "devig": 0.066
+          }
+        ]
+      },
+      {
+        "key": "gc",
+        "name": "General Classification",
+        "jersey": "yellow",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "Traeen is in yellow tonight, but only because a Stage 4 break gained big time \u2014 he's not a GC contender and the mountains will restore order. Poga\u010dar (1.15, 58%) remains the class of the race and the rightful favourite, but there's no value backing an odds-on GC pick over three weeks of variance. Vingegaard (5.2) is the fairly-priced sole rival. No bet.",
+        "top_odds": [
+          {
+            "rider": "Tadej Pogacar",
+            "odds": 1.15,
+            "devig": 0.581
+          },
+          {
+            "rider": "Jonas Vingegaard",
+            "odds": 5.2,
+            "devig": 0.129
+          },
+          {
+            "rider": "Isaac del Toro",
+            "odds": 19.0,
+            "devig": 0.035
+          },
+          {
+            "rider": "Paul Seixas",
+            "odds": 19.0,
+            "devig": 0.035
+          },
+          {
+            "rider": "Remco Evenepoel",
+            "odds": 23.0,
+            "devig": 0.029
+          }
+        ]
+      },
+      {
+        "key": "kom",
+        "name": "Mountains classification",
+        "jersey": "polka-dot",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "Efficient. Poga\u010dar (1.95) naturally tops it; Carapaz (5.0) is the sharp break-the-jersey-from-the-move angle but priced about right, not a value. No confident bet.",
+        "top_odds": [
+          {
+            "rider": "Tadej Pogacar",
+            "odds": 1.95,
+            "devig": 0.364
+          },
+          {
+            "rider": "Richard Carapaz",
+            "odds": 5.0,
+            "devig": 0.142
+          },
+          {
+            "rider": "Lenny Martinez",
+            "odds": 6.0,
+            "devig": 0.118
+          },
+          {
+            "rider": "Jonas Vingegaard",
+            "odds": 11.0,
+            "devig": 0.064
+          },
+          {
+            "rider": "Valentin Paret-Peintre",
+            "odds": 17.0,
+            "devig": 0.042
+          }
+        ]
+      },
+      {
+        "key": "youth",
+        "name": "Young rider classification",
+        "jersey": "white",
+        "verdict": "no_bet",
+        "pick": null,
+        "summary": "Tight, efficiently-priced two-way between Seixas (2.0) and del Toro (2.5), with Ayuso (5.0) back. No edge at these prices. Pass.",
+        "top_odds": [
+          {
+            "rider": "Paul Seixas",
+            "odds": 2.0,
+            "devig": 0.396
+          },
+          {
+            "rider": "Isaac del Toro",
+            "odds": 2.5,
+            "devig": 0.317
+          },
+          {
+            "rider": "Juan Ayuso",
+            "odds": 5.0,
+            "devig": 0.158
+          },
+          {
+            "rider": "Lenny Martinez",
+            "odds": 34.0,
+            "devig": 0.023
+          },
+          {
+            "rider": "Cian Uijtdebroeks",
+            "odds": 41.0,
+            "devig": 0.019
+          }
+        ]
+      }
+    ]
+  },
   "qa": [
     {
       "asked_by": null,
