@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T11:35:10.083652+00:00",
-    "stages_raced": 3,
-    "next_stage": 4,
+    "generated_at": "2026-07-08T06:47:15.176474+00:00",
+    "stages_raced": 4,
+    "next_stage": 5,
     "total_stages": 21,
     "news_updated_at": "2026-07-07T08:42:31.653666+00:00",
     "picks_updated_at": "2026-07-07T08:43:52.045650+00:00",
@@ -486,305 +486,305 @@
     "gc": [
       {
         "rank": 1,
-        "name": "POGA\u010cAR Tadej",
-        "team": "Uae Team Emirates Xrg",
-        "value": "4:45:11"
+        "name": "PEDERSEN Mads",
+        "team": "Lidl Trek",
+        "value": "4:10:45"
       },
       {
         "rank": 2,
-        "name": "VINGEGAARD Jonas",
-        "team": "Team Visma Lease A Bike",
-        "value": "0:02"
+        "name": "SIMMONS Quinn",
+        "team": "Lidl Trek",
+        "value": "0:00"
       },
       {
         "rank": 3,
-        "name": "CARAPAZ Richard",
-        "team": "Ef Education Easypost",
-        "value": "0:02"
+        "name": "GARC\u00cdA PIERNA Ra\u00fal",
+        "team": "Movistar Team",
+        "value": "0:00"
       },
       {
         "rank": 4,
-        "name": "SEIXAS Paul",
-        "team": "Decathlon Cma Cgm Team",
-        "value": "0:02"
+        "name": "FRIGO Marco",
+        "team": "Nsn Cycling Team",
+        "value": "0:00"
       },
       {
         "rank": 5,
-        "name": "JOHANNESSEN Tobias Halland",
-        "team": "Uno X Mobility",
-        "value": "0:04"
+        "name": "DEBRUYNE Ramses",
+        "team": "Alpecin Premier Tech",
+        "value": "0:00"
       },
       {
         "rank": 6,
-        "name": "VAN EETVELT Lennert",
-        "team": "Lotto Intermarche",
-        "value": "0:04"
+        "name": "VAUQUELIN K\u00e9vin",
+        "team": "Netcompany Ineos",
+        "value": "0:00"
       },
       {
         "rank": 7,
-        "name": "LIPOWITZ Florian",
-        "team": "Red Bull Bora Hansgrohe",
-        "value": "0:04"
+        "name": "QUINN Sean",
+        "team": "Ef Education Easypost",
+        "value": "0:00"
       },
       {
         "rank": 8,
-        "name": "DEL TORO Isaac",
-        "team": "Uae Team Emirates Xrg",
-        "value": "0:04"
+        "name": "CASTRILLO Pablo",
+        "team": "Movistar Team",
+        "value": "0:00"
       },
       {
         "rank": 9,
-        "name": "EVENEPOEL Remco",
-        "team": "Red Bull Bora Hansgrohe",
-        "value": "0:04"
+        "name": "TR\u00c6EN Torstein",
+        "team": "Uno X Mobility",
+        "value": "0:00"
       },
       {
         "rank": 10,
-        "name": "AYUSO Juan",
+        "name": "VACEK Mathias",
         "team": "Lidl Trek",
-        "value": "0:04"
+        "value": "0:00"
       },
       {
         "rank": 11,
-        "name": "SKJELMOSE Mattias",
-        "team": "Lidl Trek",
-        "value": "0:10"
+        "name": "MATTHEWS Michael",
+        "team": "Team Jayco Alula",
+        "value": "2:27"
       },
       {
         "rank": 12,
-        "name": "VAN WILDER Ilan",
-        "team": "Soudal Quick Step",
-        "value": "0:12"
+        "name": "DELETTRE Alexandre",
+        "team": "Totalenergies",
+        "value": "2:27"
       },
       {
         "rank": 13,
-        "name": "MARTINEZ Lenny",
+        "name": "VAN MECHELEN Vlad",
         "team": "Bahrain Victorious",
-        "value": "0:12"
+        "value": "2:27"
       },
       {
         "rank": 14,
-        "name": "JEGAT Jordan",
-        "team": "Totalenergies",
-        "value": "0:12"
+        "name": "STUYVEN Jasper",
+        "team": "Soudal Quick Step",
+        "value": "2:27"
       },
       {
         "rank": 15,
-        "name": "HIGUITA Sergio",
-        "team": "Xds Astana Team",
-        "value": "0:18"
+        "name": "MOLENAAR Alex",
+        "team": "Caja Rural Seguros Rga",
+        "value": "2:27"
       },
       {
         "rank": 16,
-        "name": "PIDCOCK Tom",
-        "team": "Pinarello Q365 Pro Cycling Team",
-        "value": "0:18"
+        "name": "VAN DEN BROEK Frank",
+        "team": "Team Picnic Postnl",
+        "value": "2:27"
       },
       {
         "rank": 17,
-        "name": "BERNAL Egan",
-        "team": "Netcompany Ineos",
-        "value": "0:18"
+        "name": "ZIMMERMANN Georg",
+        "team": "Lotto Intermarche",
+        "value": "2:27"
       },
       {
         "rank": 18,
-        "name": "BENOOT Tiesj",
-        "team": "Decathlon Cma Cgm Team",
-        "value": "0:27"
+        "name": "HERMANS Quinten",
+        "team": "Pinarello Q365 Pro Cycling Team",
+        "value": "2:27"
       },
       {
         "rank": 19,
-        "name": "PIGANZOLI Davide",
-        "team": "Team Visma Lease A Bike",
-        "value": "0:27"
+        "name": "IZAGIRRE Ion",
+        "team": "Cofidis",
+        "value": "2:27"
       },
       {
         "rank": 20,
-        "name": "ARENSMAN Thymen",
-        "team": "Netcompany Ineos",
-        "value": "0:33"
+        "name": "NICOLAU Joel",
+        "team": "Caja Rural Seguros Rga",
+        "value": "2:27"
       },
       {
         "rank": 21,
-        "name": "TIBERI Antonio",
-        "team": "Bahrain Victorious",
-        "value": "0:42"
+        "name": "DENZ Nico",
+        "team": "Red Bull Bora Hansgrohe",
+        "value": "2:27"
       },
       {
         "rank": 22,
-        "name": "DEBRUYNE Ramses",
-        "team": "Alpecin Premier Tech",
-        "value": "0:48"
+        "name": "GR\u00c9GOIRE Romain",
+        "team": "Groupama Fdj United",
+        "value": "2:27"
       },
       {
         "rank": 23,
-        "name": "YATES Adam",
-        "team": "Uae Team Emirates Xrg",
-        "value": "0:50"
+        "name": "EENKHOORN Pascal",
+        "team": "Soudal Quick Step",
+        "value": "7:54"
       },
       {
         "rank": 24,
-        "name": "KUSS Sepp",
-        "team": "Team Visma Lease A Bike",
-        "value": "0:50"
+        "name": "KIRSCH Alex",
+        "team": "Cofidis",
+        "value": "7:54"
       },
       {
         "rank": 25,
-        "name": "TEJADA Harold",
-        "team": "Xds Astana Team",
-        "value": "0:57"
+        "name": "VAN MOER Brent",
+        "team": "Pinarello Q365 Pro Cycling Team",
+        "value": "7:58"
       }
     ],
     "points": [
       {
         "rank": 1,
+        "name": "PEDERSEN Mads",
+        "team": "Lidl Trek",
+        "value": "103"
+      },
+      {
+        "rank": 2,
         "name": "POGA\u010cAR Tadej",
         "team": "Uae Team Emirates Xrg",
         "value": "55"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "name": "VINGEGAARD Jonas",
         "team": "Team Visma Lease A Bike",
         "value": "44"
       },
       {
-        "rank": 3,
+        "rank": 4,
+        "name": "SIMMONS Quinn",
+        "team": "Lidl Trek",
+        "value": "42"
+      },
+      {
+        "rank": 5,
         "name": "DEL TORO Isaac",
         "team": "Uae Team Emirates Xrg",
         "value": "39"
       },
       {
-        "rank": 4,
-        "name": "PEDERSEN Mads",
-        "team": "Lidl Trek",
-        "value": "37"
-      },
-      {
-        "rank": 5,
+        "rank": 6,
         "name": "EVENEPOEL Remco",
         "team": "Red Bull Bora Hansgrohe",
+        "value": "39"
+      },
+      {
+        "rank": 7,
+        "name": "GIRMAY Biniam",
+        "team": "Nsn Cycling Team",
         "value": "33"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "name": "JOHANNESSEN Tobias Halland",
         "team": "Uno X Mobility",
         "value": "32"
       },
       {
-        "rank": 7,
+        "rank": 9,
+        "name": "PHILIPSEN Jasper",
+        "team": "Alpecin Premier Tech",
+        "value": "30"
+      },
+      {
+        "rank": 10,
         "name": "SEIXAS Paul",
         "team": "Decathlon Cma Cgm Team",
         "value": "28"
       },
       {
-        "rank": 8,
+        "rank": 11,
+        "name": "MOLENAAR Alex",
+        "team": "Caja Rural Seguros Rga",
+        "value": "27"
+      },
+      {
+        "rank": 12,
         "name": "CARAPAZ Richard",
         "team": "Ef Education Easypost",
         "value": "25"
       },
       {
-        "rank": 9,
-        "name": "MOLENAAR Alex",
-        "team": "Caja Rural Seguros Rga",
-        "value": "25"
-      },
-      {
-        "rank": 10,
+        "rank": 13,
         "name": "SKJELMOSE Mattias",
         "team": "Lidl Trek",
         "value": "23"
       },
       {
-        "rank": 11,
+        "rank": 14,
         "name": "VAN EETVELT Lennert",
         "team": "Lotto Intermarche",
         "value": "21"
       },
       {
-        "rank": 12,
+        "rank": 15,
+        "name": "MATTHEWS Michael",
+        "team": "Team Jayco Alula",
+        "value": "20"
+      },
+      {
+        "rank": 16,
+        "name": "GARC\u00cdA PIERNA Ra\u00fal",
+        "team": "Movistar Team",
+        "value": "20"
+      },
+      {
+        "rank": 17,
         "name": "DELBOVE Joris",
         "team": "Totalenergies",
         "value": "20"
       },
       {
-        "rank": 13,
+        "rank": 18,
         "name": "ENGELHARDT Felix",
         "team": "Team Jayco Alula",
         "value": "20"
       },
       {
-        "rank": 14,
+        "rank": 19,
+        "name": "CASTRILLO Pablo",
+        "team": "Movistar Team",
+        "value": "18"
+      },
+      {
+        "rank": 20,
         "name": "BAUDIN Alex",
         "team": "Ef Education Easypost",
         "value": "18"
       },
       {
-        "rank": 15,
-        "name": "VAN DEN BROEK Frank",
-        "team": "Team Picnic Postnl",
-        "value": "16"
-      },
-      {
-        "rank": 16,
-        "name": "MARTINEZ Lenny",
-        "team": "Bahrain Victorious",
-        "value": "15"
-      },
-      {
-        "rank": 17,
-        "name": "STORER Michael",
-        "team": "Tudor Pro Cycling Team",
-        "value": "14"
-      },
-      {
-        "rank": 18,
-        "name": "GIRMAY Biniam",
-        "team": "Nsn Cycling Team",
-        "value": "14"
-      },
-      {
-        "rank": 19,
-        "name": "GR\u00c9GOIRE Romain",
-        "team": "Groupama Fdj United",
-        "value": "13"
-      },
-      {
-        "rank": 20,
-        "name": "LIPOWITZ Florian",
-        "team": "Red Bull Bora Hansgrohe",
-        "value": "13"
-      },
-      {
         "rank": 21,
-        "name": "AYUSO Juan",
-        "team": "Lidl Trek",
-        "value": "12"
+        "name": "FRIGO Marco",
+        "team": "Nsn Cycling Team",
+        "value": "18"
       },
       {
         "rank": 22,
-        "name": "VERCHER Matt\u00e9o",
-        "team": "Totalenergies",
-        "value": "12"
+        "name": "VACEK Mathias",
+        "team": "Lidl Trek",
+        "value": "16"
       },
       {
         "rank": 23,
-        "name": "TEJADA Harold",
-        "team": "Xds Astana Team",
-        "value": "10"
+        "name": "DEBRUYNE Ramses",
+        "team": "Alpecin Premier Tech",
+        "value": "16"
       },
       {
         "rank": 24,
-        "name": "PHILIPSEN Jasper",
-        "team": "Alpecin Premier Tech",
-        "value": "10"
+        "name": "VAUQUELIN K\u00e9vin",
+        "team": "Netcompany Ineos",
+        "value": "16"
       },
       {
         "rank": 25,
-        "name": "VAN WILDER Ilan",
-        "team": "Soudal Quick Step",
-        "value": "9"
+        "name": "VAN DEN BROEK Frank",
+        "team": "Team Picnic Postnl",
+        "value": "16"
       }
     ],
     "kom": [
@@ -796,102 +796,144 @@
       },
       {
         "rank": 2,
+        "name": "MOLENAAR Alex",
+        "team": "Caja Rural Seguros Rga",
+        "value": "10"
+      },
+      {
+        "rank": 3,
         "name": "PRODHOMME Nicolas",
         "team": "Decathlon Cma Cgm Team",
         "value": "9"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "GARC\u00cdA PIERNA Ra\u00fal",
         "team": "Movistar Team",
-        "value": "6"
-      },
-      {
-        "rank": 4,
-        "name": "MOLENAAR Alex",
-        "team": "Caja Rural Seguros Rga",
-        "value": "5"
+        "value": "7"
       },
       {
         "rank": 5,
+        "name": "FRIGO Marco",
+        "team": "Nsn Cycling Team",
+        "value": "5"
+      },
+      {
+        "rank": 6,
+        "name": "TRATNIK Jan",
+        "team": "Red Bull Bora Hansgrohe",
+        "value": "5"
+      },
+      {
+        "rank": 7,
         "name": "MCNULTY Brandon",
         "team": "Uae Team Emirates Xrg",
         "value": "4"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "name": "VAN MECHELEN Vlad",
         "team": "Bahrain Victorious",
         "value": "4"
       },
       {
-        "rank": 7,
+        "rank": 9,
         "name": "POGA\u010cAR Tadej",
         "team": "Uae Team Emirates Xrg",
         "value": "3"
       },
       {
-        "rank": 8,
+        "rank": 10,
+        "name": "VACEK Mathias",
+        "team": "Lidl Trek",
+        "value": "3"
+      },
+      {
+        "rank": 11,
+        "name": "CASTRILLO Pablo",
+        "team": "Movistar Team",
+        "value": "3"
+      },
+      {
+        "rank": 12,
         "name": "ENGELHARDT Felix",
         "team": "Team Jayco Alula",
         "value": "3"
       },
       {
-        "rank": 9,
+        "rank": 13,
         "name": "JOHANNESSEN Tobias Halland",
         "team": "Uno X Mobility",
         "value": "2"
       },
       {
-        "rank": 10,
+        "rank": 14,
         "name": "PARET-PEINTRE Valentin",
         "team": "Soudal Quick Step",
         "value": "2"
       },
       {
-        "rank": 11,
+        "rank": 15,
+        "name": "DEBRUYNE Ramses",
+        "team": "Alpecin Premier Tech",
+        "value": "2"
+      },
+      {
+        "rank": 16,
         "name": "VERCHER Matt\u00e9o",
         "team": "Totalenergies",
         "value": "2"
       },
       {
-        "rank": 12,
+        "rank": 17,
         "name": "VAN DEN BROEK Frank",
         "team": "Team Picnic Postnl",
         "value": "2"
       },
       {
-        "rank": 13,
+        "rank": 18,
+        "name": "TR\u00c6EN Torstein",
+        "team": "Uno X Mobility",
+        "value": "1"
+      },
+      {
+        "rank": 19,
         "name": "VINGEGAARD Jonas",
         "team": "Team Visma Lease A Bike",
         "value": "1"
       },
       {
-        "rank": 14,
+        "rank": 20,
         "name": "CARAPAZ Richard",
         "team": "Ef Education Easypost",
         "value": "1"
       },
       {
-        "rank": 15,
+        "rank": 21,
         "name": "BENNETT George",
         "team": "Nsn Cycling Team",
         "value": "1"
       },
       {
-        "rank": 16,
+        "rank": 22,
         "name": "JORGENSON Matteo",
         "team": "Team Visma Lease A Bike",
         "value": "1"
       },
       {
-        "rank": 17,
+        "rank": 23,
         "name": "ROMO Javier",
         "team": "Movistar Team",
         "value": "1"
       },
       {
-        "rank": 18,
+        "rank": 24,
+        "name": "STEINHAUSER Georg",
+        "team": "Ef Education Easypost",
+        "value": "1"
+      },
+      {
+        "rank": 25,
         "name": "TARLING Joshua",
         "team": "Netcompany Ineos",
         "value": "1"
@@ -900,153 +942,153 @@
     "youth": [
       {
         "rank": 1,
-        "name": "DEL TORO Isaac",
-        "team": "Uae Team Emirates Xrg",
-        "value": "8:47:19"
+        "name": "VACEK Mathias",
+        "team": "Lidl Trek",
+        "value": "13:06:36"
       },
       {
         "rank": 2,
-        "name": "AYUSO Juan",
-        "team": "Lidl Trek",
-        "value": "0:03"
+        "name": "DEBRUYNE Ramses",
+        "team": "Alpecin Premier Tech",
+        "value": "4:16"
       },
       {
         "rank": 3,
-        "name": "SEIXAS Paul",
-        "team": "Decathlon Cma Cgm Team",
-        "value": "0:24"
+        "name": "DEL TORO Isaac",
+        "team": "Uae Team Emirates Xrg",
+        "value": "4:27"
       },
       {
         "rank": 4,
-        "name": "MARTINEZ Lenny",
-        "team": "Bahrain Victorious",
-        "value": "0:45"
+        "name": "AYUSO Juan",
+        "team": "Lidl Trek",
+        "value": "4:30"
       },
       {
         "rank": 5,
-        "name": "VAN EETVELT Lennert",
-        "team": "Lotto Intermarche",
-        "value": "1:23"
+        "name": "SEIXAS Paul",
+        "team": "Decathlon Cma Cgm Team",
+        "value": "4:51"
       },
       {
         "rank": 6,
-        "name": "PIGANZOLI Davide",
-        "team": "Team Visma Lease A Bike",
-        "value": "1:51"
+        "name": "VAN EETVELT Lennert",
+        "team": "Lotto Intermarche",
+        "value": "5:12"
       },
       {
         "rank": 7,
-        "name": "UIJTDEBROEKS Cian",
-        "team": "Movistar Team",
-        "value": "3:00"
+        "name": "MARTINEZ Lenny",
+        "team": "Bahrain Victorious",
+        "value": "5:50"
       },
       {
         "rank": 8,
-        "name": "TIBERI Antonio",
-        "team": "Bahrain Victorious",
-        "value": "4:55"
+        "name": "PIGANZOLI Davide",
+        "team": "Team Visma Lease A Bike",
+        "value": "6:18"
       },
       {
         "rank": 9,
-        "name": "BAUDIN Alex",
-        "team": "Ef Education Easypost",
-        "value": "6:53"
+        "name": "UIJTDEBROEKS Cian",
+        "team": "Movistar Team",
+        "value": "7:27"
       },
       {
         "rank": 10,
-        "name": "VACEK Mathias",
-        "team": "Lidl Trek",
-        "value": "8:32"
+        "name": "CASTRILLO Pablo",
+        "team": "Movistar Team",
+        "value": "7:32"
       },
       {
         "rank": 11,
-        "name": "DEBRUYNE Ramses",
-        "team": "Alpecin Premier Tech",
-        "value": "12:48"
+        "name": "GARC\u00cdA PIERNA Ra\u00fal",
+        "team": "Movistar Team",
+        "value": "7:44"
       },
       {
         "rank": 12,
-        "name": "CASTRILLO Pablo",
-        "team": "Movistar Team",
-        "value": "16:04"
+        "name": "BAUDIN Alex",
+        "team": "Ef Education Easypost",
+        "value": "9:22"
       },
       {
         "rank": 13,
-        "name": "GARC\u00cdA PIERNA Ra\u00fal",
-        "team": "Movistar Team",
-        "value": "16:20"
+        "name": "TIBERI Antonio",
+        "team": "Bahrain Victorious",
+        "value": "11:20"
       },
       {
         "rank": 14,
-        "name": "PARET-PEINTRE Valentin",
-        "team": "Soudal Quick Step",
-        "value": "17:34"
+        "name": "SIMMONS Quinn",
+        "team": "Lidl Trek",
+        "value": "12:10"
       },
       {
         "rank": 15,
         "name": "GR\u00c9GOIRE Romain",
         "team": "Groupama Fdj United",
-        "value": "20:42"
+        "value": "12:49"
       },
       {
         "rank": 16,
-        "name": "SIMMONS Quinn",
-        "team": "Lidl Trek",
-        "value": "20:48"
+        "name": "VAUQUELIN K\u00e9vin",
+        "team": "Netcompany Ineos",
+        "value": "14:37"
       },
       {
         "rank": 17,
-        "name": "VERCHER Matt\u00e9o",
-        "team": "Totalenergies",
-        "value": "20:59"
+        "name": "PARET-PEINTRE Valentin",
+        "team": "Soudal Quick Step",
+        "value": "22:01"
       },
       {
         "rank": 18,
-        "name": "VAUQUELIN K\u00e9vin",
-        "team": "Netcompany Ineos",
-        "value": "21:21"
+        "name": "VAN MECHELEN Vlad",
+        "team": "Bahrain Victorious",
+        "value": "25:02"
       },
       {
         "rank": 19,
-        "name": "VAN MECHELEN Vlad",
-        "team": "Bahrain Victorious",
-        "value": "27:36"
+        "name": "VERCHER Matt\u00e9o",
+        "team": "Totalenergies",
+        "value": "25:26"
       },
       {
         "rank": 20,
         "name": "GERMANI Lorenzo",
         "team": "Groupama Fdj United",
-        "value": "31:07"
+        "value": "32:03"
       },
       {
         "rank": 21,
-        "name": "STEINHAUSER Georg",
-        "team": "Ef Education Easypost",
-        "value": "33:58"
+        "name": "COSTIOU Ewen",
+        "team": "Groupama Fdj United",
+        "value": "36:37"
       },
       {
         "rank": 22,
         "name": "LE BERRE Mathis",
         "team": "Totalenergies",
-        "value": "34:12"
+        "value": "38:39"
       },
       {
         "rank": 23,
         "name": "VERSTRYNGE Emiel",
         "team": "Alpecin Premier Tech",
-        "value": "34:18"
+        "value": "38:45"
       },
       {
         "rank": 24,
-        "name": "BERCKMOES Jenno",
-        "team": "Lotto Intermarche",
-        "value": "37:05"
+        "name": "STEINHAUSER Georg",
+        "team": "Ef Education Easypost",
+        "value": "39:43"
       },
       {
         "rank": 25,
-        "name": "CRAPS Lars",
+        "name": "BERCKMOES Jenno",
         "team": "Lotto Intermarche",
-        "value": "37:08"
+        "value": "41:32"
       }
     ]
   },
@@ -23218,9 +23260,9 @@
   "ledger": {
     "summary": {
       "picks": 6,
-      "pnl": -1.0,
+      "pnl": -3.25,
       "wins": 0,
-      "settled": 2
+      "settled": 6
     },
     "picks": [
       {
@@ -23231,8 +23273,8 @@
         "est_prob": 0.015,
         "ev": 1.265,
         "units": 0.25,
-        "outcome": "pending",
-        "pnl_units": null
+        "outcome": "lost",
+        "pnl_units": -0.25
       },
       {
         "stage_num": 4,
@@ -23242,8 +23284,8 @@
         "est_prob": 0.025,
         "ev": 2.775,
         "units": 0.25,
-        "outcome": "pending",
-        "pnl_units": null
+        "outcome": "lost",
+        "pnl_units": -0.25
       },
       {
         "stage_num": 4,
@@ -23253,8 +23295,8 @@
         "est_prob": 0.075,
         "ev": 0.125,
         "units": 0.75,
-        "outcome": "pending",
-        "pnl_units": null
+        "outcome": "lost",
+        "pnl_units": -0.75
       },
       {
         "stage_num": 4,
@@ -23264,8 +23306,8 @@
         "est_prob": 0.07,
         "ev": 0.47,
         "units": 1.0,
-        "outcome": "pending",
-        "pnl_units": null
+        "outcome": "lost",
+        "pnl_units": -1.0
       },
       {
         "stage_num": 3,
@@ -23546,62 +23588,7 @@
     "expert_agreement_note": "Good agreement on the shape, less on the finish. THEMOVE (Armstrong/Bruyneel) are emphatic it's a break and tip Van der Poel, flagging 40\u00b0C heat as the great filter \u2014 getting in the move isn't enough, you have to survive the heat over the climbs. cyclingstage frames it 'suited to attackers, half the peloton thinks it can win' and leans on Foix's breakaway history. The r/peloton crowd is split: a breakaway camp (Quinn Simmons, Magnus Cort, THJ) versus a control camp arguing Pedersen NEEDS this for green so Lidl-Trek pulls it back for a reduced sprint. That control scenario is exactly why we're not longer on Van der Poel and why we've left the short-priced favourite (Pedersen 4.0) alone.",
     "no_bet_reason": "We pass on the short favourite. Mads Pedersen at 4.0 (18% de-vigged) is the market's pick for the 'Lidl-Trek controls it for a reduced sprint' scenario \u2014 plausible, but he needs the stage pulled back AND to survive two Cat-2 climbs in 40\u00b0C AND to out-sprint whoever's left, and we think the break is more likely to stay away. No value laying into that at 4.0. Philipsen (19.0) almost certainly gets shed on Coudons. The value is up the road (see the picks)."
   },
-  "experts": [
-    {
-      "source": "Lanterne Rouge",
-      "rider_name": "Mads Pedersen",
-      "pick_type": "win",
-      "quote": "Brief sign-off note only (this episode recaps stage 3): 'versatile sprint stage tomorrow, maybe a strong break, Pedersen will be going for it' \u2014 i.e. Pedersen the pick IF it comes back together, with a break as the live alternative.",
-      "url": "https://youtu.be/Eb2_5niWNCU",
-      "hits": null,
-      "picks": null
-    },
-    {
-      "source": "THEMOVE",
-      "rider_name": "Quinn Simmons",
-      "pick_type": "longshot",
-      "quote": "Spencer Martin's top pick: 182km, hot, 4 categorised climbs (2x cat 2, ~2700m vert), no uphill finish (~30km flat/downhill run-in) \u2014 'an ideal stage for a breakaway.' Both hosts expect UAE to defend yellow rather than give it away, but think the terrain favours a strong break surviving anyway. Simmons picked for power/form shown on stage 3.",
-      "url": "https://youtu.be/ut6Cr2DgpzY",
-      "hits": 0,
-      "picks": 1
-    },
-    {
-      "source": "THEMOVE",
-      "rider_name": "Matias Vacek",
-      "pick_type": "longshot",
-      "quote": "Johan Bruyneel's pick from the breakaway: 'in great form,' though hosts flag heat tolerance as a swing factor (Vacek is Czech, unclear heat form). Matthew van der Poel also floated as 'a good pick' if he attacks again after trying and fading on stage 3.",
-      "url": "https://youtu.be/ut6Cr2DgpzY",
-      "hits": 0,
-      "picks": 1
-    },
-    {
-      "source": "THEMOVE",
-      "rider_name": null,
-      "pick_type": "view",
-      "quote": "Both hosts: 'I would be shocked if this is not a breakaway' \u2014 no uphill finish, long stage, hot (100F+), little incentive for a GC team to control like stage 3. Uncertainty is only over who wins from the move, not bunch-vs-break.",
-      "url": "https://youtu.be/ut6Cr2DgpzY",
-      "hits": 0,
-      "picks": 1
-    },
-    {
-      "source": "cyclingstage.com",
-      "rider_name": null,
-      "pick_type": "view",
-      "quote": "'Suited to: attackers' / 'half the peloton thinks it can win.' Foix has a strong breakaway-win history (Sanchez 2012, Barguil 2017, Houle 2022); final 35km mainly downhill/rolling after the last categorised climb (Col de Montsegur). No named pick, structural view only.",
-      "url": "https://www.cyclingstage.com/tour-de-france-2026/stage-4-tdf-2026/",
-      "hits": null,
-      "picks": null
-    },
-    {
-      "source": "r/peloton predictions",
-      "rider_name": null,
-      "pick_type": "view",
-      "quote": "Split crowd: majority tactical read is Ineos+Lidl-Trek control it for Godon/Pedersen (reduced bunch sprint) since the run-in is mostly descending and the following stage suits pure sprinters ('no way break wins' - u/ProportionalPage), but a large minority expect a breakaway given the terrain and name Abrahamsen, Steinhauser, Schmid, Mohoric, Valgren, Bernal, Magnus Cort (if break) / THJ (if no break). Pedersen is the most-named rider overall, framed as needing this stage for the green jersey.",
-      "url": "https://www.reddit.com/r/peloton/comments/1up5lbx/predictions_thread_2026_tour_de_france_stage_4/",
-      "hits": null,
-      "picks": null
-    }
-  ],
+  "experts": [],
   "expert_views": [
     {
       "stage_num": 4,
