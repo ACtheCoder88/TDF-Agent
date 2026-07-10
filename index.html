@@ -164,6 +164,10 @@ let D = window.DASHBOARD_DATA || {};   // mutable: swapped on auto-refresh
 const fmtPct = p => (p==null?'—':(p*100).toFixed(0)+'%');
 const fmtU = u => (u==null?'—':(u>=0?'+':'')+(+u).toFixed(1)+'u');
 const nameOnly = n => (n||'').split(' (')[0];
+// Break-even decimal odds at OUR est. probability, rounded UP to 2dp — the price
+// floor for syndicate members betting AU books (Sportsbet/Bet365): at/above = still
+// +EV at our numbers, below = pass. Mirrors compose_email.min_fair_odds().
+const minOdds = p => (p&&p>0 ? (Math.ceil(100/p)/100).toFixed(2) : null);
 const splitNews = s => { const i=(s||'').indexOf(' — ');
   return i>0 ? {title:s.slice(0,i), snippet:s.slice(i+3)} : {title:s||'', snippet:''}; };
 const srcBadge = s => 'news-badge '+(s||'').toLowerCase().replace(/[^a-z]/g,'');
@@ -267,6 +271,7 @@ function Stage({onGoTo, onPick}){
   const pickCard = (p,cls)=>html`<div class=${"pick "+(cls||'')}>
       <strong>${nameOnly(p.rider)}</strong>${convBadge(p.conviction)} — ${p.market||'stage_winner'} @ <strong>${p.tab_odds}</strong>
       · our ${fmtPct(p.est_prob)} vs TAB ${fmtPct(p.devigged_p)} · EV ${p.ev!=null?(p.ev>0?'+':'')+p.ev:'—'} · <strong>${p.units}u</strong>
+      ${minOdds(p.est_prob)?html` · AU floor <strong>${minOdds(p.est_prob)}+</strong>`:null}
       <div class="tag">${p.reason||''}</div></div>`;
   return html`<div>
     <div class="card">
@@ -494,9 +499,9 @@ function Ledger(){
     </div>
     <div class="card"><h2>Pick history</h2>
       ${(L.picks||[]).length? html`<table><thead><tr><th>Stage</th><th>Rider</th><th>Type</th>
-        <th class="num">Odds</th><th class="num">Units</th><th>Outcome</th><th class="num">P&L</th></tr></thead>
+        <th class="num">Odds</th><th class="num">AU floor</th><th class="num">Units</th><th>Outcome</th><th class="num">P&L</th></tr></thead>
         <tbody>${L.picks.map(p=>html`<tr><td>${p.stage_num}</td><td>${nameOnly(p.rider_name)}</td>
-          <td>${p.pick_type}</td><td class="num">${p.tab_odds||'—'}</td><td class="num">${p.units||'—'}</td>
+          <td>${p.pick_type}</td><td class="num">${p.tab_odds||'—'}</td><td class="num">${minOdds(p.est_prob)?minOdds(p.est_prob)+'+':'—'}</td><td class="num">${p.units||'—'}</td>
           <td>${p.outcome}</td><td class=${"num "+((p.pnl_units||0)>=0?'pos':'neg')}>${p.pnl_units!=null?fmtU(p.pnl_units):'—'}</td></tr>`)}</tbody></table>`
         : html`<div class="empty">No picks recorded yet — the ledger starts once we back something.</div>`}
     </div>
@@ -525,6 +530,7 @@ function OverallCategories({onPick}){
       ${m.pick?html`<div class="pick">
         <strong>${m.pick.rider}</strong> @ <strong>${m.pick.odds}</strong> (TAB) · our ${fmtPct(m.pick.est_prob)}
         vs TAB ${fmtPct(m.pick.devigged_p)} · <strong>${m.pick.units}u</strong>
+        ${minOdds(m.pick.est_prob)?html` · AU floor <strong>${minOdds(m.pick.est_prob)}+</strong>`:null}
         <div class="tag">${m.pick.reason}</div></div>`:''}
       <div class="scroll" style=${{maxHeight:'none',marginTop:'8px'}}>
       <table><thead><tr><th>${m.key==='teams'?'Team':'Rider'}</th><th class="num">Odds</th><th class="num">TAB %</th></tr></thead>
