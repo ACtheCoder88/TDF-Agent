@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-10T07:58:04.598894+00:00",
+    "generated_at": "2026-07-10T08:11:16.482895+00:00",
     "stages_raced": 6,
     "next_stage": 7,
     "total_stages": 21,
@@ -24576,38 +24576,27 @@
     }
   ],
   "picks": {
-    "stage_num": 5,
+    "stage_num": 6,
+    "overnight_recap": "Well, that was carnage dressed up as a bunch sprint. Olav Kooij \u2014 24, sick as a dog a month ago, guaranteed by contract to *never* ride this Tour while Vingegaard's still on Visma's books \u2014 walked out the door to Decathlon and promptly torched the entire field into Pau. No lead-out train, just a gap that opened at 250m and never closed: Kooij, then daylight, then Kanter and Merlier scrapping for the minor placings. Our card read like a smoking crater \u2014 Pedersen each-way at 17.0 (low conviction, honestly labelled a punt) finished 7th and lost, and the Merlier flutter carried precisely zero units because the maths said don't, so it just quietly also lost for free. Season ledger: 0 wins from 8 settled picks, -3.5u. We are yet to cash a single ticket at this Tour. If you've been mirroring our stakes, you're currently down exactly what you should be down at 0.25-1u a throw \u2014 this is what disciplined losing looks like, and it's still better than the alternative.",
+    "stage_description": "Now the fun bit. Stage 6 says goodbye to the Pyrenees the hard way: 186.2 km, 4,149 m of climbing, over the Col d'Aspin and then the big one \u2014 the Tourmalet, 17.1 km at 7.3%, double-digit gradients from kilometre 10, the Souvenir Jacques Goddet waiting at 2,115 m. Off the top there's a long descent into Luz-Saint-Sauveur and then a finish nobody has ever seen: 18.7 km at a deceptively gentle 3.7% up to Gavarnie-G\u00e8dre, under the UNESCO-listed Cirque. Four Tours running \u2014 2021, 2023, 2024, and again in Luchon last year \u2014 this exact recipe (Tourmalet, then a long haul to the line) has produced a GC-favourite stage win three times out of four, with Thymen Arensman the solo spoiler in 2025. Across all mtf stages the last four editions, 45% still go to the breakaway \u2014 so somebody in the early move today thinks they're the exception. Most of them are wrong.",
     "verdict": "bets",
-    "overnight_recap": "Take a bow, Lidl-Trek. Stage 4 was a team pursuit wearing a road race number: 61 kph off the gun until the elastic didn't just stretch, it snapped clean \u2014 Vacek towing the break like a man paid by the kilometre, Quinn Simmons riding shotgun, and Mads Pedersen sitting in the armchair before smoking the survivors in the final 200 metres. The bunch rolled in twelve minutes and fifty-nine seconds later, presumably enjoying the scenery. Torstein Tr\u00e6en inherits yellow \u2014 a first ever for Uno-X, and Norway will dine out on it for a decade (the mountains will take it back, but nobody can take the photo) \u2014 while Pedersen pulls on green with 103 points and a smirk. And our card? We called the break day dead right and still donated 2.25 units, because we backed the right train and the wrong carriages: Simmons second, our two 151-to-1 'value' tickets nowhere, which is where 151-to-1 tickets live. Season ledger: 0 from 6, minus 3.25 units. Yes, we're roasting ourselves before you can. The engine got rebuilt overnight \u2014 the 151-to-1 confetti era is officially over.",
-    "stage_description": "158 kilometres from Lannemezan to Pau, ridden inside a pizza oven \u2014 33.5\u00b0C and barely a breath of wind (we ran the crosswind maths so you don't have to: risk nil, no echelons, no excuses). The road rolls through the foothills before the day's only categorised obstacle, the C\u00f4te de Baleix \u2014 one kilometre at a spiteful 8.8%, cresting 26 km from the line \u2014 then it's wide boulevards into Pau, the Tour's 64th visit and the same finish Jasper Philipsen owned in 2024. This is the fast men's first payday in five days and every leadout squad knows it; we give a breakaway a 6% chance, and that's us being romantic. The only live tactical question: does somebody \u2014 Lidl-Trek for green, Alpecin to cook Merlier \u2014 race the Baleix full-gas in the furnace and turn a drag race into a crime scene? At 26 km out it's a speed bump on paper; in this heat, on legs still ringing from the Pyrenees opener, it's a loaded gun on the mantelpiece.",
     "top_picks": [
       {
-        "rider": "Mads Pedersen",
+        "rider": "Ben O'Connor",
         "market": "stage_winner",
-        "tab_odds": 17.0,
-        "est_prob": 0.07,
-        "devigged_p": 0.044,
-        "ev": 0.19,
+        "tab_odds": 101.0,
+        "est_prob": 0.012,
+        "devigged_p": 0.00698,
+        "ev": 0.21,
         "units": 0.25,
-        "conviction": "low",
-        "reason": "The one number TAB got wrong. Nobody tips Pedersen to WIN this \u2014 yet two panels independently sketch the exact scenario where he does: the c\u00f4tes get raced full-gas in the heat, the pure sprinters crack, and the fastest man left standing is wearing green with a team that just proved it can detonate a race on command. We rate that scenario 7% against the market's 4.4% \u2014 a 19% edge. Strict quarter-Kelly says 0.06u; we take the minimum 0.25u ticket and call it what it is: a live scenario at a wrong price, not a prophecy."
-      },
-      {
-        "rider": "Tim Merlier",
-        "market": "stage_winner",
-        "tab_odds": 2.85,
-        "est_prob": 0.24,
-        "devigged_p": 0.26,
-        "ev": -0.32,
-        "units": 0.0,
         "conviction": "speculative",
-        "reason": "The likeliest winner of the bike race and a donation at the price \u2014 TAB rates him 26% after the vig comes out, we say 24%. Negative EV means ZERO units under the new house rules, no exceptions \u2014 and the fact that this exact bet went on the slip at half a unit this morning under the old regime is precisely why the new rules exist. If you simply must have a sprinter on your ticket, he's the fastest man in the race. Just know you're paying rack rate for the privilege."
+        "reason": "Not a value bet \u2014 say it plainly. Racing Post's tipster is on record with an actual staked best bet here (0.5pt e/w at 150-1) for exactly the right reason: O'Connor already has a mtf-archetype stage win on his CV, is miles down GC with zero leadership duties, and only needs UAE to be content letting a second break go. Our own quant number barely clears zero EV even before the vig \u2014 the honest read is this is a marker, not an edge. Staked at the longshot floor (0.25u) and no higher."
       }
     ],
     "place_picks": [],
     "longshots": [],
-    "expert_agreement_note": "The panel is split straight down the middle and it's a genuinely great argument. Team Merlier: Johan Bruyneel ('everybody is for Merlier \u2014 he's my favourite to win the stage'), CyclingUpToDate, WielerFlits, and the r/peloton crowd ('Let's not overthink this. Tim Merlier.'). Team Philipsen: the Racing Post's Jack Ogalbe \u2014 his best bet, 1pt at 4-1, on the man who won the last Pau finish \u2014 plus IDL Pro Cycling and Spencer Martin ('his lead-out man is Mathieu van der Poel \u2014 that's partly why he wins so many Tour stages'). When the sharpest camps in cycling can't split the top two, the bookmaker doesn't have to either \u2014 which is exactly why there's no value up there. Meanwhile not one source tips Pedersen to win, but CyclingUpToDate and the sharper Reddit comments both described the c\u00f4tes-in-the-furnace scenario that makes 17.0 the only interesting number on the board. That's not consensus. That's better than consensus.",
-    "no_bet_reason": "On the big two, TAB and our model are staring at each other, nodding: Merlier 24% ours vs 26% theirs, Philipsen 22% vs 23%. No edge, no bet, no apology \u2014 an efficient market isn't a personal insult, it just feels like one. Overround 1.35, inside tolerance. The stake lives where the market stopped looking."
+    "expert_agreement_note": "The panel is basically unanimous that today is Pogacar's to lose \u2014 THEMOVE (Spencer Martin + Johan Bruyneel) both back him outright, with Del Toro (+1000) floated as the smart hedge if UAE decide to unleash the kid instead of the boss on that shallow final drag. r/peloton's crowd read is the same shape: Pog goes on the Tourmalet or in the last 2km, Vingegaard chases, the shallow 3.7% finish suits Pogacar's raw watts over Jonas's watts/kg. Nobody of substance is picking against him \u2014 which is exactly why there's no value backing him at 1.15. CyclingUpToDate is the lone voice suggesting Visma sit on their hands rather than attack, which if true makes our quant's Vingegaard number (14%) look generous against a team that's told us, in their own words, they plan to defend, not swing. Racing Post is the standout \u2014 a real, gradeable, staked pick on O'Connor, which is why he's tonight's marker.",
+    "no_bet_reason": "Pogacar is the standout form/archetype favourite (8 of 20 recorded mtf wins, dominant start to this Tour) but the market already knows it \u2014 1.15 / 58% de-vigged is fair, arguably tight, and there's no edge in backing a stage in his favour at odds-on. Every other GC name (Vingegaard, Del Toro, Seixas, Evenepoel, Paret-Peintre, Carapaz) fails our win-market edge test once you account for TAB's 42% overround \u2014 either the ratio to de-vig doesn't clear 1.30x or the raw EV is negative. Evenepoel and Lipowitz both cleared the longshot ratio test on paper (2.6x and 1.9x respectively) but neither has the kind of named, specific evidence the tail-discipline rule demands at those prices, so they're left as watches, not bets. One honest data gap to flag: GC/points/KOM/youth standings in our own DB are stuck at the stage-4 snapshot \u2014 ProCyclingStats is returning 403 Forbidden to this cloud environment's IP tonight (a known Cloudflare risk for this pipeline), so pcs_standings.py --stage 5 could not run. Where we've referenced current gaps (Traeen's yellow-jersey buffer, Pedersen's green-jersey lead) tonight, that's sourced from named experts' own reporting (THEMOVE, IDL), not our own results pull \u2014 flagged so nobody mistakes it for our data."
   },
   "experts": [],
   "expert_views": [
