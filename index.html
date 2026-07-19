@@ -268,10 +268,15 @@ function Stage({onGoTo, onPick}){
   const convBadge = c=>{const k=(c||'').toLowerCase();
     const L={high:'HIGH',moderate:'MOD',low:'LOW',speculative:'SPEC'}[k];
     return L?html`<span class=${"conv conv-"+k}>${L}</span>`:'';};
+  const ROLE={banker:'🏦 BANKER',value:'🎯 VALUE',saver:'🛟 SAVER',flyer:'🎇 FLYER'};
+  const roleBadge = r=>{const L=ROLE[(r||'').toLowerCase()];
+    return L?html`<span class="conv" style=${{background:'#1d3a5f',color:'#cfe3ff'}}>${L}</span>`:'';};
   const pickCard = (p,cls)=>html`<div class=${"pick "+(cls||'')}>
-      <strong>${nameOnly(p.rider)}</strong>${convBadge(p.conviction)} — ${p.market||'stage_winner'} @ <strong>${p.tab_odds}</strong>
-      · our ${fmtPct(p.est_prob)} vs TAB ${fmtPct(p.devigged_p)} · EV ${p.ev!=null?(p.ev>0?'+':'')+p.ev:'—'} · <strong>${p.units}u</strong>
-      ${minOdds(p.est_prob)?html` · AU floor <strong>${minOdds(p.est_prob)}+</strong>`:null}
+      <strong>${nameOnly(p.rider)}</strong>${roleBadge(p.role)}${convBadge(p.conviction)} — ${p.market||'stage_winner'} @ <strong>${p.tab_odds}</strong>
+      · ${p.p_bet!=null?html`blend ${fmtPct(p.p_bet)} (model ${fmtPct(p.est_prob)} / TAB ${fmtPct(p.devigged_p)})`
+                       :html`our ${fmtPct(p.est_prob)} vs TAB ${fmtPct(p.devigged_p)}`}
+      · EV ${p.ev!=null?(p.ev>0?'+':'')+p.ev:'—'} · <strong>${p.units}u</strong>${p.weight_pct?html` (${Math.round(p.weight_pct)}% of card)`:''}
+      ${minOdds(p.p_bet||p.est_prob)?html` · AU floor <strong>${minOdds(p.p_bet||p.est_prob)}+</strong>`:null}
       <div class="tag">${p.reason||''}</div></div>`;
   return html`<div>
     <div class="card">
@@ -303,12 +308,21 @@ function Stage({onGoTo, onPick}){
       <h2>Our read & picks</h2>
       ${picks.overnight_recap?html`<h3>Overnight</h3><div>${picks.overnight_recap}</div>`:null}
       ${picks.stage_description?html`<h3>How it plays out</h3><div>${picks.stage_description}</div>`:null}
-      <h3>Picks</h3>
+      <h3>Tonight's betting card</h3>
+      ${picks.card_note?html`<div class="tag" style=${{marginBottom:'6px'}}>${picks.card_note}</div>`:null}
       ${(picks.verdict==='no_bet'||!(picks.top_picks||[]).length)
         ? html`<div class="nobet"><strong>No bet.</strong> ${picks.no_bet_reason||''}</div>`
         : (picks.top_picks||[]).map(p=>pickCard(p,''))}
       ${(picks.place_picks||[]).map(p=>pickCard(p,'place'))}
       ${(picks.longshots||[]).map(p=>pickCard(p,'longshot'))}
+      ${(()=>{const all=[...(picks.top_picks||[]),...(picks.place_picks||[]),...(picks.longshots||[])]
+              .filter(p=>(p.units||0)>0&&p.tab_odds);
+        const tot=all.reduce((s,p)=>s+p.units,0);
+        return (all.length&&all.some(p=>p.role))?html`<div class="tag" style=${{marginTop:'8px'}}>
+          Card total <strong>${+tot.toFixed(2)}u</strong> · pays:
+          ${all.map(p=>html` <span style=${{whiteSpace:'nowrap'}}>${nameOnly(p.rider).split(' ').pop()}
+            → <strong>${(p.units*p.tab_odds-tot)>0?'+':''}${+(p.units*p.tab_odds-tot).toFixed(2)}u</strong>;</span>`)}
+          nothing lands → <strong>-${+tot.toFixed(2)}u</strong></div>`:null;})()}
       ${picks.expert_agreement_note?html`<div class="tag" style=${{marginTop:'8px'}}>${picks.expert_agreement_note}</div>`:null}
     </div>`:html`<div class="card empty">No analysis exported for this stage yet.</div>`}
     ${(D.experts&&D.experts.length)?html`<div class="card">
