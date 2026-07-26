@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-25T07:46:30.675998+00:00",
-    "stages_raced": 19,
-    "next_stage": 20,
+    "generated_at": "2026-07-26T07:43:30.123962+00:00",
+    "stages_raced": 20,
+    "next_stage": 21,
     "total_stages": 21,
-    "news_updated_at": "2026-07-25T07:34:09.196957+00:00",
-    "picks_updated_at": "2026-07-25T07:37:23.182793+00:00",
-    "experts_checked_at": "2026-07-25T07:34:15.961513+00:00",
+    "news_updated_at": "2026-07-26T07:35:51.660416+00:00",
+    "picks_updated_at": "2026-07-26T07:37:35.045649+00:00",
+    "experts_checked_at": "2026-07-26T07:35:58.159101+00:00",
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_response_note": "Answers are usually posted within an hour.",
     "qa_pending": 0
@@ -1499,32 +1499,21 @@
     {
       "stage_num": 21,
       "date": "26 July 2026",
-      "start_town": "Thoiry",
+      "start_town": "Paris",
       "finish_town": "Paris",
-      "distance_km": 133.0,
+      "distance_km": 88.7,
       "vertical_m": 1295.0,
       "profile_score": 40.0,
       "ps_final25k": null,
       "finish_type": "p1",
       "archetype": "bunch_sprint",
       "key_climbs": [],
-      "description": "Stage 21 runs 133 km from Thoiry to Paris, climbing 1295 m along the way (ProfileScore 40) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
+      "description": "Stage 21 runs 89 km from Paris to Paris, climbing 1295 m along the way (ProfileScore 40) \u2014 a flat run-in that should come down to a bunch gallop among the sprinters. Across the last four Tours, bunch sprint stages like this one were won from a breakaway 10% of the time (21 such stages). Riders who've won this type of stage before: Jasper Philipsen (7), Tim Merlier (2), Jonathan Milan (2), Dylan Groenewegen (2).",
       "features": [
         {
-          "type": "climb",
-          "name": "C\u00f4te du Pav\u00e9 des Gardes",
-          "km": 43.1,
-          "km_to_go": 89.9,
-          "category": "4",
-          "length_km": 7.0,
-          "gradient_pct": 9.7,
-          "altitude_m": 180,
-          "note": null
-        },
-        {
           "type": "sprint",
-          "name": "PARIS - HAUT DES CHAMPS-ELYS\u00c9ES (3e passage)",
-          "km": 72.2,
+          "name": "PARIS - HAUT DES CHAMPS-\u00c9LYS\u00c9ES (5E PASSAGE)",
+          "km": 27.9,
           "km_to_go": 60.8,
           "category": "sprint",
           "length_km": null,
@@ -1535,38 +1524,50 @@
         {
           "type": "climb",
           "name": "C\u00f4te de la Butte Montmartre",
-          "km": 90.8,
-          "km_to_go": 42.2,
+          "km": 46.4,
+          "km_to_go": 42.3,
           "category": "4",
-          "length_km": 1.0,
-          "gradient_pct": 6.5,
-          "altitude_m": 128,
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
           "note": null
         },
         {
           "type": "climb",
           "name": "C\u00f4te de la Butte Montmartre",
-          "km": 106.7,
+          "km": 62.4,
           "km_to_go": 26.3,
           "category": "4",
-          "length_km": 1.0,
-          "gradient_pct": 6.5,
-          "altitude_m": 128,
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
           "note": null
         },
         {
           "type": "climb",
           "name": "C\u00f4te de la Butte Montmartre",
-          "km": 122.7,
+          "km": 78.4,
           "km_to_go": 10.3,
           "category": "4",
-          "length_km": 1.0,
-          "gradient_pct": 6.5,
-          "altitude_m": 128,
+          "length_km": null,
+          "gradient_pct": null,
+          "altitude_m": null,
           "note": null
         }
       ],
-      "weather": null,
+      "weather": {
+        "stage_num": 21,
+        "finish": "Paris",
+        "date": "2026-07-26",
+        "temp_max": 26.3,
+        "precip_mm": 0,
+        "wind_kmh": 17.3,
+        "gust_kmh": 40.7,
+        "wind_dir_deg": 253,
+        "route_bearing_deg": 318.2,
+        "crosswind_risk": "medium",
+        "summary": "26.3\u00b0C max, 0 mm rain; finale wind 17.3 km/h (gusts 40.7) from the W, route heading 318.2\u00b0 \u2014 crosswind risk medium"
+      },
       "profile_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-21-profile.jpg",
       "route_img": "https://cdn.cyclingstage.com/images/tour-de-france/2026/stage-21-route.jpg"
     }
@@ -23273,393 +23274,361 @@
       ]
     },
     "stage_winner": {
-      "ts": "2026-07-25T07:33:10.687943+00:00",
-      "prev_ts": "2026-07-24T07:33:13.428626+00:00",
-      "overround": 1.4522690152779043,
+      "ts": "2026-07-26T07:34:26.206248+00:00",
+      "prev_ts": "2026-07-25T07:33:10.687943+00:00",
+      "overround": 1.4081400726172904,
       "runners": [
         {
+          "rider_name": "Mathieu Van Der Poel",
+          "odds_decimal": 2.5,
+          "implied_p": 0.4,
+          "devigged_p": 0.28406264957471566,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
           "rider_name": "Tadej Pogacar",
-          "odds_decimal": 2.75,
-          "implied_p": 0.36363636363636365,
-          "devigged_p": 0.2503918763059051,
-          "overround": 1.4522690152779043,
-          "move": 1.22
+          "odds_decimal": 4.25,
+          "implied_p": 0.23529411764705882,
+          "devigged_p": 0.16709567622042096,
+          "overround": 1.4081400726172904,
+          "move": 1.5
         },
         {
-          "rider_name": "Richard Carapaz",
-          "odds_decimal": 3.0,
-          "implied_p": 0.3333333333333333,
-          "devigged_p": 0.22952588661374634,
-          "overround": 1.4522690152779043,
-          "move": -3.5
+          "rider_name": "Mads Pedersen",
+          "odds_decimal": 5.0,
+          "implied_p": 0.2,
+          "devigged_p": 0.14203132478735783,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Sepp Kuss",
-          "odds_decimal": 6.5,
-          "implied_p": 0.15384615384615385,
-          "devigged_p": 0.10593502459095987,
-          "overround": 1.4522690152779043,
-          "move": -1.0
-        },
-        {
-          "rider_name": "Isaac del Toro",
-          "odds_decimal": 10.0,
-          "implied_p": 0.1,
-          "devigged_p": 0.06885776598412391,
-          "overround": 1.4522690152779043,
-          "move": -9.0
+          "rider_name": "Jasper Philipsen",
+          "odds_decimal": 11.0,
+          "implied_p": 0.09090909090909091,
+          "devigged_p": 0.06455969308516266,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
           "rider_name": "Remco Evenepoel",
-          "odds_decimal": 13.0,
-          "implied_p": 0.07692307692307693,
-          "devigged_p": 0.052967512295479934,
-          "overround": 1.4522690152779043,
-          "move": 0.0
+          "odds_decimal": 12.0,
+          "implied_p": 0.08333333333333333,
+          "devigged_p": 0.05917971866139909,
+          "overround": 1.4081400726172904,
+          "move": -1.0
         },
         {
-          "rider_name": "Tom Pidcock",
-          "odds_decimal": 17.0,
-          "implied_p": 0.058823529411764705,
-          "devigged_p": 0.04050456822595524,
-          "overround": 1.4522690152779043,
-          "move": -24.0
-        },
-        {
-          "rider_name": "Mattias Skjelmose",
-          "odds_decimal": 34.0,
-          "implied_p": 0.029411764705882353,
-          "devigged_p": 0.02025228411297762,
-          "overround": 1.4522690152779043,
-          "move": -47.0
-        },
-        {
-          "rider_name": "Thymen Arensman",
-          "odds_decimal": 34.0,
-          "implied_p": 0.029411764705882353,
-          "devigged_p": 0.02025228411297762,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Tobias Halland Johannessen",
-          "odds_decimal": 41.0,
-          "implied_p": 0.024390243902439025,
-          "devigged_p": 0.016794577069298513,
-          "overround": 1.4522690152779043,
-          "move": -10.0
-        },
-        {
-          "rider_name": "Lenny Martinez",
-          "odds_decimal": 41.0,
-          "implied_p": 0.024390243902439025,
-          "devigged_p": 0.016794577069298513,
-          "overround": 1.4522690152779043,
-          "move": -10.0
-        },
-        {
-          "rider_name": "Paul Seixas",
-          "odds_decimal": 51.0,
-          "implied_p": 0.0196078431372549,
-          "devigged_p": 0.01350152274198508,
-          "overround": 1.4522690152779043,
-          "move": 25.0
-        },
-        {
-          "rider_name": "Matteo Jorgenson",
-          "odds_decimal": 81.0,
-          "implied_p": 0.012345679012345678,
-          "devigged_p": 0.008500958763472087,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Matthew Riccitello",
-          "odds_decimal": 81.0,
-          "implied_p": 0.012345679012345678,
-          "devigged_p": 0.008500958763472087,
-          "overround": 1.4522690152779043,
-          "move": -20.0
-        },
-        {
-          "rider_name": "Harold Tejada",
-          "odds_decimal": 81.0,
-          "implied_p": 0.012345679012345678,
-          "devigged_p": 0.008500958763472087,
-          "overround": 1.4522690152779043,
-          "move": -70.0
+          "rider_name": "Olav Kooij",
+          "odds_decimal": 26.0,
+          "implied_p": 0.038461538461538464,
+          "devigged_p": 0.02731371630526112,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
           "rider_name": "Quinn Simmons",
-          "odds_decimal": 81.0,
-          "implied_p": 0.012345679012345678,
-          "devigged_p": 0.008500958763472087,
-          "overround": 1.4522690152779043,
-          "move": -20.0
+          "odds_decimal": 29.0,
+          "implied_p": 0.034482758620689655,
+          "devigged_p": 0.024488159446096176,
+          "overround": 1.4081400726172904,
+          "move": -52.0
         },
         {
-          "rider_name": "Derek Gee",
-          "odds_decimal": 81.0,
-          "implied_p": 0.012345679012345678,
-          "devigged_p": 0.008500958763472087,
-          "overround": 1.4522690152779043,
-          "move": -70.0
+          "rider_name": "Tom Pidcock",
+          "odds_decimal": 41.0,
+          "implied_p": 0.024390243902439025,
+          "devigged_p": 0.017320893266750955,
+          "overround": 1.4081400726172904,
+          "move": 24.0
         },
         {
-          "rider_name": "Jai Hindley",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": -50.0
+          "rider_name": "Jasper Stuyven",
+          "odds_decimal": 41.0,
+          "implied_p": 0.024390243902439025,
+          "devigged_p": 0.017320893266750955,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Egan Bernal",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": -50.0
+          "rider_name": "Filippo Ganna",
+          "odds_decimal": 41.0,
+          "implied_p": 0.024390243902439025,
+          "devigged_p": 0.017320893266750955,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Biniam Girmay",
+          "odds_decimal": 51.0,
+          "implied_p": 0.0196078431372549,
+          "devigged_p": 0.013924639685035082,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
           "rider_name": "Mauro Schmid",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Adam Yates",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": -100.0
-        },
-        {
-          "rider_name": "Juan Ayuso",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": 20.0
-        },
-        {
-          "rider_name": "Valentin Paret-Peintre",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": 20.0
-        },
-        {
-          "rider_name": "Davide Piganzoli",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": 67.0
-        },
-        {
-          "rider_name": "Ben O'Connor",
-          "odds_decimal": 101.0,
-          "implied_p": 0.009900990099009901,
-          "devigged_p": 0.006817600592487516,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Yannis Voisard",
-          "odds_decimal": 151.0,
-          "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004560116952590987,
-          "overround": 1.4522690152779043,
-          "move": 84.0
-        },
-        {
-          "rider_name": "Sergio Higuita",
-          "odds_decimal": 151.0,
-          "implied_p": 0.006622516556291391,
-          "devigged_p": 0.004560116952590987,
-          "overround": 1.4522690152779043,
+          "odds_decimal": 51.0,
+          "implied_p": 0.0196078431372549,
+          "devigged_p": 0.013924639685035082,
+          "overround": 1.4081400726172904,
           "move": -50.0
         },
         {
-          "rider_name": "Felix Grossschartner",
-          "odds_decimal": 201.0,
-          "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
+          "rider_name": "Matej Mohoric",
+          "odds_decimal": 51.0,
+          "implied_p": 0.0196078431372549,
+          "devigged_p": 0.013924639685035082,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Michael Matthews",
+          "odds_decimal": 67.0,
+          "implied_p": 0.014925373134328358,
+          "devigged_p": 0.01059935259607148,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Isaac del Toro",
+          "odds_decimal": 81.0,
+          "implied_p": 0.012345679012345678,
+          "devigged_p": 0.00876736572761468,
+          "overround": 1.4081400726172904,
+          "move": 71.0
+        },
+        {
+          "rider_name": "Soren W\u00e6renskjold",
+          "odds_decimal": 81.0,
+          "implied_p": 0.012345679012345678,
+          "devigged_p": 0.00876736572761468,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Maxim Van Gils",
+          "odds_decimal": 101.0,
+          "implied_p": 0.009900990099009901,
+          "devigged_p": 0.007031253702344447,
+          "overround": 1.4081400726172904,
           "move": -100.0
         },
         {
-          "rider_name": "Antonio Tiberi",
-          "odds_decimal": 201.0,
-          "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": 50.0
+          "rider_name": "Romain Gregoire",
+          "odds_decimal": 101.0,
+          "implied_p": 0.009900990099009901,
+          "devigged_p": 0.007031253702344447,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Michael Storer",
-          "odds_decimal": 201.0,
-          "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": 100.0
+          "rider_name": "Per Strand Hagenes",
+          "odds_decimal": 101.0,
+          "implied_p": 0.009900990099009901,
+          "devigged_p": 0.007031253702344447,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Ilan Van Wilder",
-          "odds_decimal": 201.0,
-          "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": 0.0
+          "rider_name": "Huub Artz",
+          "odds_decimal": 151.0,
+          "implied_p": 0.006622516556291391,
+          "devigged_p": 0.004703023999581385,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Jordan Jegat",
+          "rider_name": "Kasper Asgreen",
+          "odds_decimal": 151.0,
+          "implied_p": 0.006622516556291391,
+          "devigged_p": 0.004703023999581385,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Mathias Vacek",
+          "odds_decimal": 151.0,
+          "implied_p": 0.006622516556291391,
+          "devigged_p": 0.004703023999581385,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Kevin Vauquelin",
+          "odds_decimal": 151.0,
+          "implied_p": 0.006622516556291391,
+          "devigged_p": 0.004703023999581385,
+          "overround": 1.4081400726172904,
+          "move": -350.0
+        },
+        {
+          "rider_name": "Max Kanter",
+          "odds_decimal": 151.0,
+          "implied_p": 0.006622516556291391,
+          "devigged_p": 0.004703023999581385,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Davide Ballerini",
+          "odds_decimal": 151.0,
+          "implied_p": 0.006622516556291391,
+          "devigged_p": 0.004703023999581385,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Mattias Skjelmose",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": 50.0
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": 167.0
+        },
+        {
+          "rider_name": "Matteo Jorgenson",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": 120.0
         },
         {
           "rider_name": "Ben Healy",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
           "move": 0.0
         },
         {
-          "rider_name": "Damiano Caruso",
+          "rider_name": "Dorian Godon",
           "odds_decimal": 201.0,
           "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Bruno Armirail",
-          "odds_decimal": 201.0,
-          "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": -100.0
-        },
-        {
-          "rider_name": "Ion Izagirre",
-          "odds_decimal": 201.0,
-          "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": -300.0
-        },
-        {
-          "rider_name": "Maxim Van Gils",
-          "odds_decimal": 201.0,
-          "implied_p": 0.004975124378109453,
-          "devigged_p": 0.003425759501697707,
-          "overround": 1.4522690152779043,
-          "move": -100.0
-        },
-        {
-          "rider_name": "Anders Halland Johannessen",
-          "odds_decimal": 301.0,
-          "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
           "move": null
         },
         {
-          "rider_name": "Alex Baudin",
-          "odds_decimal": 301.0,
-          "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Lennert Van Eetvelt",
-          "odds_decimal": 301.0,
-          "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Nicolas Breuillard",
-          "odds_decimal": 301.0,
-          "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
-          "move": 0.0
-        },
-        {
-          "rider_name": "Tiesj Benoot",
-          "odds_decimal": 301.0,
-          "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
-          "move": -200.0
-        },
-        {
-          "rider_name": "Clement Braz Afonso",
-          "odds_decimal": 301.0,
-          "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
-          "move": -200.0
-        },
-        {
-          "rider_name": "Mattia Cattaneo",
-          "odds_decimal": 301.0,
-          "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
+          "rider_name": "Rick Pluimers",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
           "move": null
         },
         {
-          "rider_name": "George Bennett",
+          "rider_name": "Fred Wright",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Lewis Askey",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Julian Alaphilippe",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Alex Aranburu",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Milan Fretin",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Magnus Cort Nielsen",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Aaron Gate",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Michael Valgren",
+          "odds_decimal": 201.0,
+          "implied_p": 0.004975124378109453,
+          "devigged_p": 0.0035331175320238266,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Richard Carapaz",
           "odds_decimal": 301.0,
           "implied_p": 0.0033222591362126247,
-          "devigged_p": 0.0022876334213994655,
-          "overround": 1.4522690152779043,
-          "move": -200.0
+          "devigged_p": 0.0023593243320159107,
+          "overround": 1.4081400726172904,
+          "move": 298.0
         },
         {
-          "rider_name": "Kevin Vauquelin",
-          "odds_decimal": 501.0,
-          "implied_p": 0.001996007984031936,
-          "devigged_p": 0.0013744065066691397,
-          "overround": 1.4522690152779043,
-          "move": 200.0
+          "rider_name": "Pavel Bittner",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0023593243320159107,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Lucas Plapp",
-          "odds_decimal": 501.0,
-          "implied_p": 0.001996007984031936,
-          "devigged_p": 0.0013744065066691397,
-          "overround": 1.4522690152779043,
-          "move": 200.0
+          "rider_name": "Mike Teunissen",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0023593243320159107,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Raul Garcia Pierna",
-          "odds_decimal": 501.0,
-          "implied_p": 0.001996007984031936,
-          "devigged_p": 0.0013744065066691397,
-          "overround": 1.4522690152779043,
-          "move": 200.0
+          "rider_name": "Victor Campenaerts",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0023593243320159107,
+          "overround": 1.4081400726172904,
+          "move": null
         },
         {
-          "rider_name": "Carlos Verona",
-          "odds_decimal": 501.0,
-          "implied_p": 0.001996007984031936,
-          "devigged_p": 0.0013744065066691397,
-          "overround": 1.4522690152779043,
-          "move": 200.0
+          "rider_name": "Florian Vermeersch",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0023593243320159107,
+          "overround": 1.4081400726172904,
+          "move": null
+        },
+        {
+          "rider_name": "Joshua Tarling",
+          "odds_decimal": 301.0,
+          "implied_p": 0.0033222591362126247,
+          "devigged_p": 0.0023593243320159107,
+          "overround": 1.4081400726172904,
+          "move": null
         }
       ]
     },
@@ -24108,12 +24077,23 @@
   ],
   "ledger": {
     "summary": {
-      "picks": 43,
+      "picks": 44,
       "pnl": -1.5,
       "wins": 5,
-      "settled": 42
+      "settled": 43
     },
     "picks": [
+      {
+        "stage_num": 21,
+        "rider_name": "Mathieu van der Poel",
+        "pick_type": "win",
+        "tab_odds": 2.5,
+        "est_prob": 0.2,
+        "ev": -0.395,
+        "units": 0.0,
+        "outcome": "pending",
+        "pnl_units": null
+      },
       {
         "stage_num": 20,
         "rider_name": "Tadej Pogacar",
@@ -24122,8 +24102,8 @@
         "est_prob": 0.16,
         "ev": -0.44,
         "units": 0.0,
-        "outcome": "pending",
-        "pnl_units": null
+        "outcome": "lost",
+        "pnl_units": 0.0
       },
       {
         "stage_num": 19,
@@ -24591,7 +24571,7 @@
     "expert_scores": [
       {
         "source": "THEMOVE",
-        "picks": 19,
+        "picks": 21,
         "hits": 0,
         "roi_at_tab": -1.0
       },
@@ -24603,7 +24583,7 @@
       },
       {
         "source": "Racing Post",
-        "picks": 7,
+        "picks": 8,
         "hits": 0,
         "roi_at_tab": -1.0
       },
@@ -24615,7 +24595,7 @@
       },
       {
         "source": "IDL Pro Cycling",
-        "picks": 17,
+        "picks": 20,
         "hits": 0,
         "roi_at_tab": -1.0
       },
@@ -24627,7 +24607,7 @@
       },
       {
         "source": "r/peloton predictions",
-        "picks": 8,
+        "picks": 12,
         "hits": 0,
         "roi_at_tab": -1.0
       },
@@ -24639,7 +24619,7 @@
       },
       {
         "source": "Dicodusport",
-        "picks": 6,
+        "picks": 8,
         "hits": 0,
         "roi_at_tab": -1.0
       }
@@ -24647,250 +24627,250 @@
   },
   "news": [
     {
-      "ts": "2026-07-25T07:34:09.196957+00:00",
+      "ts": "2026-07-26T07:35:51.660416+00:00",
       "source": "r/peloton",
       "category": "other",
-      "summary": "'I would rather lose sleep than lose credibility' \u2013 Jonathan Vaughters says Tour de France night-time testing could have stopped past doping \u2013 Full interview",
-      "url": "https://www.reddit.com/r/peloton/comments/1v2jjxd/i_would_rather_lose_sleep_than_lose_credibility/"
+      "summary": "Eusebio Unzu\u00e9: \u201cSpanish talent, that Iberian DNA\u2014sooner or later, it never fails\u201d - Eusebio Unzu\u00e9 talks to MARCA about Einer\u2019s crash, safety in the mountains, Movistar\u2019s pride, and confidence in the next generation of riders (Spanish)",
+      "url": "https://www.reddit.com/r/peloton/comments/1v68dqh/eusebio_unzu\u00e9_spanish_talent_that_iberian/"
     },
     {
-      "ts": "2026-07-25T07:34:09.196952+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "\"He\u2019s gone to get burgers and chips\": Vingegaard said goodbye with a smile; now a \"difficult transition\" lies ahead for the team",
-      "url": "https://www.reddit.com/r/peloton/comments/1v2o50n/hes_gone_to_get_burgers_and_chips_vingegaard_said/"
-    },
-    {
-      "ts": "2026-07-25T07:34:09.196948+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "Guess the Gap - The Tour de France Finale Begins!",
-      "url": "https://www.reddit.com/r/peloton/comments/1v52dh5/guess_the_gap_the_tour_de_france_finale_begins/"
-    },
-    {
-      "ts": "2026-07-25T07:34:09.196944+00:00",
+      "ts": "2026-07-26T07:35:51.660412+00:00",
       "source": "r/peloton",
       "category": "other",
       "summary": "Canyon//SRAM - Multi-talented Roster Ready for Tour de France Femmes avec Zwift",
       "url": "https://www.reddit.com/r/peloton/comments/1v60t3o/canyonsram_multitalented_roster_ready_for_tour_de/"
     },
     {
-      "ts": "2026-07-25T07:34:09.196937+00:00",
-      "source": "r/peloton",
-      "category": "other",
-      "summary": "FDJ UNITED -SUEZ unveils its jersey for 2027 during the Tour de France Femmes avec Zwift 2026",
-      "url": "https://www.reddit.com/r/peloton/comments/1v5zegz/fdj_united_suez_unveils_its_jersey_for_2027/"
-    },
-    {
-      "ts": "2026-07-25T07:34:09.196895+00:00",
+      "ts": "2026-07-26T07:35:51.660407+00:00",
       "source": "r/peloton",
       "category": "other",
       "summary": "Unpopular opinion: Alpe d'Huez is on the limit, and it wasn't even the best atmosphere at this Tour de France",
       "url": "https://www.reddit.com/r/peloton/comments/1v60uz8/unpopular_opinion_alpe_dhuez_is_on_the_limit_and/"
     },
     {
-      "ts": "2026-07-25T07:33:40.813428+00:00",
-      "source": "Escape Collective",
+      "ts": "2026-07-26T07:35:51.660403+00:00",
+      "source": "r/peloton",
       "category": "other",
-      "summary": "How do they make podium jerseys so quick? \u2014 Every podium jersey at the Tour de France is made on demand, by one man, in a van. Here's how.",
-      "url": "https://escapecollective.com/how-do-they-make-tour-de-france-podium-jerseys-so-quick/"
+      "summary": "Change to the route of the final stage - Tour de France 2026",
+      "url": "https://www.reddit.com/r/peloton/comments/1v6ajm1/change_to_the_route_of_the_final_stage_tour_de/"
     },
     {
-      "ts": "2026-07-25T07:33:40.813298+00:00",
-      "source": "Escape Collective",
+      "ts": "2026-07-26T07:35:51.660395+00:00",
+      "source": "r/peloton",
       "category": "other",
-      "summary": "Tour teams wary of fan chaos on Alpe d'Huez \u2014 The 2026 Tour de France is set for a climactic finale on the Alpe d'Huez this weekend, starting with a traditional summit finish from Le Bourg d'Oisans on Friday's stage 19. The peloton will then return to the same finish, though not the whole",
-      "url": "https://escapecollective.com/tour-teams-wary-of-fan-chaos-on-alpe-dhuez/"
+      "summary": "Pogacar: \u2018I\u2019m not stronger than I was 2 years ago",
+      "url": "https://www.reddit.com/r/peloton/comments/1v6ejni/pogacar_im_not_stronger_than_i_was_2_years_ago/"
     },
     {
-      "ts": "2026-07-25T07:33:40.813132+00:00",
-      "source": "Escape Collective",
+      "ts": "2026-07-26T07:35:51.660342+00:00",
+      "source": "r/peloton",
       "category": "other",
-      "summary": "Poga\u010dar soars up the Alpe d'Huez to win stage 19 of the Tour de France \u2014 The race leader leaves the last survivors of the break behind in the final kilometer to take his 26th career stage win in the Tour.",
-      "url": "https://escapecollective.com/pogacar-soars-up-the-alpe-dhuez-to-win-stage-19-of-the-tour-de-france/"
+      "summary": "Gouvenou: \"The car registered a spectator who had fallen in front of it, braked abruptly, and the engine cut out. If we had had cars that were twenty years older, the accident would not have happened.\" \ud83d\ude31",
+      "url": "https://www.reddit.com/r/peloton/comments/1v6dyvo/gouvenou_the_car_registered_a_spectator_who_had/"
     },
     {
-      "ts": "2026-07-25T07:33:40.813018+00:00",
-      "source": "Escape Collective",
-      "category": "tactics",
-      "summary": "Poga\u010dar smashes Alpe d'Huez climbing record \u2014 The last time Tadej Poga\u010dar climbed Alpe d'Huez in a race, in the 2022 Tour de France, defensive tactics meant he crossed the line more than three minutes slower than the all-time record for the climb, set 31 years ago by Italian climber Marco Pantani.",
-      "url": "https://escapecollective.com/pogacar-smashes-alpe-dhuez-climbing-record/"
-    },
-    {
-      "ts": "2026-07-25T07:33:40.812947+00:00",
-      "source": "Escape Collective",
-      "category": "injury",
-      "summary": "Movistar's Rubio DNFs Tour after crashing into UAE team car \u2014 Einer Rubio's Tour de France hit an abrupt end on stage 19 when the Spanish rider's ascent of Alpe d'Huez was brought to a rude and violent stop by the UAE Team Emirates-XRG car.The team car had to stop suddenly due to",
-      "url": "https://escapecollective.com/movistars-rubio-dnfs-tour-after-crashing-into-uae-team-car/"
-    },
-    {
-      "ts": "2026-07-25T07:33:40.812726+00:00",
-      "source": "Escape Collective",
-      "category": "tactics",
-      "summary": "Preview: 2026 Tour de France, stage 20 \u2014 Will the queen stage go to the breakaway or the GC riders?",
-      "url": "https://escapecollective.com/preview-2026-tour-de-france-stage-20/"
-    },
-    {
-      "ts": "2026-07-25T07:33:40.812628+00:00",
-      "source": "Escape Collective",
-      "category": "other",
-      "summary": "Are finish climbs getting too crazy? Questions and quotes from Tour stage 19 \u2014 Einer Rubio deserved better as rowdy fans caused issues on Alpe d'Huez. Plus: another KOM update and is UAE on the mend?",
-      "url": "https://escapecollective.com/are-finish-climbs-getting-too-crazy-questions-and-quotes-from-tour-stage-19/"
-    },
-    {
-      "ts": "2026-07-25T07:33:40.812518+00:00",
+      "ts": "2026-07-26T07:35:28.275383+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Only 24 seconds separate Tour podium hopefuls Del Toro and Seixas \u2014 As the queen stage of the Tour de France looms, two young riders are battling for two highly coveted prizes.",
       "url": "https://escapecollective.com/isaac-del-toro-and-paul-seixas-are-locked-in-a-tight-battle-for-the-tour-podium-and-the-white-jersey/"
     },
     {
-      "ts": "2026-07-25T07:33:40.812378+00:00",
+      "ts": "2026-07-26T07:35:28.275254+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Do some Tour de France stage wins mean more than others? \u2014 Tadej Poga\u010dar just set the fastest time ever up Alpe d'Huez. He's not sure it's a big deal.",
       "url": "https://escapecollective.com/are-some-tour-de-france-stage-wins-more-meaningful-than-others/"
     },
     {
-      "ts": "2026-07-25T07:33:40.812227+00:00",
+      "ts": "2026-07-26T07:35:28.275123+00:00",
       "source": "Escape Collective",
       "category": "other",
       "summary": "Why has the performance gap between Tour de France riders and top amateurs remained stable? \u2014 Professional cycling has undergone a revolution in training, nutrition and technology, yet the gap to the fastest amateurs remains more stable than you might think.",
       "url": "https://escapecollective.com/why-has-the-performance-gap-between-tour-de-france-riders-and-top-amateurs-remained-stable/"
     },
     {
-      "ts": "2026-07-25T07:33:39.633477+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.275043+00:00",
+      "source": "Escape Collective",
       "category": "injury",
-      "summary": "'An injury is holding me back' - Florian Vermeersch injury compounds UAE Team Emirates-XRG woes at Tour de France \u2014 Belgian plays down latest setback to Tadej Poga\u010dar's team after Brandon McNulty abandons and Tim Wellens narrowly misses time cut",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/an-injury-is-holding-me-back-florian-vermeersch-injury-compounds-uae-team-emirates-xrg-woes-at-tour-de-france/"
+      "summary": "UAE's Matxin Fern\u00e1ndez expresses horror for involvement in Rubio's Tour-ending crash \u2014 On the morning after stage 19 of the Tour de France and its dramatic finish up the Alpe d'Huez, UAE sports director Joxean 'Matxin' Fern\u00e1ndez has shared his side of the incident that saw Movistar's Einer Rubio crash hard into the back",
+      "url": "https://escapecollective.com/uaes-matxin-fernandez-expresses-horror-for-involvement-in-rubios-tour-ending-crash/"
     },
     {
-      "ts": "2026-07-25T07:33:39.633358+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.274947+00:00",
+      "source": "Escape Collective",
       "category": "other",
-      "summary": "'I was on people's blacklists' - Tom Pidcock absent from Tour de France breakaway on first day in the Alps \u2014 No escaping the peloton on first day in the Alps for Pinarello-Q36.5 rider who looks to gain time from eighth place in GC with few opportunities remaining",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/i-was-on-peoples-blacklists-tom-pidcock-absent-from-tour-de-france-breakaway-on-first-day-in-the-alps/"
+      "summary": "Goochmageddon: The undercarriage havoc that divided the Tour de France \u2014 For some, a hot opening week meant a battle to remain comfortable in one's chamois.",
+      "url": "https://escapecollective.com/goochmageddon-the-seated-havoc-dividing-the-tour-de-france/"
     },
     {
-      "ts": "2026-07-25T07:33:39.633214+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "What to know about Tour de France nighttime testing \u2013 The rules, the results timeline, the ITA, reactions and more explained \u2014 Cyclingnews outlines pro cycling's anti-doping system and what the recent nighttime test of the Tour de France means for the sport",
-      "url": "https://www.cyclingnews.com/pro-cycling/doping/what-to-know-about-tour-de-france-night-time-testing-the-rules-the-results-timeline-the-ita-reactions-and-more-explained/"
-    },
-    {
-      "ts": "2026-07-25T07:33:39.633070+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'Big shock to the system' - Former WorldTour rider Veronica Ewers resumes slow return to peloton with 'experiment' at French ProTeam's Tour de France Femmes training camp \u2014 'Time off for body and brain' in past seven months confirms US rider discovers capacity for racing again but most likely in 2027",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/big-shock-to-the-system-former-worldtour-rider-veronica-ewers-resumes-slow-return-to-peloton-with-experiment-at-french-proteams-tour-de-france-femmes-training-camp/"
-    },
-    {
-      "ts": "2026-07-25T07:33:39.632957+00:00",
-      "source": "CyclingNews",
-      "category": "other",
-      "summary": "'Fight like a lion and fly like an eagle' - How Carlos Sastre's life changed when he won the Tour de France on L'Alpe d'Huez \u2014 2008 Tour winner looks back at how it felt to triumph and take the yellow jersey on cycling's most emblematic mountain",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/fight-like-a-lion-and-fly-like-an-eagle-how-carlos-sastres-life-changed-when-he-won-the-tour-de-france-on-alpe-dhuez/"
-    },
-    {
-      "ts": "2026-07-25T07:33:39.632901+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.274839+00:00",
+      "source": "Escape Collective",
       "category": "injury",
-      "summary": "Sick soldiers and mixed messages \u2013 What's really going on at UAE Team Emirates-XRG and how will it change the last days of the Tour de France? \u2014 The collective might and will of Tadej Poga\u010dar's team has kept the peloton in check until now but with illness in the ranks that could be about to change",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/sick-soldiers-and-mixed-messages-whats-really-going-on-at-uae-team-emirates-xrg-and-how-will-it-change-the-last-days-of-the-tour-de-france/"
+      "summary": "Tour stage 20: Carapaz takes revenge on Alpe d'Huez after attritional Queen Stage \u2014 Kuss came agonisingly close, but two crashes on the run-in ended his solo effort, as behind the breakaway, there was a flurry of GC action with Seixas and his teammates at the centre.",
+      "url": "https://escapecollective.com/tour-stage-20-carapaz-takes-revenge-on-alpe-dhuez-after-attritional-queen-stage/"
     },
     {
-      "ts": "2026-07-25T07:33:39.632775+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.274705+00:00",
+      "source": "Escape Collective",
       "category": "other",
-      "summary": "\u2018Even when I was a rider, I wasn\u2019t the type to wallow in my own sorrow\u2019 \u2013 Geraint Thomas says Netcompany Ineos moving in \u2018right direction\u2019 despite Tour de France struggles \u2014 'They\u2019re ready to go after it and that\u2019s all you can ask for really' the team's director of racing tells Cyclingnews",
-      "url": "https://www.cyclingnews.com/pro-cycling/even-when-i-was-a-rider-i-wasnt-the-type-to-wallow-in-my-own-sorrow-geraint-thomas-says-netcompany-ineos-moving-in-right-direction-despite-tour-de-france-struggles/"
+      "summary": "'Pogi not starting': Evenepoel jokes about what it will take to win the Tour \u2014 Remco Evenepoel has had, by all measures, a very good Tour de France. With two stage wins and his best-ever finish of second to race leader Tadej Poga\u010dar, the Red Bull-Bora-Hansgrohe leader has cemented his leadership place in the team, confirmed his potential, and arguably",
+      "url": "https://escapecollective.com/pogi-not-starting-evenepoel-jokes-about-what-it-will-take-to-win-the-tour/"
     },
     {
-      "ts": "2026-07-25T07:33:39.632711+00:00",
-      "source": "CyclingNews",
-      "category": "injury",
-      "summary": "'I hope I don't crash' - Paul Seixas fears huge crowds on L'Alpe d'Huez could disrupt the Tour de France \u2014 French super talent sportingly hopes UAE Team Emirates-XRG are not affected by illness",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/i-hope-i-dont-crash-paul-seixas-fears-huge-crowds-on-lalpe-dhuez-could-disrupt-the-tour-de-france/"
-    },
-    {
-      "ts": "2026-07-25T07:33:39.632565+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.274573+00:00",
+      "source": "Escape Collective",
       "category": "other",
-      "summary": "'New opportunity, a fresh page' \u2013 Kasia Niewiadoma-Phinney chases another Tour de France Femmes victory with team that delivers debuts for B\u00e4ckstedt, Kl\u00f6ser, Niedermaier \u2014 'It's great to have a Tour victory on my palmar\u00e8s, but I definitely come in with a fresh mind and body ready to go after new experiences and, of course, the victory'",
-      "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/new-opportunity-a-fresh-page-kasia-niewiadoma-phinney-chases-another-tour-de-france-femmes-victory-with-team-that-delivers-debuts-for-backstedt-kloser-niedermaier/"
+      "summary": "Poga\u010dar relishes role as Del Toro's domestique on Tour's queen stage \u2014 Overall Tour de France leader Tadej Poga\u010dar said at the finish of stage 19 and the start of stage 20 that a primary objective for the last mountain day of the race was to solidify his UAE Team Emirates-XRG teammate Isaac del Toro's podium place",
+      "url": "https://escapecollective.com/pogacar-relishes-role-as-del-toros-domestique-on-tours-queen-stage/"
     },
     {
-      "ts": "2026-07-25T07:33:39.632478+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.274439+00:00",
+      "source": "Escape Collective",
+      "category": "other",
+      "summary": "'Don't expect to see me back' \u2013 Alaphilippe is racing his last Tour de France \u2014 Blink and you'd miss it \u2013 amid the post-stage mayhem atop Alpe d'Huez after stage 20, Julian Alaphilippe had a quiet word with Eurosport, and indicated that this Tour de France may just be his last.\"Nothing is official, but don\u2019t expect",
+      "url": "https://escapecollective.com/dont-expect-to-see-me-back-alaphilippe-may-be-racing-his-last-tour-de-france/"
+    },
+    {
+      "ts": "2026-07-26T07:35:28.274295+00:00",
+      "source": "Escape Collective",
       "category": "tactics",
-      "summary": "Fears of chaos on L'Alpe d'Huez as crowds pack Alpine climb for Tour de France showdown \u2014 Fan favourite Baptiste Veistroffer expecting \"something crazy\" on his debut ride up L'Alpe d'Huez",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/fears-of-chaos-of-lalpe-dhuez-as-crowds-pack-alpine-climb-for-tour-de-france-showdown/"
+      "summary": "Preview: 2026 Tour de France, stage 21 \u2014 A shortened finale will put even more pressure on the Montmarte circuits in an explosive finish to the race.",
+      "url": "https://escapecollective.com/preview-2026-tour-de-france-stage-21/"
     },
     {
-      "ts": "2026-07-25T07:33:39.632365+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.274217+00:00",
+      "source": "Escape Collective",
       "category": "other",
-      "summary": "'The goal is to be at the front and fight for this jersey' \u2013 Valentin Paret-Peintre continues Tour de France polka dot battle against Poga\u010dar and Carapaz on Alpe d'Huez \u2014 'There's one I can control, and the other who does pretty much what he wants' says Frenchman",
-      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/the-goal-is-to-be-at-the-front-and-fight-for-this-jersey-valentin-paret-peintre-continues-tour-de-france-polka-dot-battle-against-pogacar-and-carapaz-on-alpe-dhuez/"
+      "summary": "Sepp Kuss tried \u2014 Visma-Lease a Bike's Tour de France has taken a turn for the worse, but it's not for lack of effort.",
+      "url": "https://escapecollective.com/sepp-kuss-tried/"
     },
     {
-      "ts": "2026-07-25T07:33:39.632227+00:00",
-      "source": "CyclingNews",
+      "ts": "2026-07-26T07:35:28.274065+00:00",
+      "source": "Escape Collective",
       "category": "other",
-      "summary": "As it happened: Alpe d'Huez the setting for epic battle between the breakaway and the yellow jersey on stage 19 of the Tour de France \u2014 For the first time in Tour history, Alpe d\u2019Huez will be faced two days in a row, starting with a short, explosive stage 19, 127.9km with 3500 metres of elevation gain",
-      "url": "https://www.cyclingnews.com/pro-cycling/live/tour-de-france-stage-19-live-the-tour-heads-to-the-the-iconic-alpe-dhuez/"
+      "summary": "The Best Dog of the 2026 Tour de France is a shared honour \u2014 In a thin year for pro cyclist pets, Tom Pidcock's Instagram-famous dachshunds step up to save this most prestigious tradition.",
+      "url": "https://escapecollective.com/the-best-dog-of-the-2026-tour-de-france-is-a-shared-honour/"
     },
     {
-      "ts": "2026-07-25T07:33:39.632134+00:00",
+      "ts": "2026-07-26T07:35:26.996507+00:00",
       "source": "CyclingNews",
       "category": "injury",
-      "summary": "'Tadej is OK' \u2013 UAE Team Emirates play down doubts about Tadej Poga\u010dar's health after illness strikes Tour de France team \u2014 'Every rider wants to win on this mythical mountain and that goes for us too' says DS before Alpe d'Huez",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/tadej-is-ok-uae-team-emirates-play-down-doubts-about-tadej-pogacars-health-after-illness-strikes-tour-de-france-team/"
+      "summary": "'We've kept motivating each other' - Isaac del Toro tightens grip on Tour de France podium as UAE Team Emirates bounce back from illness \u2014 Mexican keeps arch-rival Paul Seixas at bay on Alpe d'Huez, retains best young rider lead",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/weve-kept-motivating-each-other-isaac-del-toro-tightens-grip-on-tour-de-france-podium-as-uae-team-emirates-bounce-back-from-illness/"
     },
     {
-      "ts": "2026-07-25T07:33:39.631983+00:00",
+      "ts": "2026-07-26T07:35:26.996423+00:00",
       "source": "CyclingNews",
       "category": "other",
-      "summary": "Tour de France: Tadej Poga\u010dar flies to victory atop l'Alpe d'Huez on stage 19 \u2014 Maillot jaune denies breakaway riders Martinez, Carapaz in first of two stages on famous climb",
-      "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-tadej-pogacar-flies-to-victory-atop-lalpe-dhuez-on-stage-19/"
+      "summary": "Sepp Kuss still aiming for Tour de France stage win on Alpe d'Huez after being denied by Tadej Poga\u010dar on stage 19 \u2014 American hopes stage 20 is 'more of an endurance test'",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/sepp-kuss-still-aiming-for-tour-de-france-stage-win-on-alpe-dhuez-after-being-denied-by-tadej-pogacar-on-stage-19/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.996322+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "'With all those people, something was bound to go wrong' - Remco Evenepoel strengthens his Tour de France position despite being blocked by fans and motorbikes on Alpe d'Huez \u2014 Belgian finishes more than 2 minutes behind Tadej Poga\u010dar but distances rivals",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/with-all-those-people-something-was-bound-to-go-wrong-remco-evenepoel-strengthens-his-tour-de-france-position-despite-being-blocked-by-fans-and-motorbikes-on-alpe-dhuez/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.996224+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "'I was dead there' - 2022 Alpe d'Huez winner Tom Pidcock suffers badly on same ascent in 2026 Tour de France \u2014 Running on empty Briton finishes 20th, drops to ninth on overall classification",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/i-was-dead-there-2022-alpe-dhuez-winner-tom-pidcock-suffers-badly-on-same-ascent-in-2026-tour-de-france/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.996060+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "Unpopular opinion: Alpe d'Huez is on the limit, and it wasn't even the best atmosphere at this Tour de France \u2014 My best guess would be that social media has accelerated the glorification and fetishization of the Alpe d\u2019Huez atmosphere, and more and more people are heading up with the primary focus of seeking out the hot-spots where the music is loudest, and the costumes are wildest.",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/unpopular-opinion-alpe-dhuez-is-on-the-limit-and-it-wasnt-even-the-best-atmosphere-at-this-tour-de-france/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.995866+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "An altitude alibi: Does cycling's anti-doping system have a major loophole? \u2014 Cycling's recent nighttime anti-doping wake-up calls highlighted concerns that micro-dosing is fuelling an ever-accelerating peloton. Further concerns arise from the similar biological footprints left by hypoxic adaptation and artificial EPO. Is modern-day cycling as clean as we hoped? Cyclingnews i",
+      "url": "https://www.cyclingnews.com/pro-cycling/doping/an-altitude-alibi-does-cyclings-anti-doping-system-have-a-major-loophole/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.995789+00:00",
+      "source": "CyclingNews",
+      "category": "injury",
+      "summary": "As it happened: Late crash drama and GC podium remains unchanged on stage 20 of the Tour de France \u2014 Stage 20 may be the ultimate queen stage in Tour history, 5,600 metres of elevation gain packed into 170.9 kilometres, and placed on the penultimate day of the race for the very first time, with another finish on Alpe d'Huez",
+      "url": "https://www.cyclingnews.com/pro-cycling/live/tour-de-france-stage-20-live-tadej-pogacar-seeks-to-seal-yellow-as-peloton-returns-to-alpe-dhuez-for-races-queen-stage/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.995683+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "'There was no discussion, I just went' \u2013 Pete Kennaugh, the last winner on Alpe d'Huez via Col de Sarenne, reflects on memorable day from the Team Sky era \u2014 Manxman relives 2017 Dauphin\u00e9 stage victory as current Tour makes first uphill trip up rarely raced other side of Alpe d'Huez on queen stage 20",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/there-was-no-discussion-i-just-went-pete-kennaugh-the-last-winner-on-alpe-dhuez-via-col-de-sarenne-reflects-on-memorable-day-from-the-team-sky-era/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.995601+00:00",
+      "source": "CyclingNews",
+      "category": "injury",
+      "summary": "Wout van Aert expected to race for the first time since missing out on Tour de France due to elbow injury next Wednesday \u2014 Belgian media reports that star rider will make his comeback at five-day Tour of Denmark",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/wout-van-aert-expected-to-race-for-the-first-time-since-missing-out-on-tour-de-france-due-to-elbow-injury-next-wednesday/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.995547+00:00",
+      "source": "CyclingNews",
+      "category": "injury",
+      "summary": "Ilan Van Wilder crashes out of Tour de France on mountain descent one day from Paris \u2014 Belgian had been sitting 12th overall but suffers early crash on stage 20",
+      "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/ilan-van-wilder-crashes-out-of-tour-de-france-on-mountain-descent-one-day-from-paris/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.995474+00:00",
+      "source": "CyclingNews",
+      "category": "injury",
+      "summary": "'If we had had older cars, the accident would not have happened' \u2013 Tour de France organiser defends Alpe d'Huez crowd control as UAE manager apologises for Rubio car incident \u2014 Matxin offers a heartfelt apology to Colombian rider after abandon, says 'my only reaction was to brake right away to avoid running over spectator'",
+      "url": "https://www.cyclingnews.com/pro-cycling/racing/if-we-had-had-older-cars-the-accident-would-not-have-happened-tour-de-france-organiser-defends-alpe-dhuez-crowd-control-as-uae-manager-apologises-for-rubio-car-incident/"
+    },
+    {
+      "ts": "2026-07-26T07:35:26.995331+00:00",
+      "source": "CyclingNews",
+      "category": "other",
+      "summary": "Tour de Pologne Women: Lorena Wiebes storms to back-to-back victories on stage 2 \u2014 Lara Gillespie fights back from late bike change to finish second, Elisa Balsamo takes third in Lubart\u00f3w",
+      "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-de-pologne-women-lorena-wiebes-storms-to-back-to-back-victories-on-stage-2/"
     }
   ],
   "picks": {
-    "stage_num": 20,
-    "overnight_recap": "Friday delivered the best climbing performance most of us will ever see. Poga\u010dar left the shattered remnants of Carapaz and Martinez's break with under 12km to go, never left the saddle, never panicked, and rode into Alpe d'Huez in 35:26 \u2014 smashing Pantani's 31-year-old record by a full 1:22. Seven watts a kilo for 35 minutes, off a stage that started with 43 riders up the road and finished with a Slovenian steamroller. Evenepoel quietly produced the seventh-fastest ascent in Tour history to hold second, 7:11 back \u2014 the market's given up looking for a second contender, it's just Remco defending a podium now. Del Toro edged Seixas by 4 seconds for the final GC placings that matter (podium and white by 24 seconds \u2014 nothing), and UAE's depth chart keeps thinning: McNulty's gone home, Wellens barely made the time cut, Vermeersch is carrying an injury, and Rubio's Tour ended when he rode into the back of a UAE team car. The ledger's honest reading: we didn't have a pick on the board for stage 19, so nothing to gloat or grovel about \u2014 tonight's the one that matters.",
-    "stage_description": "The queen stage, and they've saved the cruellest for last: 170.9km, 5,450m of climbing, three hors-cat\u00e9gorie monsters back to back to back. Croix de Fer first (24km at 5.2%, but the number lies \u2014 it's stop-start, ramps and false flats, no rhythm to be found), then the T\u00e9l\u00e9graphe straight into the Galibier with barely a downhill breath between them, cresting at 2,642m \u2014 the roof of this Tour. Then the sting in the tail: the Col de Sarenne, the road less travelled to Alpe d'Huez, 12.8km at 7.3% with pitches well past 10%, last seen in 2013 when Riblon broke French hearts open with joy. Off the Sarenne it's not even over \u2014 a lump, a dip, and then the same brutal final 3.7km at 6.2% the peloton just climbed on Friday. Rain is forecast on top of it \u2014 nearly a month's worth by TAB's own weather feed, gusts past 45km/h \u2014 turning the Galibier descent into a lottery ticket nobody wants. Two Alpe d'Huez finishes in as many days: legs that survived Friday have to find another mountain's worth tomorrow.",
+    "stage_num": 21,
     "verdict": "no_bet",
-    "card_note": "The market's overround (1.452) is sitting right on our trust ceiling, and neither favourite clears our numbers by a mile \u2014 tonight's card is a steer, not a stake.",
+    "overnight_recap": "Alpe d'Huez twice in three days and Richard Carapaz just made it his own personal cul-de-sac, soloing away for his second win in three stages while Tadej Pogacar sat up, shook hands with the mountain, and let the yellow jersey do the talking. Fourth on the day was all he needed \u2014 the Slovenian rides into Paris with his fifth Tour sewn up before a wheel has even turned today, level with Anquetil, Merckx, Hinault and Indurain in the history books. Mads Pedersen banked the green jersey days ago and can finally stop babysitting it. The GC race is over; tonight is a leaderboard for stage-hunters only.",
+    "stage_description": "Then Mother Nature \u2014 or rather, the French wildfires down near the old stage 6 roads \u2014 went and rewrote the script overnight. The gendarmes needed for crowd control on the planned 133km run-in from Thoiry got redeployed to evacuation duty, so the ASO scrapped the transfer stage entirely: the peloton gets bussed straight to Paris, presented in Thoiry for the cameras and nothing more, and the timed racing starts and finishes on the Champs-\u00c9lys\u00e9es \u2014 89km instead of 133km. What doesn't change is the sting in the tail: three ascents of the cobbled C\u00f4te de la Butte Montmartre, 1.1km at 5.9%, the same stones that saw Wout Van Aert drop a three-week-weary Poga\u010dar and solo to glory last year. The final ramp now sits 10.3km from the flag \u2014 4km further out than 2025 \u2014 which hands the bunch more rope to reel a soloist back, so don't be shocked if this resolves as a reduced group sprint among the survivors rather than another lone wolf special.",
+    "card_note": "Grand Finale, zero staked: Van der Poel is the true banker by our own model AND the market's, but at 2.5 (40% implied, 28.4% de-vig) TAB has priced him like a certainty in a race with 20+ live contenders -- blended EV -0.40, nowhere near bettable. Every rider our blend actually likes at value (Skjelmose, Campenaerts, Tarling) only clears on a longshot price the syndicate's own post-mortem told us to stop trusting. Card stands down at 0.0u; watch it as a spectacle, not a stake.",
     "top_picks": [
       {
-        "rider": "Tadej Pogacar",
+        "rider": "Mathieu van der Poel",
         "role": "banker",
         "market": "stage_winner",
-        "tab_odds": 2.75,
-        "est_prob": 0.16,
-        "devigged_p": 0.25,
-        "p_bet": 0.205,
-        "ev": -0.44,
+        "tab_odds": 2.5,
+        "est_prob": 0.2,
+        "devigged_p": 0.284,
+        "p_bet": 0.242,
+        "ev": -0.395,
         "units": 0.0,
         "weight_pct": 0,
-        "conviction": "speculative",
-        "reason": "Still the strongest rider in the race by a distance, but he's told anyone who'll listen (and half of r/peloton is quoting him on it) that today's about steering Del Toro onto the podium and into white, not chasing a sixth stage win. Blended probability doesn't come close to clearing 2.75 \u2014 a steer, not a bet, and we're not pretending otherwise."
+        "conviction": "high",
+        "reason": "The most likely winner by a wide margin on our own read AND the market's -- classics pedigree, a stage already banked (S9), fresh legs off leadout duty, and the whole expert panel (Racing Post, Dicodusport, WielerFlits, r/peloton) converges on him. But 2.5 (28.4% de-vig) implies near-certainty in a field where 20+ riders have a live shot on a punchy, technical circuit -- blended EV -0.40 is nowhere near the -0.05 banker tolerance. Named, not staked."
       }
     ],
     "place_picks": [],
     "longshots": [],
-    "expert_agreement_note": "The panel's split exactly where you'd expect on a stage this chaotic. Racing Post's paid tipster backs Carapaz outright (1pt at 7/4) for a KOM-fuelled break win; Dicodusport goes the other way entirely with Skjelmose for 'une victoire de prestige'; IDL splits its top tier between Kuss/Arensman with Carapaz and \u2014 half-jokingly \u2014 Poga\u010dar himself down in the dark horses. THEMOVE's two hosts landed on Carapaz and (accidental, hedge-only) Poga\u010dar. The one thing everyone agrees on, repeated across the crowd, the podcasts and a Dutch-language interview reference: Poga\u010dar rides for Del Toro today. Take that as read, not gospel \u2014 he's said similar before and still won when the moment called for it. The market (Poga\u010dar 2.75, Carapaz 3.0, overround 1.452) is pricing in real uncertainty about who actually wants to win this thing, and so are we.",
-    "no_bet_reason": "Every rider we modelled with a real chance either has a blended probability well under what TAB's price demands (both market leaders \u2014 Poga\u010dar and Carapaz \u2014 need blended EV north of -0.05 for the banker role and both sit around -0.43), or clears our edge ratio only at odds beyond the flyer ceiling (Paret-Peintre's edge is real at 101.0 but that's triple our 34.0 flyer cap, and the reddit read has him fading before the finish anyway). The overround (1.452) is also sitting right on our 1.45 trust ceiling \u2014 one more reason to shrink rather than force a card tonight. Honest read: this stage is wide open between a break, a defensive GC group, and whatever Poga\u010dar actually decides to do once he's on the road \u2014 and 'wide open' with a bloated market isn't where we find value. Sit on your hands, watch the placings, and light the KOM jersey battle (Carapaz 91, Poga\u010dar 90, Paret-Peintre 84 \u2014 one point covers the lot with 70 up for grabs today) up on the second screen instead."
+    "expert_agreement_note": "Total panel consensus behind Van der Poel: Racing Post (best bet, 7-4 bet365), Dicodusport (pronostic #1 @2.25), WielerFlits (topfavoriet), IDL, CyclingOracle (algo top-ranked) and r/peloton crowd sentiment all point the same way -- 'can't see Pogi dropping MvdP on Montmartre' sums up the room. That consensus is exactly WHY the price is unbettable: everyone backing the same horse is what shortens a price past fair value. Pogacar and Pedersen are next in both our model and the market, both similarly overbet (EV -0.37 and -0.35). Evenepoel is the one genuine expert-vs-market disagreement worth flagging for narrative (CyclingUpToDate/Dicodusport/WielerFlits all name him a live threat off his Olympic pedigree on these exact roads) but even his blended EV (-0.20 at 12.0) doesn't clear the bar.",
+    "no_bet_reason": "Overround 1.408 -- under the 1.45 distrust ceiling but on the high side, and it's sitting almost entirely on the market's short-priced favourites (Van der Poel/Pogacar/Pedersen soak up 59% implied probability between them for a technical, selective, repeated-climb finale with a genuinely deep credible-winner pool). Our blended p_bet has none of the top 5 market picks clearing breakeven. The mid-market 'value' role requirement (odds < 15, edge >= 1.15x devig) is empty -- every rider priced below 15.0 is a market favourite our model also rates below its implied price, not above it. The only positive-blended-EV names (Skjelmose @201, Campenaerts @301, Tarling @301, Ben Healy @201) are exactly the favourite-longshot-bias trap the syndicate's 0/9 post-mortem identified: thin model-vs-market ratios (2.6-3.4x) on names with no named tactical evidence beyond preview mentions, at odds that breach the 34.0 flyer ceiling outright. Girmay (51.0, ratio 2.9x, EV +0.07) has real named evidence (2 stage wins, explicit classics pedigree from WielerFlits/CyclingUpToDate) but still breaches the flyer odds ceiling on price alone. No place/each-way market was checked since there is no value-swing pick to attach a saver to. Card stands down at 0.0u -- a spectator's stage, not a betting one."
   },
   "experts": [
     {
       "source": "CyclingOracle",
-      "rider_name": "Yannis Voisard",
+      "rider_name": "Mathieu van der Poel",
       "pick_type": "view",
-      "quote": "[algorithmic model] Win% prediction table is JS-rendered and not captured in the static fetch \u2014 the real model output is unavailable tonight. Only the site's joke 'unicorn' feel-pick was captured: Yannis Voisard ('nice old-fashioned based on feeling') \u2014 NOT a model output, do not treat as algorithmic signal.",
-      "url": "https://www.cyclingoracle.com/en/blog/tour-de-france-2026-stage-20-prediction",
+      "quote": "[algorithmic model] Van der Poel tops the favourites list; Pedersen 'another dangerous contender'; Pidcock 'highly rated'; Philipsen 'logical option in case of a regrouping'. Win% table JS-rendered, not captured. NOTE: article published pre-route-change (still describes 132.5km Thoiry start), so its route framing is stale vs the overnight 89km revision.",
+      "url": "https://www.cyclingoracle.com/en/blog/tour-de-france-2026-stage-21-prediction",
       "hits": 0,
       "picks": 5
     },
@@ -24898,98 +24878,53 @@
       "source": "CyclingUpToDate",
       "rider_name": null,
       "pick_type": "view",
-      "quote": "Headline framing only: 'Pogacar to make it two from two in the Alps with queen stage victory?' Live-blog scaffold captured (stage 19 recap comments) rather than the linked stage 20 preview/favourites article \u2014 no explicit named pick text captured tonight.",
-      "url": "https://cyclinguptodate.com/cycling/untitled-article",
+      "quote": "No single explicit pick \u2014 lays out the case for four camps: UAE's classics riders can attack Montmartre for Poga\u010dar; Pedersen (green wrapped up) may instead ride for Simmons/Vacek or take a late attack; Van der Poel 'perfectly suited to Montmartre... can make the difference'; Evenepoel (Olympic champion on these exact roads) can go clear between climbs and solo it home. Flags Stuyven/Ganna/Pidcock/Girmay as outsiders.",
+      "url": "https://cyclinguptodate.com/cycling/tour-de-france-2026-stage-21-preview-profiles-favourites-and-predictions-pogacar-van-der-poel-and-evenepoel-meet-again-now-on-cobbled-paris-circuit",
       "hits": 0,
       "picks": 15
     },
     {
       "source": "Dicodusport",
-      "rider_name": "Mattias Skjelmose",
+      "rider_name": "Mathieu van der Poel",
       "pick_type": "win",
-      "quote": "Pronostic: Mattias Skjelmose pour finir en beaut\u00e9 @ 40. 'Constant dans l'effort, sixieme du general, pourrait s'offrir une victoire de prestige et une place dans le top 5.'",
-      "url": "https://dicodusport.fr/blog/20e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
+      "quote": "Pronostic: 1. Mathieu van der Poel @2.25. 'Apr\u00e8s le succ\u00e8s de Wout Van Aert l'ann\u00e9e derni\u00e8re, un autre coureur de classiques pourrait remporter cette \u00e9tape en profitant de la butte Montmartre.'",
+      "url": "https://dicodusport.fr/blog/21e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
       "hits": 0,
-      "picks": 6
+      "picks": 8
     },
     {
       "source": "Dicodusport",
-      "rider_name": "Tom Pidcock",
+      "rider_name": "Remco Evenepoel",
       "pick_type": "longshot",
-      "quote": "Outsider: Tom Pidcock @ 17 \u2014 'La derniere fois que le Tour etait venu a l'Alpe d'Huez... c'est le Britannique qui l'avait emporte.' (2022 Alpe d'Huez winner, form permitting).",
-      "url": "https://dicodusport.fr/blog/20e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
+      "quote": "Outsider: Remco Evenepoel @8.00. 'Le Belge a termin\u00e9 le Tour de France en trombe... pourrait parachever sa Grande Boucle par un troisi\u00e8me succ\u00e8s.'",
+      "url": "https://dicodusport.fr/blog/21e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
       "hits": 0,
-      "picks": 6
+      "picks": 8
     },
     {
       "source": "IDL Pro Cycling",
-      "rider_name": "Sepp Kuss",
-      "pick_type": "win",
-      "quote": "Top Favourites: Sepp Kuss and Thymen Arensman. 'If it comes down to a breakaway, Visma Lease a Bike will certainly give it their all for the stage win... we'll be keeping an eye on Sepp Kuss, Matteo Jorgenson, and Davide Piganzoli.'",
-      "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-20-preview-rain-could-very-well-turn-the-tour-de-france-upside-down",
-      "hits": 0,
-      "picks": 17
-    },
-    {
-      "source": "IDL Pro Cycling",
-      "rider_name": "Thymen Arensman",
-      "pick_type": "win",
-      "quote": "Top Favourites (joint): Thymen Arensman (Netcompany INEOS) alongside Sepp Kuss.",
-      "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-20-preview-rain-could-very-well-turn-the-tour-de-france-upside-down",
-      "hits": 0,
-      "picks": 17
-    },
-    {
-      "source": "IDL Pro Cycling",
-      "rider_name": "Richard Carapaz",
-      "pick_type": "longshot",
-      "quote": "Dark horses: Tobias Halland Johannessen, Egan Bernal, Richard Carapaz, and Tadej Pogacar.",
-      "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-20-preview-rain-could-very-well-turn-the-tour-de-france-upside-down",
-      "hits": 0,
-      "picks": 17
-    },
-    {
-      "source": "Lanterne Rouge",
-      "rider_name": null,
+      "rider_name": "Mathieu van der Poel",
       "pick_type": "view",
-      "quote": "Video is a pure Stage 19 recap ('Tadej Pogacar SHATTERS Pantani's Alpe d'Huez Record') \u2014 no Stage 20 preview content found in the transcript. No named pick available from this source tonight.",
-      "url": "https://youtu.be/mGvkiX_yMYk",
+      "quote": "Headline only (article body not captured): 'A Van der Poel day? Could Pogacar or Evenepoel ruin Van der Poel's dream stage.'",
+      "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-21-preview-could-pogacar-or-evenepoel-ruin-van-der-poels-dream-stage",
       "hits": 0,
-      "picks": 3
+      "picks": 20
     },
     {
       "source": "Racing Post",
-      "rider_name": "Richard Carapaz",
+      "rider_name": "Mathieu van der Poel",
       "pick_type": "win",
-      "quote": "Best bet for stage 20: Richard Carapaz to win stage 20, 1pt 7-4 bet365. 'Carapaz will be allowed more rope to make it into the early move as he attempts to win the KOM competition... if he can crest the Galibier with a handsome advantage, he may well be able to keep Pogacar at bay on the Col de Sarenne.'",
-      "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-20-predictions-tips-and-odds-aPqFb7t88x1F/",
+      "quote": "Best bet for stage 21: Mathieu van der Poel, 2pts 7-4 bet365. 'Alpecin-Premier Tech should give the Dutchman the nod to attack on Montmartre knowing Philipsen can sprint if it comes back together... little chance of the world champion [Pogacar] getting the better of him in a sprint.' Confirms Poga\u010dar seals a 5th yellow jersey barring disaster; Pedersen locked up points on stage 20.",
+      "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-21-predictions-tips-and-odds-adtOr2V1v98i/",
       "hits": 0,
-      "picks": 7
-    },
-    {
-      "source": "THEMOVE",
-      "rider_name": "Tadej Pogacar",
-      "pick_type": "win",
-      "quote": "Spencer Martin (hedge pick): 'I'm gonna pick Tadej Pogacar plus 150 accidentally wins the stage.' Panel expects Pogacar to prioritise riding for Del Toro's podium/white jersey bid, so this is a hedge not a strong conviction pick.",
-      "url": "https://youtu.be/brjF95p_UQ4",
-      "hits": 0,
-      "picks": 19
-    },
-    {
-      "source": "THEMOVE",
-      "rider_name": "Richard Carapaz",
-      "pick_type": "win",
-      "quote": "Johan Bruyneel: 'I'm going to go for Richard Carapaz tomorrow. Carapaz is going to be in the break. He's incredibly strong and he can do this three days in a row.' Both hosts agree Pogacar will likely ride support for Del Toro (podium/white jersey) rather than chase a 6th stage win himself.",
-      "url": "https://youtu.be/brjF95p_UQ4",
-      "hits": 0,
-      "picks": 19
+      "picks": 8
     },
     {
       "source": "WielerFlits",
-      "rider_name": "Tadej Pogacar",
-      "pick_type": "view",
-      "quote": "Pogacar remains the towering favourite if it comes down to the GC group, but UAE's support is thin: McNulty already home, Adam Yates sick, Wellens unfit, Vermeersch injured. Remco Evenepoel is climbing better than ever (beat Pogacar in the sprint at Plateau de Solaison) and 'this should give him confidence' for the last mountain stage. No single explicit stage-winner name given before the article was cut off.",
-      "url": "https://www.wielerflits.nl/nieuws/tour-2026-voorbeschouwing-etappe-20-apotheose-in-loodzware-bergrit-naar-alpe-dhuez/",
+      "rider_name": "Mathieu van der Poel",
+      "pick_type": "win",
+      "quote": "Topfavoriet: Van der Poel \u2014 'Wanneer Van der Poel op de helling aanzet, zullen er maar weinig renners kunnen volgen.' Pedersen 'goede kans' as #2 (points already secure, free to hunt a stage). Full favourites order: Van der Poel, Pedersen, Poga\u010dar, Philipsen, Evenepoel, Pidcock, Girmay, Ganna, Stuyven, Simmons. Confirms wildfire-driven shortening (minder politie-inzet vanwege bosbranden).",
+      "url": "https://www.wielerflits.nl/nieuws/tour-2026-voorbeschouwing-etappe-21-spektakel-op-montmartre-met-van-der-poel-pogacar-en-evenepoel/",
       "hits": 0,
       "picks": 1
     },
@@ -24997,58 +24932,144 @@
       "source": "cyclingstage.com",
       "rider_name": null,
       "pick_type": "view",
-      "quote": "Route write-up only (Croix de Fer/Telegraphe/Galibier/Sarenne, 5450m climbing). Rain forecast for the finish (29C, rainy, SW wind 9km/h) making descents 'treacherous'. No named stage-winner pick given; links out to a separate 'favourites' article not captured.",
-      "url": "https://www.cyclingstage.com/tour-de-france-2026/stage-20-tdf-2026/",
+      "quote": "Route dramatically shortened overnight (25 Jul) from 132.5km Thoiry start to an 89km Paris-only circuit (7 laps of Champs-\u00c9lys\u00e9es + 3x C\u00f4te de la Butte Montmartre, cobbled 1.1km at 5.9%, final ascent 10.3km from the line \u2014 4.2km further out than 2025). Notes Van Aert dropped Poga\u010dar solo on this climb in 2025; dry forecast tonight (21-24C).",
+      "url": "https://www.cyclingstage.com/tour-de-france-2026/stage-21-tdf-2026/",
       "hits": null,
       "picks": null
     },
     {
       "source": "r/peloton predictions",
-      "rider_name": "Isaac del Toro",
-      "pick_type": "view",
-      "quote": "Key tactical quote, widely repeated in-thread and attributed to Pogacar post-stage-19: 'Today was perhaps my day to seize the opportunity to win. Tomorrow, we'll make sure that Isaac (Del Toro) fights for the podium and that magnificent white jersey.' Strong crowd consensus reading is that Pogacar rides in support of Del Toro's GC podium bid tomorrow rather than contesting the stage win himself.",
-      "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
-      "hits": 0,
-      "picks": 8
-    },
-    {
-      "source": "r/peloton predictions",
-      "rider_name": "Richard Carapaz",
+      "rider_name": "Mathieu van der Poel",
       "pick_type": "win",
-      "quote": "u/XHMargarido: 'I'm all in on Carapaz after Pogacar said he was going to babysit Del Toro.' u/prettycozy001: 'give me Richie again... it's all about the puncher's chance for a glorious upset.'",
-      "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
+      "quote": "Crowd consensus heavily favours Van der Poel ('Can't really see Pogi dropping MvdP on montmartre'; 'stage is short and explosive, so that should fit him well'; 'MVDP would dust him in a sprint \u00e0 2'). Poga\u010dar/Pedersen next tier; Philipsen/Girmay as bunch-sprint backups; Skjelmose/Schmid/Stuyven/Simmons named as dark horses. Confirms route cut for wildfire-evacuation gendarme redeployment (stage 6 area).",
+      "url": "https://www.reddit.com/r/peloton/comments/1v6gkmn/predictions_thread_2026_tour_de_france_stage_21/",
       "hits": 0,
-      "picks": 8
-    },
-    {
-      "source": "r/peloton predictions",
-      "rider_name": "Sepp Kuss",
-      "pick_type": "longshot",
-      "quote": "u/boogyyman: 'We go again GC STAGE WIN KUSS.'",
-      "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
-      "hits": 0,
-      "picks": 8
-    },
-    {
-      "source": "r/peloton predictions",
-      "rider_name": "Mattias Skjelmose",
-      "pick_type": "longshot",
-      "quote": "u/water_tastes_great: detailed tactical read \u2014 Skjelmose can follow the GC group over the Galibier but is far enough off the top 4 to attack early on the Sarenne if the pace drops without a UAE/Bora/Decathlon/Trek chase; 'I think Seixas and Del Toro may let Skjelmose go if he attacks.'",
-      "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
-      "hits": 0,
-      "picks": 8
-    },
-    {
-      "source": "r/peloton predictions",
-      "rider_name": "Davide Piganzoli",
-      "pick_type": "longshot",
-      "quote": "u/Seamonsterx: 'VPP wins first 1-2 climbs but doesn't last into climb 3, Carapaz secures the jersey... Piganzoli awakes from the dead and wins the stage in the break.'",
-      "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
-      "hits": 0,
-      "picks": 8
+      "picks": 12
     }
   ],
   "expert_views": [
+    {
+      "stage_num": 21,
+      "sources": [
+        {
+          "stage_num": 21,
+          "source": "CyclingOracle",
+          "rider_name": "Mathieu van der Poel",
+          "pick_type": "view",
+          "confidence": "",
+          "quote": "[algorithmic model] Van der Poel tops the favourites list; Pedersen 'another dangerous contender'; Pidcock 'highly rated'; Philipsen 'logical option in case of a regrouping'. Win% table JS-rendered, not captured. NOTE: article published pre-route-change (still describes 132.5km Thoiry start), so its route framing is stale vs the overnight 89km revision.",
+          "url": "https://www.cyclingoracle.com/en/blog/tour-de-france-2026-stage-21-prediction",
+          "ts": "2026-07-26T07:37:35.006863+00:00",
+          "hits": 0,
+          "picks": 5,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 21,
+          "source": "CyclingUpToDate",
+          "rider_name": null,
+          "pick_type": "view",
+          "confidence": "",
+          "quote": "No single explicit pick \u2014 lays out the case for four camps: UAE's classics riders can attack Montmartre for Poga\u010dar; Pedersen (green wrapped up) may instead ride for Simmons/Vacek or take a late attack; Van der Poel 'perfectly suited to Montmartre... can make the difference'; Evenepoel (Olympic champion on these exact roads) can go clear between climbs and solo it home. Flags Stuyven/Ganna/Pidcock/Girmay as outsiders.",
+          "url": "https://cyclinguptodate.com/cycling/tour-de-france-2026-stage-21-preview-profiles-favourites-and-predictions-pogacar-van-der-poel-and-evenepoel-meet-again-now-on-cobbled-paris-circuit",
+          "ts": "2026-07-26T07:37:34.813967+00:00",
+          "hits": 0,
+          "picks": 15,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 21,
+          "source": "Dicodusport",
+          "rider_name": "Mathieu van der Poel",
+          "pick_type": "win",
+          "confidence": "",
+          "quote": "Pronostic: 1. Mathieu van der Poel @2.25. 'Apr\u00e8s le succ\u00e8s de Wout Van Aert l'ann\u00e9e derni\u00e8re, un autre coureur de classiques pourrait remporter cette \u00e9tape en profitant de la butte Montmartre.'",
+          "url": "https://dicodusport.fr/blog/21e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
+          "ts": "2026-07-26T07:37:34.850294+00:00",
+          "hits": 0,
+          "picks": 8,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 21,
+          "source": "Dicodusport",
+          "rider_name": "Remco Evenepoel",
+          "pick_type": "longshot",
+          "confidence": "",
+          "quote": "Outsider: Remco Evenepoel @8.00. 'Le Belge a termin\u00e9 le Tour de France en trombe... pourrait parachever sa Grande Boucle par un troisi\u00e8me succ\u00e8s.'",
+          "url": "https://dicodusport.fr/blog/21e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
+          "ts": "2026-07-26T07:37:34.887224+00:00",
+          "hits": 0,
+          "picks": 8,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 21,
+          "source": "IDL Pro Cycling",
+          "rider_name": "Mathieu van der Poel",
+          "pick_type": "view",
+          "confidence": "",
+          "quote": "Headline only (article body not captured): 'A Van der Poel day? Could Pogacar or Evenepoel ruin Van der Poel's dream stage.'",
+          "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-21-preview-could-pogacar-or-evenepoel-ruin-van-der-poels-dream-stage",
+          "ts": "2026-07-26T07:37:34.923469+00:00",
+          "hits": 0,
+          "picks": 20,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 21,
+          "source": "Racing Post",
+          "rider_name": "Mathieu van der Poel",
+          "pick_type": "win",
+          "confidence": "",
+          "quote": "Best bet for stage 21: Mathieu van der Poel, 2pts 7-4 bet365. 'Alpecin-Premier Tech should give the Dutchman the nod to attack on Montmartre knowing Philipsen can sprint if it comes back together... little chance of the world champion [Pogacar] getting the better of him in a sprint.' Confirms Poga\u010dar seals a 5th yellow jersey barring disaster; Pedersen locked up points on stage 20.",
+          "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-21-predictions-tips-and-odds-adtOr2V1v98i/",
+          "ts": "2026-07-26T07:37:34.772773+00:00",
+          "hits": 0,
+          "picks": 8,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 21,
+          "source": "WielerFlits",
+          "rider_name": "Mathieu van der Poel",
+          "pick_type": "win",
+          "confidence": "",
+          "quote": "Topfavoriet: Van der Poel \u2014 'Wanneer Van der Poel op de helling aanzet, zullen er maar weinig renners kunnen volgen.' Pedersen 'goede kans' as #2 (points already secure, free to hunt a stage). Full favourites order: Van der Poel, Pedersen, Poga\u010dar, Philipsen, Evenepoel, Pidcock, Girmay, Ganna, Stuyven, Simmons. Confirms wildfire-driven shortening (minder politie-inzet vanwege bosbranden).",
+          "url": "https://www.wielerflits.nl/nieuws/tour-2026-voorbeschouwing-etappe-21-spektakel-op-montmartre-met-van-der-poel-pogacar-en-evenepoel/",
+          "ts": "2026-07-26T07:37:34.960934+00:00",
+          "hits": 0,
+          "picks": 1,
+          "roi_at_tab": -1.0
+        },
+        {
+          "stage_num": 21,
+          "source": "cyclingstage.com",
+          "rider_name": null,
+          "pick_type": "view",
+          "confidence": "",
+          "quote": "Route dramatically shortened overnight (25 Jul) from 132.5km Thoiry start to an 89km Paris-only circuit (7 laps of Champs-\u00c9lys\u00e9es + 3x C\u00f4te de la Butte Montmartre, cobbled 1.1km at 5.9%, final ascent 10.3km from the line \u2014 4.2km further out than 2025). Notes Van Aert dropped Poga\u010dar solo on this climb in 2025; dry forecast tonight (21-24C).",
+          "url": "https://www.cyclingstage.com/tour-de-france-2026/stage-21-tdf-2026/",
+          "ts": "2026-07-26T07:37:34.728834+00:00",
+          "hits": null,
+          "picks": null,
+          "roi_at_tab": null
+        },
+        {
+          "stage_num": 21,
+          "source": "r/peloton predictions",
+          "rider_name": "Mathieu van der Poel",
+          "pick_type": "win",
+          "confidence": "",
+          "quote": "Crowd consensus heavily favours Van der Poel ('Can't really see Pogi dropping MvdP on montmartre'; 'stage is short and explosive, so that should fit him well'; 'MVDP would dust him in a sprint \u00e0 2'). Poga\u010dar/Pedersen next tier; Philipsen/Girmay as bunch-sprint backups; Skjelmose/Schmid/Stuyven/Simmons named as dark horses. Confirms route cut for wildfire-evacuation gendarme redeployment (stage 6 area).",
+          "url": "https://www.reddit.com/r/peloton/comments/1v6gkmn/predictions_thread_2026_tour_de_france_stage_21/",
+          "ts": "2026-07-26T07:37:35.045649+00:00",
+          "hits": 0,
+          "picks": 12,
+          "roi_at_tab": -1.0
+        }
+      ]
+    },
     {
       "stage_num": 20,
       "sources": [
@@ -25088,7 +25109,7 @@
           "url": "https://dicodusport.fr/blog/20e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
           "ts": "2026-07-25T07:36:50.000590+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25101,7 +25122,7 @@
           "url": "https://dicodusport.fr/blog/20e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
           "ts": "2026-07-25T07:36:50.044389+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25114,7 +25135,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-20-preview-rain-could-very-well-turn-the-tour-de-france-upside-down",
           "ts": "2026-07-25T07:36:58.768220+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25127,7 +25148,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-20-preview-rain-could-very-well-turn-the-tour-de-france-upside-down",
           "ts": "2026-07-25T07:36:58.813091+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25140,7 +25161,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-20-preview-rain-could-very-well-turn-the-tour-de-france-upside-down",
           "ts": "2026-07-25T07:36:58.859511+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25166,7 +25187,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-20-predictions-tips-and-odds-aPqFb7t88x1F/",
           "ts": "2026-07-25T07:36:41.826851+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25179,7 +25200,7 @@
           "url": "https://youtu.be/brjF95p_UQ4",
           "ts": "2026-07-25T07:36:23.279435+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25192,7 +25213,7 @@
           "url": "https://youtu.be/brjF95p_UQ4",
           "ts": "2026-07-25T07:36:23.327924+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25231,7 +25252,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
           "ts": "2026-07-25T07:37:22.994027+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         },
         {
@@ -25244,7 +25265,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
           "ts": "2026-07-25T07:37:23.051739+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         },
         {
@@ -25257,7 +25278,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
           "ts": "2026-07-25T07:37:23.095167+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         },
         {
@@ -25270,7 +25291,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
           "ts": "2026-07-25T07:37:23.138872+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         },
         {
@@ -25283,7 +25304,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v5nrt4/predictions_thread_2026_tour_de_france_stage_20/",
           "ts": "2026-07-25T07:37:23.182793+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -25327,7 +25348,7 @@
           "url": "",
           "ts": "2026-07-24T07:35:45.877773+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25340,7 +25361,7 @@
           "url": "",
           "ts": "2026-07-24T07:35:45.932847+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25353,7 +25374,7 @@
           "url": "",
           "ts": "2026-07-24T07:35:36.522145+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25366,7 +25387,7 @@
           "url": "",
           "ts": "2026-07-24T07:35:54.010728+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -25410,7 +25431,7 @@
           "url": "https://dicodusport.fr/blog/18e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
           "ts": "2026-07-23T07:36:16.937493+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25423,7 +25444,7 @@
           "url": "https://dicodusport.fr/blog/18e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
           "ts": "2026-07-23T07:36:16.989636+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25449,7 +25470,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-18-preview-breakaway-hoping-that-pogacar-and-uae-give-them-one-last-chance",
           "ts": "2026-07-23T07:36:25.315687+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25462,7 +25483,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-18-preview-breakaway-hoping-that-pogacar-and-uae-give-them-one-last-chance",
           "ts": "2026-07-23T07:36:25.365623+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25475,7 +25496,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-18-preview-breakaway-hoping-that-pogacar-and-uae-give-them-one-last-chance",
           "ts": "2026-07-23T07:36:25.416223+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25501,7 +25522,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-18-predictions-tips-and-odds-aJqCG7P3sZPh/",
           "ts": "2026-07-23T07:36:00.290420+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25514,7 +25535,7 @@
           "url": "https://youtu.be/MNNp9A8JB8M",
           "ts": "2026-07-23T07:35:51.041053+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25527,7 +25548,7 @@
           "url": "https://youtu.be/MNNp9A8JB8M",
           "ts": "2026-07-23T07:35:51.091356+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25566,7 +25587,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v3oz88/predictions_thread_2026_tour_de_france_stage_18/",
           "ts": "2026-07-23T07:36:37.774369+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         },
         {
@@ -25579,7 +25600,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v3oz88/predictions_thread_2026_tour_de_france_stage_18/",
           "ts": "2026-07-23T07:36:37.823892+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -25623,7 +25644,7 @@
           "url": "https://dicodusport.fr/blog/17e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
           "ts": "2026-07-22T07:37:12.569165+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25636,7 +25657,7 @@
           "url": "https://dicodusport.fr/blog/17e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
           "ts": "2026-07-22T07:37:12.607468+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25649,7 +25670,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-17-preview-high-stakes-showdown-sprinters-vs-attackers",
           "ts": "2026-07-22T07:37:23.514617+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25662,7 +25683,7 @@
           "url": "https://youtu.be/U6WPCKA8a4I",
           "ts": "2026-07-22T07:36:57.970000+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25675,7 +25696,7 @@
           "url": "https://youtu.be/U6WPCKA8a4I",
           "ts": "2026-07-22T07:36:58.011080+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25701,7 +25722,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v2m6b5/predictions_thread_2026_tour_de_france_stage_17/",
           "ts": "2026-07-22T07:37:23.594622+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -25745,7 +25766,7 @@
           "url": "",
           "ts": "2026-07-21T07:36:45.700757+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25758,7 +25779,7 @@
           "url": "",
           "ts": "2026-07-21T07:36:45.769874+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25771,7 +25792,7 @@
           "url": "",
           "ts": "2026-07-21T07:36:45.815833+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25797,7 +25818,7 @@
           "url": "",
           "ts": "2026-07-21T07:36:28.747786+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25810,7 +25831,7 @@
           "url": "",
           "ts": "2026-07-21T07:36:28.799277+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25823,7 +25844,7 @@
           "url": "",
           "ts": "2026-07-21T07:36:28.640506+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25849,7 +25870,7 @@
           "url": "",
           "ts": "2026-07-21T07:36:45.906644+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -25893,7 +25914,7 @@
           "url": "https://dicodusport.fr/blog/la-seixas-mania-samplifie-une-arrivee-inedite-les-3-raisons-de-suivre-la-15eme-etape-vers-le-plateau-de-solaison/",
           "ts": "2026-07-19T07:35:55.835584+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25906,7 +25927,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-15-preview-almost-time-to-rest-first-del-toros-playing-field",
           "ts": "2026-07-19T07:35:55.883737+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -25932,7 +25953,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-15-predictions-tips-and-odds-aSTGI3u6TXaL/",
           "ts": "2026-07-19T07:35:55.743086+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -25945,7 +25966,7 @@
           "url": "https://youtu.be/VuIyBWx-KoQ",
           "ts": "2026-07-19T07:35:55.605156+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -25971,7 +25992,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1v061r8/predictions_thread_2026_tour_de_france_stage_15/",
           "ts": "2026-07-19T07:35:55.976514+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26015,7 +26036,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-14-preview-the-breakaway-riders-have-3800-reasons-but-does-tadej-pogacar-have-one-too",
           "ts": "2026-07-18T07:36:31.676456+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26028,7 +26049,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-14-preview-the-breakaway-riders-have-3800-reasons-but-does-tadej-pogacar-have-one-too",
           "ts": "2026-07-18T07:36:31.726604+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26054,7 +26075,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1uz8z4a/predictions_thread_2026_tour_de_france_stage_14/",
           "ts": "2026-07-18T07:36:42.945893+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26124,7 +26145,7 @@
           "url": "https://dicodusport.fr/blog/etape-la-plus-longue-les-echappes-a-la-fete-les-4-raisons-de-suivre-la-13e-etape-vers-belfort/",
           "ts": "2026-07-17T07:35:57.410369+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26137,7 +26158,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-13-preview-breakaway-must-be-careful-in-soaking-wet-conditions",
           "ts": "2026-07-17T07:35:57.460328+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26150,7 +26171,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-13-preview-breakaway-must-be-careful-in-soaking-wet-conditions",
           "ts": "2026-07-17T07:35:57.509004+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26163,7 +26184,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-13-preview-breakaway-must-be-careful-in-soaking-wet-conditions",
           "ts": "2026-07-17T07:35:57.560011+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26176,7 +26197,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-13-predictions-tips-and-odds-atOM62H6hlyz/",
           "ts": "2026-07-17T07:35:34.422876+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26189,7 +26210,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-13-predictions-tips-and-odds-atOM62H6hlyz/",
           "ts": "2026-07-17T07:35:34.469869+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26215,7 +26236,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1uyc0pe/predictions_thread_2026_tour_de_france_stage_13/",
           "ts": "2026-07-17T07:36:09.564103+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26259,7 +26280,7 @@
           "url": "",
           "ts": "2026-07-16T07:35:42.624374+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26272,7 +26293,7 @@
           "url": "",
           "ts": "2026-07-16T07:35:42.546332+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26285,7 +26306,7 @@
           "url": "",
           "ts": "2026-07-16T07:35:42.463636+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26311,7 +26332,7 @@
           "url": "",
           "ts": "2026-07-16T07:35:42.703233+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26355,7 +26376,7 @@
           "url": "https://dicodusport.fr/blog/le-parcours-detaille-et-le-profil-de-la-11e-etape-du-tour-de-france-2026/",
           "ts": "2026-07-15T07:36:57.006009+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26368,7 +26389,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-11-preview-on-the-leftbut-especially-on-the-righttim-merlier-might-be-beatable",
           "ts": "2026-07-15T07:36:57.047575+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26394,7 +26415,7 @@
           "url": "",
           "ts": "2026-07-15T07:36:36.608742+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -26420,7 +26441,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1uwfxmq/predictions_thread_2026_tour_de_france_stage_11/",
           "ts": "2026-07-15T07:36:57.135832+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26464,7 +26485,7 @@
           "url": "https://dicodusport.fr/blog/un-francais-vainqueur-le-14-juillet-les-4-raisons-de-suivre-la-10e-etape-du-tour-de-france-2026-vers-le-lioran/",
           "ts": "2026-07-14T07:37:04.724475+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26477,7 +26498,7 @@
           "url": "https://www.idlprocycling.com/cycling/favorites-for-stage-10-of-the-2026-tour-de-france-sticking-to-the-scenario-from-two-years-ago",
           "ts": "2026-07-14T07:37:04.796278+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26503,7 +26524,7 @@
           "url": "https://youtu.be/6sJF77FQDXQ",
           "ts": "2026-07-14T07:37:04.571044+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -26529,7 +26550,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1uvh2vq/predictions_thread_2026_tour_de_france_stage_10/",
           "ts": "2026-07-14T07:37:04.899610+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26573,7 +26594,7 @@
           "url": "https://dicodusport.fr/blog/le-parcours-casse-pattes-et-le-profil-de-la-9e-etape-du-tour-de-france-2026-vers-ussel/",
           "ts": "2026-07-12T07:35:58.505910+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26586,7 +26607,7 @@
           "url": "https://www.idlprocycling.com/cycling/tour-de-france-stage-9-shortened-by-30-kilometres-as-extreme-heat-triggers-red-alert",
           "ts": "2026-07-12T07:36:02.437484+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26612,7 +26633,7 @@
           "url": "https://youtu.be/xd0aByas_lI",
           "ts": "2026-07-12T07:35:39.696851+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -26625,7 +26646,7 @@
           "url": "https://youtu.be/xd0aByas_lI",
           "ts": "2026-07-12T07:35:39.735259+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -26651,7 +26672,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1utub5d/predictions_thread_2026_tour_de_france_stage_9/",
           "ts": "2026-07-12T07:36:14.530798+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26695,7 +26716,7 @@
           "url": "https://dicodusport.fr/blog/profil-8e-etape-tour-de-france-2026-decouvrez-le-parcours-vers-bergerac-ideal-pour-les-sprinteurs/",
           "ts": "2026-07-11T07:39:41.996207+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26708,7 +26729,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-8-preview-kooij-and-merlier-face-a-more-technical-sprint-in-bergerac",
           "ts": "2026-07-11T07:39:31.335554+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26721,7 +26742,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-8-preview-kooij-and-merlier-face-a-more-technical-sprint-in-bergerac",
           "ts": "2026-07-11T07:39:31.384733+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26734,7 +26755,7 @@
           "url": "",
           "ts": "2026-07-11T07:39:31.428907+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26760,7 +26781,7 @@
           "url": "https://youtu.be/n-wxHVp5WwA",
           "ts": "2026-07-11T07:39:14.229298+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -26773,7 +26794,7 @@
           "url": "https://youtu.be/n-wxHVp5WwA",
           "ts": "2026-07-11T07:39:14.274974+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -26799,7 +26820,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1ut0mph/predictions_thread_2026_tour_de_france_stage_8/",
           "ts": "2026-07-11T07:39:53.043240+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26830,7 +26851,7 @@
           "url": "https://dicodusport.fr/blog/7eme-etape-du-tour-de-france-2026-decouvrez-le-parcours-et-le-profil-vers-bordeaux/",
           "ts": "2026-07-10T07:36:25.175906+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26843,7 +26864,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-7-preview-heavy-legs-royal-sprinting-in-bordeaux",
           "ts": "2026-07-10T07:36:25.224398+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26869,7 +26890,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-seven-predictions-tips-and-odds-aALlZ2x9aHDE/",
           "ts": "2026-07-10T07:36:25.083643+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26882,7 +26903,7 @@
           "url": "https://youtu.be/yE4XCRyfbyI",
           "ts": "2026-07-10T07:36:24.962471+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -26908,7 +26929,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1us18hc/predictions_thread_2026_tour_de_france_stage_7/",
           "ts": "2026-07-10T07:36:41.130448+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -26952,7 +26973,7 @@
           "url": "https://dicodusport.fr/blog/6eme-etape-du-tour-de-france-2026-decouvrez-le-parcours-et-le-profil-entre-pau-et-gavarnie/",
           "ts": "2026-07-09T07:37:07.913493+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -26965,7 +26986,7 @@
           "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-6-preview-tourmalet-brings-first-real-showdown-between-pogacar-vingegaard",
           "ts": "2026-07-09T07:37:07.951336+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -26991,7 +27012,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-six-predictions-tips-and-odds-axNDd9y8Ye3L/",
           "ts": "2026-07-09T07:37:07.836286+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -27004,7 +27025,7 @@
           "url": "https://youtu.be/GZyCdesLVOs",
           "ts": "2026-07-09T07:37:07.719850+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27043,7 +27064,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1uqypot/predictions_thread_2026_tour_de_france_stage_6/",
           "ts": "2026-07-09T07:37:08.069351+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -27074,7 +27095,7 @@
           "url": "https://dicodusport.fr/blog/",
           "ts": "2026-07-08T10:17:32.829207+00:00",
           "hits": 0,
-          "picks": 6,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -27087,7 +27108,7 @@
           "url": "https://idlprocycling.com",
           "ts": "2026-07-08T10:17:08.646978+00:00",
           "hits": 0,
-          "picks": 17,
+          "picks": 20,
           "roi_at_tab": -1.0
         },
         {
@@ -27113,7 +27134,7 @@
           "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/",
           "ts": "2026-07-08T10:17:07.113172+00:00",
           "hits": 0,
-          "picks": 7,
+          "picks": 8,
           "roi_at_tab": -1.0
         },
         {
@@ -27126,7 +27147,7 @@
           "url": "https://youtu.be/4V83oc1O65s",
           "ts": "2026-07-08T10:17:05.878365+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27139,7 +27160,7 @@
           "url": "https://youtu.be/4V83oc1O65s",
           "ts": "2026-07-08T10:17:06.462142+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27178,7 +27199,7 @@
           "url": "https://www.reddit.com/r/peloton/",
           "ts": "2026-07-08T10:17:31.653119+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -27209,7 +27230,7 @@
           "url": "https://youtu.be/ut6Cr2DgpzY",
           "ts": "2026-07-07T08:43:51.837642+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27222,7 +27243,7 @@
           "url": "https://youtu.be/ut6Cr2DgpzY",
           "ts": "2026-07-07T08:43:51.879617+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27235,7 +27256,7 @@
           "url": "https://youtu.be/ut6Cr2DgpzY",
           "ts": "2026-07-07T08:43:51.918358+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27261,7 +27282,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1up5lbx/predictions_thread_2026_tour_de_france_stage_4/",
           "ts": "2026-07-07T08:43:52.045650+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -27292,7 +27313,7 @@
           "url": "https://youtu.be/XX-ipJpCofw",
           "ts": "2026-07-06T10:10:28.202683+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27318,7 +27339,7 @@
           "url": "https://www.reddit.com/r/peloton/comments/1uo8kij/predictions_thread_2026_tour_de_france_stage_3/",
           "ts": "2026-07-06T10:10:28.728706+00:00",
           "hits": 0,
-          "picks": 8,
+          "picks": 12,
           "roi_at_tab": -1.0
         }
       ]
@@ -27349,7 +27370,7 @@
           "url": "https://youtu.be/T_ZTAlYVcOE",
           "ts": "2026-07-05T01:59:55.727289+00:00",
           "hits": 0,
-          "picks": 19,
+          "picks": 21,
           "roi_at_tab": -1.0
         },
         {
@@ -27371,7 +27392,7 @@
   "expert_scores_all": [
     {
       "source": "THEMOVE",
-      "picks": 19,
+      "picks": 21,
       "hits": 0,
       "roi_at_tab": -1.0
     },
@@ -27383,7 +27404,7 @@
     },
     {
       "source": "Racing Post",
-      "picks": 7,
+      "picks": 8,
       "hits": 0,
       "roi_at_tab": -1.0
     },
@@ -27395,7 +27416,7 @@
     },
     {
       "source": "IDL Pro Cycling",
-      "picks": 17,
+      "picks": 20,
       "hits": 0,
       "roi_at_tab": -1.0
     },
@@ -27407,7 +27428,7 @@
     },
     {
       "source": "r/peloton predictions",
-      "picks": 8,
+      "picks": 12,
       "hits": 0,
       "roi_at_tab": -1.0
     },
@@ -27419,169 +27440,138 @@
     },
     {
       "source": "Dicodusport",
-      "picks": 6,
+      "picks": 8,
       "hits": 0,
       "roi_at_tab": -1.0
     }
   ],
   "key_riders": [
     {
+      "name": "Mathieu Van Der Poel",
+      "odds": 2.5,
+      "devig": 0.28406264957471566,
+      "move": null,
+      "rider_id": 81
+    },
+    {
       "name": "Tadej Pogacar",
-      "odds": 2.75,
-      "devig": 0.2503918763059051,
-      "move": 1.22,
+      "odds": 4.25,
+      "devig": 0.16709567622042096,
+      "move": 1.5,
       "rider_id": 1
     },
     {
-      "name": "Richard Carapaz",
-      "odds": 3.0,
-      "devig": 0.22952588661374634,
-      "move": -3.5,
-      "rider_id": 33
+      "name": "Mads Pedersen",
+      "odds": 5.0,
+      "devig": 0.14203132478735783,
+      "move": null,
+      "rider_id": 27
     },
     {
-      "name": "Sepp Kuss",
-      "odds": 6.5,
-      "devig": 0.10593502459095987,
-      "move": -1.0,
-      "rider_id": 15
-    },
-    {
-      "name": "Isaac del Toro",
-      "odds": 10.0,
-      "devig": 0.06885776598412391,
-      "move": -9.0,
-      "rider_id": 2
+      "name": "Jasper Philipsen",
+      "odds": 11.0,
+      "devig": 0.06455969308516266,
+      "move": null,
+      "rider_id": 85
     },
     {
       "name": "Remco Evenepoel",
-      "odds": 13.0,
-      "devig": 0.052967512295479934,
-      "move": 0.0,
+      "odds": 12.0,
+      "devig": 0.05917971866139909,
+      "move": -1.0,
       "rider_id": 17
     },
     {
+      "name": "Olav Kooij",
+      "odds": 26.0,
+      "devig": 0.02731371630526112,
+      "move": null,
+      "rider_id": 45
+    },
+    {
+      "name": "Quinn Simmons",
+      "odds": 29.0,
+      "devig": 0.024488159446096176,
+      "move": -52.0,
+      "rider_id": 28
+    },
+    {
       "name": "Tom Pidcock",
-      "odds": 17.0,
-      "devig": 0.04050456822595524,
-      "move": -24.0,
+      "odds": 41.0,
+      "devig": 0.017320893266750955,
+      "move": 24.0,
       "rider_id": 137
-    },
-    {
-      "name": "Mattias Skjelmose",
-      "odds": 34.0,
-      "devig": 0.02025228411297762,
-      "move": -47.0,
-      "rider_id": 29
-    },
-    {
-      "name": "Thymen Arensman",
-      "odds": 34.0,
-      "devig": 0.02025228411297762,
-      "move": 0.0,
-      "rider_id": 66
     }
   ],
   "outrights": {
-    "headline": "All five outrights: efficient markets or too close to call with edge \u2014 no outright stakes tonight.",
     "markets": [
       {
         "key": "gc",
         "name": "General Classification",
         "verdict": "no_bet",
+        "summary": "TAB market status BettingClosed as of tonight's fetch (confirmed via raw API payload, not a scrape failure) -- expected on the final stage day since the GC has been effectively decided since stage 20. Last live snapshot (25 Jul, pre-stage-20) had Pogacar at 1.01 (65% de-vig) for a 5th title, which nothing in stage 20's result (Carapaz won, Pogacar 4th, no GC shake-up) contradicts. No market to bet, so no pick.",
+        "pick": null,
         "top_odds": [
           {
             "rider": "Tadej Pogacar",
             "odds": 1.01
-          },
-          {
-            "rider": "Remco Evenepoel",
-            "odds": 19.0
-          },
-          {
-            "rider": "Isaac del Toro",
-            "odds": 34.0
           }
-        ],
-        "summary": "Pogacar leads by 7:11 over Evenepoel with 1 stage left (a flat Paris finish that won't move GC) \u2014 this is decided in all but name. At 1.01 there is nothing to stake even though he's a near-certainty; no edge, no value. NOTE: the DB's 'current standing' snapshot for this market is stale (pcs_standings.py hasn't run past stage 4) and shows nonsense names \u2014 real standings used here come from tonight's sourced previews (Racing Post/WielerFlits), not the DB table. Flagging for the morning routine to fix."
+        ]
       },
       {
         "key": "points",
-        "name": "Points (green jersey)",
+        "name": "Points Classification",
         "verdict": "no_bet",
+        "summary": "BettingClosed. Multiple sources (Racing Post, WielerFlits) confirm Mads Pedersen has already secured the green jersey outright as of stage 20 (103pts, next rival Pogacar 55). Last live snapshot had Pedersen at 1.02 (92% de-vig) -- market was already effectively settled before closing. No bet.",
+        "pick": null,
         "top_odds": [
           {
             "rider": "Mads Pedersen",
             "odds": 1.02
-          },
-          {
-            "rider": "Jasper Philipsen",
-            "odds": 17.0
-          },
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 101.0
           }
-        ],
-        "summary": "Pedersen has effectively sealed green after a strong points haul including stage 19's intermediate sprint; no rival within reach with 2 stages left. Correctly priced at 1.02 \u2014 no value, nothing to add."
+        ]
       },
       {
         "key": "kom",
-        "name": "Mountains (polka-dot jersey)",
+        "name": "Mountains Classification",
         "verdict": "no_bet",
+        "summary": "BettingClosed. Last live snapshot had Richard Carapaz clear favourite at 1.28 (65% de-vig) after his two summit-finish stage wins (18, 20). No market to bet, so no pick.",
+        "pick": null,
         "top_odds": [
           {
             "rider": "Richard Carapaz",
             "odds": 1.28
-          },
-          {
-            "rider": "Valentin Paret-Peintre",
-            "odds": 5.0
-          },
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 6.5
           }
-        ],
-        "summary": "Genuinely live: Carapaz leads by a single point (91 to Pogacar's 90, Paret-Peintre 84) with 70 KOM points on offer tomorrow (3 HC climbs + 1 cat-1). Carapaz has been the most committed points-hunter two days running and is the fair favourite, but our own tactical read (Pogacar reportedly riding support for Del Toro tomorrow, not chasing climb points) doesn't lift Carapaz's true probability meaningfully above the market's 65% devig \u2014 breakeven at 1.28 needs 78%. No edge either direction; Pogacar at 6.5 looks fair-to-generous given he may not fight for points, but that's a fade case, not a value case. Watch, don't bet."
+        ]
       },
       {
         "key": "youth",
-        "name": "Best Young Rider (white jersey)",
+        "name": "Young Rider Classification",
         "verdict": "no_bet",
+        "summary": "BettingClosed. Last live snapshot had Isaac del Toro heavily favoured at 1.25 (70% de-vig) to take white home. No market to bet, so no pick.",
+        "pick": null,
         "top_odds": [
           {
             "rider": "Isaac del Toro",
             "odds": 1.25
-          },
-          {
-            "rider": "Paul Seixas",
-            "odds": 3.6
-          },
-          {
-            "rider": "Lenny Martinez",
-            "odds": 21.0
           }
-        ],
-        "summary": "Only 24 seconds separate Del Toro and Seixas \u2014 the tightest classification in the race \u2014 on a stage that can make or break gaps like that inside one climb. Del Toro has the stronger team and (per tonight's sourced reporting) Pogacar riding explicitly in support of his podium/white-jersey bid, which should shade his true probability above the market's 70% \u2014 but not far enough above the 80% breakeven at 1.25 to clear our EV bar once blended with the market. Genuinely live, not a bet."
+        ]
       },
       {
         "key": "teams",
-        "name": "Teams classification",
+        "name": "Team Classification",
         "verdict": "no_bet",
+        "summary": "BettingClosed. Last live snapshot had Lidl-Trek at 1.03 (90% de-vig), essentially a formality by this point. No market to bet, so no pick.",
+        "pick": null,
         "top_odds": [
           {
             "rider": "Lidl-Trek",
             "odds": 1.03
-          },
-          {
-            "rider": "UAE Team Emirates - XRG",
-            "odds": 12.0
           }
-        ],
-        "summary": "Lidl-Trek's combined strength (Pedersen's points haul plus depth) has this settled bar a disaster. No value at 1.03."
+        ]
       }
-    ]
+    ],
+    "gap_note": "All five TAB outright markets returned match_status=BettingClosed on tonight's live fetch (verified in the raw event payload, not inferred) -- TAB has closed outright betting ahead of the final stage now that GC/points/KOM/youth/teams are functionally decided. This is the first evening this Tour all five have closed simultaneously. No fabricated prices used; last live snapshot (25 Jul) shown above for informational close-out context only, not as a bettable price."
   },
   "qa": [
     {
