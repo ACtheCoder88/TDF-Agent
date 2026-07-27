@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-07-26T07:43:30.123962+00:00",
-    "stages_raced": 20,
-    "next_stage": 21,
+    "generated_at": "2026-07-27T07:39:47.827352+00:00",
+    "stages_raced": 21,
+    "next_stage": null,
     "total_stages": 21,
     "news_updated_at": "2026-07-26T07:35:51.660416+00:00",
     "picks_updated_at": "2026-07-26T07:37:35.045649+00:00",
-    "experts_checked_at": "2026-07-26T07:35:58.159101+00:00",
+    "experts_checked_at": null,
     "qa_form_endpoint": "https://formspree.io/f/xgojdgdd",
     "qa_response_note": "Answers are usually posted within an hour.",
     "qa_pending": 0
@@ -24080,7 +24080,7 @@
       "picks": 44,
       "pnl": -1.5,
       "wins": 5,
-      "settled": 43
+      "settled": 44
     },
     "picks": [
       {
@@ -24091,8 +24091,8 @@
         "est_prob": 0.2,
         "ev": -0.395,
         "units": 0.0,
-        "outcome": "pending",
-        "pnl_units": null
+        "outcome": "lost",
+        "pnl_units": 0.0
       },
       {
         "stage_num": 20,
@@ -24837,116 +24837,7 @@
       "url": "https://www.cyclingnews.com/pro-cycling/womens-cycling/tour-de-pologne-women-lorena-wiebes-storms-to-back-to-back-victories-on-stage-2/"
     }
   ],
-  "picks": {
-    "stage_num": 21,
-    "verdict": "no_bet",
-    "overnight_recap": "Alpe d'Huez twice in three days and Richard Carapaz just made it his own personal cul-de-sac, soloing away for his second win in three stages while Tadej Pogacar sat up, shook hands with the mountain, and let the yellow jersey do the talking. Fourth on the day was all he needed \u2014 the Slovenian rides into Paris with his fifth Tour sewn up before a wheel has even turned today, level with Anquetil, Merckx, Hinault and Indurain in the history books. Mads Pedersen banked the green jersey days ago and can finally stop babysitting it. The GC race is over; tonight is a leaderboard for stage-hunters only.",
-    "stage_description": "Then Mother Nature \u2014 or rather, the French wildfires down near the old stage 6 roads \u2014 went and rewrote the script overnight. The gendarmes needed for crowd control on the planned 133km run-in from Thoiry got redeployed to evacuation duty, so the ASO scrapped the transfer stage entirely: the peloton gets bussed straight to Paris, presented in Thoiry for the cameras and nothing more, and the timed racing starts and finishes on the Champs-\u00c9lys\u00e9es \u2014 89km instead of 133km. What doesn't change is the sting in the tail: three ascents of the cobbled C\u00f4te de la Butte Montmartre, 1.1km at 5.9%, the same stones that saw Wout Van Aert drop a three-week-weary Poga\u010dar and solo to glory last year. The final ramp now sits 10.3km from the flag \u2014 4km further out than 2025 \u2014 which hands the bunch more rope to reel a soloist back, so don't be shocked if this resolves as a reduced group sprint among the survivors rather than another lone wolf special.",
-    "card_note": "Grand Finale, zero staked: Van der Poel is the true banker by our own model AND the market's, but at 2.5 (40% implied, 28.4% de-vig) TAB has priced him like a certainty in a race with 20+ live contenders -- blended EV -0.40, nowhere near bettable. Every rider our blend actually likes at value (Skjelmose, Campenaerts, Tarling) only clears on a longshot price the syndicate's own post-mortem told us to stop trusting. Card stands down at 0.0u; watch it as a spectacle, not a stake.",
-    "top_picks": [
-      {
-        "rider": "Mathieu van der Poel",
-        "role": "banker",
-        "market": "stage_winner",
-        "tab_odds": 2.5,
-        "est_prob": 0.2,
-        "devigged_p": 0.284,
-        "p_bet": 0.242,
-        "ev": -0.395,
-        "units": 0.0,
-        "weight_pct": 0,
-        "conviction": "high",
-        "reason": "The most likely winner by a wide margin on our own read AND the market's -- classics pedigree, a stage already banked (S9), fresh legs off leadout duty, and the whole expert panel (Racing Post, Dicodusport, WielerFlits, r/peloton) converges on him. But 2.5 (28.4% de-vig) implies near-certainty in a field where 20+ riders have a live shot on a punchy, technical circuit -- blended EV -0.40 is nowhere near the -0.05 banker tolerance. Named, not staked."
-      }
-    ],
-    "place_picks": [],
-    "longshots": [],
-    "expert_agreement_note": "Total panel consensus behind Van der Poel: Racing Post (best bet, 7-4 bet365), Dicodusport (pronostic #1 @2.25), WielerFlits (topfavoriet), IDL, CyclingOracle (algo top-ranked) and r/peloton crowd sentiment all point the same way -- 'can't see Pogi dropping MvdP on Montmartre' sums up the room. That consensus is exactly WHY the price is unbettable: everyone backing the same horse is what shortens a price past fair value. Pogacar and Pedersen are next in both our model and the market, both similarly overbet (EV -0.37 and -0.35). Evenepoel is the one genuine expert-vs-market disagreement worth flagging for narrative (CyclingUpToDate/Dicodusport/WielerFlits all name him a live threat off his Olympic pedigree on these exact roads) but even his blended EV (-0.20 at 12.0) doesn't clear the bar.",
-    "no_bet_reason": "Overround 1.408 -- under the 1.45 distrust ceiling but on the high side, and it's sitting almost entirely on the market's short-priced favourites (Van der Poel/Pogacar/Pedersen soak up 59% implied probability between them for a technical, selective, repeated-climb finale with a genuinely deep credible-winner pool). Our blended p_bet has none of the top 5 market picks clearing breakeven. The mid-market 'value' role requirement (odds < 15, edge >= 1.15x devig) is empty -- every rider priced below 15.0 is a market favourite our model also rates below its implied price, not above it. The only positive-blended-EV names (Skjelmose @201, Campenaerts @301, Tarling @301, Ben Healy @201) are exactly the favourite-longshot-bias trap the syndicate's 0/9 post-mortem identified: thin model-vs-market ratios (2.6-3.4x) on names with no named tactical evidence beyond preview mentions, at odds that breach the 34.0 flyer ceiling outright. Girmay (51.0, ratio 2.9x, EV +0.07) has real named evidence (2 stage wins, explicit classics pedigree from WielerFlits/CyclingUpToDate) but still breaches the flyer odds ceiling on price alone. No place/each-way market was checked since there is no value-swing pick to attach a saver to. Card stands down at 0.0u -- a spectator's stage, not a betting one."
-  },
-  "experts": [
-    {
-      "source": "CyclingOracle",
-      "rider_name": "Mathieu van der Poel",
-      "pick_type": "view",
-      "quote": "[algorithmic model] Van der Poel tops the favourites list; Pedersen 'another dangerous contender'; Pidcock 'highly rated'; Philipsen 'logical option in case of a regrouping'. Win% table JS-rendered, not captured. NOTE: article published pre-route-change (still describes 132.5km Thoiry start), so its route framing is stale vs the overnight 89km revision.",
-      "url": "https://www.cyclingoracle.com/en/blog/tour-de-france-2026-stage-21-prediction",
-      "hits": 0,
-      "picks": 5
-    },
-    {
-      "source": "CyclingUpToDate",
-      "rider_name": null,
-      "pick_type": "view",
-      "quote": "No single explicit pick \u2014 lays out the case for four camps: UAE's classics riders can attack Montmartre for Poga\u010dar; Pedersen (green wrapped up) may instead ride for Simmons/Vacek or take a late attack; Van der Poel 'perfectly suited to Montmartre... can make the difference'; Evenepoel (Olympic champion on these exact roads) can go clear between climbs and solo it home. Flags Stuyven/Ganna/Pidcock/Girmay as outsiders.",
-      "url": "https://cyclinguptodate.com/cycling/tour-de-france-2026-stage-21-preview-profiles-favourites-and-predictions-pogacar-van-der-poel-and-evenepoel-meet-again-now-on-cobbled-paris-circuit",
-      "hits": 0,
-      "picks": 15
-    },
-    {
-      "source": "Dicodusport",
-      "rider_name": "Mathieu van der Poel",
-      "pick_type": "win",
-      "quote": "Pronostic: 1. Mathieu van der Poel @2.25. 'Apr\u00e8s le succ\u00e8s de Wout Van Aert l'ann\u00e9e derni\u00e8re, un autre coureur de classiques pourrait remporter cette \u00e9tape en profitant de la butte Montmartre.'",
-      "url": "https://dicodusport.fr/blog/21e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
-      "hits": 0,
-      "picks": 8
-    },
-    {
-      "source": "Dicodusport",
-      "rider_name": "Remco Evenepoel",
-      "pick_type": "longshot",
-      "quote": "Outsider: Remco Evenepoel @8.00. 'Le Belge a termin\u00e9 le Tour de France en trombe... pourrait parachever sa Grande Boucle par un troisi\u00e8me succ\u00e8s.'",
-      "url": "https://dicodusport.fr/blog/21e-etape-du-tour-de-france-2026-les-favoris-et-notre-pronostic/",
-      "hits": 0,
-      "picks": 8
-    },
-    {
-      "source": "IDL Pro Cycling",
-      "rider_name": "Mathieu van der Poel",
-      "pick_type": "view",
-      "quote": "Headline only (article body not captured): 'A Van der Poel day? Could Pogacar or Evenepoel ruin Van der Poel's dream stage.'",
-      "url": "https://www.idlprocycling.com/cycling/2026-tour-de-france-stage-21-preview-could-pogacar-or-evenepoel-ruin-van-der-poels-dream-stage",
-      "hits": 0,
-      "picks": 20
-    },
-    {
-      "source": "Racing Post",
-      "rider_name": "Mathieu van der Poel",
-      "pick_type": "win",
-      "quote": "Best bet for stage 21: Mathieu van der Poel, 2pts 7-4 bet365. 'Alpecin-Premier Tech should give the Dutchman the nod to attack on Montmartre knowing Philipsen can sprint if it comes back together... little chance of the world champion [Pogacar] getting the better of him in a sprint.' Confirms Poga\u010dar seals a 5th yellow jersey barring disaster; Pedersen locked up points on stage 20.",
-      "url": "https://www.racingpost.com/sport/cycling-tips/tour-de-france/tour-de-france-2026-stage-21-predictions-tips-and-odds-adtOr2V1v98i/",
-      "hits": 0,
-      "picks": 8
-    },
-    {
-      "source": "WielerFlits",
-      "rider_name": "Mathieu van der Poel",
-      "pick_type": "win",
-      "quote": "Topfavoriet: Van der Poel \u2014 'Wanneer Van der Poel op de helling aanzet, zullen er maar weinig renners kunnen volgen.' Pedersen 'goede kans' as #2 (points already secure, free to hunt a stage). Full favourites order: Van der Poel, Pedersen, Poga\u010dar, Philipsen, Evenepoel, Pidcock, Girmay, Ganna, Stuyven, Simmons. Confirms wildfire-driven shortening (minder politie-inzet vanwege bosbranden).",
-      "url": "https://www.wielerflits.nl/nieuws/tour-2026-voorbeschouwing-etappe-21-spektakel-op-montmartre-met-van-der-poel-pogacar-en-evenepoel/",
-      "hits": 0,
-      "picks": 1
-    },
-    {
-      "source": "cyclingstage.com",
-      "rider_name": null,
-      "pick_type": "view",
-      "quote": "Route dramatically shortened overnight (25 Jul) from 132.5km Thoiry start to an 89km Paris-only circuit (7 laps of Champs-\u00c9lys\u00e9es + 3x C\u00f4te de la Butte Montmartre, cobbled 1.1km at 5.9%, final ascent 10.3km from the line \u2014 4.2km further out than 2025). Notes Van Aert dropped Poga\u010dar solo on this climb in 2025; dry forecast tonight (21-24C).",
-      "url": "https://www.cyclingstage.com/tour-de-france-2026/stage-21-tdf-2026/",
-      "hits": null,
-      "picks": null
-    },
-    {
-      "source": "r/peloton predictions",
-      "rider_name": "Mathieu van der Poel",
-      "pick_type": "win",
-      "quote": "Crowd consensus heavily favours Van der Poel ('Can't really see Pogi dropping MvdP on montmartre'; 'stage is short and explosive, so that should fit him well'; 'MVDP would dust him in a sprint \u00e0 2'). Poga\u010dar/Pedersen next tier; Philipsen/Girmay as bunch-sprint backups; Skjelmose/Schmid/Stuyven/Simmons named as dark horses. Confirms route cut for wildfire-evacuation gendarme redeployment (stage 6 area).",
-      "url": "https://www.reddit.com/r/peloton/comments/1v6gkmn/predictions_thread_2026_tour_de_france_stage_21/",
-      "hits": 0,
-      "picks": 12
-    }
-  ],
+  "picks": null,
   "expert_views": [
     {
       "stage_num": 21,
@@ -27503,76 +27394,6 @@
       "rider_id": 137
     }
   ],
-  "outrights": {
-    "markets": [
-      {
-        "key": "gc",
-        "name": "General Classification",
-        "verdict": "no_bet",
-        "summary": "TAB market status BettingClosed as of tonight's fetch (confirmed via raw API payload, not a scrape failure) -- expected on the final stage day since the GC has been effectively decided since stage 20. Last live snapshot (25 Jul, pre-stage-20) had Pogacar at 1.01 (65% de-vig) for a 5th title, which nothing in stage 20's result (Carapaz won, Pogacar 4th, no GC shake-up) contradicts. No market to bet, so no pick.",
-        "pick": null,
-        "top_odds": [
-          {
-            "rider": "Tadej Pogacar",
-            "odds": 1.01
-          }
-        ]
-      },
-      {
-        "key": "points",
-        "name": "Points Classification",
-        "verdict": "no_bet",
-        "summary": "BettingClosed. Multiple sources (Racing Post, WielerFlits) confirm Mads Pedersen has already secured the green jersey outright as of stage 20 (103pts, next rival Pogacar 55). Last live snapshot had Pedersen at 1.02 (92% de-vig) -- market was already effectively settled before closing. No bet.",
-        "pick": null,
-        "top_odds": [
-          {
-            "rider": "Mads Pedersen",
-            "odds": 1.02
-          }
-        ]
-      },
-      {
-        "key": "kom",
-        "name": "Mountains Classification",
-        "verdict": "no_bet",
-        "summary": "BettingClosed. Last live snapshot had Richard Carapaz clear favourite at 1.28 (65% de-vig) after his two summit-finish stage wins (18, 20). No market to bet, so no pick.",
-        "pick": null,
-        "top_odds": [
-          {
-            "rider": "Richard Carapaz",
-            "odds": 1.28
-          }
-        ]
-      },
-      {
-        "key": "youth",
-        "name": "Young Rider Classification",
-        "verdict": "no_bet",
-        "summary": "BettingClosed. Last live snapshot had Isaac del Toro heavily favoured at 1.25 (70% de-vig) to take white home. No market to bet, so no pick.",
-        "pick": null,
-        "top_odds": [
-          {
-            "rider": "Isaac del Toro",
-            "odds": 1.25
-          }
-        ]
-      },
-      {
-        "key": "teams",
-        "name": "Team Classification",
-        "verdict": "no_bet",
-        "summary": "BettingClosed. Last live snapshot had Lidl-Trek at 1.03 (90% de-vig), essentially a formality by this point. No market to bet, so no pick.",
-        "pick": null,
-        "top_odds": [
-          {
-            "rider": "Lidl-Trek",
-            "odds": 1.03
-          }
-        ]
-      }
-    ],
-    "gap_note": "All five TAB outright markets returned match_status=BettingClosed on tonight's live fetch (verified in the raw event payload, not inferred) -- TAB has closed outright betting ahead of the final stage now that GC/points/KOM/youth/teams are functionally decided. This is the first evening this Tour all five have closed simultaneously. No fabricated prices used; last live snapshot (25 Jul) shown above for informational close-out context only, not as a bettable price."
-  },
   "qa": [
     {
       "asked_by": null,
